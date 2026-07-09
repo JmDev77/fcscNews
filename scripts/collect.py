@@ -1,0 +1,252 @@
+#!/usr/bin/env python3
+"""
+collect.py - 보안뉴스 RSS + 네이버 수집 → data/feeds.json 저장
+제목 + desc + url만 저장 (요약 없음, 크롤링 없음 → 빠름)
+"""
+
+import os, json, re, time, hashlib
+from datetime import datetime, timedelta, timezone
+from difflib import SequenceMatcher
+from pathlib import Path
+
+import feedparser
+import requests
+from bs4 import BeautifulSoup
+import pytz
+from dateutil.parser import parse as parse_date
+
+# ── 설정 ──────────────────────────────────────────────
+KST           = pytz.timezone('Asia/Seoul')
+FEEDS_PATH    = Path(__file__).parent.parent / 'data' / 'feeds.json'
+RETENTION_HRS = 72      # 72시간(3일) 이내 기사만 유지
+MAX_ARTICLES  = 200     # 최대 보관 수
+
+HEADERS = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    'Accept-Language': 'ko-KR,ko;q=0.9',
+}
+
+SIMILARITY_THRESH = 0.85
+WORD_JACCARD_THRESH = 0.20
+
+# ── RSS 피드 목록 ─────────────────────────────────────
+FEEDS = [
+    # 국내
+    {'url': 'http://www.boannews.com/media/news_rss.xml',         'source': '보안뉴스',    'group': '보안뉴스'},
+    {'url': 'http://www.boannews.com/media/news_rss.xml?skind=5', 'source': '보안뉴스긴급','group': '보안뉴스'},
+    {'url': 'https://www.dailysecu.com/rss/allArticle.xml',       'source': '데일리시큐',  'group': '데일리시큐'},
+    {'url': 'https://rss.etnews.com/04045.xml',                   'source': '전자신문',    'group': '전자신문'},
+    {'url': 'https://www.boho.or.kr/kr/rss.do?bbsId=B0000133',   'source': 'KISA보안공지','group': 'KISA'},
+    {'url': 'https://www.boho.or.kr/kr/rss.do?bbsId=B0000302',   'source': 'KISA취약점',  'group': 'KISA'},
+    {'url': 'https://www.boho.or.kr/kr/rss.do?bbsId=B0000342',   'source': 'KISA경보',    'group': 'KISA'},
+    # 해외
+    {'url': 'https://feeds.feedburner.com/TheHackersNews',        'source': 'TheHackerNews','group': '해외'},
+    {'url': 'https://www.bleepingcomputer.com/feed/',             'source': 'BleepingComputer','group': '해외'},
+    {'url': 'https://krebsonsecurity.com/feed/',                  'source': 'KrebsOnSecurity','group': '해외'},
+    {'url': 'https://www.darkreading.com/rss.xml',                'source': 'DarkReading', 'group': '해외'},
+    {'url': 'https://isc.sans.edu/rssfeed.xml',                   'source': 'SANS ISC',    'group': '해외'},
+    {'url': 'https://www.cisa.gov/cybersecurity-advisories/all.xml','source': 'CISA',      'group': '해외'},
+]
+
+# 네이버 검색 키워드
+NAVER_KEYWORDS = ['사이버보안', '정보보안', '해킹', '취약점', '랜섬웨어', '개인정보침해', '사이버공격']
+
+# 보안 키워드 필터 (해외 피드 필터링용)
+SECURITY_KEYWORDS = [
+    '해킹', '북한', '유출', '개인정보', 'cve', '취약점', '디도스',
+    '사이버', 'ddos', 'ransomware', 'malware', 'phishing', 'breach',
+    'exploit', 'vulnerability', 'backdoor', 'zero-day', 'zero day',
+    '악성코드', '랜섬웨어', '피싱', 'cybersecurity', 'hack', 'attack',
+    'threat', 'security', 'intrusion', 'botnet',
+]
+
+# 자동 태그 분류
+KEYWORD_TAGS = [
+    {'kw': ['랜섬웨어','ransomware'],                                           'tag': '랜섬웨어',   'cls': 'tag-red'},
+    {'kw': ['해킹','침해','공격','breach','hack','intrusion','attack'],          'tag': '해킹/침해',  'cls': 'tag-red'},
+    {'kw': ['취약점','패치','CVE','제로데이','vulnerability','exploit','zero'],  'tag': '취약점/CVE', 'cls': 'tag-yellow'},
+    {'kw': ['AI','인공지능','딥페이크','LLM','생성형','machine learning'],       'tag': 'AI 보안',    'cls': 'tag-blue'},
+    {'kw': ['북한','라자루스','킴수키','APT','lazarus','kimsuky'],               'tag': '북한/APT',   'cls': 'tag-purple'},
+    {'kw': ['정책','법','규정','시행','CISA','NIST','개보위','과기정통부'],      'tag': '정책/제도',  'cls': 'tag-green'},
+    {'kw': ['피싱','스미싱','phishing','smishing','scam'],                       'tag': '피싱/사기',  'cls': 'tag-orange'},
+    {'kw': ['DDoS','디도스','DoS','botnet','봇넷'],                              'tag': 'DDoS',       'cls': 'tag-red'},
+    {'kw': ['접속장애','서비스 장애','먹통','오류','중단'],                      'tag': '가용성',     'cls': 'tag-orange'},
+    {'kw': ['클라우드','cloud','AWS','Azure','GCP'],                             'tag': '클라우드',   'cls': 'tag-blue'},
+    {'kw': ['malware','악성코드','trojan','spyware','worm'],                     'tag': '악성코드',   'cls': 'tag-red'},
+]
+
+def classify(title, desc=''):
+    text = (title + ' ' + desc).lower()
+    for x in KEYWORD_TAGS:
+        if any(k.lower() in text for k in x['kw']):
+            return x['tag'], x['cls']
+    return '보안', 'tag-blue'
+
+def make_id(url, title=''):
+    return hashlib.md5((url or title).encode()).hexdigest()[:12]
+
+def clean_html(text):
+    if not text: return ''
+    if '<' not in text: return text.strip()
+    return BeautifulSoup(text, 'html.parser').get_text().strip()
+
+def fmt_date(dt):
+    if not dt: return datetime.now(KST).strftime('%-m.%-d.')
+    try:
+        if dt.tzinfo is None:
+            dt = pytz.utc.localize(dt)
+        return dt.astimezone(KST).strftime('%-m.%-d.')
+    except:
+        return datetime.now(KST).strftime('%-m.%-d.')
+
+def parse_dt(s):
+    if not s: return datetime.now(KST)
+    try:
+        dt = parse_date(s)
+        if dt.tzinfo is None:
+            dt = pytz.utc.localize(dt)
+        return dt.astimezone(KST)
+    except:
+        return datetime.now(KST)
+
+def word_jaccard(t1, t2):
+    def words(t): return set(re.sub('[^가-힣a-zA-Z0-9]', ' ', t).split())
+    w1, w2 = words(t1), words(t2)
+    if not w1 or not w2: return 0.0
+    return len(w1 & w2) / len(w1 | w2)
+
+def is_similar(t1, t2):
+    ratio = SequenceMatcher(None, t1, t2).ratio()
+    if ratio >= SIMILARITY_THRESH: return True
+    if ratio >= 0.45 and word_jaccard(t1, t2) >= WORD_JACCARD_THRESH: return True
+    return False
+
+def is_security_related(title, desc=''):
+    text = (title + ' ' + desc).lower()
+    return any(k in text for k in SECURITY_KEYWORDS)
+
+# ── RSS 수집 ──────────────────────────────────────────
+def fetch_rss(feed):
+    try:
+        d = feedparser.parse(feed['url'],
+            request_headers=HEADERS,
+            agent=HEADERS['User-Agent'])
+        items = []
+        cutoff = datetime.now(KST) - timedelta(hours=RETENTION_HRS)
+        for e in d.entries[:30]:
+            title = clean_html(e.get('title',''))
+            link  = e.get('link') or e.get('id','')
+            desc  = clean_html(e.get('summary') or e.get('description',''))[:400]
+            pub   = e.get('published') or e.get('updated','')
+            dt    = parse_dt(pub)
+            if dt < cutoff: continue
+            if feed['group'] == '해외' and not is_security_related(title, desc): continue
+            tag, cls = classify(title, desc)
+            items.append({
+                'id':      make_id(link, title),
+                'title':   title,
+                'desc':    desc,
+                'url':     link,
+                'date':    fmt_date(dt),
+                'rawDate': dt.isoformat(),
+                'source':  feed['source'],
+                'group':   feed['group'],
+                'tag':     tag,
+                'tagCls':  cls,
+                'lang':    'en' if feed['group'] == '해외' else 'ko',
+            })
+        print(f"  ✅ {feed['source']}: {len(items)}건")
+        return items
+    except Exception as e:
+        print(f"  ❌ {feed['source']}: {e}")
+        return []
+
+# ── 네이버 API ────────────────────────────────────────
+def fetch_naver(keyword):
+    cid = os.environ.get('NAVER_CLIENT_ID','')
+    sec = os.environ.get('NAVER_CLIENT_SECRET','')
+    if not cid: return []
+    try:
+        r = requests.get(
+            'https://openapi.naver.com/v1/search/news.json',
+            params={'query': keyword, 'display': 50, 'sort': 'date'},
+            headers={**HEADERS, 'X-Naver-Client-Id': cid, 'X-Naver-Client-Secret': sec},
+            timeout=10
+        )
+        r.raise_for_status()
+        items = []
+        cutoff = datetime.now(KST) - timedelta(hours=RETENTION_HRS)
+        for i in r.json().get('items', []):
+            title = clean_html(i.get('title',''))
+            link  = i.get('originallink') or i.get('link','')
+            desc  = clean_html(i.get('description',''))[:400]
+            dt    = parse_dt(i.get('pubDate',''))
+            if dt < cutoff: continue
+            tag, cls = classify(title, desc)
+            items.append({
+                'id':      make_id(link, title),
+                'title':   title,
+                'desc':    desc,
+                'url':     link,
+                'date':    fmt_date(dt),
+                'rawDate': dt.isoformat(),
+                'source':  '네이버뉴스',
+                'group':   '네이버',
+                'tag':     tag,
+                'tagCls':  cls,
+                'lang':    'ko',
+            })
+        return items
+    except Exception as e:
+        print(f"  ❌ 네이버[{keyword}]: {e}")
+        return []
+
+# ── 메인 ──────────────────────────────────────────────
+def main():
+    print(f"\n{'='*50}")
+    print(f"수집 시작: {datetime.now(KST).strftime('%Y-%m-%d %H:%M')} KST")
+    print(f"{'='*50}")
+
+    all_items = {}
+
+    # RSS 수집
+    print("\n[RSS 수집]")
+    for feed in FEEDS:
+        for item in fetch_rss(feed):
+            all_items[item['id']] = item
+        time.sleep(0.3)
+
+    # 네이버 수집
+    print("\n[네이버 수집]")
+    for kw in NAVER_KEYWORDS:
+        for item in fetch_naver(kw):
+            if item['id'] not in all_items:
+                all_items[item['id']] = item
+        time.sleep(0.3)
+
+    # 제목 유사도 기반 중복 제거
+    print("\n[중복 제거]")
+    deduped = []
+    seen_titles = []
+    for item in sorted(all_items.values(), key=lambda x: x.get('rawDate',''), reverse=True):
+        if any(is_similar(item['title'], t) for t in seen_titles):
+            continue
+        seen_titles.append(item['title'])
+        deduped.append(item)
+
+    # 최신순 정렬 + 최대 개수 제한
+    deduped = deduped[:MAX_ARTICLES]
+
+    # 저장
+    FEEDS_PATH.parent.mkdir(exist_ok=True)
+    output = {
+        'fetched_at': datetime.now(KST).isoformat(),
+        'count': len(deduped),
+        'articles': deduped,
+    }
+    FEEDS_PATH.write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding='utf-8')
+    print(f"\n✅ feeds.json 저장: {len(deduped)}건")
+    print(f"{'='*50}\n")
+
+if __name__ == '__main__':
+    main()
