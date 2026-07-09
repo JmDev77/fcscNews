@@ -1,0 +1,47 @@
+name: 기사 요약
+
+on:
+  workflow_dispatch:
+    inputs:
+      articles:
+        description: '선택한 기사 JSON (url, title, source, date 배열)'
+        required: true
+        type: string
+      request_id:
+        description: '요청 ID (결과 파일 구분용)'
+        required: true
+        type: string
+
+jobs:
+  summarize:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: scripts/requirements.txt
+
+      - name: 패키지 설치
+        run: pip install -r scripts/requirements.txt
+
+      - name: 크롤링 + 요약
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ARTICLES:          ${{ github.event.inputs.articles }}
+          REQUEST_ID:        ${{ github.event.inputs.request_id }}
+        run: python scripts/summarize.py
+
+      - name: result 커밋
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/result_*.json
+          git diff --staged --quiet \
+            && echo "변경 없음" \
+            || (git commit -m "chore: update result [skip ci]" && git push)
