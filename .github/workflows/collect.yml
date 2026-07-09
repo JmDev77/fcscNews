@@ -2,7 +2,7 @@ name: 뉴스 수집
 
 on:
   schedule:
-    - cron: '0 * * * *'   # 매 시간 정각 (UTC)
+    - cron: '*/30 * * * *'   # 매 30분마다 (UTC)
   workflow_dispatch:        # 수동 실행
 
 jobs:
