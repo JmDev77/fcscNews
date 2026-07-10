@@ -1,7 +1,176 @@
 {
-  "fetched_at": "2026-07-11T01:38:34.022406+09:00",
+  "fetched_at": "2026-07-11T06:03:11.130523+09:00",
   "count": 200,
   "articles": [
+    {
+      "id": "c745e8a3cd46",
+      "title": "﻿[AI로 읽는 경제] ⑥ AI 격차 해법은 구독료 지원이 아니라 공공 지능...",
+      "desc": "넷째, 개인정보·보안 가이드다. 어떤 정보를 AI에 넣어도 되는지, 어떤 정보는 익명화해야 하는지, 어떤 정보는 금지해야 하는지 현장 언어로 제시해야 한다. 공공기관과 기업, 학교, 소상공인이 함께 쓸 수 있는 쉬운...",
+      "url": "https://www.newspim.com/news/view/20260710000757",
+      "date": "7.11.",
+      "rawDate": "2026-07-11T06:00:00+09:00",
+      "source": "네이버뉴스",
+      "group": "네이버",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "04a53f41162b",
+      "title": "[IPO 새판 짜기②] 기술만으론 부족…파두 이후 높아진 기술특례 문턱",
+      "desc": "바이오와 AI, 우주, 에너지 중심이던 맞춤형 질적심사 기준을 이달부터 첨단로봇과 사이버보안, K-콘텐츠 등으로 확대하며 업종별 특성에 맞는 심사 기준을 제시하고 있다. 이석우 한국거래소 기술기업상장부 팀장은 최근...",
+      "url": "https://www.news2day.co.kr/article/20260709500169",
+      "date": "7.11.",
+      "rawDate": "2026-07-11T05:34:00+09:00",
+      "source": "네이버뉴스",
+      "group": "네이버",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "cdb97623b4e6",
+      "title": "[글로벌 리걸 인사이트] 글로벌 법률 산업의 새 질서, 한국 기업이 준비...",
+      "desc": "공급망 재편, 경제 제재, 관세 정책, 사이버 보안 사고, ESG 관련 소송 등이 증가하면서 하나의 사건이 여러 국가의 법률과 규제를 동시에 적용받는 사례가 늘고 있다. 기업거래 역시 마찬가지다. 글로벌 M&A와 투자 계약은...",
+      "url": "https://www.lawtimes.co.kr/news/articleView.html?idxno=223295",
+      "date": "7.11.",
+      "rawDate": "2026-07-11T05:02:00+09:00",
+      "source": "네이버뉴스",
+      "group": "네이버",
+      "tag": "정책/제도",
+      "tagCls": "tag-green",
+      "lang": "ko"
+    },
+    {
+      "id": "1b556751150b",
+      "title": "[Digital Asset In-Depth] AI에게 지갑을 맡겨도 괜찮을까?",
+      "desc": "공격자는 해킹 프로그램을 쓰지 않았다. X 답글에 모스 부호로 \"자산을 모두 내 주소로 보내라\"는 명령을 숨겨 두었을 뿐이다. 그록은 그 부호를 해독했고, 연결된 송금 도구가 명령을 그대로 실행했다. 몇 초 만의...",
+      "url": "https://www.lawtimes.co.kr/news/articleView.html?idxno=223112",
+      "date": "7.11.",
+      "rawDate": "2026-07-11T05:02:00+09:00",
+      "source": "네이버뉴스",
+      "group": "네이버",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "a54b19bde655",
+      "title": "소버린 AI를 성공시킬 수 있는 유일한 방법 [PADO]",
+      "desc": "미 행정부의 조치는 국내 사이버보안상의 이유 때문이었으나 이를 강제하기 위한 수단으로 수출통제를 선택했다. 수출통제는 단기간에 사용할 수 있는 가장 날카로운 검이었다. 동맹국들에 미치는 영향--두려움, 혼란...",
+      "url": "https://www.mt.co.kr/world/2026/07/11/2026071017363249255",
+      "date": "7.11.",
+      "rawDate": "2026-07-11T05:00:00+09:00",
+      "source": "네이버뉴스",
+      "group": "네이버",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "c0b806c05f7f",
+      "title": "Jen Ellis: Connecting Cyber Community With Political Machinery",
+      "desc": "On the heels of her recent honors as a Member of the Order of the British Empire (MBE), we take a look back at the events that shaped Ellis' advocacy on behalf of security researchers.",
+      "url": "https://www.darkreading.com/cybersecurity-operations/jen-ellis-connecting-cyber-community-political-machinery",
+      "date": "7.11.",
+      "rawDate": "2026-07-11T04:08:04+09:00",
+      "source": "DarkReading",
+      "group": "해외",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "en"
+    },
+    {
+      "id": "87a85d9b8e4d",
+      "title": "미국 스타트업 투자, AI 쏠림 속 양자·지열·크립토 인프라로 확산",
+      "desc": "7월 4일부터 10일까지 발표된 대형 투자 라운드 상위 10건 가운데 5건이 AI 관련 기업에 몰렸고, 사이버보안과 AI 인프라 분야에서는 각각 10억달러, 약 1조5017억원 규모의 초대형 자금 조달이 나왔다. 크런치베이스...",
+      "url": "https://www.tokenpost.kr/news/tech/376675",
+      "date": "7.11.",
+      "rawDate": "2026-07-11T04:04:00+09:00",
+      "source": "네이버뉴스",
+      "group": "네이버",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "60d3524df59b",
+      "title": "[미스터리경제] 디지털 화폐 시대…미국은 브레이크, 한국은 엑셀? (영상...",
+      "desc": "개인의 모든 금융 거래가 감시당할 수 있다는 개인정보 침해 딜레마나 미래 자산 시장을 지배하려는 중앙은행과 민간 가상자산 간의 '소리 없는 영토 전쟁'을 엿볼 수가 있습니다. 이 거대한 화폐 제도의 전환기 속에 이런...",
+      "url": "https://news.tf.co.kr/read/video/2342124.htm",
+      "date": "7.11.",
+      "rawDate": "2026-07-11T03:55:00+09:00",
+      "source": "네이버뉴스",
+      "group": "네이버",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "66922b515c1a",
+      "title": "Cybercriminals Flock to Healthcare Businesses as Attacks Surge",
+      "desc": "While cyberattacks against hospitals and clinics grew modestly in the first half of 2026, attacks on service providers and other healthcare businesses more than doubled.",
+      "url": "https://www.darkreading.com/threat-intelligence/cybercriminals-healthcare-businesses-attacks-surge",
+      "date": "7.11.",
+      "rawDate": "2026-07-11T01:51:34+09:00",
+      "source": "DarkReading",
+      "group": "해외",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "en"
+    },
+    {
+      "id": "d5a4e1490f2e",
+      "title": "김정은, 대남공작 조직 대폭 강화… 도발 수위 높일듯",
+      "desc": "미국 ‘소니 픽쳐스’ 해킹 배후로 꼽히는 라자루스 그룹, 한국수력원자력의 원전 도면을 일부 탈취한 김수키 등도 정찰정보총국 산하 해킹 조직으로 알려졌다. 특히 북한이 올 2월 9차 당대회로 ‘김정은 3기 지도부’를...",
+      "url": "https://www.donga.com/news/Politics/article/all/20260711/134278101/2",
+      "date": "7.11.",
+      "rawDate": "2026-07-11T01:43:00+09:00",
+      "source": "네이버뉴스",
+      "group": "네이버",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "50ac2f11712d",
+      "title": "北, 천안함 피격 주도한 정찰총국 확대… ‘사이버 첩보전’ 역량 강화",
+      "desc": "그간 정찰정보총국이 주도해 온 정보 수집·외화 벌이·기술 절취 등 사이버 해킹 수법이 ‘직능과 임무... 임을출 경남대 극동문제연구소 교수는 “남한 내 주요 시설에 대한 사이버 해킹, 무인기 정찰, 정보 수집 등...",
+      "url": "https://www.donga.com/news/Politics/article/all/20260710/134277546/2",
+      "date": "7.11.",
+      "rawDate": "2026-07-11T01:42:00+09:00",
+      "source": "네이버뉴스",
+      "group": "네이버",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "c0c29dc609ad",
+      "title": "URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat",
+      "desc": "Progress Software has told ShareFile customers to shut down the Windows servers running their Storage Zone Controllers, confirming to The Hacker News that it is responding to a \"credible external security threat.\"\n\nThe company has temporarily disabled access to the affected accounts, a step it says it took \"out of an abundance of caution\" while it works with internal and external security",
+      "url": "https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html",
+      "date": "7.11.",
+      "rawDate": "2026-07-11T01:30:00+09:00",
+      "source": "TheHackerNews",
+      "group": "해외",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "en"
+    },
+    {
+      "id": "d5c7f865b537",
+      "title": "Injective Labs GitHub Compromise Pushes Wallet-Key-Stealing npm Packages",
+      "desc": "Unknown threat actors compromised the Injective Labs SDK project's GitHub repository and leveraged it to publish a malicious package on the npm registry to steal cryptocurrency wallet private keys and mnemonic seed phrases.\n\nThe compromised version, @injectivelabs/sdk-ts@1.20.21, came embedded with fake telemetry functionality that exfiltrated data from cryptocurrency wallets. The version was",
+      "url": "https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html",
+      "date": "7.11.",
+      "rawDate": "2026-07-11T01:29:00+09:00",
+      "source": "TheHackerNews",
+      "group": "해외",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "en"
+    },
     {
       "id": "6160457fb06c",
       "title": "윤석열 시대 경호처가 향한 수렁, 어느날 갑자기 생긴 게 아니다",
@@ -66,6 +235,19 @@
       "tag": "AI 보안",
       "tagCls": "tag-blue",
       "lang": "ko"
+    },
+    {
+      "id": "73b032e1cce5",
+      "title": "Six New U-Boot Flaws Could Let Malicious Images Crash Devices or Run Code at Boot",
+      "desc": "Researchers at firmware security firm&nbsp;Binarly&nbsp;have found six new flaws in U-Boot, the small program that starts up hardware as varied as home routers, smart cameras, and the management chips inside data-center servers.\n\nFour of the bugs can crash a device. The other two could let an attacker who slips a malicious image in front of the bootloader run their own code, before the device",
+      "url": "https://thehackernews.com/2026/07/six-new-u-boot-flaws-could-let.html",
+      "date": "7.11.",
+      "rawDate": "2026-07-11T00:57:14+09:00",
+      "source": "TheHackerNews",
+      "group": "해외",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "en"
     },
     {
       "id": "12bfab5d65fb",
@@ -666,6 +848,19 @@
       "lang": "ko"
     },
     {
+      "id": "274ebd85f863",
+      "title": "[오늘의 인사 : 7월 10일] IBK투자증권·한국수출입은행·산업통상부·식...",
+      "desc": "이승철 ▷ 사이버보안팀장 이희정 ▷ 펫산업팀장 최은영 ▷ 식품분석과장 노경우 ▷ 토양환경과장 진수영 ▷ 농업기술원 고랭지작물시험장장 강찬호 ▷ 농업기술원 자원경영과 박종숙 ▷ 농업기술원 원예과 임주락",
+      "url": "https://www.news2day.co.kr/article/20260710500275",
+      "date": "7.10.",
+      "rawDate": "2026-07-10T19:00:00+09:00",
+      "source": "네이버뉴스",
+      "group": "네이버",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
       "id": "7474d6070e70",
       "title": "[#클라우드 월드] KT클라우드 '여의도 DC 증설'·롯데이노 '스마트팜 AI ...",
       "desc": "GPT-5.6의 세 가지 패밀리 모델 가운데 솔(Sol)은 코딩, 지식 업무, 사이버 보안, 과학 분야에서 최고 수준의 성능을 기록한다. 오픈AI의 이전 모델 및 경쟁 모델보다 토큰 소모와 비용이 적다. 챗GPT 워크는 플러그인으로...",
@@ -688,19 +883,6 @@
       "source": "네이버뉴스",
       "group": "네이버",
       "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "274ebd85f863",
-      "title": "[오늘의 인사 : 7월 10일] IBK투자증권·한국수출입은행·산업통상부·식...",
-      "desc": "이승철 ▷ 사이버보안팀장 이희정 ▷ 펫산업팀장 최은영 ▷ 식품분석과장 노경우 ▷ 토양환경과장 진수영 ▷ 농업기술원 고랭지작물시험장장 강찬호 ▷ 농업기술원 자원경영과 박종숙 ▷ 농업기술원 원예과 임주락",
-      "url": "https://www.news2day.co.kr/article/20260710500275",
-      "date": "7.10.",
-      "rawDate": "2026-07-10T19:00:00+09:00",
-      "source": "네이버뉴스",
-      "group": "네이버",
-      "tag": "보안",
       "tagCls": "tag-blue",
       "lang": "ko"
     },
@@ -809,10 +991,10 @@
       "lang": "ko"
     },
     {
-      "id": "5d6101bf8e83",
-      "title": "‘韓 깜깜이’ 상황인데…日 재무상 “비트코인 ETF 허용”",
-      "desc": "최근 국내외에서 가상자산 해킹과 자산 유출 사고가 잇따르는 점을 고려해 업계와 협력해 보안 체계를 강화하기로 했다. 금융청은 이르면 이번 달에 암호자산·스테이블코인과를 신설해 관련 정책을 전담할 예정이다....",
-      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=04795366645513208",
+      "id": "8ff377e7e43b",
+      "title": "[위클리 IT뷰] 허위정보 규제 시행과 미래에셋의 코빗 인수 승인 등",
+      "desc": "개인정보보호위원회의 조사 결과에 따르면, 락앤락은 해킹 공격을 받아 약 130만 명의 고객과 1천여 명의 임직원 개인정보를 탈취당해 5억 300만 원의 과징금과 540만 원의 과태료 처분을 받았습니다. 외부 공격자는 메일...",
+      "url": "https://www.gamevu.co.kr/news/articleView.html?idxno=59287",
       "date": "7.10.",
       "rawDate": "2026-07-10T18:30:00+09:00",
       "source": "네이버뉴스",
@@ -822,10 +1004,10 @@
       "lang": "ko"
     },
     {
-      "id": "8ff377e7e43b",
-      "title": "[위클리 IT뷰] 허위정보 규제 시행과 미래에셋의 코빗 인수 승인 등",
-      "desc": "개인정보보호위원회의 조사 결과에 따르면, 락앤락은 해킹 공격을 받아 약 130만 명의 고객과 1천여 명의 임직원 개인정보를 탈취당해 5억 300만 원의 과징금과 540만 원의 과태료 처분을 받았습니다. 외부 공격자는 메일...",
-      "url": "https://www.gamevu.co.kr/news/articleView.html?idxno=59287",
+      "id": "5d6101bf8e83",
+      "title": "‘韓 깜깜이’ 상황인데…日 재무상 “비트코인 ETF 허용”",
+      "desc": "최근 국내외에서 가상자산 해킹과 자산 유출 사고가 잇따르는 점을 고려해 업계와 협력해 보안 체계를 강화하기로 했다. 금융청은 이르면 이번 달에 암호자산·스테이블코인과를 신설해 관련 정책을 전담할 예정이다....",
+      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=04795366645513208",
       "date": "7.10.",
       "rawDate": "2026-07-10T18:30:00+09:00",
       "source": "네이버뉴스",
@@ -1290,19 +1472,6 @@
       "lang": "ko"
     },
     {
-      "id": "292b088d509b",
-      "title": "[데일리픽] 비트코인 장기 가치는 어디서 나올까…오픈AI 'GPT-5.6' 정식 출...",
-      "desc": "오픈AI는 사이버 보안 분야 성능도 강조했다. 소프트웨어 취약점 탐지와 악용 능력을 평가하는 '익스플로잇벤치'(ExploitBench)에서 솔은 앤트로픽의 제한형 미토스 프리뷰와 비슷한 수준의 성능을 보였지만, 토큰...",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=683182",
-      "date": "7.10.",
-      "rawDate": "2026-07-10T17:06:00+09:00",
-      "source": "네이버뉴스",
-      "group": "네이버",
-      "tag": "취약점/CVE",
-      "tagCls": "tag-yellow",
-      "lang": "ko"
-    },
-    {
       "id": "139cfbd0c947",
       "title": "'핵테온 세종'…AI 시대 보안 미래 제시하다",
       "desc": "바로 사이버보안이다. 세종시는 AI 시대를 맞아 사이버보안 협력의 중심도시로 자리매김하기 위해 속도를 내고 있다. 시는 지난 9일부터 10일까지 이틀간 정부세종컨벤션센터에서 국가정보원과 공동으로 '2026 핵테온...",
@@ -1313,6 +1482,19 @@
       "group": "네이버",
       "tag": "AI 보안",
       "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "292b088d509b",
+      "title": "[데일리픽] 비트코인 장기 가치는 어디서 나올까…오픈AI 'GPT-5.6' 정식 출...",
+      "desc": "오픈AI는 사이버 보안 분야 성능도 강조했다. 소프트웨어 취약점 탐지와 악용 능력을 평가하는 '익스플로잇벤치'(ExploitBench)에서 솔은 앤트로픽의 제한형 미토스 프리뷰와 비슷한 수준의 성능을 보였지만, 토큰...",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=683182",
+      "date": "7.10.",
+      "rawDate": "2026-07-10T17:06:00+09:00",
+      "source": "네이버뉴스",
+      "group": "네이버",
+      "tag": "취약점/CVE",
+      "tagCls": "tag-yellow",
       "lang": "ko"
     },
     {
@@ -1400,19 +1582,6 @@
       "url": "https://www.nspna.com/news/?mode=view&newsid=820037",
       "date": "7.10.",
       "rawDate": "2026-07-10T16:42:00+09:00",
-      "source": "네이버뉴스",
-      "group": "네이버",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "543dffe6137e",
-      "title": "﻿[AI로 읽는 경제] ⑤ AI 시대의 문맹은 답을 검증하지 못하는 사람이...",
-      "desc": "경제협력개발기구(OECD)는 디지털 시대 아동의 삶을 다룬 보고서에서 AI가 학습과 지식 접근을 높일 수 있지만, 편향, 개인정보 침해, 사기, 유해 콘텐츠 노출 같은 위험도 함께 가져온다고 설명했다. 청소년에게 필요한...",
-      "url": "https://www.newspim.com/news/view/20260710000687",
-      "date": "7.10.",
-      "rawDate": "2026-07-10T16:40:00+09:00",
       "source": "네이버뉴스",
       "group": "네이버",
       "tag": "해킹/침해",
@@ -1693,19 +1862,6 @@
       "lang": "ko"
     },
     {
-      "id": "5e1f39125aab",
-      "title": "에이비스, AI 디지털 병리 솔루션 제품화 지원사업 선정",
-      "desc": "에이비스는 자사 '콴티 브레스트 HER2(Qanti Breast HER2)'의 성능 검증과 사용적합성 평가, 사이버보안, 품질관리, 임상 근거 확보, 인허가 자료 구축 등 제품화 전 과정을 지원받게 된다. AX-Sprint 300은 기술성숙도...",
-      "url": "https://it.chosun.com/news/articleView.html?idxno=2023092165587",
-      "date": "7.10.",
-      "rawDate": "2026-07-10T16:10:00+09:00",
-      "source": "네이버뉴스",
-      "group": "네이버",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
       "id": "ae8a7b26652d",
       "title": "카카오뱅크, 금융위 정보보호 유공 표창…AI 보안 역량 인정",
       "desc": "이번 행사는 AI 기반 사이버 공격의 지능화·자동화로 위협이 날로 증대되고 있는 가운데 보안을 주제로 진행됐다. 특히 금융권 리더들이 한자리에 모여 핵심 현안을 공유하고 공동 대응의 뜻과 방향을 함께 모색했다. 이...",
@@ -1716,6 +1872,19 @@
       "group": "네이버",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "5e1f39125aab",
+      "title": "에이비스, AI 디지털 병리 솔루션 제품화 지원사업 선정",
+      "desc": "에이비스는 자사 '콴티 브레스트 HER2(Qanti Breast HER2)'의 성능 검증과 사용적합성 평가, 사이버보안, 품질관리, 임상 근거 확보, 인허가 자료 구축 등 제품화 전 과정을 지원받게 된다. AX-Sprint 300은 기술성숙도...",
+      "url": "https://it.chosun.com/news/articleView.html?idxno=2023092165587",
+      "date": "7.10.",
+      "rawDate": "2026-07-10T16:10:00+09:00",
+      "source": "네이버뉴스",
+      "group": "네이버",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
       "lang": "ko"
     },
     {
@@ -1734,36 +1903,23 @@
     {
       "id": "442f996e42a0",
       "title": "47개국 인재 모인 세종, 핵테온 열기 '후끈'",
-      "desc": "이틀간 5000여 명 참여…역대 최대 규모 예선 열기 고급 대상 한국·초급 대상 베트남 팀 영예 AI·사이버보안 국제협력 논의도 활발 [굿모닝충청=세종 박수빈 기자] '2026 핵테온 세종'이 지난 9일부터 10일까지...",
+      "desc": "42여 개 기업·기관이 참여한 정보통신기술 전시회를 비롯해 정보보호학회 우주·양자보안연구회, 과학기술정보보호협의회, 국가사이버안보세미나, 제2회 지방정부 정보보안 실무협의회 등이 잇따라 열리며 공공·민간...",
       "url": "https://www.goodmorningcc.com/news/articleView.html?idxno=448794",
       "date": "7.10.",
       "rawDate": "2026-07-10T16:08:00+09:00",
       "source": "네이버뉴스",
       "group": "네이버",
-      "tag": "AI 보안",
+      "tag": "보안",
       "tagCls": "tag-blue",
       "lang": "ko"
     },
     {
       "id": "1e119e9c2a04",
       "title": "[취재수첩] 보안업계 아쉬움 커진 '정보보호의 날' 행사",
-      "desc": "다만 보안업계의 입장에선, 평소 보안 체계 강화에 공감해 온 이 대통령이었기에 단상 위 대독자가 주는 공허함은 숨길 수 없었다. 현재 한국이 마주한 현실은 위태롭다. AI 발전과 함께 사이버 공격은 대규모로 진화 중이고...",
+      "desc": "AI 발전과 함께 사이버 공격은 대규모로 진화 중이고 대규모 정보 유출도 일상이 됐다. 국가안보를 위협하는 수준이지만 이를 예방할 정부 예산은 여전히 제자리걸음이다. 말로는 선제적 투자를 외치면서도 실질적인 정책...",
       "url": "https://www.ddaily.co.kr/page/view/2026071014155988998",
       "date": "7.10.",
       "rawDate": "2026-07-10T16:07:00+09:00",
-      "source": "네이버뉴스",
-      "group": "네이버",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "ccc9997936b8",
-      "title": "[생생경제] 이메일 한 통에 수십억...외국인 상임대리인 쉽게 보기",
-      "desc": "문제는 이메일이 편리한 만큼 보안상 취약점도 크다는 점입니다. 이메일 주소가 실제 투자자와 비슷하게... 최근 사이버 범죄도 과거와는 양상이 달라지고 있습니다. 예전에는 금융회사 전산망을 직접 해킹하는 방식이...",
-      "url": "http://www.srtimes.kr/news/articleView.html?idxno=207210",
-      "date": "7.10.",
-      "rawDate": "2026-07-10T16:06:00+09:00",
       "source": "네이버뉴스",
       "group": "네이버",
       "tag": "해킹/침해",
@@ -1781,6 +1937,19 @@
       "group": "네이버",
       "tag": "AI 보안",
       "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "ccc9997936b8",
+      "title": "[생생경제] 이메일 한 통에 수십억...외국인 상임대리인 쉽게 보기",
+      "desc": "LS증권 직원이 해킹된 것으로 추정되는 이메일을 실제 투자자의 주문으로 믿고 주식 매매와 현금 인출을... 상임대리인이 투자자의 이메일로 전달된 주문을 처리하는 과정에서 '해킹된 것으로 추정되는 이메일'을 정상적인...",
+      "url": "http://www.srtimes.kr/news/articleView.html?idxno=207210",
+      "date": "7.10.",
+      "rawDate": "2026-07-10T16:06:00+09:00",
+      "source": "네이버뉴스",
+      "group": "네이버",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
       "lang": "ko"
     },
     {
@@ -1888,19 +2057,6 @@
       "lang": "ko"
     },
     {
-      "id": "848363cf692e",
-      "title": "[2026 개인정보보호 우수사례-4] 한수원, 개인정보 보호수준 평가 100점 만점... 1442개 기관 중 전체 1위",
-      "desc": "임원급 경영부사장 CPO 지정... 전담 조직 신설 및 전사적 예산 집중 투자AI 기반 이상행위 탐지·개인정보 자동 파기 시스템 구축해 내부통제 강화[보안뉴스 조재호 기자] 한국수력원자력이 ‘2025년 공공기관 개인정보 보호수준 평가’에서 만점인 100점을 획득하며 전체 1442개 대상 기관 중 1위를 차지했다. 임원급인 경영부사장을 개인정보보호책임자(CP",
-      "url": "http://www.boannews.com/media/view.asp?idx=144493&kind=&sub_kind=",
-      "date": "7.10.",
-      "rawDate": "2026-07-10T15:45:00+09:00",
-      "source": "보안뉴스",
-      "group": "보안뉴스",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
       "id": "846ee3523437",
       "title": "“서울대 전액 장학금도 거절”…SAT 만점 천재 소녀의 선택",
       "desc": "지난달에는 하노이국립대 공과대학, 우정통신기술대학, 하노이과학기술대와 2026~2028년 협약을 체결해 AI, 정보기술, 전자통신, 정보보안 분야 학생과 대학원생에게 장학금과 인턴십, 채용을 연계하는 협력 체계도...",
@@ -1924,19 +2080,6 @@
       "group": "네이버",
       "tag": "보안",
       "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "561e81f2be00",
-      "title": "‘적대적 두 국가’ 기조 속 정찰정보총국 확대…대남 도발 수위 높아질...",
-      "desc": "전력을 감시·위협할 수 있는 비대칭 능력을 고도화하려는 목적”이라며 ”남한 내 주요 시설에 대한 사이버 해킹, 무인기 정찰, 정보 수집 등 비군사적·회색지대 도발을 더욱 정교하게 감행할 가능성이 높다”고 내다봤다.",
-      "url": "https://www.segye.com/newsView/20260710513836?OutUrl=naver",
-      "date": "7.10.",
-      "rawDate": "2026-07-10T15:38:00+09:00",
-      "source": "네이버뉴스",
-      "group": "네이버",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
       "lang": "ko"
     },
     {
@@ -2002,19 +2145,6 @@
       "group": "네이버",
       "tag": "AI 보안",
       "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "0dd40f161ffc",
-      "title": "한-베트남 개인정보보호 협력을 위한 전문가 교류·협력 세미나 개최",
-      "desc": "응우옌 홍 꾸언 베트남 개인정보보호위윈회 방한에 맞춰 개인정보 보호전문가 모여베트남, 한국 개인정보보호법 등 참고해 2026년 1월 개인정보보호법 제정[보안뉴스 원병철 기자] 한국과 ICT 및 디지털 분야에서 긴밀한 파트너십을 맺고 있는 베트남은 사이버보안, 특히 개인정보보호 분야와도 밀접한 관계를 보여주고 있다. 무엇보다 베트남은 2026년 1월 1일자로",
-      "url": "http://www.boannews.com/media/view.asp?idx=144632&kind=&sub_kind=",
-      "date": "7.10.",
-      "rawDate": "2026-07-10T15:14:00+09:00",
-      "source": "보안뉴스",
-      "group": "보안뉴스",
-      "tag": "정책/제도",
-      "tagCls": "tag-green",
       "lang": "ko"
     },
     {
@@ -2241,14 +2371,14 @@
     {
       "id": "e9feec12770b",
       "title": "유통업계, '개인정보 보호' 핵심 경영 의제로…투자·보안 체계 강화",
-      "desc": "정보보안 조직도 기존 센터장급에서 부문장급으로 격상하고, 정보보안부문장이 최고정보보호책임자(CISO)와 개인정보보호책임자(CPO)를 겸직하도록 조직 체계를 개편했다. 특히 정보보안부문은 CEO 직속으로 운영해...",
+      "desc": "투자액 증가보다 중요한 것은 취약점 점검과 개인정보 침해사고 대응 체계, 내부 보안 교육, 이상 징후 탐지 시스템 등 실질적인 보안 역량이라는 것이다. 이에 일각에서는 정보보호 역시 기업 회계 공시처럼 보다...",
       "url": "https://sports.hankooki.com/news/articleView.html?idxno=6936245",
       "date": "7.10.",
       "rawDate": "2026-07-10T14:22:00+09:00",
       "source": "네이버뉴스",
       "group": "네이버",
-      "tag": "보안",
-      "tagCls": "tag-blue",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
       "lang": "ko"
     },
     {
@@ -2304,32 +2434,6 @@
       "lang": "ko"
     },
     {
-      "id": "5a11353a8d67",
-      "title": "[ISEC 2026 미리보기] 써트코리아, 디지서트의 ‘지능형 신뢰(Intelligent Trust)’ 플랫폼 DigiCert",
-      "desc": "인증서 유효기간 단축과 양자컴퓨터·AI 시대의 새로운 보안 과제 해결 지원[보안뉴스 엄호식 기자] 써트코리아는 파인앤서비스의 인증사업부이자 디지서트(DigiCert) 총판 자격의 공식 파트너로, 20년 이상 국내 인증서 시장을 선도해 온 인증 전문기업이다. 디지서트 ONE 플랫폼을 기반으로 인증서 수명주기 자동화(DigiCert TLM), DNS 보안 서비",
-      "url": "http://www.boannews.com/media/view.asp?idx=144625&kind=&sub_kind=",
-      "date": "7.10.",
-      "rawDate": "2026-07-10T14:15:00+09:00",
-      "source": "보안뉴스",
-      "group": "보안뉴스",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "e3e9b5c8ca11",
-      "title": "[ISEC 2026 미리보기] 시스코 보안 3종으로 완성하는 제로트러스트... ISEC 2026서 만난다",
-      "desc": "시스코 공식 총판 아이넷뱅크, Duo·Secure Access·Secure Workload로 통합 보안 전략 제시[보안뉴스 엄호식 기자] 시스코(Cisco) 공식 총판인 아이넷뱅크(iNETBANK)는 20년 이상의 시스코 공식 총판이며 국내 IT시장과 함께 성장해 온 ICT 유통 전문기업으로, 서울 본사와 대구·대전·부산 지사를 거점으로 2400여개 파트너",
-      "url": "http://www.boannews.com/media/view.asp?idx=144626&kind=&sub_kind=",
-      "date": "7.10.",
-      "rawDate": "2026-07-10T14:13:00+09:00",
-      "source": "보안뉴스",
-      "group": "보안뉴스",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
       "id": "69b5a3550166",
       "title": "'장윤기 사건' 광주 광산서, 과거엔 '진술강요'…인권위 시정 권고",
       "desc": "수집해 개인정보자기결정권을 침해했다고 볼 소지가 있다고도 했다. 그러면서 \"경찰 수사관들은 A 씨의 진술을 배척하는 한편 A 씨의 사실관계 확인 요청을 무시했고, 고소인에 대한 사실관계 조사를 하지 않은 채 고소인...",
@@ -2358,12 +2462,12 @@
     {
       "id": "d901d0af8a8a",
       "title": "개인정보위·KISA, 대학생 모니터링단 출범…온라인 불법유통 점검",
-      "desc": "개인정보보호위원회와 한국인터넷진흥원(KISA)은 10일 서울 중구 정동1928 아트센터에서 '2026년 개인정보 불법유통 대응 대학생 모니터링단' 발대식을 열었다. 모니터링단은 전국 33개 대학에서 선발된 대학생과 대학원생 50명으로 구성됐다. 이들은 오는 12월까지 약 6개월간 온라인 개인정보 불법유통 게시물을 상시 점검하고, 사회관계망서비스(SNS)와 중고거래 플랫폼 등의 개인정보 침해 요인을 탐지·분석한다. 올해는 이전 기수의 우수 활동자",
+      "desc": "이들은 오는 12월까지 약 6개월간 온라인 개인정보 불법유통 게시물을 상시 점검하고, 사회관계망서비스(SNS)와 중고거래 플랫폼 등의 개인정보 침해 요인을 탐지·분석한다. 올해는 이전 기수의 우수 활동자 5명이...",
       "url": "https://www.etnews.com/20260710000075",
       "date": "7.10.",
-      "rawDate": "2026-07-10T14:00:00+09:00",
-      "source": "전자신문",
-      "group": "전자신문",
+      "rawDate": "2026-07-10T14:01:00+09:00",
+      "source": "네이버뉴스",
+      "group": "네이버",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
       "lang": "ko"
@@ -2434,19 +2538,6 @@
       "lang": "ko"
     },
     {
-      "id": "6e7f4c546cd9",
-      "title": "비욘드트러스트, 비인간 및 AI ID 권한 관리 위한 ‘NHI 거버넌스’ 출시",
-      "desc": "NHI 수명 주기 전반 관리... 최소 원칙 강제, AI 에이전트 보안 강화[보안뉴스 한세희 기자] 비욘드트러스트는 서비스 계정, API 키, 클라우드 워크로드, AI 에이전트 등 비인간 ID(NHI)를 제어하고 관리하는 신규 솔루션 ‘패스파인더 NHI 거버넌스’(Pathfinder NHI Governance)를 출시했다고 9일(현지시간) 밝혔다. 최근 기",
-      "url": "http://www.boannews.com/media/view.asp?idx=144627&kind=&sub_kind=",
-      "date": "7.10.",
-      "rawDate": "2026-07-10T13:40:00+09:00",
-      "source": "보안뉴스",
-      "group": "보안뉴스",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
       "id": "4a74dd57955f",
       "title": "NYT 등 美언론들, 챗GPT '오픈AI' 제재 요청…“기사 저작권 침해...증거...",
       "desc": "저작권 침해 소송 과정에서 핵심 증거를 은폐했다며 법원에 제재를 요청했다. 이번 분쟁은 생성형 AI의 학습... 반면 오픈AI는 언론사들의 요구가 소송과 직접 관련 없는 이용자 개인정보까지 포함할 수 있다고 반박하고...",
@@ -2508,97 +2599,6 @@
       "source": "네이버뉴스",
       "group": "네이버",
       "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "80df41e6de86",
-      "title": "[글로벌 보안기업] 태니엄 &quot;미관리 자산 실시간 식별...'자율패치'로 명...",
-      "desc": "글로벌 사이버보안 기업 태니엄은 2007년 7월16일 설립된 엔드포인트 보안 전문 기업이다. 미국 워싱턴주... (취약점 공격)까지 자율적으로 제작하는 환경이 된 만큼, 자율 AI를 통한 취약점 대응 체계를 마련하는 것이...",
-      "url": "https://zdnet.co.kr/view/?no=20260709174613",
-      "date": "7.10.",
-      "rawDate": "2026-07-10T12:06:00+09:00",
-      "source": "네이버뉴스",
-      "group": "네이버",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "9f81fc68939c",
-      "title": "AI 시대 디지털 포렌식 진화…'책임성 확보'가 핵심 과제로",
-      "desc": "이어 김유석 한국사회보장정보원 본부장은 의료기관을 겨냥한 랜섬웨어와 공급망 공격이 지속적으로 증가하고 있다며 의료정보 시스템 전반에 대한 보안 강화 필요성을 제기했다. 특히 의료영상저장전송시스템(PACS)...",
-      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=03729366645513208",
-      "date": "7.10.",
-      "rawDate": "2026-07-10T11:58:00+09:00",
-      "source": "네이버뉴스",
-      "group": "네이버",
-      "tag": "랜섬웨어",
-      "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "49d7f2bff3bb",
-      "title": "드라마 ‘참교육’이 던진 질문…세종 학교폭력 조사관은 무엇을 해야 ...",
-      "desc": "피해 유형별로는 언어폭력과 신체폭력은 줄었지만 집단따돌림과 사이버폭력은 증가했다. 학교폭력은 과거처럼 주먹다짐이나 공개적 괴롭힘만으로 드러나지 않는다. 단체 대화방 배제, 온라인 조롱, 익명 계정 공격...",
-      "url": "https://www.wikitree.co.kr/articles/1145774",
-      "date": "7.10.",
-      "rawDate": "2026-07-10T11:58:00+09:00",
-      "source": "네이버뉴스",
-      "group": "네이버",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "23fd12a6359c",
-      "title": "“AI 무기화, 통합 가시성이 해법... 데이터독, 자율 보안 비전 공유",
-      "desc": "딥페이크 피싱과 자동화된 랜섬웨어, 공급망 공격 등 복합적인 위협이 쏟아지며 기존 경계 기반 방어망은 한계에 직면했다.운영 환경의 복잡성도 임계점에 달했다. 데이터독이 발표한 엔지니어링 현황 보고서에...",
-      "url": "http://www.boannews.com/media/view.asp?idx=144623&kind=3",
-      "date": "7.10.",
-      "rawDate": "2026-07-10T11:50:00+09:00",
-      "source": "네이버뉴스",
-      "group": "네이버",
-      "tag": "랜섬웨어",
-      "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "e013d5bc91ac",
-      "title": "DJI, 에베레스트서 드론 활용 새 역사... 물자 운송·매핑·기후 연구 성공",
-      "desc": "에베레스트에서 화물 운송·빙하 매핑·기후 연구 등 성공적으로 임무 수행등반 안전과 환경 보전, 과학 연구 위한 드론 활용 가능성 입증[보안뉴스 강초희 기자] 민간용 드론 및 창의적인 카메라 기술 분야의 글로벌 리더 DJI가 세계 최고봉인 ‘초모랑마산’(Qomolangma, 에베레스트산의 티베트명)에서 고고도 물자 운송, 매핑, 대기 연구를 위한 세 가지 임",
-      "url": "http://www.boannews.com/media/view.asp?idx=144598&kind=&sub_kind=",
-      "date": "7.10.",
-      "rawDate": "2026-07-10T11:24:00+09:00",
-      "source": "보안뉴스",
-      "group": "보안뉴스",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "c754ddcd17be",
-      "title": "중기부 '모두의 창업' 프로젝트 정보 유출… 피해 접수 87건",
-      "desc": "개인정보 침해 피해를 입은 자는 개인정보 분쟁조정위원회를 통해 소송을 거치지 않고 신속하게 피해를 구제받을 수 있다. 개인정보 분쟁조정은 일반분쟁조정·집단분쟁조정으로 구분된다. 정동만 의원은 \"사고 발생...",
-      "url": "https://news.unn.net/news/articleView.html?idxno=594587",
-      "date": "7.10.",
-      "rawDate": "2026-07-10T11:24:00+09:00",
-      "source": "네이버뉴스",
-      "group": "네이버",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "8b50e5d96f37",
-      "title": "[보안 레이더] 제15회 정보보호의 날…AI 위협 대응 가이드 2종 발간",
-      "desc": "9~10일 양일간 정부세종컨벤션센터에서는 '2026 헥테온 세종'이 개최됐으며 △랜섬웨어 전주기 대응 추진단 워크숍 △공급망 보안 인사이트 데이 △정보보호 API 기술 세미나 등 사이버보안 관련 행사가 이달 말까지...",
-      "url": "http://www.itdaily.kr/news/articleView.html?idxno=240326",
-      "date": "7.10.",
-      "rawDate": "2026-07-10T11:20:00+09:00",
-      "source": "네이버뉴스",
-      "group": "네이버",
-      "tag": "랜섬웨어",
       "tagCls": "tag-red",
       "lang": "ko"
     }
