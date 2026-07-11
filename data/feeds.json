@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-12T03:08:23.419001+09:00",
+  "fetched_at": "2026-07-12T06:12:24.825018+09:00",
   "count": 200,
   "articles": [
     {
@@ -16,6 +16,45 @@
       "lang": "ko"
     },
     {
+      "id": "36869c9c56dd",
+      "title": "배 잘 만드는 것만으론 부족…조선업, '사이버복원력' 경쟁",
+      "desc": "선박이 디지털화되면서 해킹 위험이 커지고 국제 보안 규제까지 강화되면서 조선사들도 설계 단계부터 사이버보안을 반영하는 체계 구축에 나섰다. 12일 조선업계에 따르면 한화오션은 최근 일본 라쿠텐 마리타임과...",
+      "url": "https://www.newsway.co.kr/news/view?ud=2026071013332883375",
+      "date": "7.12.",
+      "rawDate": "2026-07-12T06:06:00+09:00",
+      "source": "네이버뉴스",
+      "group": "네이버",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "724276f1813d",
+      "title": "젬브라, 조작된 이메일 열면 악성코드 실행되는 XSS 결함 발견",
+      "desc": "이 공격으로 정부 관료, 군 인사, 외교관을 포함한 나토(NATO) 우방 조직·개인의 이메일이 유출됐다.지난 2024년 10월에는 미국과 영국 사이버보안 당국이 러시아 해외정보국(SVR) 산하 해킹조직 APT29(미드나이트...",
+      "url": "https://www.wikitree.co.kr/articles/1145962",
+      "date": "7.12.",
+      "rawDate": "2026-07-12T06:02:00+09:00",
+      "source": "네이버뉴스",
+      "group": "네이버",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "0aef4147c0a5",
+      "title": "&quot;행정학, 광고학과 줄줄이 폐지&quot; 충격...AI·반도체에 올인[차이나는 중...",
+      "desc": "4~5위는 정보보안, 광전정보과학이다. 상위 5위 전공 중 3개가 반도체와 직접적인 관련이 있는 걸 보면 중국에서도 반도체가 가장 '핫'하다는 걸 알 수 있다. 최근 중국에서 인공지능, 대형언어모델(LLM) 투자와...",
+      "url": "https://www.mt.co.kr/opinion/2026/07/12/2026070914134039352",
+      "date": "7.12.",
+      "rawDate": "2026-07-12T06:00:00+09:00",
+      "source": "네이버뉴스",
+      "group": "네이버",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
       "id": "d192c7d72a01",
       "title": "랜섬웨어 피해기업 돕던 협상가의 배신…블랙캣과 결탁해 징역 70개월",
       "desc": "미국에서 랜섬웨어 피해기업을 대신해 해커와 협상하던 전문가가 고객사의 기밀 정보를 랜섬웨어 조직에 넘기고 직접 공격에도 가담한 혐의로 징역 70개월을 선고받았다.미국 법무부는 7월 9일 플로리다주 랜드오레이크스에 거주하는 앤젤로 마르티노(Angelo Martino·41)가 블랙캣(ALPHV·BlackCat) 랜섬웨어 조직과 공모해 미국 기업들을 협박한 혐의로 연방교도소 징역 70개월을 선고받았다고 밝혔다.마르티노는 미국 사이버 사고 대응 기업에서 랜섬웨어 협상가로 일했다. 랜섬웨어 공격을 받은 기업을 대신해 공격자와 몸값을 협상하고",
@@ -27,6 +66,71 @@
       "tag": "랜섬웨어",
       "tagCls": "tag-red",
       "lang": "ko"
+    },
+    {
+      "id": "5df03b0232b2",
+      "title": "'한동훈 당원 게시판 사건' 경찰 수사, 1년여 만에 재시동",
+      "desc": "12일 연합뉴스 취재를 종합하면 서울경찰청 사이버수사대는 사건 당시 국민의힘 당원 게시판을 관리했던... 한 의원은 지난 2월 토크콘서트에서 \"당 대표가 된 이후에 저와 제 가족은 입에 담지 못할 공격을 받았는데 가족이...",
+      "url": "https://www.yna.co.kr/view/AKR20260711044400004?input=1195m",
+      "date": "7.12.",
+      "rawDate": "2026-07-12T05:55:00+09:00",
+      "source": "네이버뉴스",
+      "group": "네이버",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "b000e9b5e905",
+      "title": "군 대상 사이버공격 3년 새 2배...북, AI 해킹 고도화",
+      "desc": "스마트보안학부장 : AI의 도움을 받으면 하루에서 일주일 이내에 수십 개 이상의 취약점을 발굴해서 해킹 도구를 만드는 데 활용할 수 있기 때문에 상당히 위협적이라고 할 수 있습니다.] 지난해 우리 군을 겨냥한 사이버...",
+      "url": "https://www.ytn.co.kr/_ln/0101_202607120536114214",
+      "date": "7.12.",
+      "rawDate": "2026-07-12T05:36:00+09:00",
+      "source": "네이버뉴스",
+      "group": "네이버",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "51ec36829393",
+      "title": "&quot;5천만원이 순식간에 휴지조각으로&quot;...1000배 오른 밈코인의 결말 [조선...",
+      "desc": "탈중앙화거래소는 운영 주체 없이 자동화된 코드로만 작동해 해킹이나 자산 탈취 사고가 사실상 피해 구제가 불가능하다는 점도 주의해야 한다. 금감원은 탈중앙화거래소를 통해 거래할 때는 컨트랙트 주소 등...",
+      "url": "http://www.fnnews.com/news/202607111313559133",
+      "date": "7.12.",
+      "rawDate": "2026-07-12T05:01:00+09:00",
+      "source": "네이버뉴스",
+      "group": "네이버",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "433e2cb0d4e1",
+      "title": "AI시대 도서관은 살아남을까...전문가 3천 명 부산 집결",
+      "desc": "/ 정보 문화의 역량, 그리고 K-컬처의 매력을 세계에 널리 알릴 수 있는 매우 소중한 기회가 될 거라고 생각합니다.] 특히 이번 부산 대회에서는 인공지능 시대의 연구 윤리와 보안 문제, 정보 포용성과 글로벌 협력 등...",
+      "url": "https://www.ytn.co.kr/_ln/0106_202607120433122993",
+      "date": "7.12.",
+      "rawDate": "2026-07-12T04:33:00+09:00",
+      "source": "네이버뉴스",
+      "group": "네이버",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "e09de65b4866",
+      "title": "Hackers Weaponize Balochistan Police Portal in Multi-Group Espionage Campaigns",
+      "desc": "Cybersecurity researchers have disclosed details of sustained cyber espionage activity against several Pakistani law enforcement organizations undertaken by suspected China- and India-aligned threat actors between February 2024 and April 2026.\n\n\"At Balochistan Police, the compromised assets included servers hosting web applications that manage police and citizen data, such as criminal and",
+      "url": "https://thehackernews.com/2026/07/hackers-weaponize-balochistan-police.html",
+      "date": "7.12.",
+      "rawDate": "2026-07-12T02:49:31+09:00",
+      "source": "TheHackerNews",
+      "group": "해외",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "en"
     },
     {
       "id": "dc3ed154d2bd",
@@ -1394,19 +1498,6 @@
       "lang": "ko"
     },
     {
-      "id": "1d1d0f420473",
-      "title": "[자정 뉴스브리핑] 서클, OCC서 국가신탁은행 설립 최종 승인 外",
-      "desc": "스마트컨트랙트에서 취약점을 찾는 데 활용됐다. 이 과정에서 이더리움 합의 클라이언트의 P2P 계층인 libp2p gossipsub에서 원격으로 유발될 수 있는 패닉 문제가 발견됐다. 해당 취약점은 수정됐으며 깃허브에 CVE...",
-      "url": "https://www.tokenpost.kr/news/briefing/376645",
-      "date": "7.10.",
-      "rawDate": "2026-07-10T23:32:00+09:00",
-      "source": "네이버뉴스",
-      "group": "네이버",
-      "tag": "취약점/CVE",
-      "tagCls": "tag-yellow",
-      "lang": "ko"
-    },
-    {
       "id": "ad965b7b750e",
       "title": "Researcher Details WhatsApp-to-Host Attack Chain Using Three OpenClaw Flaws",
       "desc": "Details have emerged about three now-patched security flaws in the OpenClaw personal artificial intelligence (AI) assistant that, if successfully exploited, could enable credential theft, privilege escalation, and arbitrary code execution on the host.\n\nA brief description of the high-severity vulnerabilities is as follows&nbsp;-\n\n\n  GHSA-hjr6-g723-hmfm (CVSS score: 8.8) - An operating system",
@@ -1758,32 +1849,6 @@
       "lang": "ko"
     },
     {
-      "id": "7474d6070e70",
-      "title": "[#클라우드 월드] KT클라우드 '여의도 DC 증설'·롯데이노 '스마트팜 AI ...",
-      "desc": "GPT-5.6의 세 가지 패밀리 모델 가운데 솔(Sol)은 코딩, 지식 업무, 사이버 보안, 과학 분야에서 최고 수준의 성능을 기록한다. 오픈AI의 이전 모델 및 경쟁 모델보다 토큰 소모와 비용이 적다. 챗GPT 워크는 플러그인으로...",
-      "url": "https://www.newsworks.co.kr/news/articleView.html?idxno=846910",
-      "date": "7.10.",
-      "rawDate": "2026-07-10T19:00:00+09:00",
-      "source": "네이버뉴스",
-      "group": "네이버",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "819e110161ae",
-      "title": "챗GPT가 업무까지 대신한다…오픈AI, '챗GPT 워크' 공개",
-      "desc": "GPT-5.6은 솔, 테라, 루나 등 여러 모델로 구성되며, 코딩과 사이버보안, 과학 연구 등 전문적인 작업의 성능을 높인 것이 특징이다. 오픈AI측은 GPT-5.6이 현재까지 가장 발전된 모델이라고 설명했으며, 챗GPT 워크의 핵심...",
-      "url": "https://news.appstory.co.kr/daily19349",
-      "date": "7.10.",
-      "rawDate": "2026-07-10T19:00:00+09:00",
-      "source": "네이버뉴스",
-      "group": "네이버",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
       "id": "274ebd85f863",
       "title": "[오늘의 인사 : 7월 10일] IBK투자증권·한국수출입은행·산업통상부·식...",
       "desc": "이승철 ▷ 사이버보안팀장 이희정 ▷ 펫산업팀장 최은영 ▷ 식품분석과장 노경우 ▷ 토양환경과장 진수영 ▷ 농업기술원 고랭지작물시험장장 강찬호 ▷ 농업기술원 자원경영과 박종숙 ▷ 농업기술원 원예과 임주락",
@@ -1797,25 +1862,12 @@
       "lang": "ko"
     },
     {
-      "id": "e0153969bbc0",
-      "title": "[인사] 전북특별자치도",
-      "desc": "이승철 △ 사이버보안팀장 이희정 △ 펫산업팀장 최은영 △ 식품분석과장 노경우 △ 토양환경과장 진수영 △ 농업기술원 고랭지작물시험장장 강찬호 △ 농업기술원 자원경영과 박종숙 △ 농업기술원 원예과 임주락...",
-      "url": "https://www.public25.com/news/articleView.html?idxno=50436",
+      "id": "7474d6070e70",
+      "title": "[#클라우드 월드] KT클라우드 '여의도 DC 증설'·롯데이노 '스마트팜 AI ...",
+      "desc": "GPT-5.6의 세 가지 패밀리 모델 가운데 솔(Sol)은 코딩, 지식 업무, 사이버 보안, 과학 분야에서 최고 수준의 성능을 기록한다. 오픈AI의 이전 모델 및 경쟁 모델보다 토큰 소모와 비용이 적다. 챗GPT 워크는 플러그인으로...",
+      "url": "https://www.newsworks.co.kr/news/articleView.html?idxno=846910",
       "date": "7.10.",
-      "rawDate": "2026-07-10T18:58:00+09:00",
-      "source": "네이버뉴스",
-      "group": "네이버",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "3cf7113dc623",
-      "title": "&quot;단순 납품은 끝&quot; 나토 방산 패러다임 전환에 K방산 활로는?",
-      "desc": "나토는 방산기업들과 무기 설계·생산·운용 등 전 주기에 걸쳐 협력하고 AI·드론·사이버보안 등 첨단 기술을 적극 도입하며, 안정적인 공급망을 구축해 생산 역량을 강화할 계획이다. 동맹국 간 핵심 기술 공유로...",
-      "url": "https://www.econovill.com/news/articleView.html?idxno=744867",
-      "date": "7.10.",
-      "rawDate": "2026-07-10T18:56:00+09:00",
+      "rawDate": "2026-07-10T19:00:00+09:00",
       "source": "네이버뉴스",
       "group": "네이버",
       "tag": "AI 보안",
@@ -1833,6 +1885,19 @@
       "group": "네이버",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "c67907de417d",
+      "title": "[인사] 전북특별자치도",
+      "desc": "이승철 △행정정보과 사이버보안팀장 이희정 △농업기술원 고랭지작물시험장장 강찬호 △농업기술원 자원경영과 박종숙 △농업기술원 원예과 임주락 △동물방역과 펫산업팀장 최은영 △보건환경연구원 식품분석과장...",
+      "url": "https://www.news1.kr/local/jeonbuk/6224736",
+      "date": "7.10.",
+      "rawDate": "2026-07-10T18:45:00+09:00",
+      "source": "네이버뉴스",
+      "group": "네이버",
+      "tag": "보안",
+      "tagCls": "tag-blue",
       "lang": "ko"
     },
     {
@@ -1881,19 +1946,6 @@
       "url": "https://www.sedaily.com/article/20066404?ref=naver",
       "date": "7.10.",
       "rawDate": "2026-07-10T18:33:00+09:00",
-      "source": "네이버뉴스",
-      "group": "네이버",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "8ff377e7e43b",
-      "title": "[위클리 IT뷰] 허위정보 규제 시행과 미래에셋의 코빗 인수 승인 등",
-      "desc": "개인정보보호위원회의 조사 결과에 따르면, 락앤락은 해킹 공격을 받아 약 130만 명의 고객과 1천여 명의 임직원 개인정보를 탈취당해 5억 300만 원의 과징금과 540만 원의 과태료 처분을 받았습니다. 외부 공격자는 메일...",
-      "url": "https://www.gamevu.co.kr/news/articleView.html?idxno=59287",
-      "date": "7.10.",
-      "rawDate": "2026-07-10T18:30:00+09:00",
       "source": "네이버뉴스",
       "group": "네이버",
       "tag": "해킹/침해",
@@ -1979,19 +2031,6 @@
       "lang": "ko"
     },
     {
-      "id": "bbe6cac5d47d",
-      "title": "&quot;공짜 데이터·역기저의 덫…KT, 2분기 본업·그룹사 '동반 감익' 비상&quot;",
-      "desc": "단말 매출은 지난해 경쟁사 해킹에 따른 일회성 효과가 사라지면서 감소가 예상된다. 유선서비스 부문에서는 초고속인터넷 가입자 증가와 프리미엄 요금제 확대가 소폭의 성장을 이끌 것으로 보인다....",
-      "url": "https://www.newsquest.co.kr/news/articleView.html?idxno=269555",
-      "date": "7.10.",
-      "rawDate": "2026-07-10T18:10:00+09:00",
-      "source": "네이버뉴스",
-      "group": "네이버",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
       "id": "43d1830334b3",
       "title": "\"Comment stuffing\" in an HTML phishing attachment as a mechanism for evading AI-based detection&#x3f;, (Fri, Jul 10th)",
       "desc": "Anyone who deals with phishing messages caught by basic security filters knows that most phishing samples tend to blend into one another, since only a small set of techniques and approaches keeps reappearing in them. That is precisely why it is worth pausing on the occasional message that does something a little out of the ordinary.&#xd;",
@@ -2003,19 +2042,6 @@
       "tag": "AI 보안",
       "tagCls": "tag-blue",
       "lang": "en"
-    },
-    {
-      "id": "93130dc48bce",
-      "title": "北 '대남공작' 정찰정보총국 강화",
-      "desc": "임을출 경남대 극동문제연구소 교수는 \"남한 내 주요 시설에 대한 사이버 해킹, 무인기 정찰 등 비군사적·회색지대 도발을 더욱 정교하게 감행할 가능성이 있다\"고 말했다. 핵무력 강화 기조도 재확인했다. 통신은...",
-      "url": "https://www.mk.co.kr/article/12095680",
-      "date": "7.10.",
-      "rawDate": "2026-07-10T18:01:00+09:00",
-      "source": "네이버뉴스",
-      "group": "네이버",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko"
     },
     {
       "id": "34f194c8d915",
@@ -2369,19 +2395,6 @@
       "lang": "ko"
     },
     {
-      "id": "442f996e42a0",
-      "title": "47개국 인재 모인 세종, 핵테온 열기 '후끈'",
-      "desc": "42여 개 기업·기관이 참여한 정보통신기술 전시회를 비롯해 정보보호학회 우주·양자보안연구회, 과학기술정보보호협의회, 국가사이버안보세미나, 제2회 지방정부 정보보안 실무협의회 등이 잇따라 열리며 공공·민간...",
-      "url": "https://www.goodmorningcc.com/news/articleView.html?idxno=448794",
-      "date": "7.10.",
-      "rawDate": "2026-07-10T16:08:00+09:00",
-      "source": "네이버뉴스",
-      "group": "네이버",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
       "id": "1e119e9c2a04",
       "title": "[취재수첩] 보안업계 아쉬움 커진 '정보보호의 날' 행사",
       "desc": "AI 발전과 함께 사이버 공격은 대규모로 진화 중이고 대규모 정보 유출도 일상이 됐다. 국가안보를 위협하는 수준이지만 이를 예방할 정부 예산은 여전히 제자리걸음이다. 말로는 선제적 투자를 외치면서도 실질적인 정책...",
@@ -2392,19 +2405,6 @@
       "group": "네이버",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "318e64efa219",
-      "title": "농협생명, 오픈소스 관리체계 구축 시동…공급망 보안 강화 나선다",
-      "desc": "농협생명이 오픈소스 소프트웨어 관리체계를 구축하며 정보보안 강화에 시동을 건다. 디지털 전환과 인공지능(AI) 활용 확대에 따라 오픈소스 사용이 증가하는 가운데 금융감독원의 가이드라인에 맞춰 소프트웨어 공급망...",
-      "url": "http://www.wikileaks-kr.org/news/articleView.html?idxno=189609",
-      "date": "7.10.",
-      "rawDate": "2026-07-10T16:06:00+09:00",
-      "source": "네이버뉴스",
-      "group": "네이버",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
       "lang": "ko"
     },
     {
@@ -2512,19 +2512,6 @@
       "lang": "ko"
     },
     {
-      "id": "9dd9f357cf25",
-      "title": "수출 늘자 보안도 키운다…방산4사, IT·정보보호 투자 일제히 확대",
-      "desc": "포함한 사이버보안 준수 체계를 운영하며 공급망 보안을 핵심 경쟁력으로 관리하고 있다. 국내... 이는 정보보호 투자를 줄였기 때문이 아니라 IT 투자를 더 공격적으로 확대했기 때문이다. 실제 정보보호...",
-      "url": "https://www.ddaily.co.kr/page/view/2026071014524241547",
-      "date": "7.10.",
-      "rawDate": "2026-07-10T15:00:00+09:00",
-      "source": "네이버뉴스",
-      "group": "네이버",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
       "id": "ce82963300e0",
       "title": "개인정보 온라인 불법유통 차단하는 청년들... 모니터링단 발대식",
       "desc": "이 과정에서 잠재적인 개인정보 침해 요인과 취약점을 선제적으로 진단하고, 실질적인 개선방안을 모색하면서 안전한 디지털 생태계 조성에 앞장서게 된다.참여 단원들이 미래의 개인정보 보호 전문가로 성장할 수...",
@@ -2599,6 +2586,19 @@
       "source": "네이버뉴스",
       "group": "네이버",
       "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "2a702f3ead55",
+      "title": "'박봉권·이석기 체제' 교보증권, AI 전환으로 종투사 도약",
+      "desc": "자체 제작한 교육 영상을 활용해 보안 수칙과 랜섬웨어 예방, 디지털 금융보안 이슈 등을 교육했으며, 지난해 12월에는 정보보호 및 개인정보보호 관리체계(ISMS-P) 인증을 획득하는 등 정보보호 체계도 지속 강화하고...",
+      "url": "http://www.biztribune.co.kr/news/articleView.html?idxno=355780",
+      "date": "7.10.",
+      "rawDate": "2026-07-10T14:16:00+09:00",
+      "source": "네이버뉴스",
+      "group": "네이버",
+      "tag": "랜섬웨어",
       "tagCls": "tag-red",
       "lang": "ko"
     }
