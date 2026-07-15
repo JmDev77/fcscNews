@@ -31,21 +31,27 @@ WORD_JACCARD_THRESH = 0.20
 
 # ── RSS 피드 목록 ─────────────────────────────────────
 FEEDS = [
-    # 국내
-    {'url': 'http://www.boannews.com/media/news_rss.xml',         'source': '보안뉴스',    'group': '보안뉴스'},
-    {'url': 'http://www.boannews.com/media/news_rss.xml?skind=5', 'source': '보안뉴스긴급','group': '보안뉴스'},
-    {'url': 'https://www.dailysecu.com/rss/allArticle.xml',       'source': '데일리시큐',  'group': '데일리시큐'},
-    {'url': 'https://rss.etnews.com/04045.xml',                   'source': '전자신문',    'group': '전자신문'},
-    {'url': 'https://www.boho.or.kr/kr/rss.do?bbsId=B0000133',   'source': 'KISA보안공지','group': 'KISA'},
-    {'url': 'https://www.boho.or.kr/kr/rss.do?bbsId=B0000302',   'source': 'KISA취약점',  'group': 'KISA'},
-    {'url': 'https://www.boho.or.kr/kr/rss.do?bbsId=B0000342',   'source': 'KISA경보',    'group': 'KISA'},
+    # 국내 보안뉴스
+    {'url': 'http://www.boannews.com/media/news_rss.xml',           'source': '보안뉴스',      'group': '보안뉴스'},
+    {'url': 'http://www.boannews.com/media/news_rss.xml?skind=5',   'source': '보안뉴스긴급',  'group': '보안뉴스'},
+    {'url': 'https://www.dailysecu.com/rss/allArticle.xml',         'source': '데일리시큐',    'group': '보안뉴스'},
+    {'url': 'https://rss.etnews.com/04045.xml',                     'source': '전자신문',      'group': '보안뉴스'},
+    # KISA
+    {'url': 'https://www.boho.or.kr/kr/rss.do?bbsId=B0000133',     'source': 'KISA보안공지',  'group': 'KISA'},
+    {'url': 'https://www.boho.or.kr/kr/rss.do?bbsId=B0000302',     'source': 'KISA취약점',    'group': 'KISA'},
+    {'url': 'https://www.boho.or.kr/kr/rss.do?bbsId=B0000342',     'source': 'KISA경보',      'group': 'KISA'},
+    # 취약점
+    {'url': 'https://api.msrc.microsoft.com/update-guide/rss',     'source': 'MSRC',          'group': '취약점'},
+    {'url': 'https://www.exploit-db.com/rss.xml',                  'source': 'Exploit-DB',    'group': '취약점'},
+    {'url': 'https://www.cisa.gov/cybersecurity-advisories/all.xml','source': 'CISA',         'group': '취약점'},
+    {'url': 'https://isc.sans.edu/rssfeed.xml',                    'source': 'SANS ISC',      'group': '취약점'},
+    {'url': 'https://cvefeed.io/rssfeed/latest.xml',               'source': 'CVEFeed',       'group': '취약점'},
     # 해외
-    {'url': 'https://feeds.feedburner.com/TheHackersNews',        'source': 'TheHackerNews','group': '해외'},
-    {'url': 'https://www.bleepingcomputer.com/feed/',             'source': 'BleepingComputer','group': '해외'},
-    {'url': 'https://krebsonsecurity.com/feed/',                  'source': 'KrebsOnSecurity','group': '해외'},
-    {'url': 'https://www.darkreading.com/rss.xml',                'source': 'DarkReading', 'group': '해외'},
-    {'url': 'https://isc.sans.edu/rssfeed.xml',                   'source': 'SANS ISC',    'group': '해외'},
-    {'url': 'https://www.cisa.gov/cybersecurity-advisories/all.xml','source': 'CISA',      'group': '해외'},
+    {'url': 'https://feeds.feedburner.com/TheHackersNews',         'source': 'TheHackerNews', 'group': '해외'},
+    {'url': 'https://www.bleepingcomputer.com/feed/',              'source': 'BleepingComputer','group': '해외'},
+    {'url': 'https://krebsonsecurity.com/feed/',                   'source': 'KrebsOnSecurity','group': '해외'},
+    {'url': 'https://www.darkreading.com/rss.xml',                 'source': 'DarkReading',   'group': '해외'},
+    {'url': 'https://feeds.feedburner.com/securityweek',           'source': 'SecurityWeek',  'group': '해외'},
 ]
 
 # 네이버 검색 키워드
@@ -81,6 +87,50 @@ def classify(title, desc=''):
         if any(k.lower() in text for k in x['kw']):
             return x['tag'], x['cls']
     return '보안', 'tag-blue'
+
+# 네이버 원문 도메인 → 매체명 매핑
+DOMAIN_MEDIA = {
+    'boannews.com':        '보안뉴스',
+    'dailysecu.com':       '데일리시큐',
+    'etnews.com':          '전자신문',
+    'zdnet.co.kr':         '지디넷코리아',
+    'edaily.co.kr':        '이데일리',
+    'yna.co.kr':           '연합뉴스',
+    'news1.kr':            '뉴스1',
+    'newsis.com':          '뉴시스',
+    'mk.co.kr':            '매일경제',
+    'hankyung.com':        '한국경제',
+    'chosun.com':          '조선일보',
+    'donga.com':           '동아일보',
+    'joongang.co.kr':      '중앙일보',
+    'hani.co.kr':          '한겨레',
+    'mt.co.kr':            '머니투데이',
+    'sedaily.com':         '서울경제',
+    'asiae.co.kr':         '아시아경제',
+    'kbs.co.kr':           'KBS',
+    'sbs.co.kr':           'SBS',
+    'ytn.co.kr':           'YTN',
+    'imbc.com':            'MBC',
+    'boho.or.kr':          'KISA',
+    'krcert.or.kr':        'KISA',
+    'itworld.co.kr':       'ITWorld',
+    'ciokorea.com':        'CIOKorea',
+    'inews24.com':         '아이뉴스24',
+    'ddaily.co.kr':        '디지털데일리',
+}
+
+def media_from_url(url):
+    try:
+        host = re.sub(r'^(www|m|n)\.', '', url.split('/')[2].lower())
+        for domain, name in DOMAIN_MEDIA.items():
+            if domain in host:
+                return name
+        if 'naver.com' in host:
+            return '네이버뉴스'
+        # 매핑 없으면 도메인 자체를 보기 좋게 표시
+        return host.split('.')[0] if host else '네이버뉴스'
+    except Exception:
+        return '네이버뉴스'
 
 def make_id(url, title=''):
     return hashlib.md5((url or title).encode()).hexdigest()[:12]
@@ -183,6 +233,7 @@ def fetch_naver(keyword):
             dt    = parse_dt(i.get('pubDate',''))
             if dt < cutoff: continue
             tag, cls = classify(title, desc)
+            source = media_from_url(link) if link else '네이버뉴스'
             items.append({
                 'id':      make_id(link, title),
                 'title':   title,
@@ -190,7 +241,7 @@ def fetch_naver(keyword):
                 'url':     link,
                 'date':    fmt_date(dt),
                 'rawDate': dt.isoformat(),
-                'source':  '네이버뉴스',
+                'source':  source,
                 'group':   '네이버',
                 'tag':     tag,
                 'tagCls':  cls,
@@ -207,7 +258,24 @@ def main():
     print(f"수집 시작: {datetime.now(KST).strftime('%Y-%m-%d %H:%M')} KST")
     print(f"{'='*50}")
 
+    # 기존 feeds.json 로드 (있으면 병합)
     all_items = {}
+    cutoff = datetime.now(KST) - timedelta(hours=RETENTION_HRS)
+    if FEEDS_PATH.exists():
+        try:
+            existing = json.loads(FEEDS_PATH.read_text(encoding='utf-8'))
+            for a in existing.get('articles', []):
+                try:
+                    dt = datetime.fromisoformat(a.get('rawDate',''))
+                    if dt.tzinfo is None:
+                        dt = pytz.utc.localize(dt)
+                    if dt.astimezone(KST) >= cutoff:
+                        all_items[a['id']] = a
+                except:
+                    pass
+            print(f"[기존 데이터] {len(all_items)}건 로드")
+        except Exception as e:
+            print(f"[기존 데이터] 로드 실패: {e}")
 
     # RSS 수집
     print("\n[RSS 수집]")
