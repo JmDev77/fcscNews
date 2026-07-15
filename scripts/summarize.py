@@ -86,6 +86,8 @@ def clean_body(text):
     return text.strip()[:5000]
 
 # ── Claude 요약 ───────────────────────────────────────
+DELIM = '@@@FIELD@@@'  # 필드 구분자 (본문에 나올 가능성 거의 없는 패턴)
+
 def summarize_with_claude(article, body):
     client = anthropic.Anthropic(api_key=os.environ.get('ANTHROPIC_API_KEY',''))
     today  = datetime.now(KST).strftime('%-m.%-d.')
@@ -94,12 +96,12 @@ def summarize_with_claude(article, body):
     prompt = f"""뉴스를 줄테니 아래 조건에 맞춰 정리해.
 
 조건:
-• 아스키 따옴표 → 스마트 따옴표로 변경
+• 아스키 따옴표 → 스마트 따옴표(" ")로 변경
 • 맞춤법 교정
 • 한줄 요약 2개. 각각 ~돼, ~해, ~져 등으로 끝낼 것. 공백 포함 40자 이내로 반드시 지킬 것
 • 날짜는 반드시 "월.일." 형식 (예: 6.21.). 없으면 오늘 {today} 사용. 연도 붙이지 말 것
 • {"영문 기사이므로 제목과 본문 모두 한글로 번역할 것" if lang == 'en' else ""}
-• body는 본문 전체를 문단 단위로 정리 (줄이거나 요약하지 말 것). 문단 구분은 \\n으로
+• body는 본문 전체를 문단 단위로 정리 (절대 줄이거나 요약하지 말고 전체 다 포함할 것)
 
 입력:
 제목: {article.get('title','')}
@@ -108,8 +110,23 @@ def summarize_with_claude(article, body):
 본문: {body[:4000]}
 URL: {article.get('url','')}
 
-JSON 형식으로만 응답 (마크다운 없이):
-{{"title":"제목","source":"출처","date":"날짜","summary1":"요약1","summary2":"요약2","body":"본문(\\n구분)","url":"URL"}}"""
+아래 형식 그대로 응답해. 마크다운이나 다른 설명 없이, 각 필드는 반드시 "{DELIM}필드명{DELIM}" 줄로 시작해서 구분할 것. body는 문단 사이에 빈 줄 하나씩 넣어서 여러 줄로 작성해도 됨 (다음 {DELIM} 구분자가 나올 때까지가 전부 그 필드 내용):
+
+{DELIM}TITLE{DELIM}
+(정리된 제목)
+{DELIM}SOURCE{DELIM}
+(출처)
+{DELIM}DATE{DELIM}
+(월.일. 형식 날짜)
+{DELIM}SUMMARY1{DELIM}
+(요약1, 40자 이내 한 줄)
+{DELIM}SUMMARY2{DELIM}
+(요약2, 40자 이내 한 줄)
+{DELIM}BODY{DELIM}
+(본문 전체, 문단마다 줄바꿈)
+{DELIM}URL{DELIM}
+(원문 URL)
+{DELIM}END{DELIM}"""
 
     try:
         msg = client.messages.create(
@@ -118,25 +135,37 @@ JSON 형식으로만 응답 (마크다운 없이):
             messages=[{'role': 'user', 'content': prompt}]
         )
         text = msg.content[0].text.strip()
-        # JSON 파싱
-        text = re.sub(r'```json|```', '', text).strip()
-        result = json.loads(text)
+        result = parse_delimited(text)
         # 날짜 정규화
         d = result.get('date','')
         m = re.match(r'(\d{1,4})[.\/-](\d{1,2})[.\/-](\d{1,2})', d)
         if m:
             result['date'] = f"{int(m.group(2))}.{int(m.group(3))}."
         return result
-    except json.JSONDecodeError:
-        # 정규식 fallback
-        result = {}
-        for field in ['title','source','date','summary1','summary2','body','url']:
-            m = re.search(f'"{field}"\\s*:\\s*"((?:[^"\\\\]|\\\\.)*)"', text)
-            result[field] = m.group(1) if m else ''
-        return result
     except Exception as e:
         print(f"  Claude 오류: {e}")
         return None
+
+def parse_delimited(text):
+    """@@@FIELD@@@ 구분자 기반 텍스트를 파싱 (따옴표/JSON 이스케이프 문제 없음)"""
+    field_map = {
+        'TITLE': 'title', 'SOURCE': 'source', 'DATE': 'date',
+        'SUMMARY1': 'summary1', 'SUMMARY2': 'summary2',
+        'BODY': 'body', 'URL': 'url',
+    }
+    parts = text.split(DELIM)
+    result = {}
+    current_key = None
+    for part in parts:
+        part_stripped = part.strip()
+        if part_stripped in field_map:
+            current_key = field_map[part_stripped]
+        elif part_stripped == 'END':
+            current_key = None
+        elif current_key:
+            result[current_key] = part.strip()
+            current_key = None
+    return result
 
 # ── 메인 ──────────────────────────────────────────────
 def main():
