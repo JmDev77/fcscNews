@@ -37,9 +37,10 @@ FEEDS = [
     {'url': 'https://www.dailysecu.com/rss/allArticle.xml',         'source': '데일리시큐',    'group': '보안뉴스'},
     {'url': 'https://rss.etnews.com/04045.xml',                     'source': '전자신문',      'group': '보안뉴스'},
     # KISA
-    {'url': 'https://www.boho.or.kr/kr/rss.do?bbsId=B0000133',     'source': 'KISA보안공지',  'group': 'KISA'},
-    {'url': 'https://www.boho.or.kr/kr/rss.do?bbsId=B0000302',     'source': 'KISA취약점',    'group': 'KISA'},
-    {'url': 'https://www.boho.or.kr/kr/rss.do?bbsId=B0000342',     'source': 'KISA경보',      'group': 'KISA'},
+    # KISA (실제 메뉴 경로: 보안공지=205020, 취약점정보=205023, 경보단계=205024)
+    {'url': 'https://www.boho.or.kr/kr/rssList.do?menuNo=205020&bbsId=B0000133', 'source': 'KISA보안공지',  'group': 'KISA'},
+    {'url': 'https://www.boho.or.kr/kr/rssList.do?menuNo=205023&bbsId=B0000302', 'source': 'KISA취약점',    'group': 'KISA'},
+    {'url': 'https://www.boho.or.kr/kr/rssList.do?menuNo=205024&bbsId=B0000342', 'source': 'KISA경보',      'group': 'KISA'},
     # 취약점
     {'url': 'https://api.msrc.microsoft.com/update-guide/rss',     'source': 'MSRC',          'group': '취약점'},
     {'url': 'https://www.exploit-db.com/rss.xml',                  'source': 'Exploit-DB',    'group': '취약점'},
@@ -175,12 +176,76 @@ def is_security_related(title, desc=''):
     text = (title + ' ' + desc).lower()
     return any(k in text for k in SECURITY_KEYWORDS)
 
+# ── KISA 전용 HTML 목록 크롤링 (RSS 불확실 대비 폴백) ──
+KISA_BOARDS = [
+    {'menuNo': '205020', 'bbsId': 'B0000133', 'source': 'KISA보안공지'},
+    {'menuNo': '205023', 'bbsId': 'B0000302', 'source': 'KISA취약점'},
+    {'menuNo': '205024', 'bbsId': 'B0000342', 'source': 'KISA경보'},
+]
+
+def fetch_kisa_html(board):
+    """RSS가 안 되는 경우를 대비해 게시판 목록 페이지를 직접 파싱"""
+    url = f"https://www.boho.or.kr/kr/bbs/list.do?menuNo={board['menuNo']}&bbsId={board['bbsId']}"
+    try:
+        r = requests.get(url, headers=HEADERS, timeout=15)
+        r.raise_for_status()
+        soup = BeautifulSoup(r.content, 'lxml')
+        items = []
+
+        # 목록 테이블/리스트에서 상세 링크(view.do + nttId) 추출
+        links = soup.select('a[href*="view.do"][href*="nttId"]')
+        seen = set()
+        for a in links:
+            href = a.get('href', '')
+            m = re.search(r'nttId=(\d+)', href)
+            if not m: continue
+            ntt_id = m.group(1)
+            if ntt_id in seen: continue
+            seen.add(ntt_id)
+
+            title = a.get_text(strip=True)
+            if not title or len(title) < 5: continue
+
+            full_url = f"https://www.boho.or.kr/kr/bbs/view.do?bbsId={board['bbsId']}&menuNo={board['menuNo']}&nttId={ntt_id}"
+            dt = datetime.now(KST)  # 목록에서 날짜 파싱 어려우면 오늘로 처리 (최신글 위주라 무방)
+
+            tag, cls = classify(title)
+            items.append({
+                'id':      make_id(full_url, title),
+                'title':   title,
+                'desc':    '',
+                'url':     full_url,
+                'date':    fmt_date(dt),
+                'rawDate': dt.isoformat(),
+                'source':  board['source'],
+                'group':   'KISA',
+                'tag':     tag,
+                'tagCls':  cls,
+                'lang':    'ko',
+            })
+            if len(items) >= 20: break
+
+        print(f"  ✅ {board['source']} (HTML): {len(items)}건")
+        return items
+    except Exception as e:
+        print(f"  ❌ {board['source']} (HTML): {e}")
+        return []
+
 # ── RSS 수집 ──────────────────────────────────────────
 def fetch_rss(feed):
     try:
         d = feedparser.parse(feed['url'],
             request_headers=HEADERS,
             agent=HEADERS['User-Agent'])
+
+        # 진단: 파싱 실패나 HTTP 오류 시 원인 로그
+        status = getattr(d, 'status', None)
+        if d.get('bozo') and not d.entries:
+            reason = d.get('bozo_exception', '알 수 없음')
+            print(f"  ⚠️ {feed['source']}: 파싱 오류 (status={status}) - {reason}")
+        elif not d.entries:
+            print(f"  ⚠️ {feed['source']}: entries 없음 (status={status})")
+
         items = []
         cutoff = datetime.now(KST) - timedelta(hours=RETENTION_HRS)
         for e in d.entries[:30]:
@@ -280,8 +345,15 @@ def main():
     # RSS 수집
     print("\n[RSS 수집]")
     for feed in FEEDS:
-        for item in fetch_rss(feed):
+        rss_items = fetch_rss(feed)
+        for item in rss_items:
             all_items[item['id']] = item
+        # KISA RSS가 비어있으면 HTML 목록 크롤링으로 폴백
+        if not rss_items and feed['group'] == 'KISA':
+            board = next((b for b in KISA_BOARDS if b['source'] == feed['source']), None)
+            if board:
+                for item in fetch_kisa_html(board):
+                    all_items[item['id']] = item
         time.sleep(0.3)
 
     # 네이버 수집
