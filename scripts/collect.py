@@ -36,6 +36,7 @@ FEEDS = [
     {'url': 'http://www.boannews.com/media/news_rss.xml?skind=5',   'source': '보안뉴스긴급',  'group': '보안뉴스'},
     {'url': 'https://www.dailysecu.com/rss/allArticle.xml',         'source': '데일리시큐',    'group': '보안뉴스'},
     {'url': 'https://rss.etnews.com/04045.xml',                     'source': '전자신문',      'group': '보안뉴스'},
+    {'url': 'https://www.inews24.com/rss/news_it.xml',              'source': '아이뉴스24',    'group': '보안뉴스'},
     # KISA
     # KISA (실제 메뉴 경로: 보안공지=205020, 취약점정보=205023, 경보단계=205024)
     {'url': 'https://www.boho.or.kr/kr/rssList.do?menuNo=205020&bbsId=B0000133', 'source': 'KISA보안공지',  'group': 'KISA'},
@@ -191,6 +192,7 @@ def fetch_kisa_html(board):
         r.raise_for_status()
         soup = BeautifulSoup(r.content, 'lxml')
         items = []
+        cutoff = datetime.now(KST) - timedelta(hours=RETENTION_HRS)
 
         # 목록 테이블/리스트에서 상세 링크(view.do + nttId) 추출
         links = soup.select('a[href*="view.do"][href*="nttId"]')
@@ -207,7 +209,23 @@ def fetch_kisa_html(board):
             if not title or len(title) < 5: continue
 
             full_url = f"https://www.boho.or.kr/kr/bbs/view.do?bbsId={board['bbsId']}&menuNo={board['menuNo']}&nttId={ntt_id}"
-            dt = datetime.now(KST)  # 목록에서 날짜 파싱 어려우면 오늘로 처리 (최신글 위주라 무방)
+
+            # 목록의 같은 행(<tr>)에서 날짜(YYYY-MM-DD 형식) 텍스트 탐색
+            dt = None
+            row = a.find_parent('tr')
+            if row:
+                row_text = row.get_text(' ', strip=True)
+                dm = re.search(r'(\d{4})[-.](\d{1,2})[-.](\d{1,2})', row_text)
+                if dm:
+                    try:
+                        dt = KST.localize(datetime(int(dm.group(1)), int(dm.group(2)), int(dm.group(3))))
+                    except Exception:
+                        dt = None
+            if dt is None:
+                # 날짜를 못 찾으면 이 글은 스킵 (오늘 날짜로 잘못 표시해 cutoff를 무력화하는 것 방지)
+                continue
+            if dt < cutoff:
+                continue
 
             tag, cls = classify(title)
             items.append({
@@ -255,7 +273,9 @@ def fetch_rss(feed):
             pub   = e.get('published') or e.get('updated','')
             dt    = parse_dt(pub)
             if dt < cutoff: continue
-            if feed['group'] == '해외' and not is_security_related(title, desc): continue
+            # 해외 피드 및 IT 종합 피드(아이뉴스24 등)는 보안 키워드로 필터링
+            if feed['source'] in ('아이뉴스24',) or feed['group'] == '해외':
+                if not is_security_related(title, desc): continue
             tag, cls = classify(title, desc)
             items.append({
                 'id':      make_id(link, title),
