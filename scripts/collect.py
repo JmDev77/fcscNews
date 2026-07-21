@@ -43,11 +43,12 @@ FEEDS = [
 ]
 
 # 네이버 검색 키워드 (해킹/보안/사이버 중심)
-NAVER_KEYWORDS = ['해킹','사이버보안','사이버 보안', '랜섬웨어', '개인정보침해']
+NAVER_KEYWORDS = ['해킹', '사이버보안', '사이버 보안', '랜섬웨어', '개인정보침해']
 
 # 네이버 검색 결과 중 보안뉴스와 무관한 문맥(드라마/영화/게임/연예 등) 제외용 키워드
 EXCLUDE_KEYWORDS = [
-    '드라마', '영화', '예능', '웹툰', '배우', '출연', '방영', '시청률'
+    '드라마', '영화', '예능', '웹툰', '배우', '출연', '방영', '시청률',
+    '[부고]', '[동정]', '[인사]', '[신간]', '[축사]',
 ]
 
 # 보안 키워드 필터 (해외 피드 필터링용)
@@ -195,6 +196,10 @@ def fetch_rss(feed):
             pub   = e.get('published') or e.get('updated','')
             dt    = parse_dt(pub)
             if dt < cutoff: continue
+            # 부고/동정/인사 등 공지성 기사, 무관 카테고리 기사 제외
+            combined = title + ' ' + desc
+            if any(kw in combined for kw in EXCLUDE_KEYWORDS):
+                continue
             # 국내 종합성 피드(데일리시큐 등)와 해외 피드는 보안 키워드로 필터링
             if feed['source'] in ('데일리시큐',) or feed['group'] == '해외':
                 if not is_security_related(title, desc): continue
