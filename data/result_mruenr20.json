@@ -1,0 +1,67 @@
+{
+  "request_id": "mruenr20",
+  "created_at": "2026-07-21T17:46:37.245430+09:00",
+  "status": "done",
+  "articles": [
+    {
+      "no": "1",
+      "title": "언스트 앤 영 데이터 침해, 개인·금융 정보 영향받아",
+      "source": "SecurityWeek",
+      "date": "7.20.",
+      "summary1": "언스트 앤 영에서 개인 및 금융 정보 데이터 침해가 발생돼",
+      "summary2": "고객의 개인·금융 정보가 침해 사고로 인해 영향을 받아",
+      "body": "본문 내용이 제공되지 않았습니다. 원문 URL을 통해 전체 기사를 확인하시기 바랍니다.",
+      "url": "https://www.securityweek.com/ernst-young-data-breach-affects-personal-financial-information/",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red"
+    },
+    {
+      "no": "2",
+      "title": "공격자들, 치명적인 ServiceNow RCE 취약점 CVE-2026-6875 악용해",
+      "source": "SecurityAffairs",
+      "date": "7.21.",
+      "summary1": "ServiceNow 치명적 RCE 취약점이 실제 공격에 악용돼",
+      "summary2": "자체 호스팅 인스턴스 대상 인증 없이 원격 코드 실행 가능해져",
+      "body": "공격자들이 치명적인 ServiceNow 취약점 CVE-2026-6875를 악용하고 있으며, 자체 호스팅 인스턴스에서 인증 없이 원격 코드 실행이 가능하다. Searchlight Cyber 연구원들은 7월 14일 ServiceNow AI 플랫폼에서 CVE-2026-6875로 추적되는 치명적인 사전 인증 원격 코드 실행 취약점을 공개했다. 같은 날 ServiceNow는 자체 호스팅 인스턴스에 대한 패치를 배포했다. 7월 17일부터 공격자들이 이를 악용하기 시작했다.",
+      "url": "https://securityaffairs.com/195723/ai/attackers-exploit-critical-servicenow-rce-flaw-cve-2026-6875.html",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red"
+    },
+    {
+      "no": "3",
+      "title": "할로우그래프 악성코드, 2050년으로 설정된 마이크로소프트 365 이벤트에 C2 명령과 탈취 파일 숨겨",
+      "source": "TheHackerNews",
+      "date": "7.20.",
+      "summary1": "악성코드가 MS 365 캘린더를 C2 채널로 악용해 데이터가 탈취돼",
+      "summary2": "2050년 날짜 이벤트에 암호화 파일을 숨겨 탐지를 회피해",
+      "body": "A newly discovered espionage implant has been using a hijackedMicrosoft 365calendar as its command channel, planting operator instructions and smuggling out stolen files as attachments on calendar events dated to the year 2050.\nGroup-IB, which named the malwareHollowGraph, says the approach moves tasking and stolen data through legitimate Microsoft Graph API traffic, so the activity looks like ordinary Microsoft 365 chatter and network controls keyed to attacker-owned destinations have nothing to flag.\nThe implant is a .NET DLL that supports just two commands,getandsend, and it never reaches out to an attacker-owned server for payloads. Instead, it treats the compromised mailbox's calendar as a two-way dead drop.\nTo pull tasking, it queries the calendar for an event the operator has planted, buried at2050-05-13, so the mailbox owner is unlikely to ever scroll to it, and reads its instructions from an attached file. To exfiltrate, it does the reverse: encrypts the stolen file, creates its own far-future event, and uploads the data as one or more attachments.\nEverything moving through the calendar is wrapped in hybrid RSA and AES-256 encryption, with separate key pairs for incoming tasking and outgoing data.\nA second, cruder channel keeps that Graph access alive. Over DNS, HollowGraph refreshes the app's Entra ID (Azure AD) login details: its tenant ID, client ID, client secret and target mailbox. It decodes those values from IPv6 AAAA records sent back by an attacker domain,cloudlanecdn[.]com, then writes them tologAzure.txt, a file dressed up as a routine log. Those are stored client-credentials, not access tokens, and unlike the calendar traffic this channel runs in the clear.\nGroup-IB ties HollowGraph toCavernwith high confidence, on shared command syntax and matching internal tasking. Cavern is a modular backdoor framework that Check Pointdocumented earlier this monthand attributed to an Iranian Ministry of Intelligence and Security-linked actor it callsCavern Manticore, a cluster it says overlaps with the known Iranian groups MuddyWater and Lyceum.\nBut the firm link is to the code, not the crew. Group-IB will not name the operator behind this campaign: \"Based on the evidence currently available, we cannot confidently attribute this activity to any previously identified threat actor,\" it wrote, noting only a low-confidence overlap with Lyceum, a subgroup of the Iranian actor OilRig. The compromised exfiltration mailbox belongs to an Israeli organization, but Group-IB treats that as victim geography, not attribution.\nGroup-IB found the implant on at least 12 machines, only about three of them actively talking to the attacker during the analysis window, with victim traffic running from 3 June to 9 July 2026. It reads that small, selective footprint as targeted espionage rather than opportunistic crime, even though the technique behind it could be reused far more widely than this one campaign.\nThere is no Microsoft software vulnerability here and no patch to deploy. HollowGraph rides a compromised account and the Graph API's normal functionality, which is exactly why it is hard to spot. The work is on identity and application permissions plus monitoring, not a patch.\nGroup-IB's detection advice leans on the malware's own habits, and the sharpest signals live in the calendar itself. Hunt for events that carry:\nOn the identity side, the firm recommends restricting and auditing the client-credential OAuth apps that can reach Graph and alerting on newly created client secrets, plus the usual Entra ID hygiene of Conditional Access, credential rotation, and anomalous-token detection.\nFor detection, audit Microsoft Graph and mailbox activity for application-driven calendar changes: events created, attachments uploaded, or subjects renamed by an app rather than a person. Watch DNS too, for unusually frequent AAAA queries and long, high-entropy subdomains aimed at a single domain. Hunting forcloudlanecdn[.]comand thelogAzure.txtconfig file is the fast first pass, and the full indicator set, including file hashes, is in Group-IB's report.\nHiding command-and-control in trusted Microsoft services isnot new; attackers have already run it through Outlook inboxes, draft folders and OneDrive. Events parked in 2050, out where no one looks, are simply the latest spot defenders had no reason to inspect. The operator still has no name, and victim traffic was flowing as recently as 9 July, which makes those far-future calendar entries worth a look now.\nLearn how to secure AI agents with practical controls for access, visibility, secrets, and risk containment.\nLearn how to govern risk, secure AI-built software, and keep control as development moves at machine speed.\nGet the latest news, expert insights, exclusive resources, and strategies from industry leaders, all for free.",
+      "url": "https://thehackernews.com/2026/07/hollowgraph-malware-hides-c2-and-stolen.html",
+      "tag": "악성코드",
+      "tagCls": "tag-red"
+    },
+    {
+      "no": "4",
+      "title": "국립외교원 시스템 해킹 9개월 지속…교육 정보 1만 건 유출",
+      "source": "iminju",
+      "date": "7.21.",
+      "summary1": "국립외교원 온라인 교육 시스템이 9개월간 해킹 공격을 받아 정보 1만 건이 유출돼",
+      "summary2": "외교관·해외 파견 공무원 등의 이름·이메일 등 교육 정보가 대거 노출돼",
+      "body": "민주신문=변현경 기자｜외교부 산하 국립외교원의 온라인 교육 시스템이 장기간 해킹 공격을 받은 사실이 드러났다. 해당 시스템에는 외교관과 해외 파견 공무원 등의 교육 정보가 대거 담긴 것으로 확인됐다.\n\n21일 외교부에 따르면 공격자는 지난해 4~5월경 미흡한 보안 설정을 악용해 국립외교원 온라인 교육 시스템에 침투했다. 이후 올해 2월까지 해당 서버에 접근하며 정보를 확인한 것으로 파악됐다.\n\n외교부는 현재 해당 시스템 운영을 중단하고 관계 기관과 함께 원인과 피해 규모를 확인하고 있다. 지난 2022·2024년에 보안 점검을 진행했지만 당시 특이점을 발견하지 못했다는 입장이다.\n\n확인된 저장 데이터는 약 1만 건 규모다. 여기에는 ▲외교관 ▲해외 파견 공무원 ▲행정직 등의 이름·이메일·아이디와 암호화된 비밀번호 등이 포함됐다.\n\n다만 주민등록번호와 전화번호 등 민감 개인정보는 저장되지 않았던 것으로 확인됐다.\n\n해킹 배후에 대해서는 여러 가능성을 열어두고 있다. 특히 이번 사건이 국가 안보와 연결될 수 있는 사안인 만큼 해외 파견 정보기관 요원의 정보가 포함됐는지도 조사 대상이 될 전망이다.",
+      "url": "http://www.iminju.net/news/articleView.html?idxno=166919",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red"
+    },
+    {
+      "no": "5",
+      "title": "10개월 간 몰랐던 외교관 신상정보 1만 건 유출…외교부 늑장대응",
+      "source": "한겨레",
+      "date": "7.21.",
+      "summary1": "외교부 산하 국립외교원 서버 해킹으로 신상정보 1만 건이 유출돼",
+      "summary2": "10개월간 해킹을 인지 못 해 외교부 사이버 보안 역량에 구멍이 뚫려",
+      "body": "외교부 산하 국립외교원의 온라인 교육 시스템 서버가 약 10개월 동안 해킹당해 외교부 직원 등 최대 1만 건의 개인정보가 유출된 것으로 추정된다. 해킹이 지속되는 동안 이를 파악하지 못했고 직원들에게도 피해 사실을 뒤늦게 통보하는 등 외교부의 사이버 보안 역량에 구멍이 뚫렸다는 지적이 나오고 있다.\n\n외교부는 지난해 4월부터 올해 2월 초까지 국립외교원 온라인 교육 시스템이 해킹당한 정황을 올해 2월 관계기관으로부터 통보받고 조사에 착수했다. 서버에는 국립외교원에서 교육받은 인원의 이름과 아이디, 이메일 주소, 암호화된 비밀번호가 저장돼 있었다. 외교부 본부와 재외공관에서 일하는 외교관 전체를 비롯해 해외 파견 전 교육을 받은 국가정보원 요원이나 국방부 무관 등의 정보도 유출됐을 가능성을 배제할 수 없다. 외교부 당국자는 21일 \"해당 시스템에 약 1만 건의 데이터가 저장돼 있었다\"며 이번 유출은 \"유례가 없는 경우\"이고 \"국가안보와도 무관하지 않은 사안\"이라고 말했다.\n\n외교부는 북한이나 중국 당국이 해킹의 배후에 있을 가능성도 염두에 두고 조사하고 있지만, 아직 정확한 공격 주체는 밝히지 못했다. 외교부 당국자는 \"현재까지 주체를 단정할 만한 기술적 분석은 부족한 상태\"라며 \"여타 국가 등 배후의 해커 조직을 포함해 모든 가능성을 배제하지 않고 있다\"고 말했다. 외교관 등의 민감한 개인정보는 악의적으로 활용될 우려가 있다.\n\n해킹 공격을 받은 시스템은 코로나19 확산으로 대면 교육이 어려웠던 2022년부터 운영됐다. 외교부는 개통 이후 수시로 사이버 보안 점검을 했지만, 이번 공격은 올해 2월 초 관계기관의 통보를 받고서야 인지했다. 외교부 관계자는 \"이번 공격은 소프트웨어 제조사도 당시 인지하지 못했던 미공개 보안취약점(제로데이 취약점)을 악용해 접속한 후 정상적인 소프트웨어 권한을 이용했기 때문에 일반적인 방법으로는 탐지가 어려웠다\"고 해명했다. 하지만 신종 해킹 기법이더라도 해킹을 10개월이나 방치한 점, 국가안보와 관련한 민감한 개인 정보를 다루면서 해킹에 대한 대비가 충분치 않았다는 점은 비판을 피하기 어려워 보인다.\n\n외교부는 정확한 정보 유출 규모와 피해 상황도 파악하지 못하고 있다. 조사 착수 5개월 만인 지난 20일에야 해킹 피해 사실을 보도자료로 처음 공개했고, 직원들에게도 누리집을 통해 공지하는 데 그쳤다. 피해 직원에 대한 개별 통보는 준비 중이다. 외교부 장관과 청와대 국가안보실 보고 시점도 명확히 밝히지 않고 있다.\n\n박일 외교부 대변인은 \"이번 사안을 엄중하게 인식하고 있으며, 관계기관과 협력해 사건의 철저한 규명을 위해서 노력할 것\"이라며 \"이번 사건을 계기로 내부 사이버 보안 체계를 정밀하게 점검해 미비점을 보완·개선하고 관련 관리시스템을 강화하겠다\"고 말했다.",
+      "url": "https://www.hani.co.kr/arti/politics/politics_general/1269265.html",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red"
+    }
+  ]
+}
