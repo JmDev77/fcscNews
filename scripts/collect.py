@@ -199,8 +199,8 @@ def fetch_rss(feed):
             pub   = e.get('published') or e.get('updated','')
             dt    = parse_dt(pub)
             if dt < cutoff: continue
-            # 해외 피드 및 IT 종합 피드(아이뉴스24 등)는 보안 키워드로 필터링
-            if feed['source'] in ('아이뉴스24',) or feed['group'] == '해외':
+            # 국내 종합성 피드(데일리시큐 등)와 해외 피드는 보안 키워드로 필터링
+            if feed['source'] in ('데일리시큐',) or feed['group'] == '해외':
                 if not is_security_related(title, desc): continue
             tag, cls = classify(title, desc)
             items.append({
@@ -276,10 +276,15 @@ def main():
     # 기존 feeds.json 로드 (있으면 병합)
     all_items = {}
     cutoff = datetime.now(KST) - timedelta(hours=RETENTION_HRS)
+    VALID_GROUPS = {'국내', '해외'}  # 예전 버전의 그룹값(보안뉴스/네이버/KISA/취약점 등)은 정리
     if FEEDS_PATH.exists():
         try:
             existing = json.loads(FEEDS_PATH.read_text(encoding='utf-8'))
+            stale_count = 0
             for a in existing.get('articles', []):
+                if a.get('group') not in VALID_GROUPS:
+                    stale_count += 1
+                    continue
                 try:
                     dt = datetime.fromisoformat(a.get('rawDate',''))
                     if dt.tzinfo is None:
@@ -288,7 +293,7 @@ def main():
                         all_items[a['id']] = a
                 except:
                     pass
-            print(f"[기존 데이터] {len(all_items)}건 로드")
+            print(f"[기존 데이터] {len(all_items)}건 로드 (예전 그룹값 {stale_count}건 정리됨)")
         except Exception as e:
             print(f"[기존 데이터] 로드 실패: {e}")
 
