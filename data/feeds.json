@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-21T16:27:11.921852+09:00",
+  "fetched_at": "2026-07-21T16:54:07.124805+09:00",
   "count": 200,
   "articles": [
     {
@@ -26,9 +26,7 @@
       "group": "보안뉴스",
       "tag": "AI 보안",
       "tagCls": "tag-blue",
-      "lang": "ko",
-      "groupId": "g1",
-      "groupSize": 2
+      "lang": "ko"
     },
     {
       "id": "32e85156de2c",
@@ -67,9 +65,7 @@
       "group": "보안뉴스",
       "tag": "AI 보안",
       "tagCls": "tag-blue",
-      "lang": "ko",
-      "groupId": "g2",
-      "groupSize": 2
+      "lang": "ko"
     },
     {
       "id": "31d98b21bfab",
@@ -95,9 +91,7 @@
       "group": "보안뉴스",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
-      "lang": "ko",
-      "groupId": "g3",
-      "groupSize": 4
+      "lang": "ko"
     },
     {
       "id": "95eb64164496",
@@ -110,9 +104,7 @@
       "group": "보안뉴스",
       "tag": "AI 보안",
       "tagCls": "tag-blue",
-      "lang": "ko",
-      "groupId": "g4",
-      "groupSize": 2
+      "lang": "ko"
     },
     {
       "id": "3418ef7f983b",
@@ -138,9 +130,7 @@
       "group": "보안뉴스",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
-      "lang": "ko",
-      "groupId": "g5",
-      "groupSize": 7
+      "lang": "ko"
     },
     {
       "id": "64a415e1d4c4",
@@ -153,9 +143,7 @@
       "group": "보안뉴스",
       "tag": "AI 보안",
       "tagCls": "tag-blue",
-      "lang": "ko",
-      "groupId": "g6",
-      "groupSize": 4
+      "lang": "ko"
     },
     {
       "id": "3b997a50fac5",
@@ -181,9 +169,7 @@
       "group": "보안뉴스",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
-      "lang": "ko",
-      "groupId": "g7",
-      "groupSize": 2
+      "lang": "ko"
     },
     {
       "id": "ef192dbe137c",
@@ -196,9 +182,319 @@
       "group": "보안뉴스",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
-      "lang": "ko",
-      "groupId": "g7",
-      "groupSize": 2
+      "lang": "ko"
+    },
+    {
+      "id": "6b0ad4b72065",
+      "title": "전직 검사장들 &quot;검찰미래위 李 재판 기록 확보 시도는 명백한 위법&quot;",
+      "desc": "당시 법무부는 \"검찰 수사 과정에서 인권 침해와 권한 남용이 의심되는 사건을 조사하겠다\"고 설명했다. 1차... 공무상비밀누설, 개인정보보호법위반 등 중대한 형사적 책임을 야기할 수 있는 문제\"라고 비판했다. 그러면서...",
+      "url": "https://www.sisajournal.com/news/articleView.html?idxno=380545",
+      "date": "7.21.",
+      "rawDate": "2026-07-21T16:53:00+09:00",
+      "source": "sisajournal",
+      "group": "네이버",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "a082d06b5053",
+      "title": "국민대, 국제학술대회 ‘EBISION 2026’ 개최…글로벌 대학·기업과 협약...",
+      "desc": "정 총장은 환영사를 통해 AI 전환기에 따른 사이버 보안 위협 대응과 차세대 양자 기술 개발을 위해 국가 간 경계를 허무는 공동연구 및 산학 협력의 중요성을 피력했다. 이번 대회에는 한국을 포함해 덴마크, 일본...",
+      "url": "https://www.viva100.com/article/20260721501267",
+      "date": "7.21.",
+      "rawDate": "2026-07-21T16:50:00+09:00",
+      "source": "viva100",
+      "group": "네이버",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "3b3e3426d538",
+      "title": "GTA6 전후로 집중된 출시일정들...하반기 출시작 모아보기",
+      "desc": "앞서 울버린 로건의 거칠고 강력한 전투 스타일과 진 그레이를 포함한 뮤턴트 특수부대 팀 X, 사이버네틱 용병단 리버 등을 소개한 바 있다. 빠르고 유려하면서도 잔혹한 클로 공격을 바탕으로 울버린의 거친 액션이나...",
+      "url": "https://www.gameshot.net/common/con_view.php?code=GA6a5f19e034db8",
+      "date": "7.21.",
+      "rawDate": "2026-07-21T16:46:00+09:00",
+      "source": "gameshot",
+      "group": "네이버",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "89b3dc7651a1",
+      "title": "코렌스, ‘전기차 냉매통합드라이버’ 국제 표준 인증 획득",
+      "desc": "이번 심사에는 A-SPICE와 자동차 사이버보안 국제표준(ISO/SAE 21434), 프로세스 최적화 및 디지털 전환(DX)의 전문가로 꼽히는 요그 디링거 수석 심사원이 참여했다. 코렌스 관계자는 “이번 A-SPICE CL1 인증은 글로벌...",
+      "url": "https://biz.heraldcorp.com/article/10815340?ref=naver",
+      "date": "7.21.",
+      "rawDate": "2026-07-21T16:45:00+09:00",
+      "source": "biz",
+      "group": "네이버",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "318c103d9210",
+      "title": "&quot;긴축끊고 투자로 성장&quot;…日, 적극재정으로 GDP 1경원 달성한다",
+      "desc": "17개 전략 분야는 피지컬 인공지능(AI), 반도체, 무인기(드론), 액화천연가스(LNG) 운반선을 포함한 조선, 방위산업, 양자, 항공·우주, 콘텐츠, 디지털·사이버 보안, 핵융합, 정보통신, 해양 등이다. 일본 정부는 이 같은...",
+      "url": "https://www.yna.co.kr/view/AKR20260721150800073?input=1195m",
+      "date": "7.21.",
+      "rawDate": "2026-07-21T16:44:00+09:00",
+      "source": "연합뉴스",
+      "group": "네이버",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "2b6027bfe3dc",
+      "title": "새솔테크, 방사청 K-방산 육성사업 선정...국방 보안 진출",
+      "desc": "모빌리티 사이버보안 기업 새솔테크(대표 한준혁)는 방위사업청이 주관하고 국방기술진흥연구소가 수행하는 '2026년 K-방산 스타트업 1단계 육성사업'에 선정됐다고 21일 밝혔다. 회사 측은 양자내성암호(PQC)를...",
+      "url": "https://www.mt.co.kr/industry/2026/07/21/2026072109520514750",
+      "date": "7.21.",
+      "rawDate": "2026-07-21T16:44:00+09:00",
+      "source": "머니투데이",
+      "group": "네이버",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "45fe1b3cf515",
+      "title": "한수원 '2026년 제1차 감사자문위원회' 개최",
+      "desc": "이번 회의는 강민구 상임감사위원 부임 이후 처음 열린 자문위원회로, 공공정책·경영관리·내부통제·IT정보보안 등 분야별 외부 전문가를 새로 위촉해 자체감사기구의 전문성과 독립성을 강화하기 위해 마련됐다....",
+      "url": "https://www.todayenergy.kr/news/articleView.html?idxno=300647",
+      "date": "7.21.",
+      "rawDate": "2026-07-21T16:44:00+09:00",
+      "source": "todayenergy",
+      "group": "네이버",
+      "tag": "정책/제도",
+      "tagCls": "tag-green",
+      "lang": "ko"
+    },
+    {
+      "id": "cedd14fe7265",
+      "title": "&quot;좋은 규제는 강한 규제 아닌 준법 유도하는 규제&quot;...과징금 제도 개선...",
+      "desc": "배기철 경희대 법학전문대학원 교수는 개인정보 보호법상 과징금 제도의 현황과 개선방안을 주제로 한 세 번째 발제에서 안전조치의무 위반(의무위반행위)과 개인정보 유출(침해행위)이라는 서로 다른 법적 성격의 행위를...",
+      "url": "https://www.m-joongang.com/news/articleView.html?idxno=402835",
+      "date": "7.21.",
+      "rawDate": "2026-07-21T16:44:00+09:00",
+      "source": "m-joongang",
+      "group": "네이버",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "df6ff2d3ff88",
+      "title": "방첩사 해체하고 국방방첩본부·국방보안지원단 이달 말 창설",
+      "desc": "방첩·보안 기능 분리…안보수사 업무는 조사본부로 이관 국방방첩본부는 방첩과 방산 관련 정보 활동을 비롯해 방산 보안과 사이버 보안 업무를 담당한다. 국방보안지원단은 군단급 이상 부대를 대상으로 한...",
+      "url": "https://www.joongang.co.kr/article/25446853",
+      "date": "7.21.",
+      "rawDate": "2026-07-21T16:43:00+09:00",
+      "source": "중앙일보",
+      "group": "네이버",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "d308205cfa0c",
+      "title": "한수원, 외부 전문가 중심 신규 감사 자문위원 위촉…전문성·독립성 향...",
+      "desc": "이번 회의는 강민구 상임감사위원 부임 이후 처음 열린 자문위원회로, 공공정책·경영관리·내부통제·IT정보보안 등 분야별 외부 전문가를 새로 위촉해 자체감사기구의 전문성과 독립성을 강화하기 위해 마련됐다....",
+      "url": "http://www.e-platform.net/news/articleView.html?idxno=103982",
+      "date": "7.21.",
+      "rawDate": "2026-07-21T16:42:00+09:00",
+      "source": "e-platform",
+      "group": "네이버",
+      "tag": "정책/제도",
+      "tagCls": "tag-green",
+      "lang": "ko"
+    },
+    {
+      "id": "40833f9f759f",
+      "title": "중진공 'AI 윤리헌장' 선포…AI윤리 준수기관 지정",
+      "desc": "중진공은 그간 AI 전환(AX) 확대 기조에 맞춰 개인정보 침해와 보안 위협 등의 위험을 예방하고자 윤리 관리 체계를 단계적으로 마련해 왔다. 윤리헌장 수립과 함께 한국지능정보사회진흥원(NIA)의 'AI윤리 준수기관...",
+      "url": "https://www.ajunews.com/view/20260721162837934",
+      "date": "7.21.",
+      "rawDate": "2026-07-21T16:42:00+09:00",
+      "source": "ajunews",
+      "group": "네이버",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "ece36125220d",
+      "title": "[기획/미토스 이후, 취약점 대응②] 서비스 멈추지 않고 빠르게 패치하...",
+      "desc": "앤트로픽의 인공지능(AI) 모델 미토스를 기점으로 AI의 소프트웨어 취약점 탐색 능력이 빠르게 발전하고 있다. AI가 대량의 취약점을 찾고 공격 코드까지 만들 수 있게 되면서, 이를 어떻게 빠르게 분석·검증하고 대응...",
+      "url": "https://byline.network/?p=9004111222612200",
+      "date": "7.21.",
+      "rawDate": "2026-07-21T16:42:00+09:00",
+      "source": "byline",
+      "group": "네이버",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "63602394fffc",
+      "title": "이재명 대통령 &quot;부동산이 자산 불평등·가계부채 원인, 23일 토론서 대안...",
+      "desc": "오는 31일 창설되는 국방방첩본부는 방첩·방산 관련 정보활동과 방산·사이버보안 등 업무를, 국방보안지원단은 군단급 이상의 중앙보안감사와 보안사고 조사 등 군내 보안업무를 담당한다.",
+      "url": "https://www.kado.net/news/articleView.html?idxno=2062302",
+      "date": "7.21.",
+      "rawDate": "2026-07-21T16:38:00+09:00",
+      "source": "kado",
+      "group": "네이버",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "3ee51bf0a945",
+      "title": "'코드게이트 2026' 인간vsAI '해킹' 승부…AI 보안 인재 양성 본격화",
+      "desc": "이어 글로벌 블록체인 분석기업 '체이널리시스' 공동 창업자이자 '그라이AI'를 이끄는 마이클 그로내거 대표, 루이스 로우 화웨이 사이버보안 및 개인정보보호 부문 글로벌 커뮤니케이션 총괄 등도 발표자로 연단에...",
+      "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5042964",
+      "date": "7.21.",
+      "rawDate": "2026-07-21T16:38:00+09:00",
+      "source": "shinailbo",
+      "group": "네이버",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "6d926625379b",
+      "title": "외교관 정보 털리는데 10개월간 몰랐다니…해킹에 무방비 외교부",
+      "desc": "외부 수사기관에 정식으로 수사를 의뢰할지 여부도 아직 결정되지 않았다. 외교부는 공격 경로와 유출 범위, 공격 주체를 조사하는 한편 내부 사이버 보안 체계와 개인정보 관리 실태를 전면 점검할 방침이다.",
+      "url": "https://news.tvchosun.com/site/data/html_dir/2026/07/21/2026072190240.html",
+      "date": "7.21.",
+      "rawDate": "2026-07-21T16:38:00+09:00",
+      "source": "조선일보",
+      "group": "네이버",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "b40590bfe209",
+      "title": "안철수 &quot;한동훈 책 다 읽었는데…왜 지금까지 입 닫고 계세요?&quot; [금요비...",
+      "desc": "9개월 동안 해킹이 됐었다는 거죠. ▷최훈민: 화이트, 블랙 다요? ▶이동재: 그건 모르겠어요. 그런데 대부분 되지 않았을까요? 국립외교원이 해킹이 됐는데 지금 적게는 6천, 많게는 만 명까지도 갈 수 있다. ▷최훈민...",
+      "url": "https://www.imaeil.com/page/view/2026072115281307347",
+      "date": "7.21.",
+      "rawDate": "2026-07-21T16:38:00+09:00",
+      "source": "imaeil",
+      "group": "네이버",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "a23d23747227",
+      "title": "김찬술-국민의힘 강대강 대치...대덕구 협치 '흔들'",
+      "desc": "자율성을 침해했다\"며 공개 사과를 요구하고 나섰다. 선거법 논란이 집행부와 의회 간 갈등으로 확전되는... 지지선언, 개인정보 유출 의혹 등을 거론하며 대덕경찰서의 신속하고 철저한 수사를 촉구했다. 이들은 \"6월...",
+      "url": "http://www.ccnnews.co.kr/news/articleView.html?idxno=412376",
+      "date": "7.21.",
+      "rawDate": "2026-07-21T16:38:00+09:00",
+      "source": "ccnnews",
+      "group": "네이버",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "8766505d6ff6",
+      "title": "韓 외교관 신상, 해커에 싹 다 털렸다…최대 1만건 유출 가능성",
+      "desc": "이를 계기로 사이버 보안시스템에 불충분한 점과 미흡한 점은 없는지 심각하게 들여다보려고 한다\"고 덧붙였다. 현재 정부는 이번 해킹이 북한이나 중국 조직의 소행일 가능성까지 염두에 둔 것으로 보인다. 외교부...",
+      "url": "https://www.imaeil.com/page/view/2026072116125821651",
+      "date": "7.21.",
+      "rawDate": "2026-07-21T16:37:00+09:00",
+      "source": "imaeil",
+      "group": "네이버",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "2160d52e3619",
+      "title": "[AI 보안전쟁①] 'AI 대 AI' 싸움…'미토스 쇼크', 패러다임 바뀐다",
+      "desc": "생성형 AI의 확산이 사이버보안의 대상과 방식, 경쟁력의 기준까지 바꾸고 있다. AI는 이제 보호해야 할 핵심 자산인 동시에, 사이버 공격과 방어를 모두 주도하는 기술이 됐다. 이에 따라 기업들은 기존 보안을 넘어 AI...",
+      "url": "https://www.insightkorea.co.kr/news/articleView.html?idxno=250604",
+      "date": "7.21.",
+      "rawDate": "2026-07-21T16:36:00+09:00",
+      "source": "insightkorea",
+      "group": "네이버",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "edc5066a82fe",
+      "title": "New ENCFORGE Ransomware Targets AI Model Files in Langflow RCE Attack",
+      "desc": "Researchers at Sysdig have linked a second attack on the same Langflow server to JADEPUFFER, the AI-agent-driven operator it first documented earlier this month.\n\nThe same operator has now been spotted deploying ENCFORGE, a new compiled Go ransomware designed to encrypt model weights, vector indexes, training datasets, and other AI infrastructure files across the host filesystem.\n\nThe entry",
+      "url": "https://thehackernews.com/2026/07/new-encforge-ransomware-targets-ai.html",
+      "date": "7.21.",
+      "rawDate": "2026-07-21T16:34:32+09:00",
+      "source": "TheHackerNews",
+      "group": "해외",
+      "tag": "랜섬웨어",
+      "tagCls": "tag-red",
+      "lang": "en"
+    },
+    {
+      "id": "0c0f9ea6c7bb",
+      "title": "(인터뷰)&quot;매뉴얼화 된 학폭위, 이어지는 소송전…필요한 건 '가르침'&quot;",
+      "desc": "실제로 가해자 측이 거짓 사이버 폭력을 이유로 피해자를 '맞폭'(학교폭력 신고로 맞대응하는 행위)한 사건이... *(편집자) 대심 구조는 행정심판 등에서 대립하는 당사자가 대등한 지위에서 공격과 방어를 할 수 있게 하고...",
+      "url": "http://www.newstomato.com/ReadNews.aspx?no=1307684&inflow=N",
+      "date": "7.21.",
+      "rawDate": "2026-07-21T16:34:00+09:00",
+      "source": "newstomato",
+      "group": "네이버",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "5fbf0a42c45a",
+      "title": "군 정보기관 대수술… 방첩·보안·수사 기능 전면 분리",
+      "desc": "새롭게 출범하는 국방방첩본부는 방첩 정보활동과 방위산업 보호, 사이버보안 등 군 방첩 업무를 전담한다. 국방보안지원단은 군단급 이상 부대의 보안감사와 보안사고 조사 등 군 내부 보안관리 기능을 맡는다. 기존...",
+      "url": "https://www.newswhoplus.com/news/articleView.html?idxno=65068",
+      "date": "7.21.",
+      "rawDate": "2026-07-21T16:30:00+09:00",
+      "source": "newswhoplus",
+      "group": "네이버",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "954552608231",
+      "title": "쿠팡의 이중잣대…美기업 주장하다 뉴욕법원에선 “韓기업이라 재판 못...",
+      "desc": "관할 부인하며 본사 책임 선 그어 158억원 로비할 땐 ‘美 기업’ 주장 원고 측 “사이버 보안 본사가 통제” 미국 정치권을 상대로 “미국 기업 쿠팡이 한국 정부에 차별받고 있다”며 전방위 로비를 벌여온 쿠팡이, 정작...",
+      "url": "https://www.mk.co.kr/article/12103500",
+      "date": "7.21.",
+      "rawDate": "2026-07-21T16:30:00+09:00",
+      "source": "매일경제",
+      "group": "네이버",
+      "tag": "정책/제도",
+      "tagCls": "tag-green",
+      "lang": "ko"
+    },
+    {
+      "id": "76a4268c994c",
+      "title": "외교부 서버, 10개월 뚫렸다…외교관 정보 1만건 유출",
+      "desc": "약 10개월간 서버에 수시로 접속한 것으로 파악되면서 외교부의 보안 관리와 대응이 도마에 오를 것으로... 외교부 당국자는 \"현재까지 사이버 공격 주체를 단정할 만한 기술적 분석은 부족한 상태\"라며 \"북한이건 어디건...",
+      "url": "https://www.hankyung.com/article/202607217132H",
+      "date": "7.21.",
+      "rawDate": "2026-07-21T16:27:00+09:00",
+      "source": "한국경제",
+      "group": "네이버",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
     },
     {
       "id": "4d1452d99d82",
@@ -216,19 +512,17 @@
       "groupSize": 2
     },
     {
-      "id": "b90356b8a0d6",
-      "title": "국립외교원 해킹에 외교관 정보 1만 건 유출 가능성",
-      "desc": "외교부 관계자는 \"이번 사안을 엄중히 인식하며 관계기관과 협력해 사건 규명에 노력하겠다\"며 \"내부 사이버보안 체계를 점검해 미비점을 보완·개선할 것\"이라고 말했다.",
-      "url": "https://www.itdaily.kr/news/articleView.html?idxno=240508",
+      "id": "f8d42b03604e",
+      "title": "국립외교원 해킹, 외교관 정보 다 털렸다…&quot;북한 소행 배제 안 해&quot;",
+      "desc": "아울러 \"외교부는 이번 사건을 계기로 내부 사이버 보안 체계를 정밀하게 점검하여 미비점을 보완·개선하고 관련 관리시스템을 강화할 것\"이라고 했다. 외교부에 따르면, 해킹된 시스템은 민감 정보에 접근할 수 있는...",
+      "url": "https://www.mt.co.kr/politics/2026/07/21/2026072115524520863",
       "date": "7.21.",
-      "rawDate": "2026-07-21T16:24:00+09:00",
-      "source": "itdaily",
+      "rawDate": "2026-07-21T16:25:00+09:00",
+      "source": "머니투데이",
       "group": "네이버",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
-      "lang": "ko",
-      "groupId": "g9",
-      "groupSize": 9
+      "lang": "ko"
     },
     {
       "id": "86f3752402b1",
@@ -261,19 +555,6 @@
       "groupSize": 9
     },
     {
-      "id": "2bf14e25e0b5",
-      "title": "전직 검사장들 “검찰미래위 재판기록 확보 시도는 위법… 재판 공정성...",
-      "desc": "전직 검사장들은 직권남용권리행사방해와 공무상비밀누설, 개인정보보호법 위반 가능성을 거론하며... 권리를 침해할 수 있다고 비판했다. 검찰미래위는 검찰의 인권침해와 검찰권 남용 의혹을 규명한다는 목적으로...",
-      "url": "https://biz.chosun.com/topics/law_firm/2026/07/21/33WQZPUNORGVTBUZBBEYCNVQGA/?utm_source=naver&utm_medium=original&utm_campaign=biz",
-      "date": "7.21.",
-      "rawDate": "2026-07-21T16:24:00+09:00",
-      "source": "조선일보",
-      "group": "네이버",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
       "id": "386651e5628f",
       "title": "국방 AI 윤리 기준 제시 글로벌 AI 강국의 첫걸음",
       "desc": "제한된 시간, 불완전한 정보, 적의 기만과 사이버 공격, 임무 성공과 민간인 보호라는 상충된 가치가 동시에 존재한다. 이런 상황에서는 책임감, 투명성, 설명 가능성과 같은 일반적인 AI 윤리원칙만으로는 충분하지 않다....",
@@ -287,21 +568,6 @@
       "lang": "ko",
       "groupId": "g11",
       "groupSize": 4
-    },
-    {
-      "id": "eeb967c08b67",
-      "title": "'방첩사 해체' 국무회의 의결… 국방방첩본부 이달 말 창설",
-      "desc": "국방방첩본부는 방첩·방산 관련 정보활동과 방산·사이버보안 등 업무를 수행하고, 국방보안지원단은 군단급 이상의 중앙보안감사와 보안사고 조사 등 군내 보안 업무를 맡습니다. 기존 방첩사의 안보 수사 기능과 계엄...",
-      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008667574&plink=ORI&cooper=NAVER",
-      "date": "7.21.",
-      "rawDate": "2026-07-21T16:22:00+09:00",
-      "source": "SBS",
-      "group": "네이버",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko",
-      "groupId": "g12",
-      "groupSize": 3
     },
     {
       "id": "88f925d31178",
@@ -341,21 +607,6 @@
       "tag": "해킹/침해",
       "tagCls": "tag-red",
       "lang": "ko"
-    },
-    {
-      "id": "d5d248d8e9fa",
-      "title": "외교관 정보 다 털리는데 10개월간 몰랐다…해킹에 '뻥 뚫린' 외교부",
-      "desc": "외교부는 관계기관과 공격 경로와 유출 범위, 공격 주체를 조사하는 한편 내부 사이버 보안 체계와 개인정보 관리 실태를 전면 점검할 방침이다. 박 대변인은 \"이번 사안을 엄중하게 인식하고 있다\"며 \"사건을 철저히...",
-      "url": "https://www.news1.kr/diplomacy/defense-diplomacy/6234295",
-      "date": "7.21.",
-      "rawDate": "2026-07-21T16:19:00+09:00",
-      "source": "뉴스1",
-      "group": "네이버",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko",
-      "groupId": "g9",
-      "groupSize": 9
     },
     {
       "id": "6a0862abe3a8",
@@ -401,21 +652,6 @@
       "lang": "ko"
     },
     {
-      "id": "afeb27c1fac6",
-      "title": "한국 외교관 신상정보 최대 1만건 유출…해킹 추정",
-      "desc": "외교부 관계자는 \"청와대에도 보고가 됐다\"며 \"이를 계기로 사이버 보안시스템에 불충분한 점과 미흡한 점은 없는지 심각하게 들여다보려고 한다\"고 말했다. 정부는 북한이나 중국 등의 해킹 조직에 의한 공격일...",
-      "url": "https://www.slist.kr/news/articleView.html?idxno=753193",
-      "date": "7.21.",
-      "rawDate": "2026-07-21T16:16:00+09:00",
-      "source": "slist",
-      "group": "네이버",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko",
-      "groupId": "g9",
-      "groupSize": 9
-    },
-    {
       "id": "503e48769611",
       "title": "박새롬 수성구의원 “정보보안 기반 스마트 선거관리 체계 구축해야”",
       "desc": "박새롬 대구 수성구의원이 최근 전국에서 발생한 투표용지 미지급 사태를 계기로 정보보안 기술을 활용한 스마트 선거관리 체계 구축이 필요하다고 제안했다. 박 의원은 지난 20일 열린 수성구의회 제276회 임시회 제1차...",
@@ -423,19 +659,6 @@
       "date": "7.21.",
       "rawDate": "2026-07-21T16:16:00+09:00",
       "source": "kbmaeil",
-      "group": "네이버",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "0c7db17396ab",
-      "title": "코렌스, '전기차 냉매통합드라이버' 국제 표준 인증..글로벌 톱티어 박...",
-      "desc": "코렌스는 향후 프로세스 품질을 더욱 고도화해 A-SPICE CL2를 조기 달성하는 것 외에도 글로벌 차량 기능 안전 표준인 'ISO 26262'와 전장 시장의 핵심 화두인 '사이버보안(Cyber Security)' 인증까지 순차적으로 획득할...",
-      "url": "http://www.fnnews.com/news/202607211604010921",
-      "date": "7.21.",
-      "rawDate": "2026-07-21T16:10:00+09:00",
-      "source": "fnnews",
       "group": "네이버",
       "tag": "보안",
       "tagCls": "tag-blue",
@@ -677,19 +900,17 @@
       "lang": "ko"
     },
     {
-      "id": "868dbce7bdfd",
-      "title": "국방부 &quot;방첩사 조직개편안 국무회의 의결&quot;",
-      "desc": "이에 따라 오는 31일 창설될 예정인 국방방첩본부는 방첩·방산 관련 정보활동과 방산·사이버보안 등 업무를 수행하고, 국방보안지원단은 군단급 이상의 중앙보안감사와 보안사고 조사 등 군내 보안업무를 맡습니다. 또...",
-      "url": "https://www.ytn.co.kr/_ln/0101_202607211552086265",
+      "id": "4ea395ad3b07",
+      "title": "'방첩사 해체' 국무회의 의결…&quot;이달 말 국방방첩본부 창설&quot;",
+      "desc": "국방방첩본부는 방첩·방산 관련 정보활동과 방산·사이버보안 등 업무를 수행하고, 국방보안지원단은 군단급 이상의 중앙보안감사와 보안사고 조사 등 군내 보안업무를 맡게 됩니다. 기존 방첩사의 안보수사 기능과 계엄...",
+      "url": "http://www.yonhapnewstv.co.kr/news/AKR20260721155215qH2",
       "date": "7.21.",
-      "rawDate": "2026-07-21T15:52:00+09:00",
-      "source": "YTN",
+      "rawDate": "2026-07-21T15:53:00+09:00",
+      "source": "yonhapnewstv",
       "group": "네이버",
       "tag": "보안",
       "tagCls": "tag-blue",
-      "lang": "ko",
-      "groupId": "g12",
-      "groupSize": 3
+      "lang": "ko"
     },
     {
       "id": "6ef102112559",
@@ -701,6 +922,19 @@
       "source": "wikileaks-kr",
       "group": "네이버",
       "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "bf64ec616eb2",
+      "title": "국군방첩사령부 해체→국방방첩본부 창설 국무회의 의결… 방첩·수사·...",
+      "desc": "방첩·방산 관련 정보활동과 방산·사이버보안 등은 국방방첩본부에서 맡고 국방보안지원단은 군단급 이상의 중앙보안감사와 보안사고 조사 등 군내 보안업무를 담당한다. 기존 방첩사의 안보수사 기능과 계엄...",
+      "url": "http://www.lawissue.co.kr/view.php?ud=202607211550417817b3279dfb36_12",
+      "date": "7.21.",
+      "rawDate": "2026-07-21T15:52:00+09:00",
+      "source": "lawissue",
+      "group": "네이버",
+      "tag": "보안",
       "tagCls": "tag-blue",
       "lang": "ko"
     },
@@ -746,6 +980,19 @@
       "lang": "ko",
       "groupId": "g17",
       "groupSize": 2
+    },
+    {
+      "id": "f3c5810519be",
+      "title": "국립외교원 해킹 9개월간 몰랐다 … 정보 유출 범위도 '깜깜'",
+      "desc": "해킹된 서버에는 교육 동영상과 교육 대상자의 성명·아이디가 저장돼 있었다. 해당 시스템은 해킹 정황을 확인한 지난 2월부터 현재까지 차단된 상태다. 외교부는 관계기관과 공격 경로와 정보 유출 여부를 조사하고 있다....",
+      "url": "https://www.safetimes.co.kr/news/articleView.html?idxno=244333",
+      "date": "7.21.",
+      "rawDate": "2026-07-21T15:50:00+09:00",
+      "source": "safetimes",
+      "group": "네이버",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
     },
     {
       "id": "9111139a6c2a",
@@ -802,6 +1049,19 @@
       "lang": "ko",
       "groupId": "g15",
       "groupSize": 5
+    },
+    {
+      "id": "c618d4b89f47",
+      "title": "외교부 “국립외교원 해킹 엄중 인식”… 데이터 최대 1만건 유출 추정",
+      "desc": "박 대변인은 이어 ”외교부는 이번 사건을 계기로 내부 사이버 보안 체계를 정밀하게 점검해 미비점을 개선하고 관련 관리 시스템을 강화할 것“이라고 덧붙였다. 앞서 외교부는 부처 산하 국립외교원이 장기간 외부...",
+      "url": "https://biz.chosun.com/international/international_general/2026/07/21/LUHL4XQU4ZCYVJEJNWWBWYOKN4/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+      "date": "7.21.",
+      "rawDate": "2026-07-21T15:43:00+09:00",
+      "source": "조선일보",
+      "group": "네이버",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
     },
     {
       "id": "281c3708bb17",
@@ -898,9 +1158,7 @@
       "group": "보안뉴스",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
-      "lang": "ko",
-      "groupId": "g18",
-      "groupSize": 2
+      "lang": "ko"
     },
     {
       "id": "f48b762f6484",
@@ -998,6 +1256,19 @@
       "lang": "ko"
     },
     {
+      "id": "393cd5dceb97",
+      "title": "Critical ServiceNow AI Platform Flaw Exploited for Unauthenticated Code Execution",
+      "desc": "Threat actors are now exploiting a recently disclosed critical security flaw impacting ServiceNow AI Platform, according to Defused Cyber.\n\nIn a post shared on X, the threat intelligence firm said it's observing in-the-wild exploitation of CVE-2026-6875 (CVSS score: 9.5), a sandbox escape vulnerability that could allow an unauthenticated user to run arbitrary code.\n\nPatches for the flaw were",
+      "url": "https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html",
+      "date": "7.21.",
+      "rawDate": "2026-07-21T15:29:26+09:00",
+      "source": "TheHackerNews",
+      "group": "해외",
+      "tag": "취약점/CVE",
+      "tagCls": "tag-yellow",
+      "lang": "en"
+    },
+    {
       "id": "dbe2f419c3d3",
       "title": "방첩사 근거 규정 폐지…방첩본부·보안지원단 31일 출범",
       "desc": "새로 창설되는 국방방첩본부는 방첩과 방산 관련 정보활동, 방산보안, 사이버보안 등 군 정보기관 본연의 임무만 수행한다. 반면 군단급 이상 부대의 보안감사와 보안사고 조사는 국방보안지원단이 맡는다. 안보수사와...",
@@ -1080,21 +1351,6 @@
       "groupSize": 9
     },
     {
-      "id": "d0dbe59608af",
-      "title": "한수원, 제1차 감사자문위 개최",
-      "desc": "이번 자문위원회는 강민구 상임감사위원 부임 후 처음 열렸으며 공공정책, 경영관리, 내부통제, IT정보보안 등 각 분야 외부 전문가들이 새롭게 위촉됐다. 위원장에는 강민아 이화여자대학교 교수가, 부위원장에는 이삼만...",
-      "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=851453",
-      "date": "7.21.",
-      "rawDate": "2026-07-21T15:26:00+09:00",
-      "source": "hansbiz",
-      "group": "네이버",
-      "tag": "정책/제도",
-      "tagCls": "tag-green",
-      "lang": "ko",
-      "groupId": "g3",
-      "groupSize": 4
-    },
-    {
       "id": "4139c8d5e755",
       "title": "토스뱅크, '사이버 보안 엔지니어 부트캠프 2기' 모집…\"우수 인재 적극...",
       "desc": "토스뱅크가 IT교육 전문기업 멀티캠퍼스와 '사이버 보안 엔지니어 부트캠프 2기'를 모집한다. 사진=토스뱅크  토스뱅크(대표 이은미)는 금융 산업의 미래를 이끌 사이버 보안 인재를 육성하기 위해 IT교육 전문기업...",
@@ -1133,6 +1389,19 @@
       "group": "네이버",
       "tag": "정책/제도",
       "tagCls": "tag-green",
+      "lang": "ko"
+    },
+    {
+      "id": "51bc594a6a59",
+      "title": "외교관 개인정보 최대 1만 건 유출… 국립외교원 시스템 해킹",
+      "desc": "외교부 산하 국립외교원의 온라인교육시스템이 약 10개월간 해킹당해 전·현직 외무공무원과 재외공관 주재관 등 최대 1만 건 규모의 개인정보가 유출된 것으로 알려졌다. 이에 정부는 북한 해킹조직을 포함해 모든...",
+      "url": "https://www.daejonilbo.com/news/articleView.html?idxno=2289395",
+      "date": "7.21.",
+      "rawDate": "2026-07-21T15:21:00+09:00",
+      "source": "daejonilbo",
+      "group": "네이버",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
       "lang": "ko"
     },
     {
@@ -1203,21 +1472,6 @@
       "lang": "ko"
     },
     {
-      "id": "e85ae85868dc",
-      "title": "한수원, 감사자문위 새 출범…외부 전문가로 '감사 독립성' 강화",
-      "desc": "한수원은 20~21일 경주 본사와 월성원자력본부에서 '2026년 1차 감사자문위원회'를 열고 공공정책, 경영관리, 내부통제, IT 정보보안 등 분야의 신규 자문위원을 위촉했다고 밝혔다. 이번 회의는 강민구 상임감사위원 부임...",
-      "url": "https://www.news1.kr/economy/trend/6234205",
-      "date": "7.21.",
-      "rawDate": "2026-07-21T15:14:00+09:00",
-      "source": "뉴스1",
-      "group": "네이버",
-      "tag": "정책/제도",
-      "tagCls": "tag-green",
-      "lang": "ko",
-      "groupId": "g10",
-      "groupSize": 4
-    },
-    {
       "id": "4ee7e20b8768",
       "title": "정보유출 과징금에 대형 화재까지…악재 겹친 쿠팡",
       "desc": "정보보안과 시설안전에 대한 소비자 신뢰가 저하한 것은 물론, 수익성에도 빨간불이 켜졌다. 5년 전 경기 이천 덕평물류센터 화재 당시 3400억원의 손실이 발생했는데 이번에는 손실 규모가 더 클 것으로 추산된다. 21일...",
@@ -1244,21 +1498,6 @@
       "lang": "en"
     },
     {
-      "id": "5ce7acdcc51c",
-      "title": "중진공, AI 윤리헌장 선포…'AI 윤리 준수기관' 확인마크 획득",
-      "desc": "중진공은 기관 전반의 인공지능 전환(AX)이 확대됨에 따라 AI 활용 과정에서 발생할 수 있는 편향과 개인정보 침해, 보안 위협, 투명성 저하 등의 위험을 예방하기 위해 AI 윤리 관리체계를 단계적으로 마련해 왔다. 지난...",
-      "url": "https://www.etnews.com/20260721000282",
-      "date": "7.21.",
-      "rawDate": "2026-07-21T15:07:00+09:00",
-      "source": "전자신문",
-      "group": "네이버",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko",
-      "groupId": "g11",
-      "groupSize": 4
-    },
-    {
       "id": "c6c7b2fe5bc3",
       "title": "[김재섭의 뒤집어보기] 개인정보 유출 피해 보상 개인정보분쟁조정위 조...",
       "desc": "앞서 '사상 최악' 건으로 꼽힌 SK텔레콤 통신망 해킹 및 가입자 개인정보 유출 때는 피해 보상 분쟁조정 신청... 통신·금융·플랫폼 업체들에서 지난해 이후 줄줄이 터지고 있는 해킹 및 개인정보 유출 건들 역시 모두 보안...",
@@ -1272,6 +1511,19 @@
       "lang": "ko",
       "groupId": "g15",
       "groupSize": 5
+    },
+    {
+      "id": "1d4d7d92290c",
+      "title": "한국 전체 외교관 신상 털렸다…\"해킹범이 수시로 접속\"",
+      "desc": "한국 외교관 전체 인원의 신상 정보가 유출된 것으로 추정되는 해킹 사건이 발생했습니다. 국립외교원 온라인교육시스템에서 일어난 이 해킹 사건으로 외교부 퇴직자는 물론 타 중앙부처에서 재외공관으로 파견된 직원들...",
+      "url": "http://mbn.mk.co.kr/pages/news/newsView.php?category=mbn00009&news_seq_no=5207153",
+      "date": "7.21.",
+      "rawDate": "2026-07-21T15:06:00+09:00",
+      "source": "매일경제",
+      "group": "네이버",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
     },
     {
       "id": "81beb94603c3",
@@ -1879,9 +2131,7 @@
       "group": "보안뉴스",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
-      "lang": "ko",
-      "groupId": "g1",
-      "groupSize": 2
+      "lang": "ko"
     },
     {
       "id": "dfb968769b01",
@@ -1927,21 +2177,6 @@
       "lang": "ko",
       "groupId": "g23",
       "groupSize": 3
-    },
-    {
-      "id": "096253f3c757",
-      "title": "국립외교원 개인정보 열달간 털렸다…“상당한 규모 정보 유출”",
-      "desc": "외교부는 “사이버 공격이 나날이 지능화되고 전방위로 확대되고 있는 점을 심각한 우려 요소로 보고, 관계 기관과의 긴밀한 협력하에 내부 보안 체계 개선 및 관리 조치를 지속 강화해 나갈 계획”이라고 했다.",
-      "url": "https://biz.heraldcorp.com/article/10814410?ref=naver",
-      "date": "7.21.",
-      "rawDate": "2026-07-21T09:09:00+09:00",
-      "source": "biz",
-      "group": "네이버",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko",
-      "groupId": "g9",
-      "groupSize": 9
     },
     {
       "id": "6e8137a0aab3",
@@ -2000,21 +2235,6 @@
       "lang": "ko",
       "groupId": "g25",
       "groupSize": 2
-    },
-    {
-      "id": "7f00a23e628a",
-      "title": "금융보안원, '2026년 금융보안 AI 아카데미 캠프' 개최",
-      "desc": "마지막 날에는 금융보안원과 후원사인 카카오뱅크의 채용 특강을 통해 금융보안 분야의 채용 정보를 제공하며, 우수자 및 우수팀 시상식과 폐회식을 끝으로 모든 일정을 마무리한다. 박상원 원장은 \"생성형 AI가...",
-      "url": "http://www.intn.co.kr/news/articleView.html?idxno=2052051",
-      "date": "7.21.",
-      "rawDate": "2026-07-21T09:00:00+09:00",
-      "source": "intn",
-      "group": "네이버",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko",
-      "groupId": "g3",
-      "groupSize": 4
     },
     {
       "id": "8639b504d46c",
@@ -2517,284 +2737,6 @@
       "tag": "해킹/침해",
       "tagCls": "tag-red",
       "lang": "ko"
-    },
-    {
-      "id": "6b5a0b05da96",
-      "title": "디지털 유로 추진하는 EU, '트럼프 리스크' 속 금융 주권 확보 총력",
-      "desc": "그 결과 현재 유럽 내 카드 결제 대다수가 미국 네트워크를 경유하고 있으며, 이는 유럽 경제의 핵심 취약점으로 지목된다. 유럽중앙은행이 디지털 유로를 통해 구축하려는 대상은 특정 민간 기업에 종속되지 않는 공공...",
-      "url": "https://www.g-enews.com/view.php?ud=2026072107341165152bd56fbc3c_1",
-      "date": "7.21.",
-      "rawDate": "2026-07-21T07:38:00+09:00",
-      "source": "g-enews",
-      "group": "네이버",
-      "tag": "취약점/CVE",
-      "tagCls": "tag-yellow",
-      "lang": "ko"
-    },
-    {
-      "id": "856c44fbbdc9",
-      "title": "우크라 러시아에 반격, 모스크바 드론 400대로 공습",
-      "desc": "우크라이나가 드론이나 순항미사일보다 요격이 훨씬 까다로운 러시아의 탄도미사일을 막기 위해 서방 정부에 정교한 요격 시스템 지원을 호소하는 사이, 러시아는 우크라이나 방공망의 취약점을 노려 탄도미사일 공습을...",
-      "url": "http://www.fnnews.com/news/202607210705091701",
-      "date": "7.21.",
-      "rawDate": "2026-07-21T07:27:00+09:00",
-      "source": "fnnews",
-      "group": "네이버",
-      "tag": "취약점/CVE",
-      "tagCls": "tag-yellow",
-      "lang": "ko"
-    },
-    {
-      "id": "112ee3b910c5",
-      "title": "CVE-2026-57495 - AgenticMail: Unauthenticated inbound mail triggers bypassPermissions resume of the operator's Claude Code session (bridge-wake)",
-      "desc": "CVE ID :CVE-2026-57495\n  \nPublished : July 20, 2026, 10:09 p.m. | 12 minutes ago\n  \nDescription :AgenticMail gives AI agents real email addresses and phone numbers. In @agenticmail/claudecode prior to version 0.2.39, @agenticmail/codex prior to version 0.1.33, @agenticmail/core prior to version 0.9.43, and @agenticmail/openclaw prior to version 0.5.71, two inbound-mail handlers act on a privileged",
-      "url": "https://cvefeed.io/vuln/detail/CVE-2026-57495",
-      "date": "7.21.",
-      "rawDate": "2026-07-21T07:09:54+09:00",
-      "source": "CVEFeed",
-      "group": "취약점",
-      "tag": "취약점/CVE",
-      "tagCls": "tag-yellow",
-      "lang": "ko",
-      "groupId": "g28",
-      "groupSize": 4
-    },
-    {
-      "id": "78f3b8b95ca1",
-      "title": "CVE-2026-57852 - Authentication Bypass via Null Short-Circuit in Grav CMS Scheduler Webhook Token Check",
-      "desc": "CVE ID :CVE-2026-57852\n  \nPublished : July 20, 2026, 10:09 p.m. | 13 minutes ago\n  \nDescription :Grav CMS scheduler-webhook plugin contains an authentication bypass vulnerability that allows unauthenticated remote attackers to trigger configured scheduled jobs by exploiting a short-circuit logic flaw in the webhook token validation. Attackers can send a single unauthenticated POST request to the s",
-      "url": "https://cvefeed.io/vuln/detail/CVE-2026-57852",
-      "date": "7.21.",
-      "rawDate": "2026-07-21T07:09:01+09:00",
-      "source": "CVEFeed",
-      "group": "취약점",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko",
-      "groupId": "g29",
-      "groupSize": 4
-    },
-    {
-      "id": "bd958c1da085",
-      "title": "XRP 보유자들 밤잠 설친다… 네트워크 보안 vs 편의성 극단 대립의 서막",
-      "desc": "보안망이 약화되어 네트워크 마비나 해킹 사고라도 발생할 경우, 자산 가치 하락은 물론 투자자들의 자산이 일순간에 증발하는 대참사로 이어질 수 있기 때문이다. 한 가상자산 보안 전문가는 \"계정 생성 문턱을 낮춰...",
-      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=469916",
-      "date": "7.21.",
-      "rawDate": "2026-07-21T07:08:00+09:00",
-      "source": "pinpointnews",
-      "group": "네이버",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "51c651b556b4",
-      "title": "[더벨]LIG D&A, 방산기술보호팀 신설…보안조직 이원화",
-      "desc": "LIG D&A가 방산기술 보호 전담 조직을 신설하며 보안 체계를 한층 강화했다. 기존 정보보호 조직에서 방산기술 보호 기능만을 분리해 별도 조직으로 운영하는 방식이다. 최근 방산 기술을 노린 사이버 공격과 기술...",
-      "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202607151612484720106565",
-      "date": "7.21.",
-      "rawDate": "2026-07-21T07:02:00+09:00",
-      "source": "thebell",
-      "group": "네이버",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "7bb6d62b26ce",
-      "title": "세종시의회 행정복지위, &quot;예산 투입만큼 가시적 성과 내라&quot;",
-      "desc": "민선 5기 첫 주요업무보고서 사이버보안·복지·의료·지역경제·시설관리 전방위 점검 이로운넷 = 차수현 기자 세종특별자치시의회 행정복지위원회가 민선 5기 세종시 집행부의 첫 주요업무 추진 상황을 보고받고 예산...",
-      "url": "https://www.eroun.net/news/articleView.html?idxno=85840",
-      "date": "7.21.",
-      "rawDate": "2026-07-21T07:02:00+09:00",
-      "source": "eroun",
-      "group": "네이버",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "9da693c182ec",
-      "title": "[더벨][SK쉴더스 민기식호 출범 1년] 캡티브 앞세운 외형 성장, 밸류 책...",
-      "desc": "회사는 사이버보안뿐 아니라 CCTV와 출입통제 등을 함께 공급할 수 있는 사업 구조를 앞세워 그룹 내 일감을 추가적으로 확보하는데 공을 들이는 중이다. 안정적인 거래처를 기반으로 외형을 키웠다는 점은 민 대표...",
-      "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202607151243177880107382",
-      "date": "7.21.",
-      "rawDate": "2026-07-21T07:02:00+09:00",
-      "source": "thebell",
-      "group": "네이버",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "019d83ab1d5d",
-      "title": "CVE-2026-57494 - AgenticMail: Cross-agent task authorization bypass in AgenticMail API",
-      "desc": "CVE ID :CVE-2026-57494\n  \nPublished : July 20, 2026, 10:01 p.m. | 20 minutes ago\n  \nDescription :AgenticMail gives AI agents real email addresses and phone numbers. In @agenticmail/api prior to version 0.9.64, a low-privileged authenticated AgenticMail agent can enumerate another agent's pending/claimed tasks by supplying the target agent name to `GET /api/agenticmail/tasks/pending?assignee=`. The",
-      "url": "https://cvefeed.io/vuln/detail/CVE-2026-57494",
-      "date": "7.21.",
-      "rawDate": "2026-07-21T07:01:43+09:00",
-      "source": "CVEFeed",
-      "group": "취약점",
-      "tag": "취약점/CVE",
-      "tagCls": "tag-yellow",
-      "lang": "ko",
-      "groupId": "g28",
-      "groupSize": 4
-    },
-    {
-      "id": "1892669ed05a",
-      "title": "[Who Is ?] 이명순 SGI서울보증 대표이사 사장",
-      "desc": "고려대학교에서 통계학을 전공한 뒤 사이버한국외국어대학교 영어영문학, 고려사이버대학교... 비대면 보증 서비스 확대로 디지털 전환(DT) 속도가 빨라진 만큼, 전산망 보안을 한 단계 높이고 IT 리스크를 완벽히...",
-      "url": "https://www.businesspost.co.kr/BP?command=article_view&num=441854",
-      "date": "7.21.",
-      "rawDate": "2026-07-21T07:00:00+09:00",
-      "source": "businesspost",
-      "group": "네이버",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "2bdc267f62c6",
-      "title": "Attackers pummel critical WordPress vuln to create all sorts of mischief",
-      "desc": "Plus dozens of PoCs in the public domain",
-      "url": "https://www.theregister.com/security/2026/07/20/attackers-pummel-critical-wordpress-vuln-to-create-all-sorts-of-mischief/5275265",
-      "date": "7.21.",
-      "rawDate": "2026-07-21T06:57:51+09:00",
-      "source": "TheRegister",
-      "group": "해외",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "en"
-    },
-    {
-      "id": "b45763908391",
-      "title": "CVE-2026-47255 - AgenticMail API/storage and outbound relay hardening",
-      "desc": "CVE ID :CVE-2026-47255\n  \nPublished : July 20, 2026, 9:56 p.m. | 25 minutes ago\n  \nDescription :AgenticMail gives AI agents real email addresses and phone numbers. @agenticmail/api prior to version 0.9.32 and @agenticmail/core prior to version 0.9.10 had weakness related to validation and and binding of inactive-agent hour filtering; storage SQL identifier validation; metadata-backed ownership che",
-      "url": "https://cvefeed.io/vuln/detail/CVE-2026-47255",
-      "date": "7.21.",
-      "rawDate": "2026-07-21T06:56:40+09:00",
-      "source": "CVEFeed",
-      "group": "취약점",
-      "tag": "취약점/CVE",
-      "tagCls": "tag-yellow",
-      "lang": "ko",
-      "groupId": "g28",
-      "groupSize": 4
-    },
-    {
-      "id": "a0de098b9387",
-      "title": "[그게 뭔가요] 국가 ‘인공지능정보보호최고책임자(CAISO)’, 필요한가?",
-      "desc": "이베지치는 기존 사이버보안과 AI 보안이 서로 다른 위험을 다룬다고 설명했다. 기존 사이버보안은 외부 공격과 무단 접근으로부터 서버와 네트워크, 계정 등을 보호하는 데 초점을 맞춘다. AI 보안은 여기에 데이터...",
-      "url": "https://byline.network/?p=9004111222612497",
-      "date": "7.21.",
-      "rawDate": "2026-07-21T06:56:00+09:00",
-      "source": "byline",
-      "group": "네이버",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "d069021bf574",
-      "title": "CVE-2026-64626 - AVideo Encoder downloadURL SSRF via unpinned retry fallback",
-      "desc": "CVE ID :CVE-2026-64626\n  \nPublished : July 20, 2026, 9:50 p.m. | 31 minutes ago\n  \nDescription :AVideo versions from commit 0dbadbca through latest master contain a server-side request forgery vulnerability in the encoder download-by-URL flow due to an unpinned retry fallback that bypasses DNS pinning validation. An authenticated attacker can supply a downloadURL that redirects to an internal addr",
-      "url": "https://cvefeed.io/vuln/detail/CVE-2026-64626",
-      "date": "7.21.",
-      "rawDate": "2026-07-21T06:50:54+09:00",
-      "source": "CVEFeed",
-      "group": "취약점",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko",
-      "groupId": "g29",
-      "groupSize": 4
-    },
-    {
-      "id": "26ae3b8d2269",
-      "title": "CVE-2026-64624 - FreeRDP RDP File Parser Remote Code Execution via CLI Options",
-      "desc": "CVE ID :CVE-2026-64624\n  \nPublished : July 20, 2026, 9:50 p.m. | 31 minutes ago\n  \nDescription :FreeRDP before 3.28.0 treats lines beginning with forward slash in RDP files as raw command-line options, exposing the entire CLI parser surface to untrusted files. Attackers can craft malicious RDP files with /rdp2tcp, /cert:ignore, or /drive options to execute arbitrary commands, bypass certificate va",
-      "url": "https://cvefeed.io/vuln/detail/CVE-2026-64624",
-      "date": "7.21.",
-      "rawDate": "2026-07-21T06:50:53+09:00",
-      "source": "CVEFeed",
-      "group": "취약점",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko",
-      "groupId": "g28",
-      "groupSize": 4
-    },
-    {
-      "id": "e5753bb26739",
-      "title": "허성무, 철도 사이버보안·부품 수급 안정성 강화 법안 발의",
-      "desc": "개정안은 국토교통부 장관이 열차 운행 및 관제 시스템에 대한 사이버테러 방지를 위한 사이버보안 기술 기준을 마련·고시하도록 하고, 철도운영자가 철도차량을 신규 도입하거나 교체하는 경우 관련 부품의 수급과 기술...",
-      "url": "https://www.sentv.co.kr/article/view/sentv202607210001",
-      "date": "7.21.",
-      "rawDate": "2026-07-21T06:50:00+09:00",
-      "source": "sentv",
-      "group": "네이버",
-      "tag": "정책/제도",
-      "tagCls": "tag-green",
-      "lang": "ko",
-      "groupId": "g22",
-      "groupSize": 2
-    },
-    {
-      "id": "4372ee6d1d2e",
-      "title": "CVE-2026-47144 - Shamefile has an arbitrary file read via shamefile.yaml in shame next",
-      "desc": "CVE ID :CVE-2026-47144\n  \nPublished : July 20, 2026, 9:49 p.m. | 33 minutes ago\n  \nDescription :Shamefile is a linter for undocumented linter warnings. Prior to version 0.1.7, a path traversal vulnerability in `shame next` allows an attacker-controlled `shamefile.yaml` to disclose contents of files outside the repository, one line at a time, to the terminal of a user who runs the command. See patc",
-      "url": "https://cvefeed.io/vuln/detail/CVE-2026-47144",
-      "date": "7.21.",
-      "rawDate": "2026-07-21T06:49:09+09:00",
-      "source": "CVEFeed",
-      "group": "취약점",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko",
-      "groupId": "g29",
-      "groupSize": 4
-    },
-    {
-      "id": "333be10b52c2",
-      "title": "세종시의회, 민선 5기 첫 업무보고서 '시민 체감 행정' 집중 검증…복지...",
-      "desc": "■ \"예산 투입만큼 성과 보여야\"…핵테온 세종 실효성 점검 김재형 위원장은 올해 5회째를 맞은 사이버 보안 경진대회 '핵테온 세종' 사업을 집중 점검했다. 김 위원장은 \"예산과 행정력이 투입되는 사업인 만큼 단순한 행사...",
-      "url": "https://www.tournews21.com/news/articleView.html?idxno=138976",
-      "date": "7.21.",
-      "rawDate": "2026-07-21T06:48:00+09:00",
-      "source": "tournews21",
-      "group": "네이버",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "617948bbf873",
-      "title": "美, 무기 공급망 동맹중심으로 다시짠다...中 철저 배제[이태규의 워싱...",
-      "desc": "나바로 고문은 “이건 중국을 겨냥한 것이 아니라 다른 나라들에 대한 의존을 겨냥한 것”이라면서도 “중국이 공급망을 점점 더 대담하게 무기화하는 상황에서 우리는 취약점 해결을 위한 조처를 해야 한다”고 말했다....",
-      "url": "https://www.sedaily.com/article/20069735?ref=naver",
-      "date": "7.21.",
-      "rawDate": "2026-07-21T06:48:00+09:00",
-      "source": "서울경제",
-      "group": "네이버",
-      "tag": "취약점/CVE",
-      "tagCls": "tag-yellow",
-      "lang": "ko"
-    },
-    {
-      "id": "a91822b910ab",
-      "title": "CVE-2026-47128 - nono: Sandbox escape on Linux via D-Bus: `systemd-run --user`",
-      "desc": "CVE ID :CVE-2026-47128\n  \nPublished : July 20, 2026, 9:46 p.m. | 35 minutes ago\n  \nDescription :nono is software that allows users to run AI agents in a zero-latency sandbox. Prior to version 0.55.0, the nono Landlock/seccomp policies allow access to local Unix domain sockets (concrete and abstract). This allows an easy sandbox escape by talking to the per-user systemd dbus socket. Version 0.55.0 ",
-      "url": "https://cvefeed.io/vuln/detail/CVE-2026-47128",
-      "date": "7.21.",
-      "rawDate": "2026-07-21T06:46:32+09:00",
-      "source": "CVEFeed",
-      "group": "취약점",
-      "tag": "취약점/CVE",
-      "tagCls": "tag-yellow",
-      "lang": "ko",
-      "groupId": "g29",
-      "groupSize": 4
     }
   ]
 }
