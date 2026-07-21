@@ -55,6 +55,15 @@ FEEDS = [
 # 네이버 검색 키워드
 NAVER_KEYWORDS = ['사이버보안', '정보보안', '해킹', '취약점', '랜섬웨어', '개인정보침해', '사이버공격']
 
+# 네이버 검색 결과 중 보안뉴스와 무관한 문맥(드라마/영화/게임/연예 등) 제외용 키워드
+EXCLUDE_KEYWORDS = [
+    '드라마', '영화', '예능', '웹툰', '배우', '출연', '방영', '시청률',
+    '넷플릭스', '디즈니+', '티빙 오리지널', '왓챠',
+    '게임', '스팀', 'PC방', '콘솔', '플레이스테이션', '닌텐도',
+    '뮤직비디오', '아이돌', '컴백', '음원', '가수', '콘서트',
+    '주식 종목', '테마주', '급등', '상한가',
+]
+
 # 보안 키워드 필터 (해외 피드 필터링용)
 SECURITY_KEYWORDS = [
     '해킹', '북한', '유출', '개인정보', 'cve', '취약점', '디도스',
@@ -169,26 +178,6 @@ def is_similar(t1, t2):
     if ratio >= 0.45 and word_jaccard(t1, t2) >= WORD_JACCARD_THRESH: return True
     return False
 
-# 동시보도 그룹핑용 (완전 중복은 아니지만 같은 사건을 다룰 가능성이 높은 수준)
-STOPWORDS = {'이','가','은','는','을','를','에','의','과','와','도','로','으로','한','했다','됐다','대한','관련'}
-
-def event_keywords(t):
-    # 숫자+단위 뒤 조사성 접미사 정규화 (9개월간 vs 10개월간 -> 비교 가능하게)
-    t = re.sub(r'(\d+)\s*(개월|일|년|명|건|위|억|만)간?', r'\1\2', t)
-    words = re.sub('[^가-힣a-zA-Z0-9]', ' ', t).split()
-    return set(w for w in words if len(w) >= 2 and w not in STOPWORDS)
-
-def is_similar_event(t1, t2):
-    """제목 유사도 + 핵심 키워드 겹침을 함께 봐서 같은 사건 여부 판단"""
-    ratio = SequenceMatcher(None, t1, t2).ratio()
-    k1, k2 = event_keywords(t1), event_keywords(t2)
-    wo = len(k1 & k2) / min(len(k1), len(k2)) if k1 and k2 else 0
-    if ratio >= 0.25 and wo >= 0.2:
-        return True
-    if wo >= 0.4:
-        return True
-    return False
-
 def is_security_related(title, desc=''):
     text = (title + ' ' + desc).lower()
     return any(k in text for k in SECURITY_KEYWORDS)
@@ -226,21 +215,36 @@ def fetch_kisa_html(board):
 
             full_url = f"https://www.boho.or.kr/kr/bbs/view.do?bbsId={board['bbsId']}&menuNo={board['menuNo']}&nttId={ntt_id}"
 
-            # 목록의 같은 행(<tr>)에서 날짜(YYYY-MM-DD 형식) 텍스트 탐색
+            # 목록의 같은 행(<tr>)에서 날짜 텍스트 탐색 (형식이 다양할 수 있어 여러 패턴 시도)
             dt = None
             row = a.find_parent('tr')
             if row:
                 row_text = row.get_text(' ', strip=True)
+                # YYYY-MM-DD, YYYY.MM.DD 등
                 dm = re.search(r'(\d{4})[-.](\d{1,2})[-.](\d{1,2})', row_text)
                 if dm:
                     try:
                         dt = KST.localize(datetime(int(dm.group(1)), int(dm.group(2)), int(dm.group(3))))
                     except Exception:
                         dt = None
+                if dt is None:
+                    # 연도 없이 MM-DD 또는 MM.DD 형식 (올해로 간주)
+                    dm2 = re.search(r'(?<!\d)(\d{1,2})[-.](\d{1,2})(?!\d)', row_text)
+                    if dm2:
+                        try:
+                            now = datetime.now(KST)
+                            dt = KST.localize(datetime(now.year, int(dm2.group(1)), int(dm2.group(2))))
+                            if dt > now:  # 미래 날짜면 작년으로 보정
+                                dt = dt.replace(year=now.year - 1)
+                        except Exception:
+                            dt = None
+
             if dt is None:
-                # 날짜를 못 찾으면 이 글은 스킵 (오늘 날짜로 잘못 표시해 cutoff를 무력화하는 것 방지)
-                continue
-            if dt < cutoff:
+                # 날짜를 끝내 못 찾으면: 게시판이 최신순 정렬이므로 상위 항목 일부는 최근 글로 간주
+                # (단, 무제한 신뢰하지 않도록 상위 10개까지만 허용)
+                if len(items) >= 10:
+                    continue
+            elif dt < cutoff:
                 continue
 
             tag, cls = classify(title)
@@ -249,8 +253,8 @@ def fetch_kisa_html(board):
                 'title':   title,
                 'desc':    '',
                 'url':     full_url,
-                'date':    fmt_date(dt),
-                'rawDate': dt.isoformat(),
+                'date':    fmt_date(dt) if dt else fmt_date(datetime.now(KST)),
+                'rawDate': (dt or datetime.now(KST)).isoformat(),
                 'source':  board['source'],
                 'group':   'KISA',
                 'tag':     tag,
@@ -268,17 +272,20 @@ def fetch_kisa_html(board):
 # ── RSS 수집 ──────────────────────────────────────────
 def fetch_rss(feed):
     try:
-        d = feedparser.parse(feed['url'],
-            request_headers=HEADERS,
-            agent=HEADERS['User-Agent'])
+        # feedparser.parse(url)는 자체 타임아웃이 없어 응답 없는 서버에 무한 대기할 수 있음
+        # requests로 명시적 타임아웃을 걸고 받은 내용을 feedparser에 넘김
+        r = requests.get(feed['url'], headers=HEADERS, timeout=15)
+        if r.status_code != 200:
+            print(f"  ❌ {feed['source']}: HTTP {r.status_code}")
+            return []
+        d = feedparser.parse(r.content)
 
         # 진단: 파싱 실패나 HTTP 오류 시 원인 로그
-        status = getattr(d, 'status', None)
         if d.get('bozo') and not d.entries:
             reason = d.get('bozo_exception', '알 수 없음')
-            print(f"  ⚠️ {feed['source']}: 파싱 오류 (status={status}) - {reason}")
+            print(f"  ⚠️ {feed['source']}: 파싱 오류 - {reason}")
         elif not d.entries:
-            print(f"  ⚠️ {feed['source']}: entries 없음 (status={status})")
+            print(f"  ⚠️ {feed['source']}: entries 없음")
 
         items = []
         cutoff = datetime.now(KST) - timedelta(hours=RETENTION_HRS)
@@ -333,6 +340,10 @@ def fetch_naver(keyword):
             desc  = clean_html(i.get('description',''))[:400]
             dt    = parse_dt(i.get('pubDate',''))
             if dt < cutoff: continue
+            # 드라마/영화/게임/연예 등 보안뉴스와 무관한 문맥은 제외
+            combined = title + ' ' + desc
+            if any(kw in combined for kw in EXCLUDE_KEYWORDS):
+                continue
             tag, cls = classify(title, desc)
             source = media_from_url(link) if link else '네이버뉴스'
             items.append({
@@ -412,32 +423,6 @@ def main():
 
     # 최신순 정렬 + 최대 개수 제한
     deduped = deduped[:MAX_ARTICLES]
-
-    # 동시보도 묶기: 완전 중복은 아니지만(위에서 제거된 수준) 유사도가 준수한 기사들을
-    # 같은 사건으로 보고 groupId를 부여 (프론트에서 "여러 매체 동시보도" 카드로 묶어 표시)
-    print("\n[동시보도 그룹핑]")
-    assigned = [False] * len(deduped)
-    group_counter = 0
-    for i in range(len(deduped)):
-        if assigned[i]:
-            continue
-        cluster = [i]
-        for j in range(i + 1, len(deduped)):
-            if assigned[j]:
-                continue
-            if is_similar_event(deduped[i]['title'], deduped[j]['title']):
-                cluster.append(j)
-        if len(cluster) > 1:
-            group_counter += 1
-            gid = f"g{group_counter}"
-            for idx in cluster:
-                deduped[idx]['groupId'] = gid
-                deduped[idx]['groupSize'] = len(cluster)
-                assigned[idx] = True
-        else:
-            assigned[i] = True
-    if group_counter:
-        print(f"  → {group_counter}개 그룹으로 묶임")
 
     # 저장
     FEEDS_PATH.parent.mkdir(exist_ok=True)
