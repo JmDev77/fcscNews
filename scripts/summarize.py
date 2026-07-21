@@ -60,13 +60,19 @@ def crawl(url):
         for t in soup.find_all(class_=re.compile(r'ad|banner|related|share|sns|reporter|copyright', re.I)):
             t.decompose()
 
-        # 셀렉터 순서대로 시도
+        # 셀렉터 순서대로 시도 - 신뢰도 높은 특정 셀렉터는 150자 기준, 
+        # 범용 셀렉터(article 등)는 관련기사/광고 등이 섞여 짧게 잡힐 위험이 있어 더 높은 기준 적용
+        GENERIC_SELECTORS = {'article', '.article_view', '.article-body', '.article_body'}
+        best_text = ''
         for sel in BODY_SELECTORS:
             el = soup.select_one(sel)
             if el:
                 text = el.get_text('\n', strip=True)
-                if len(text) > 150:
+                threshold = 500 if sel in GENERIC_SELECTORS else 150
+                if len(text) > threshold:
                     return clean_body(text)
+                if len(text) > len(best_text):
+                    best_text = text
 
         # fallback: <p> 태그 수집
         raw_paras = [p.get_text(strip=True) for p in soup.find_all('p')]
@@ -88,8 +94,14 @@ def crawl(url):
             if p:
                 paras.append(p)
 
-        if paras:
-            return clean_body('\n'.join(paras))
+        p_tag_text = '\n'.join(paras) if paras else ''
+
+        # 셀렉터로 찾은 것(기준 미달)과 <p> 태그 수집 결과 중 더 긴 쪽 채택
+        if len(p_tag_text) > len(best_text):
+            best_text = p_tag_text
+
+        if best_text:
+            return clean_body(best_text)
 
         return ''
     except Exception as e:
