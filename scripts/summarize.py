@@ -69,9 +69,25 @@ def crawl(url):
                     return clean_body(text)
 
         # fallback: <p> 태그 수집
-        paras = [p.get_text(strip=True) for p in soup.find_all('p')]
-        paras = [p for p in paras if len(p) >= 25
-                 and not re.search(r'copyright|저작권|무단전재|ⓒ|기자\s*=', p, re.I)]
+        raw_paras = [p.get_text(strip=True) for p in soup.find_all('p')]
+
+        # 국내 통신사 특유의 기자 서명 접두어만 제거 (본문 자체는 유지)
+        # 1단계: "(서울=뉴스1)" "[헤럴드경제=문혜현 기자]" 같은 괄호 표기 제거
+        # 2단계: 남은 "김민수 기자 = " 같은 기자명 접두어 제거
+        LOC_PREFIX = re.compile(r'^[\(\[][^)\]]{1,25}[\)\]]\s*')
+        BYLINE_NAME = re.compile(r'^[가-힣]{2,4}\s*기자\s*=?\s*')
+
+        paras = []
+        for p in raw_paras:
+            if len(p) < 25:
+                continue  # 너무 짧은 줄(순수 서명, 이메일 등)은 제외
+            if re.search(r'copyright|저작권|무단전재|ⓒ', p, re.I):
+                continue
+            p = LOC_PREFIX.sub('', p)
+            p = BYLINE_NAME.sub('', p)
+            if p:
+                paras.append(p)
+
         if paras:
             return clean_body('\n'.join(paras))
 
