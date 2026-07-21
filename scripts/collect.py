@@ -37,23 +37,19 @@ FEEDS = [
     {'url': 'https://www.dailysecu.com/rss/allArticle.xml',         'source': '데일리시큐',    'group': '보안뉴스'},
     {'url': 'https://rss.etnews.com/04045.xml',                     'source': '전자신문',      'group': '보안뉴스'},
     {'url': 'https://www.inews24.com/rss/news_it.xml',              'source': '아이뉴스24',    'group': '보안뉴스'},
-    # KISA
     # KISA (실제 메뉴 경로: 보안공지=205020, 취약점정보=205023, 경보단계=205024)
     {'url': 'https://www.boho.or.kr/kr/rssList.do?menuNo=205020&bbsId=B0000133', 'source': 'KISA보안공지',  'group': 'KISA'},
     {'url': 'https://www.boho.or.kr/kr/rssList.do?menuNo=205023&bbsId=B0000302', 'source': 'KISA취약점',    'group': 'KISA'},
     {'url': 'https://www.boho.or.kr/kr/rssList.do?menuNo=205024&bbsId=B0000342', 'source': 'KISA경보',      'group': 'KISA'},
-    # 취약점
-    {'url': 'https://api.msrc.microsoft.com/update-guide/rss',     'source': 'MSRC',          'group': '취약점'},
-    {'url': 'https://www.exploit-db.com/rss.xml',                  'source': 'Exploit-DB',    'group': '취약점'},
-    {'url': 'https://www.cisa.gov/cybersecurity-advisories/all.xml','source': 'CISA',         'group': '취약점'},
-    {'url': 'https://isc.sans.edu/rssfeed.xml',                    'source': 'SANS ISC',      'group': '취약점'},
-    {'url': 'https://cvefeed.io/rssfeed/latest.xml',               'source': 'CVEFeed',       'group': '취약점'},
     # 해외
     {'url': 'https://feeds.feedburner.com/TheHackersNews',         'source': 'TheHackerNews', 'group': '해외'},
     {'url': 'https://www.bleepingcomputer.com/feed/',              'source': 'BleepingComputer','group': '해외'},
     {'url': 'https://krebsonsecurity.com/feed/',                   'source': 'KrebsOnSecurity','group': '해외'},
     {'url': 'https://www.darkreading.com/rss.xml',                 'source': 'DarkReading',   'group': '해외'},
     {'url': 'https://feeds.feedburner.com/securityweek',           'source': 'SecurityWeek',  'group': '해외'},
+    {'url': 'https://securityaffairs.co/wordpress/feed',           'source': 'SecurityAffairs','group': '해외'},
+    {'url': 'https://www.theregister.com/security/headlines.rss',  'source': 'TheRegister',   'group': '해외'},
+    {'url': 'https://therecord.media/feed',                        'source': 'TheRecord',     'group': '해외'},
 ]
 
 # 네이버 검색 키워드
@@ -171,6 +167,26 @@ def is_similar(t1, t2):
     ratio = SequenceMatcher(None, t1, t2).ratio()
     if ratio >= SIMILARITY_THRESH: return True
     if ratio >= 0.45 and word_jaccard(t1, t2) >= WORD_JACCARD_THRESH: return True
+    return False
+
+# 동시보도 그룹핑용 (완전 중복은 아니지만 같은 사건을 다룰 가능성이 높은 수준)
+STOPWORDS = {'이','가','은','는','을','를','에','의','과','와','도','로','으로','한','했다','됐다','대한','관련'}
+
+def event_keywords(t):
+    # 숫자+단위 뒤 조사성 접미사 정규화 (9개월간 vs 10개월간 -> 비교 가능하게)
+    t = re.sub(r'(\d+)\s*(개월|일|년|명|건|위|억|만)간?', r'\1\2', t)
+    words = re.sub('[^가-힣a-zA-Z0-9]', ' ', t).split()
+    return set(w for w in words if len(w) >= 2 and w not in STOPWORDS)
+
+def is_similar_event(t1, t2):
+    """제목 유사도 + 핵심 키워드 겹침을 함께 봐서 같은 사건 여부 판단"""
+    ratio = SequenceMatcher(None, t1, t2).ratio()
+    k1, k2 = event_keywords(t1), event_keywords(t2)
+    wo = len(k1 & k2) / min(len(k1), len(k2)) if k1 and k2 else 0
+    if ratio >= 0.25 and wo >= 0.2:
+        return True
+    if wo >= 0.4:
+        return True
     return False
 
 def is_security_related(title, desc=''):
@@ -396,6 +412,32 @@ def main():
 
     # 최신순 정렬 + 최대 개수 제한
     deduped = deduped[:MAX_ARTICLES]
+
+    # 동시보도 묶기: 완전 중복은 아니지만(위에서 제거된 수준) 유사도가 준수한 기사들을
+    # 같은 사건으로 보고 groupId를 부여 (프론트에서 "여러 매체 동시보도" 카드로 묶어 표시)
+    print("\n[동시보도 그룹핑]")
+    assigned = [False] * len(deduped)
+    group_counter = 0
+    for i in range(len(deduped)):
+        if assigned[i]:
+            continue
+        cluster = [i]
+        for j in range(i + 1, len(deduped)):
+            if assigned[j]:
+                continue
+            if is_similar_event(deduped[i]['title'], deduped[j]['title']):
+                cluster.append(j)
+        if len(cluster) > 1:
+            group_counter += 1
+            gid = f"g{group_counter}"
+            for idx in cluster:
+                deduped[idx]['groupId'] = gid
+                deduped[idx]['groupSize'] = len(cluster)
+                assigned[idx] = True
+        else:
+            assigned[i] = True
+    if group_counter:
+        print(f"  → {group_counter}개 그룹으로 묶임")
 
     # 저장
     FEEDS_PATH.parent.mkdir(exist_ok=True)
