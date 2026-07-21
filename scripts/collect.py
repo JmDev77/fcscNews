@@ -31,29 +31,19 @@ WORD_JACCARD_THRESH = 0.20
 
 # ── RSS 피드 목록 ─────────────────────────────────────
 FEEDS = [
-    # 국내 보안뉴스
-    {'url': 'http://www.boannews.com/media/news_rss.xml',           'source': '보안뉴스',      'group': '보안뉴스'},
-    {'url': 'http://www.boannews.com/media/news_rss.xml?skind=5',   'source': '보안뉴스긴급',  'group': '보안뉴스'},
-    {'url': 'https://www.dailysecu.com/rss/allArticle.xml',         'source': '데일리시큐',    'group': '보안뉴스'},
-    {'url': 'https://rss.etnews.com/04045.xml',                     'source': '전자신문',      'group': '보안뉴스'},
-    {'url': 'https://www.inews24.com/rss/news_it.xml',              'source': '아이뉴스24',    'group': '보안뉴스'},
-    # KISA (실제 메뉴 경로: 보안공지=205020, 취약점정보=205023, 경보단계=205024)
-    {'url': 'https://www.boho.or.kr/kr/rssList.do?menuNo=205020&bbsId=B0000133', 'source': 'KISA보안공지',  'group': 'KISA'},
-    {'url': 'https://www.boho.or.kr/kr/rssList.do?menuNo=205023&bbsId=B0000302', 'source': 'KISA취약점',    'group': 'KISA'},
-    {'url': 'https://www.boho.or.kr/kr/rssList.do?menuNo=205024&bbsId=B0000342', 'source': 'KISA경보',      'group': 'KISA'},
-    # 해외
+    # ── 국내 ──────────────────────────────────────────
+    {'url': 'https://www.boannews.com/media/news_rss.xml',          'source': '보안뉴스',      'group': '국내'},
+    {'url': 'https://www.dailysecu.com/rss/allArticle.xml',         'source': '데일리시큐',    'group': '국내'},
+    # ── 해외 ──────────────────────────────────────────
     {'url': 'https://feeds.feedburner.com/TheHackersNews',         'source': 'TheHackerNews', 'group': '해외'},
     {'url': 'https://www.bleepingcomputer.com/feed/',              'source': 'BleepingComputer','group': '해외'},
     {'url': 'https://krebsonsecurity.com/feed/',                   'source': 'KrebsOnSecurity','group': '해외'},
     {'url': 'https://www.darkreading.com/rss.xml',                 'source': 'DarkReading',   'group': '해외'},
     {'url': 'https://feeds.feedburner.com/securityweek',           'source': 'SecurityWeek',  'group': '해외'},
-    {'url': 'https://securityaffairs.co/wordpress/feed',           'source': 'SecurityAffairs','group': '해외'},
-    {'url': 'https://www.theregister.com/security/headlines.rss',  'source': 'TheRegister',   'group': '해외'},
-    {'url': 'https://therecord.media/feed',                        'source': 'TheRecord',     'group': '해외'},
 ]
 
-# 네이버 검색 키워드
-NAVER_KEYWORDS = ['사이버보안', '정보보안', '해킹', '취약점', '랜섬웨어', '개인정보침해', '사이버공격']
+# 네이버 검색 키워드 (해킹/보안/사이버 중심)
+NAVER_KEYWORDS = ['해킹', '보안', '사이버', '랜섬웨어', '개인정보침해']
 
 # 네이버 검색 결과 중 보안뉴스와 무관한 문맥(드라마/영화/게임/연예 등) 제외용 키워드
 EXCLUDE_KEYWORDS = [
@@ -182,93 +172,6 @@ def is_security_related(title, desc=''):
     text = (title + ' ' + desc).lower()
     return any(k in text for k in SECURITY_KEYWORDS)
 
-# ── KISA 전용 HTML 목록 크롤링 (RSS 불확실 대비 폴백) ──
-KISA_BOARDS = [
-    {'menuNo': '205020', 'bbsId': 'B0000133', 'source': 'KISA보안공지'},
-    {'menuNo': '205023', 'bbsId': 'B0000302', 'source': 'KISA취약점'},
-    {'menuNo': '205024', 'bbsId': 'B0000342', 'source': 'KISA경보'},
-]
-
-def fetch_kisa_html(board):
-    """RSS가 안 되는 경우를 대비해 게시판 목록 페이지를 직접 파싱"""
-    url = f"https://www.boho.or.kr/kr/bbs/list.do?menuNo={board['menuNo']}&bbsId={board['bbsId']}"
-    try:
-        r = requests.get(url, headers=HEADERS, timeout=15)
-        r.raise_for_status()
-        soup = BeautifulSoup(r.content, 'lxml')
-        items = []
-        cutoff = datetime.now(KST) - timedelta(hours=RETENTION_HRS)
-
-        # 목록 테이블/리스트에서 상세 링크(view.do + nttId) 추출
-        links = soup.select('a[href*="view.do"][href*="nttId"]')
-        seen = set()
-        for a in links:
-            href = a.get('href', '')
-            m = re.search(r'nttId=(\d+)', href)
-            if not m: continue
-            ntt_id = m.group(1)
-            if ntt_id in seen: continue
-            seen.add(ntt_id)
-
-            title = a.get_text(strip=True)
-            if not title or len(title) < 5: continue
-
-            full_url = f"https://www.boho.or.kr/kr/bbs/view.do?bbsId={board['bbsId']}&menuNo={board['menuNo']}&nttId={ntt_id}"
-
-            # 목록의 같은 행(<tr>)에서 날짜 텍스트 탐색 (형식이 다양할 수 있어 여러 패턴 시도)
-            dt = None
-            row = a.find_parent('tr')
-            if row:
-                row_text = row.get_text(' ', strip=True)
-                # YYYY-MM-DD, YYYY.MM.DD 등
-                dm = re.search(r'(\d{4})[-.](\d{1,2})[-.](\d{1,2})', row_text)
-                if dm:
-                    try:
-                        dt = KST.localize(datetime(int(dm.group(1)), int(dm.group(2)), int(dm.group(3))))
-                    except Exception:
-                        dt = None
-                if dt is None:
-                    # 연도 없이 MM-DD 또는 MM.DD 형식 (올해로 간주)
-                    dm2 = re.search(r'(?<!\d)(\d{1,2})[-.](\d{1,2})(?!\d)', row_text)
-                    if dm2:
-                        try:
-                            now = datetime.now(KST)
-                            dt = KST.localize(datetime(now.year, int(dm2.group(1)), int(dm2.group(2))))
-                            if dt > now:  # 미래 날짜면 작년으로 보정
-                                dt = dt.replace(year=now.year - 1)
-                        except Exception:
-                            dt = None
-
-            if dt is None:
-                # 날짜를 끝내 못 찾으면: 게시판이 최신순 정렬이므로 상위 항목 일부는 최근 글로 간주
-                # (단, 무제한 신뢰하지 않도록 상위 10개까지만 허용)
-                if len(items) >= 10:
-                    continue
-            elif dt < cutoff:
-                continue
-
-            tag, cls = classify(title)
-            items.append({
-                'id':      make_id(full_url, title),
-                'title':   title,
-                'desc':    '',
-                'url':     full_url,
-                'date':    fmt_date(dt) if dt else fmt_date(datetime.now(KST)),
-                'rawDate': (dt or datetime.now(KST)).isoformat(),
-                'source':  board['source'],
-                'group':   'KISA',
-                'tag':     tag,
-                'tagCls':  cls,
-                'lang':    'ko',
-            })
-            if len(items) >= 20: break
-
-        print(f"  ✅ {board['source']} (HTML): {len(items)}건")
-        return items
-    except Exception as e:
-        print(f"  ❌ {board['source']} (HTML): {e}")
-        return []
-
 # ── RSS 수집 ──────────────────────────────────────────
 def fetch_rss(feed):
     try:
@@ -354,7 +257,7 @@ def fetch_naver(keyword):
                 'date':    fmt_date(dt),
                 'rawDate': dt.isoformat(),
                 'source':  source,
-                'group':   '네이버',
+                'group':   '국내',
                 'tag':     tag,
                 'tagCls':  cls,
                 'lang':    'ko',
@@ -395,12 +298,6 @@ def main():
         rss_items = fetch_rss(feed)
         for item in rss_items:
             all_items[item['id']] = item
-        # KISA RSS가 비어있으면 HTML 목록 크롤링으로 폴백
-        if not rss_items and feed['group'] == 'KISA':
-            board = next((b for b in KISA_BOARDS if b['source'] == feed['source']), None)
-            if board:
-                for item in fetch_kisa_html(board):
-                    all_items[item['id']] = item
         time.sleep(0.3)
 
     # 네이버 수집
