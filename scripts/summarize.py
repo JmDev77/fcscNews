@@ -109,24 +109,31 @@ def summarize_with_claude(article, body):
     today  = datetime.now(KST).strftime('%-m.%-d.')
     lang   = article.get('lang', 'ko')
 
-    prompt = f"""뉴스를 줄테니 아래 조건에 맞춰 정리해.
+    prompt = f"""뉴스 기사를 정리해줘. 아래 조건을 반드시 지켜.
 
 조건:
 • 아스키 따옴표 → 스마트 따옴표(" ")로 변경
-• 맞춤법 교정
+• 맞춤법만 교정 (문장 재구성 금지)
 • 한줄 요약 2개. 각각 ~돼, ~해, ~져 등으로 끝낼 것. 공백 포함 40자 이내로 반드시 지킬 것
 • 날짜는 반드시 "월.일." 형식 (예: 6.21.). 없으면 오늘 {today} 사용. 연도 붙이지 말 것
 • {"영문 기사이므로 제목과 본문 모두 한글로 번역할 것" if lang == 'en' else ""}
-• body는 본문 전체를 문단 단위로 정리 (절대 줄이거나 요약하지 말고 전체 다 포함할 것)
+
+body 필드 작성 시 반드시 지킬 것 (매우 중요):
+• 아래 "본문" 전체를 처음부터 끝까지 한 글자도 빠짐없이 그대로 옮겨 적을 것
+• 요약하거나, 축약하거나, 일부만 골라 쓰거나, "..." 같은 생략 표시를 쓰는 것 절대 금지
+• 문장을 재작성하거나 순서를 바꾸지 말 것. 오직 맞춤법/따옴표만 교정
+• 본문의 첫 문장부터 시작할 것 (중간부터 시작하면 안 됨)
+• 문단 구분은 원문 그대로 유지 (문단 사이 빈 줄 하나)
 
 입력:
 제목: {article.get('title','')}
 출처: {article.get('source','')}
 날짜: {article.get('date','')}
-본문: {body[:4000]}
+본문:
+{body[:8000]}
 URL: {article.get('url','')}
 
-아래 형식 그대로 응답해. 마크다운이나 다른 설명 없이, 각 필드는 반드시 "{DELIM}필드명{DELIM}" 줄로 시작해서 구분할 것. body는 문단 사이에 빈 줄 하나씩 넣어서 여러 줄로 작성해도 됨 (다음 {DELIM} 구분자가 나올 때까지가 전부 그 필드 내용):
+아래 형식 그대로 응답해. 마크다운이나 다른 설명 없이, 각 필드는 반드시 "{DELIM}필드명{DELIM}" 줄로 시작해서 구분할 것:
 
 {DELIM}TITLE{DELIM}
 (정리된 제목)
@@ -139,7 +146,7 @@ URL: {article.get('url','')}
 {DELIM}SUMMARY2{DELIM}
 (요약2, 40자 이내 한 줄)
 {DELIM}BODY{DELIM}
-(본문 전체, 문단마다 줄바꿈)
+(본문 전체를 처음부터 끝까지 그대로, 문단마다 줄바꿈. 절대 생략하지 말 것)
 {DELIM}URL{DELIM}
 (원문 URL)
 {DELIM}END{DELIM}"""
@@ -157,6 +164,15 @@ URL: {article.get('url','')}
         m = re.match(r'(\d{1,4})[.\/-](\d{1,2})[.\/-](\d{1,2})', d)
         if m:
             result['date'] = f"{int(m.group(2))}.{int(m.group(3))}."
+
+        # 안전장치: Claude가 body를 축약/생략했는지 검증
+        # 원본 크롤링 본문 대비 결과 body가 비정상적으로 짧으면(60% 미만) 원본으로 대체
+        result_body = result.get('body', '')
+        orig_len = len(body[:8000])
+        if orig_len > 200 and len(result_body) < orig_len * 0.6:
+            print(f"  ⚠️ body 축약 감지 (원본 {orig_len}자 → 결과 {len(result_body)}자) — 원본 크롤링 본문 사용")
+            result['body'] = body[:8000]
+
         return result
     except Exception as e:
         print(f"  Claude 오류: {e}")
