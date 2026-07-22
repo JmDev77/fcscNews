@@ -50,10 +50,6 @@ NAVER_KEYWORDS = ['해킹', '보안', '사이버', '랜섬웨어', '개인정보
 # 네이버 검색 결과 중 보안뉴스와 무관한 문맥(드라마/영화/게임/연예 등) 제외용 키워드
 EXCLUDE_KEYWORDS = [
     '드라마', '영화', '예능', '웹툰', '배우', '출연', '방영', '시청률',
-    '넷플릭스', '디즈니+', '티빙 오리지널', '왓챠',
-    '게임', '스팀', 'PC방', '콘솔', '플레이스테이션', '닌텐도',
-    '뮤직비디오', '아이돌', '컴백', '음원', '가수', '콘서트',
-    '주식 종목', '테마주', '급등', '상한가',
     '[부고]', '[동정]', '[인사]', '[신간]', '[축사]',
 ]
 
@@ -312,7 +308,7 @@ def fetch_custom_json(feed):
 
         items = []
         cutoff = datetime.now(KST) - timedelta(hours=RETENTION_HRS)
-        for a in articles[:50]:
+        for a in articles:
             title = clean_html(a.get('title_ko') or a.get('title',''))
             desc  = clean_html(a.get('summary_ko') or a.get('summary',''))[:400]
             link  = a.get('link','')
