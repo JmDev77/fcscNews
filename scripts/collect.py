@@ -19,7 +19,7 @@ from dateutil.parser import parse as parse_date
 KST           = pytz.timezone('Asia/Seoul')
 FEEDS_PATH    = Path(__file__).parent.parent / 'data' / 'feeds.json'
 RETENTION_HRS = 72      # 72시간(3일) 이내 기사만 유지
-MAX_ARTICLES  = 200     # 최대 보관 수
+MAX_ARTICLES  = 500     # 최대 보관 수
 
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
@@ -117,6 +117,25 @@ DOMAIN_MEDIA = {
     'ciokorea.com':        'CIOKorea',
     'inews24.com':         '아이뉴스24',
     'ddaily.co.kr':        '디지털데일리',
+    # 해외 보안 매체
+    'thehackernews.com':   'TheHackerNews',
+    'bleepingcomputer.com':'BleepingComputer',
+    'krebsonsecurity.com': 'KrebsOnSecurity',
+    'darkreading.com':     'DarkReading',
+    'securityweek.com':    'SecurityWeek',
+    'securityaffairs.co':  'SecurityAffairs',
+    'securityaffairs.com': 'SecurityAffairs',
+    'theregister.com':     'TheRegister',
+    'therecord.media':     'TheRecord',
+    'malwarebytes.com':    'Malwarebytes',
+    'databreaches.net':    'DataBreaches.net',
+    'horizon3.ai':         'Horizon3.ai',
+    'wired.com':           'Wired',
+    'arstechnica.com':     'ArsTechnica',
+    'zdnet.com':           'ZDNet',
+    'threatpost.com':      'ThreatPost',
+    'cyberscoop.com':      'CyberScoop',
+    'infosecurity-magazine.com': 'InfosecurityMagazine',
 }
 
 def media_from_url(url):
@@ -131,6 +150,23 @@ def media_from_url(url):
         return host.split('.')[0] if host else '네이버뉴스'
     except Exception:
         return '네이버뉴스'
+
+def extract_source_outlets(description_html):
+    """description(HTML) 안의 <a href> 링크들에서 매체명을 추출 (쉴더스처럼 여러 매체를 함께 링크하는 브리핑용)"""
+    if not description_html:
+        return []
+    try:
+        soup = BeautifulSoup(description_html, 'lxml')
+        outlets = []
+        seen = set()
+        for a in soup.find_all('a', href=True):
+            name = media_from_url(a['href'])
+            if name and name not in seen:
+                seen.add(name)
+                outlets.append(name)
+        return outlets
+    except Exception:
+        return []
 
 def make_id(url, title=''):
     return hashlib.md5((url or title).encode()).hexdigest()[:12]
@@ -196,11 +232,12 @@ def fetch_rss(feed):
         items = []
         cutoff = datetime.now(KST) - timedelta(hours=RETENTION_HRS)
         for e in d.entries[:30]:
-            title = clean_html(e.get('title',''))
-            link  = e.get('link') or e.get('id','')
-            desc  = clean_html(e.get('summary') or e.get('description',''))[:400]
-            pub   = e.get('published') or e.get('updated','')
-            dt    = parse_dt(pub)
+            title    = clean_html(e.get('title',''))
+            link     = e.get('link') or e.get('id','')
+            raw_desc = e.get('summary') or e.get('description','')
+            desc     = clean_html(raw_desc)[:400]
+            pub      = e.get('published') or e.get('updated','')
+            dt       = parse_dt(pub)
             if dt < cutoff: continue
             # 부고/동정/인사 등 공지성 기사, 무관 카테고리 기사 제외
             combined = title + ' ' + desc
@@ -210,6 +247,20 @@ def fetch_rss(feed):
             if feed['source'] in ('데일리시큐',) or feed['group'] == '해외':
                 if not is_security_related(title, desc): continue
             tag, cls = classify(title, desc)
+
+            # 쉴더스처럼 여러 매체를 링크로 묶어 브리핑하는 피드는
+            # 대표 링크(link) 도메인을 실제 출처로, description 안의 관련 매체들도 함께 표시
+            display_source = feed['source']
+            source_group   = feed['source']  # 소탭 그룹핑용 (접미사 없는 순수 매체명)
+            if feed['source'] == '쉴더스' and link:
+                base = media_from_url(link)
+                display_source = base
+                source_group   = base
+                related = extract_source_outlets(raw_desc)
+                related = [r for r in related if r != base]
+                if related:
+                    display_source = f"{base} 외 {len(related)}곳"
+
             items.append({
                 'id':      make_id(link, title),
                 'title':   title,
@@ -217,7 +268,8 @@ def fetch_rss(feed):
                 'url':     link,
                 'date':    fmt_date(dt),
                 'rawDate': dt.isoformat(),
-                'source':  feed['source'],
+                'source':      display_source,
+                'sourceGroup': source_group,
                 'group':   feed['group'],
                 'tag':     tag,
                 'tagCls':  cls,
@@ -240,6 +292,16 @@ CUSTOM_JSON_FEEDS = [
 ]
 
 def fetch_custom_json(feed):
+    # 정보원 JSON의 source 코드값 -> 실제 매체 표시명
+    SOURCE_DISPLAY = {
+        'boannews':         '보안뉴스',
+        'dailysecu':        '데일리시큐',
+        'thehackernews':    'TheHackerNews',
+        'bleepingcomputer': 'BleepingComputer',
+        'securityweek':     'SecurityWeek',
+        'krebsonsecurity':  'KrebsOnSecurity',
+        'darkreading':      'DarkReading',
+    }
     try:
         r = requests.get(feed['url'], headers=HEADERS, timeout=15)
         if r.status_code != 200:
@@ -262,6 +324,14 @@ def fetch_custom_json(feed):
             lang = a.get('lang','ko')
             if lang != 'ko' and not is_security_related(title, desc):
                 continue
+
+            # 실제 원문 매체명 결정: naver 유입이면 링크 도메인으로 추정, 그 외는 코드값 매핑
+            raw_source = a.get('source', '')
+            if raw_source == 'naver':
+                display_source = media_from_url(link) if link else '네이버뉴스'
+            else:
+                display_source = SOURCE_DISPLAY.get(raw_source, raw_source or feed['source'])
+
             tag, cls = classify(title, desc)
             items.append({
                 'id':      make_id(link, title),
@@ -270,7 +340,8 @@ def fetch_custom_json(feed):
                 'url':     link,
                 'date':    fmt_date(dt),
                 'rawDate': dt.isoformat(),
-                'source':  feed['source'],
+                'source':      display_source,
+                'sourceGroup': display_source,
                 'group':   feed['group'],
                 'tag':     tag,
                 'tagCls':  cls,
@@ -316,7 +387,8 @@ def fetch_naver(keyword):
                 'url':     link,
                 'date':    fmt_date(dt),
                 'rawDate': dt.isoformat(),
-                'source':  source,
+                'source':      source,
+                'sourceGroup': source,
                 'group':   '국내',
                 'tag':     tag,
                 'tagCls':  cls,
