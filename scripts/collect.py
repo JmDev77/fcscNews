@@ -40,14 +40,20 @@ FEEDS = [
     {'url': 'https://krebsonsecurity.com/feed/',                   'source': 'KrebsOnSecurity','group': '해외'},
     {'url': 'https://www.darkreading.com/rss.xml',                 'source': 'DarkReading',   'group': '해외'},
     {'url': 'https://feeds.feedburner.com/securityweek',           'source': 'SecurityWeek',  'group': '해외'},
+    # ── 사내 ──────────────────────────────────────────
+    {'url': 'https://security-brief.pages.dev/rss.xml',            'source': '쉴더스',        'group': '사내'},
 ]
 
 # 네이버 검색 키워드 (해킹/보안/사이버 중심)
-NAVER_KEYWORDS = ['해킹', '사이버보안', '사이버 보안', '랜섬웨어', '개인정보침해']
+NAVER_KEYWORDS = ['해킹', '보안', '사이버', '랜섬웨어', '개인정보침해']
 
 # 네이버 검색 결과 중 보안뉴스와 무관한 문맥(드라마/영화/게임/연예 등) 제외용 키워드
 EXCLUDE_KEYWORDS = [
     '드라마', '영화', '예능', '웹툰', '배우', '출연', '방영', '시청률',
+    '넷플릭스', '디즈니+', '티빙 오리지널', '왓챠',
+    '게임', '스팀', 'PC방', '콘솔', '플레이스테이션', '닌텐도',
+    '뮤직비디오', '아이돌', '컴백', '음원', '가수', '콘서트',
+    '주식 종목', '테마주', '급등', '상한가',
     '[부고]', '[동정]', '[인사]', '[신간]', '[축사]',
 ]
 
@@ -223,6 +229,59 @@ def fetch_rss(feed):
         print(f"  ❌ {feed['source']}: {e}")
         return []
 
+# ── 고객사(정보원) 자체 JSON 피드 ─────────────────────
+CUSTOM_JSON_FEEDS = [
+    {
+        'url':    'https://raw.githubusercontent.com/HarkjinDev/boannews-rss/main/feeds.json',
+        'source': '정보원',
+        'group':  '고객사',
+        'key':    'security_news',  # 기사 배열이 담긴 최상위 키
+    },
+]
+
+def fetch_custom_json(feed):
+    try:
+        r = requests.get(feed['url'], headers=HEADERS, timeout=15)
+        if r.status_code != 200:
+            print(f"  ❌ {feed['source']}: HTTP {r.status_code}")
+            return []
+        data = r.json()
+        articles = data.get(feed['key'], [])
+
+        items = []
+        cutoff = datetime.now(KST) - timedelta(hours=RETENTION_HRS)
+        for a in articles[:50]:
+            title = clean_html(a.get('title_ko') or a.get('title',''))
+            desc  = clean_html(a.get('summary_ko') or a.get('summary',''))[:400]
+            link  = a.get('link','')
+            dt    = parse_dt(a.get('published',''))
+            if dt < cutoff: continue
+            combined = title + ' ' + desc
+            if any(kw in combined for kw in EXCLUDE_KEYWORDS):
+                continue
+            lang = a.get('lang','ko')
+            if lang != 'ko' and not is_security_related(title, desc):
+                continue
+            tag, cls = classify(title, desc)
+            items.append({
+                'id':      make_id(link, title),
+                'title':   title,
+                'desc':    desc,
+                'url':     link,
+                'date':    fmt_date(dt),
+                'rawDate': dt.isoformat(),
+                'source':  feed['source'],
+                'group':   feed['group'],
+                'tag':     tag,
+                'tagCls':  cls,
+                'lang':    lang,
+            })
+        print(f"  ✅ {feed['source']}: {len(items)}건")
+        return items
+    except Exception as e:
+        print(f"  ❌ {feed['source']}: {e}")
+        return []
+
 # ── 네이버 API ────────────────────────────────────────
 def fetch_naver(keyword):
     cid = os.environ.get('NAVER_CLIENT_ID','')
@@ -277,7 +336,7 @@ def main():
     # 기존 feeds.json 로드 (있으면 병합)
     all_items = {}
     cutoff = datetime.now(KST) - timedelta(hours=RETENTION_HRS)
-    VALID_GROUPS = {'국내', '해외'}  # 예전 버전의 그룹값(보안뉴스/네이버/KISA/취약점 등)은 정리
+    VALID_GROUPS = {'국내', '해외', '사내', '고객사'}  # 예전 버전의 그룹값(보안뉴스/네이버/KISA/취약점 등)은 정리
     if FEEDS_PATH.exists():
         try:
             existing = json.loads(FEEDS_PATH.read_text(encoding='utf-8'))
@@ -303,6 +362,13 @@ def main():
     for feed in FEEDS:
         rss_items = fetch_rss(feed)
         for item in rss_items:
+            all_items[item['id']] = item
+        time.sleep(0.3)
+
+    # 고객사 JSON 수집
+    print("\n[고객사 JSON 수집]")
+    for feed in CUSTOM_JSON_FEEDS:
+        for item in fetch_custom_json(feed):
             all_items[item['id']] = item
         time.sleep(0.3)
 
