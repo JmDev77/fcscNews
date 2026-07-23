@@ -31,25 +31,29 @@ WORD_JACCARD_THRESH = 0.20
 
 # ── RSS 피드 목록 ─────────────────────────────────────
 FEEDS = [
-    # ── 국내 ──────────────────────────────────────────
-    {'url': 'https://www.boannews.com/media/news_rss.xml',          'source': '보안뉴스',      'group': '국내'},
-    {'url': 'https://www.dailysecu.com/rss/allArticle.xml',         'source': '데일리시큐',    'group': '국내'},
-    # ── 해외 ──────────────────────────────────────────
-    {'url': 'https://feeds.feedburner.com/TheHackersNews',         'source': 'TheHackerNews', 'group': '해외'},
-    {'url': 'https://www.bleepingcomputer.com/feed/',              'source': 'BleepingComputer','group': '해외'},
-    {'url': 'https://krebsonsecurity.com/feed/',                   'source': 'KrebsOnSecurity','group': '해외'},
-    {'url': 'https://www.darkreading.com/rss.xml',                 'source': 'DarkReading',   'group': '해외'},
-    {'url': 'https://feeds.feedburner.com/securityweek',           'source': 'SecurityWeek',  'group': '해외'},
-    # ── 사내 ──────────────────────────────────────────
-    {'url': 'https://security-brief.pages.dev/rss.xml',            'source': '쉴더스',        'group': '사내'},
+    # ── 자체개발 · 국내 ────────────────────────────────
+    {'url': 'https://www.boannews.com/media/news_rss.xml',          'source': '보안뉴스',      'channel': '자체개발', 'region': '국내'},
+    {'url': 'https://www.dailysecu.com/rss/allArticle.xml',         'source': '데일리시큐',    'channel': '자체개발', 'region': '국내'},
+    # ── 자체개발 · 해외 ────────────────────────────────
+    {'url': 'https://feeds.feedburner.com/TheHackersNews',         'source': 'TheHackerNews', 'channel': '자체개발', 'region': '해외'},
+    {'url': 'https://www.bleepingcomputer.com/feed/',              'source': 'BleepingComputer','channel': '자체개발', 'region': '해외'},
+    {'url': 'https://krebsonsecurity.com/feed/',                   'source': 'KrebsOnSecurity','channel': '자체개발', 'region': '해외'},
+    {'url': 'https://www.darkreading.com/rss.xml',                 'source': 'DarkReading',   'channel': '자체개발', 'region': '해외'},
+    {'url': 'https://feeds.feedburner.com/securityweek',           'source': 'SecurityWeek',  'channel': '자체개발', 'region': '해외'},
+    # ── 쉴더스 (RSS 안에 국내/해외 매체가 섞여있어 링크 도메인으로 지역 판별) ──
+    {'url': 'https://security-brief.pages.dev/rss.xml',            'source': '쉴더스',        'channel': '쉴더스',   'region': None},
 ]
 
-# 네이버 검색 키워드 (해킹/보안/사이버 중심)
+# 네이버 검색 키워드 (해킹/보안/사이버 중심) — 자체개발 · 국내로 분류
 NAVER_KEYWORDS = ['해킹', '보안', '사이버', '랜섬웨어', '개인정보침해']
 
 # 네이버 검색 결과 중 보안뉴스와 무관한 문맥(드라마/영화/게임/연예 등) 제외용 키워드
 EXCLUDE_KEYWORDS = [
     '드라마', '영화', '예능', '웹툰', '배우', '출연', '방영', '시청률',
+    '넷플릭스', '디즈니+', '티빙 오리지널', '왓챠',
+    '게임', '스팀', 'PC방', '콘솔', '플레이스테이션', '닌텐도',
+    '뮤직비디오', '아이돌', '컴백', '음원', '가수', '콘서트',
+    '주식 종목', '테마주', '급등', '상한가',
     '[부고]', '[동정]', '[인사]', '[신간]', '[축사]',
 ]
 
@@ -147,6 +151,26 @@ def media_from_url(url):
     except Exception:
         return '네이버뉴스'
 
+# 국내 매체로 분류할 도메인 목록 (DOMAIN_MEDIA 중 .kr / 국내 언론사)
+KOREAN_DOMAINS = {
+    'boannews.com','dailysecu.com','etnews.com','zdnet.co.kr','edaily.co.kr',
+    'yna.co.kr','news1.kr','newsis.com','mk.co.kr','hankyung.com','chosun.com',
+    'donga.com','joongang.co.kr','hani.co.kr','mt.co.kr','sedaily.com',
+    'asiae.co.kr','kbs.co.kr','sbs.co.kr','ytn.co.kr','imbc.com','boho.or.kr',
+    'krcert.or.kr','itworld.co.kr','ciokorea.com','inews24.com','ddaily.co.kr',
+    'naver.com',
+}
+
+def region_from_url(url):
+    """링크 도메인으로 국내/해외 판별 (쉴더스처럼 매체가 섞인 브리핑 피드용)"""
+    try:
+        host = re.sub(r'^(www|m|n)\.', '', url.split('/')[2].lower())
+        if host.endswith('.kr') or any(d in host for d in KOREAN_DOMAINS):
+            return '국내'
+        return '해외'
+    except Exception:
+        return '국내'
+
 def extract_source_outlets(description_html):
     """description(HTML) 안의 <a href> 링크들에서 매체명을 추출 (쉴더스처럼 여러 매체를 함께 링크하는 브리핑용)"""
     if not description_html:
@@ -180,6 +204,16 @@ def fmt_date(dt):
         return dt.astimezone(KST).strftime('%-m.%-d.')
     except:
         return datetime.now(KST).strftime('%-m.%-d.')
+
+def fmt_time(dt):
+    """카드 UI 표시용: 월.일. HH:MM (hwpx 요약표에는 쓰지 않음, date 필드와 별개)"""
+    if not dt: return ''
+    try:
+        if dt.tzinfo is None:
+            dt = pytz.utc.localize(dt)
+        return dt.astimezone(KST).strftime('%-m.%-d. %H:%M')
+    except:
+        return ''
 
 def parse_dt(s):
     if not s: return datetime.now(KST)
@@ -239,15 +273,19 @@ def fetch_rss(feed):
             combined = title + ' ' + desc
             if any(kw in combined for kw in EXCLUDE_KEYWORDS):
                 continue
-            # 국내 종합성 피드(데일리시큐 등)와 해외 피드는 보안 키워드로 필터링
-            if feed['source'] in ('데일리시큐',) or feed['group'] == '해외':
+
+            # region 결정: FEEDS에 명시돼 있으면 그대로, 없으면(쉴더스) 링크 도메인으로 판별
+            region = feed.get('region') or (region_from_url(link) if link else '국내')
+
+            # 국내 종합성 피드(데일리시큐 등)와 해외 지역 기사는 보안 키워드로 필터링
+            if feed['source'] in ('데일리시큐',) or region == '해외':
                 if not is_security_related(title, desc): continue
             tag, cls = classify(title, desc)
 
             # 쉴더스처럼 여러 매체를 링크로 묶어 브리핑하는 피드는
             # 대표 링크(link) 도메인을 실제 출처로, description 안의 관련 매체들도 함께 표시
             display_source = feed['source']
-            source_group   = feed['source']  # 소탭 그룹핑용 (접미사 없는 순수 매체명)
+            source_group   = feed['source']  # 소소탭 그룹핑용 (접미사 없는 순수 매체명)
             if feed['source'] == '쉴더스' and link:
                 base = media_from_url(link)
                 display_source = base
@@ -262,14 +300,16 @@ def fetch_rss(feed):
                 'title':   title,
                 'desc':    desc,
                 'url':     link,
-                'date':    fmt_date(dt),
+                'date':      fmt_date(dt),
+                'datetime':  fmt_time(dt),
                 'rawDate': dt.isoformat(),
                 'source':      display_source,
                 'sourceGroup': source_group,
-                'group':   feed['group'],
+                'channel': feed['channel'],
+                'region':  region,
                 'tag':     tag,
                 'tagCls':  cls,
-                'lang':    'en' if feed['group'] == '해외' else 'ko',
+                'lang':    'en' if region == '해외' else 'ko',
             })
         print(f"  ✅ {feed['source']}: {len(items)}건")
         return items
@@ -280,10 +320,10 @@ def fetch_rss(feed):
 # ── 고객사(정보원) 자체 JSON 피드 ─────────────────────
 CUSTOM_JSON_FEEDS = [
     {
-        'url':    'https://raw.githubusercontent.com/HarkjinDev/boannews-rss/main/feeds.json',
-        'source': '정보원',
-        'group':  '고객사',
-        'key':    'security_news',  # 기사 배열이 담긴 최상위 키
+        'url':     'https://raw.githubusercontent.com/HarkjinDev/boannews-rss/main/feeds.json',
+        'source':  '정보원',
+        'channel': '정보원',
+        'key':     'security_news',  # 기사 배열이 담긴 최상위 키
     },
 ]
 
@@ -328,17 +368,25 @@ def fetch_custom_json(feed):
             else:
                 display_source = SOURCE_DISPLAY.get(raw_source, raw_source or feed['source'])
 
+            # region 판별: lang이 ko가 아니면 해외, 그 외엔 링크 도메인으로 최종 확인
+            if lang != 'ko':
+                region = '해외'
+            else:
+                region = region_from_url(link) if link else '국내'
+
             tag, cls = classify(title, desc)
             items.append({
                 'id':      make_id(link, title),
                 'title':   title,
                 'desc':    desc,
                 'url':     link,
-                'date':    fmt_date(dt),
+                'date':      fmt_date(dt),
+                'datetime':  fmt_time(dt),
                 'rawDate': dt.isoformat(),
                 'source':      display_source,
                 'sourceGroup': display_source,
-                'group':   feed['group'],
+                'channel': feed['channel'],
+                'region':  region,
                 'tag':     tag,
                 'tagCls':  cls,
                 'lang':    lang,
@@ -381,11 +429,13 @@ def fetch_naver(keyword):
                 'title':   title,
                 'desc':    desc,
                 'url':     link,
-                'date':    fmt_date(dt),
+                'date':      fmt_date(dt),
+                'datetime':  fmt_time(dt),
                 'rawDate': dt.isoformat(),
                 'source':      source,
                 'sourceGroup': source,
-                'group':   '국내',
+                'channel': '자체개발',
+                'region':  '국내',
                 'tag':     tag,
                 'tagCls':  cls,
                 'lang':    'ko',
@@ -404,13 +454,14 @@ def main():
     # 기존 feeds.json 로드 (있으면 병합)
     all_items = {}
     cutoff = datetime.now(KST) - timedelta(hours=RETENTION_HRS)
-    VALID_GROUPS = {'국내', '해외', '사내', '고객사'}  # 예전 버전의 그룹값(보안뉴스/네이버/KISA/취약점 등)은 정리
+    VALID_CHANNELS = {'자체개발', '쉴더스', '정보원'}  # 예전 버전의 group값(국내/해외/사내/고객사 단일필드)은 정리
+    VALID_REGIONS  = {'국내', '해외'}
     if FEEDS_PATH.exists():
         try:
             existing = json.loads(FEEDS_PATH.read_text(encoding='utf-8'))
             stale_count = 0
             for a in existing.get('articles', []):
-                if a.get('group') not in VALID_GROUPS:
+                if a.get('channel') not in VALID_CHANNELS or a.get('region') not in VALID_REGIONS:
                     stale_count += 1
                     continue
                 try:
