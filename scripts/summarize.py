@@ -39,70 +39,174 @@ BODY_SELECTORS = [
     'article',
 ]
 
-# ── 크롤링 ────────────────────────────────────────────
+# ── 크롤링 (다층 방어 로직) ───────────────────────────
+USER_AGENTS = [
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15',
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0',
+]
+
+# 본문이 아닌 UI/광고/네비게이션으로 판단할 문구 패턴
+UI_JUNK = re.compile(
+    r'^(hi,?\s*what are you looking for|chat with us|accept all cookies|'
+    r'subscribe to (our )?newsletter|sign up for|cookie(s)? (policy|settings)|'
+    r'we use cookies|click here to|share this article|read more:?|'
+    r'advertisement|sponsored|related articles?|most popular|'
+    r'\uad6c\ub3c5\ud558\uae30|\ub85c\uadf8\uc778|\ud68c\uc6d0\uac00\uc785|\uad11\uace0|\ubb34\ub2e8\uc804\uc7ac|\uc800\uc791\uad8c\uc790)',
+    re.I
+)
+
+# 기자 서명 접두어 패턴
+LOC_PREFIX  = re.compile(r'^[\(\[][^)\]]{1,25}[\)\]]\s*')
+BYLINE_NAME = re.compile(r'^[\uac00-\ud7a3]{2,4}\s*\uae30\uc790\s*=?\s*')
+
+def clean_para(p):
+    """문단 정제: 기자서명 접두어 제거, UI 문구면 버림"""
+    p = p.strip()
+    if not p: return None
+    if UI_JUNK.match(p): return None
+    if re.search(r'copyright|\uc800\uc791\uad8c|\ubb34\ub2e8\uc804\uc7ac|\u24d2', p, re.I): return None
+    p = LOC_PREFIX.sub('', p)
+    p = BYLINE_NAME.sub('', p)
+    return p if len(p) >= 15 else None
+
+def extract_paras(element):
+    """요소에서 문단 리스트 추출 (<p> 우선, 없으면 줄바꿈 분리)"""
+    paras = [p.get_text(strip=True) for p in element.find_all('p')]
+    if not paras:
+        paras = [ln.strip() for ln in element.get_text('\n', strip=True).split('\n')]
+    out = []
+    for p in paras:
+        c = clean_para(p)
+        if c: out.append(c)
+    return out
+
+def try_jsonld(soup):
+    """1단계: JSON-LD 구조화 데이터에서 articleBody 추출 (가장 정확)"""
+    for tag in soup.find_all('script', type='application/ld+json'):
+        try:
+            data = json.loads(tag.string or '{}')
+        except Exception:
+            continue
+        candidates = data if isinstance(data, list) else [data]
+        # @graph 안에 들어있는 경우도 처리
+        for c in list(candidates):
+            if isinstance(c, dict) and '@graph' in c:
+                candidates.extend(c['@graph'] if isinstance(c['@graph'], list) else [c['@graph']])
+        for c in candidates:
+            if not isinstance(c, dict): continue
+            body = c.get('articleBody')
+            if body and isinstance(body, str) and len(body) > 100:
+                return body
+    return ''
+
+def try_density(soup):
+    """3단계: 텍스트 밀도 분석으로 본문 영역 자동 탐지 (처음 보는 사이트 대응)
+    - <p> 태그가 가장 많이 모여있고 텍스트량이 많은 컨테이너를 본문으로 판단"""
+    best_el, best_score = None, 0
+    for el in soup.find_all(['div','section','article','main']):
+        ps = el.find_all('p', recursive=True)
+        if len(ps) < 3: continue
+        text_len = sum(len(p.get_text(strip=True)) for p in ps)
+        if text_len < 150: continue
+        # 링크가 과하게 많으면 관련기사 목록일 가능성 -> 감점
+        link_len = sum(len(a.get_text(strip=True)) for a in el.find_all('a'))
+        link_ratio = link_len / max(text_len, 1)
+        if link_ratio > 0.5: continue
+        # 점수: 텍스트량 * 문단수 보정, 링크 비율만큼 감점
+        score = text_len * (1 - link_ratio)
+        # 중첩된 컨테이너 중 더 좁고 밀도 높은 쪽 선호
+        if score > best_score:
+            best_score, best_el = score, el
+    return best_el
+
 def crawl(url):
     if not url or not url.startswith('http'):
         return ''
-    try:
-        time.sleep(1.0)
-        r = requests.get(url, headers=HEADERS, timeout=20, allow_redirects=True)
-        if r.status_code != 200:
-            print(f"  HTTP {r.status_code}: {url}")
-            return ''
 
-        enc  = r.apparent_encoding or 'utf-8'
-        html = r.content.decode(enc, errors='ignore')
+    html = None
+    # 재시도 + User-Agent 로테이션 (봇 차단 대응)
+    for attempt, ua in enumerate(USER_AGENTS):
+        try:
+            time.sleep(1.0 if attempt == 0 else 2.0)
+            headers = {**HEADERS, 'User-Agent': ua}
+            r = requests.get(url, headers=headers, timeout=20, allow_redirects=True)
+            if r.status_code == 200:
+                enc = r.apparent_encoding or 'utf-8'
+                html = r.content.decode(enc, errors='ignore')
+                break
+            print(f"  HTTP {r.status_code} (시도 {attempt+1}/{len(USER_AGENTS)}): {url}")
+        except Exception as e:
+            print(f"  요청 실패 (시도 {attempt+1}/{len(USER_AGENTS)}): {e}")
+
+    if not html:
+        return ''
+
+    try:
         soup = BeautifulSoup(html, 'lxml')
 
-        # 불필요한 태그 제거
-        for tag in ['script','style','nav','header','footer','aside','iframe','figure','figcaption','noscript']:
+        # 1단계: JSON-LD 구조화 데이터 (본문을 명시적으로 제공하는 사이트)
+        jsonld_body = try_jsonld(soup)
+        if jsonld_body:
+            paras = [clean_para(p) for p in jsonld_body.split('\n')]
+            paras = [p for p in paras if p]
+            text = '\n'.join(paras)
+            if len(text) > 100:
+                print(f"  → JSON-LD로 추출 ({len(text)}자)")
+                return clean_body(text)
+
+        # 잡음 태그 제거 (챗봇/광고/네비게이션/관련기사)
+        for tag in ['script','style','nav','header','footer','aside','iframe','figure','figcaption','noscript','form','button']:
             for t in soup.find_all(tag): t.decompose()
-        for t in soup.find_all(class_=re.compile(r'ad|banner|related|share|sns|reporter|copyright', re.I)):
+        for t in soup.find_all(class_=re.compile(r'ad|banner|related|share|sns|reporter|copyright|chat|widget|cookie|newsletter|comment|recommend|popular|sidebar', re.I)):
+            t.decompose()
+        for t in soup.find_all(id=re.compile(r'chat|widget|cookie|intercom|drift|zendesk|comment|sidebar|related', re.I)):
             t.decompose()
 
-        # 셀렉터 순서대로 시도 - 신뢰도 높은 특정 셀렉터는 150자 기준, 
-        # 범용 셀렉터(article 등)는 관련기사/광고 등이 섞여 짧게 잡힐 위험이 있어 더 높은 기준 적용
+        candidates = []  # (텍스트, 출처설명)
+
+        # 2단계: 알려진 셀렉터
         GENERIC_SELECTORS = {'article', '.article_view', '.article-body', '.article_body'}
-        best_text = ''
         for sel in BODY_SELECTORS:
             el = soup.select_one(sel)
-            if el:
-                text = el.get_text('\n', strip=True)
-                threshold = 500 if sel in GENERIC_SELECTORS else 150
-                if len(text) > threshold:
-                    return clean_body(text)
-                if len(text) > len(best_text):
-                    best_text = text
+            if not el: continue
+            paras = extract_paras(el)
+            text = '\n'.join(paras)
+            threshold = 500 if sel in GENERIC_SELECTORS else 150
+            if len(text) > threshold:
+                print(f"  → 셀렉터 '{sel}'로 추출 ({len(text)}자)")
+                return clean_body(text)
+            if text:
+                candidates.append((text, f"셀렉터 {sel}"))
 
-        # fallback: <p> 태그 수집
-        raw_paras = [p.get_text(strip=True) for p in soup.find_all('p')]
+        # 3단계: 텍스트 밀도 분석 (처음 보는 사이트 자동 대응)
+        dense_el = try_density(soup)
+        if dense_el is not None:
+            paras = extract_paras(dense_el)
+            text = '\n'.join(paras)
+            if len(text) > 150:
+                print(f"  → 밀도분석으로 추출 ({len(text)}자)")
+                return clean_body(text)
+            if text:
+                candidates.append((text, "밀도분석"))
 
-        # 국내 통신사 특유의 기자 서명 접두어만 제거 (본문 자체는 유지)
-        # 1단계: "(서울=뉴스1)" "[헤럴드경제=문혜현 기자]" 같은 괄호 표기 제거
-        # 2단계: 남은 "김민수 기자 = " 같은 기자명 접두어 제거
-        LOC_PREFIX = re.compile(r'^[\(\[][^)\]]{1,25}[\)\]]\s*')
-        BYLINE_NAME = re.compile(r'^[가-힣]{2,4}\s*기자\s*=?\s*')
-
+        # 4단계: <p> 태그 전체 수집 (최후 폴백)
         paras = []
-        for p in raw_paras:
-            if len(p) < 25:
-                continue  # 너무 짧은 줄(순수 서명, 이메일 등)은 제외
-            if re.search(r'copyright|저작권|무단전재|ⓒ', p, re.I):
-                continue
-            p = LOC_PREFIX.sub('', p)
-            p = BYLINE_NAME.sub('', p)
-            if p:
-                paras.append(p)
+        for p in soup.find_all('p'):
+            c = clean_para(p.get_text(strip=True))
+            if c and len(c) >= 25:
+                paras.append(c)
+        if paras:
+            candidates.append(('\n'.join(paras), "p태그 전체"))
 
-        p_tag_text = '\n'.join(paras) if paras else ''
+        # 후보 중 가장 긴 것 채택
+        if candidates:
+            text, how = max(candidates, key=lambda x: len(x[0]))
+            if len(text) >= 100:
+                print(f"  → {how}로 추출 ({len(text)}자)")
+                return clean_body(text)
 
-        # 셀렉터로 찾은 것(기준 미달)과 <p> 태그 수집 결과 중 더 긴 쪽 채택
-        if len(p_tag_text) > len(best_text):
-            best_text = p_tag_text
-
-        if best_text:
-            return clean_body(best_text)
-
+        print("  ⚠️ 본문 추출 실패 (모든 방법 시도함)")
         return ''
     except Exception as e:
         print(f"  크롤링 오류: {e}")
