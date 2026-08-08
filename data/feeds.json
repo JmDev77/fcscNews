@@ -1,7 +1,39 @@
 {
-  "fetched_at": "2026-08-09T02:04:53.790980+09:00",
+  "fetched_at": "2026-08-09T02:57:49.803048+09:00",
   "count": 500,
   "articles": [
+    {
+      "id": "e5d1a096867d",
+      "title": "비트코인 레드팀, 코드 저장소 150곳 점검…취약점 10여건 발견",
+      "desc": "오데일리에 따르면 비트코인 레드팀 자원 보안 이니셔티브가 약 150개 비트코인 관련 코드 저장소를 점검해 10여건의 취약점을 공개했다. 팀은 지갑, 암호화 라이브러리, 인프라 등 비트코인 소프트웨어 감사를 위한...",
+      "url": "https://www.tokenpost.kr/news/breaking/387050",
+      "date": "8.9.",
+      "datetime": "8.9. 02:46",
+      "rawDate": "2026-08-09T02:46:00+09:00",
+      "source": "tokenpost",
+      "sourceGroup": "tokenpost",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "취약점/CVE",
+      "tagCls": "tag-yellow",
+      "lang": "ko"
+    },
+    {
+      "id": "6a7cb1251204",
+      "title": "바이비트, 15억달러 해킹 놓고 북한에 민사소송 냈다",
+      "desc": "바이비트(Bybit)가 지난해 발생한 15억 달러(약 2조1180억원) 규모 해킹과 관련해 북한을 상대로 미국 연방법원에 민사소송을 제기했다. 암호화폐 업계에서 역대 최대 피해액으로 기록된 사건이다. 소장은 6월 18일...",
+      "url": "https://www.tokenpost.kr/news/breaking/387048",
+      "date": "8.9.",
+      "datetime": "8.9. 02:30",
+      "rawDate": "2026-08-09T02:30:00+09:00",
+      "source": "tokenpost",
+      "sourceGroup": "tokenpost",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
     {
       "id": "c364d1607b25",
       "title": "램 품귀인데…48GB 맥북프로 100대 폐기 주장",
@@ -240,22 +272,6 @@
       "region": "국내",
       "tag": "보안",
       "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "31a7f96b07d3",
-      "title": "바이비트, 북한에 15억달러 소송…탈취자금 90%는 추적불가",
-      "desc": "바이비트(Bybit)가 지난해 15억달러 규모 해킹을 저지른 것으로 지목된 북한과 정찰총국, 라자루스 그룹... 해킹 발생 한 달여 후인 2025년 3월 기준으로는 탈취 자금의 88.87%가 추적 가능했고 7.59%는 추적이 끊겼으며 3....",
-      "url": "https://www.wikitree.co.kr/articles/1151229",
-      "date": "8.8.",
-      "datetime": "8.8. 23:52",
-      "rawDate": "2026-08-08T23:52:00+09:00",
-      "source": "wikitree",
-      "sourceGroup": "wikitree",
-      "channel": "정보원",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
       "lang": "ko"
     },
     {
@@ -7983,22 +7999,6 @@
       "channel": "자체개발",
       "region": "국내",
       "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "583a7cd2d30c",
-      "title": "CCTV가 '봤다'에서 '증명했다'로… 제주대 보안기술, AI 선박에 싣는다",
-      "desc": "7일 제주대학교에 따르면 제주대 산학협력단은 지난 6일 제주대 융합정보보안학협동과정 박남제 교수팀이... 영상정보의 보안과 무결성 확보가 CCTV 운영의 기본 요건으로 자리 잡고 있다는 의미다. 기술을 넘겨받은...",
-      "url": "http://www.fnnews.com/news/202608071445548871",
-      "date": "8.7.",
-      "datetime": "8.7. 14:48",
-      "rawDate": "2026-08-07T14:48:00+09:00",
-      "source": "fnnews",
-      "sourceGroup": "fnnews",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "AI 보안",
       "tagCls": "tag-blue",
       "lang": "ko"
     }
