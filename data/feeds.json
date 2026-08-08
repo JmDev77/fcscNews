@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-08T23:29:37.691572+09:00",
+  "fetched_at": "2026-08-09T00:00:30.745496+09:00",
   "count": 500,
   "articles": [
     {
@@ -19,6 +19,38 @@
       "lang": "ko"
     },
     {
+      "id": "31a7f96b07d3",
+      "title": "바이비트, 북한에 15억달러 소송…탈취자금 90%는 추적불가",
+      "desc": "바이비트(Bybit)가 지난해 15억달러 규모 해킹을 저지른 것으로 지목된 북한과 정찰총국, 라자루스 그룹... 해킹 발생 한 달여 후인 2025년 3월 기준으로는 탈취 자금의 88.87%가 추적 가능했고 7.59%는 추적이 끊겼으며 3....",
+      "url": "https://www.wikitree.co.kr/articles/1151229",
+      "date": "8.8.",
+      "datetime": "8.8. 23:52",
+      "rawDate": "2026-08-08T23:52:00+09:00",
+      "source": "wikitree",
+      "sourceGroup": "wikitree",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "a4d0ac4a5bc7",
+      "title": "美 코웨타시 랜섬웨어 마비, 카드결제 끊겼지만 단수는 안 한다",
+      "desc": "시 당국은 공격 사실을 인지한 즉시 계약된 IT 업체와 추가 사이버보안 전문가들을 투입해 시스템을... 시는 공격을 확인한 직후 계약된 IT 제공업체와 추가 사이버보안 전문가들에게 연락해 시스템을 보호하고 추가...",
+      "url": "https://www.wikitree.co.kr/articles/1151221",
+      "date": "8.8.",
+      "datetime": "8.8. 23:50",
+      "rawDate": "2026-08-08T23:50:00+09:00",
+      "source": "wikitree",
+      "sourceGroup": "wikitree",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "랜섬웨어",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
       "id": "f369ac908799",
       "title": "프레임워크, 전체 고객에 유출 통지…결제정보는 지켰다",
       "desc": "이번 사고는 프레임워크가 직접 관리하는 시스템이 아니라 회사가 이용하는 비즈니스 데이터베이스 제공업체 메타베이스(Metabase)가 해킹당하면서 발생했다. 프레임워크는 하드웨어 가격 인상과 램(RAM) 공급 부족...",
@@ -28,7 +60,7 @@
       "rawDate": "2026-08-08T23:28:00+09:00",
       "source": "wikitree",
       "sourceGroup": "wikitree",
-      "channel": "자체개발",
+      "channel": "정보원",
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
@@ -49,6 +81,22 @@
       "tag": "해킹/침해",
       "tagCls": "tag-red",
       "lang": "ko"
+    },
+    {
+      "id": "e64368097dfb",
+      "title": "해커가 TrueConf를 위반하여 백도어로 클라이언트 설치 프로그램을 트로이 목마화합니다.",
+      "desc": "Head Mare 핵티비스트 그룹은 패치가 적용되지 않은 TrueConf 화상 회의 서버의 취약점을 악용하여 클라이언트 설치 프로그램을 백도어를 제공하는 악성 버전으로 대체해 왔습니다. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/",
+      "date": "8.8.",
+      "datetime": "8.8. 23:16",
+      "rawDate": "2026-08-08T23:16:23+09:00",
+      "source": "BleepingComputer",
+      "sourceGroup": "BleepingComputer",
+      "channel": "정보원",
+      "region": "해외",
+      "tag": "취약점/CVE",
+      "tagCls": "tag-yellow",
+      "lang": "en"
     },
     {
       "id": "2d7715fd42ae",
@@ -2833,6 +2881,54 @@
       "tag": "보안",
       "tagCls": "tag-blue",
       "lang": "ko"
+    },
+    {
+      "id": "d06d484ad947",
+      "title": "Unlimited Technology Systems 침해로 380만명 개인·의료정보 유출",
+      "desc": "Unlimited Technology Systems 침해로 380만명 개인·의료정보 유출",
+      "url": "https://www.securityweek.com/3-8-million-impacted-by-unlimited-technology-systems-data-breach/",
+      "date": "8.8.",
+      "datetime": "8.8. 08:00",
+      "rawDate": "2026-08-08T08:00:00+09:00",
+      "source": "SecurityWeek",
+      "sourceGroup": "SecurityWeek",
+      "channel": "쉴더스",
+      "region": "해외",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "en"
+    },
+    {
+      "id": "4db1482f12e0",
+      "title": "개인정보위, AI 시대 맞춰 개인정보 제도 전면 재검토…국민 정책제안 접수(8/6~31)",
+      "desc": "개인정보위, AI 시대 맞춰 개인정보 제도 전면 재검토…국민 정책제안 접수(8/6~31)",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=207954",
+      "date": "8.8.",
+      "datetime": "8.8. 08:00",
+      "rawDate": "2026-08-08T08:00:00+09:00",
+      "source": "데일리시큐",
+      "sourceGroup": "데일리시큐",
+      "channel": "쉴더스",
+      "region": "국내",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "a68a9606a701",
+      "title": "Chrome 151 업데이트 — use-after-free 등 41개 취약점(critical 6개) 수정. 즉시 업데이트",
+      "desc": "Chrome 151 업데이트 — use-after-free 등 41개 취약점(critical 6개) 수정. 즉시 업데이트",
+      "url": "https://www.securityweek.com/critical-vulnerabilities-patched-with-chrome-151-update/",
+      "date": "8.8.",
+      "datetime": "8.8. 08:00",
+      "rawDate": "2026-08-08T08:00:00+09:00",
+      "source": "SecurityWeek",
+      "sourceGroup": "SecurityWeek",
+      "channel": "쉴더스",
+      "region": "해외",
+      "tag": "취약점/CVE",
+      "tagCls": "tag-yellow",
+      "lang": "en"
     },
     {
       "id": "57fd14296c32",
@@ -6915,22 +7011,6 @@
       "lang": "ko"
     },
     {
-      "id": "d06d484ad947",
-      "title": "3.8 Million Impacted by Unlimited Technology Systems Data Breach",
-      "desc": "Hackers stole personal, medical, and health insurance information from a company’s data center.\nThe post 3.8 Million Impacted by Unlimited Technology Systems Data Breach appeared first on SecurityWeek.",
-      "url": "https://www.securityweek.com/3-8-million-impacted-by-unlimited-technology-systems-data-breach/",
-      "date": "8.7.",
-      "datetime": "8.7. 16:22",
-      "rawDate": "2026-08-07T16:22:05+09:00",
-      "source": "SecurityWeek",
-      "sourceGroup": "SecurityWeek",
-      "channel": "자체개발",
-      "region": "해외",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "en"
-    },
-    {
       "id": "8e444513ab88",
       "title": "대중화 국면 접어든 말레이시아 EV 시장, 수입차(CBU) 하한가 규제 돌파...",
       "desc": "한국 기업은 배터리와 소재, 전장부품, 충전 인프라, 에너지관리시스템, 데이터·보안 솔루션 등 EV 가치사슬 전반에서 기술 역량을 보유하고 있어 말레이시아의 현지화 중심 산업정책과 연계할 가능성이 높다....",
@@ -7075,22 +7155,6 @@
       "lang": "ko"
     },
     {
-      "id": "4db1482f12e0",
-      "title": "개인정보위, AI 시대 개인정보 제도 전면 재검토…국민 정책제안 접수",
-      "desc": "개인정보보호위원회가 인공지능(AI)과 데이터 활용 환경 변화에 맞춰 개인정보 보호 제도를 전면 재검토한다. 반복적인 개인정보 동의 절차와 가명정보의 국외이전 제한, AI 에이전트의 개인정보 처리 책임 등 기존 법체계로 해결하기 어려운 과제를 국민과 현장의 의견을 바탕으로 개선한다는 계획이다.개인정보위는 지난 7월 30일 ‘개인정보 제도 혁신 태스크포스(TF)’를 구성한 데 이어, 8월 6일부터 31일까지 개인정보 포털과 소통혁신24를 통해 ‘개인정보 제도 혁신 정책제안’을 접수한다고 밝혔다.국민과 기업, 연구기관, 학계, 시민사회",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=207954",
-      "date": "8.7.",
-      "datetime": "8.7. 16:10",
-      "rawDate": "2026-08-07T16:10:22+09:00",
-      "source": "데일리시큐",
-      "sourceGroup": "데일리시큐",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
       "id": "53e0dc1f08d8",
       "title": "학폭·관계성범죄 피해자 보호…남양주북부서, AI상담챗봇",
       "desc": "카카오채널 AI 챗봇은 시간과 장소의 제약 없이 모바일로 학교폭력이나 사이버폭력, 청소년 비행, 관계성 범죄 등 다양한 문제를 상담할 수 있는 24시간 비대면 상담 플랫폼이다. AI 챗봇 상담에서는 학교폭력 대응 절차...",
@@ -7185,22 +7249,6 @@
       "tag": "AI 보안",
       "tagCls": "tag-blue",
       "lang": "ko"
-    },
-    {
-      "id": "a68a9606a701",
-      "title": "Critical Vulnerabilities Patched With Chrome 151 Update",
-      "desc": "The browser refresh eliminates over two dozen memory safety bugs, including critical use-after-free flaws.\nThe post Critical Vulnerabilities Patched With Chrome 151 Update appeared first on SecurityWeek.",
-      "url": "https://www.securityweek.com/critical-vulnerabilities-patched-with-chrome-151-update/",
-      "date": "8.7.",
-      "datetime": "8.7. 15:56",
-      "rawDate": "2026-08-07T15:56:56+09:00",
-      "source": "SecurityWeek",
-      "sourceGroup": "SecurityWeek",
-      "channel": "자체개발",
-      "region": "해외",
-      "tag": "클라우드",
-      "tagCls": "tag-blue",
-      "lang": "en"
     },
     {
       "id": "46774a4adccb",
@@ -7952,54 +8000,6 @@
       "region": "국내",
       "tag": "보안",
       "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "a120c3d06564",
-      "title": "카카오, 러시아에 '카카오톡' 상표 출원… 텔레그램·왓츠앱 틈새시장 ...",
-      "desc": "그동안 러시아에서는 강력한 보안성능을 앞세운 텔레그램과 왓츠앱이 국민 메신저로 자리잡아왔다. 하지만... 열악한 보안 성능에 대한 지적이 끊이지 않고 있다. 이 과정에서 카카오톡이 대안으로 부상했다....",
-      "url": "https://www.theguru.co.kr/news/article.html?no=105509",
-      "date": "8.7.",
-      "datetime": "8.7. 14:40",
-      "rawDate": "2026-08-07T14:40:00+09:00",
-      "source": "theguru",
-      "sourceGroup": "theguru",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "b177be6a444c",
-      "title": "모빌린트, USB형 AI 가속기 'MLD-R1' 출시...온디바이스 시장 공략",
-      "desc": "모빌린트는 MLD-R1을 스마트팩토리, 산업 자동화, 로보틱스, 스마트시티, 보안, 의료기기 등 다양한 산업 분야에 도입하며 사업 확대에 속도를 낼 전망이다. 모빌린트 김성모 사업개발본부장은 \"앞으로도 AI...",
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=213661",
-      "date": "8.7.",
-      "datetime": "8.7. 14:40",
-      "rawDate": "2026-08-07T14:40:00+09:00",
-      "source": "aitimes",
-      "sourceGroup": "aitimes",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "f4ac9ba95903",
-      "title": "[국회라이브1/정치한수] 유인태 &quot;형소법 개정, 대통령 거부권 행사할 수...",
-      "desc": "야권에서는 검사의 보안 수사권 폐지와 관련해서 토론회를 열면서 여론전 그 반대 여론전이죠. 이어가고 있고 또 실제로 이 부작용을 우려하는 목소리가 있는 만큼 이를 최소화할 후속 조치가 주목 됩니다. 후속 조치가...",
-      "url": "https://www.natv.go.kr/natv/news/newsView.do?newsId=513913",
-      "date": "8.7.",
-      "datetime": "8.7. 14:40",
-      "rawDate": "2026-08-07T14:40:00+09:00",
-      "source": "natv",
-      "sourceGroup": "natv",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "정책/제도",
-      "tagCls": "tag-green",
       "lang": "ko"
     }
   ]
