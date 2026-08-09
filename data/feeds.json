@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-10T06:29:20.054655+09:00",
+  "fetched_at": "2026-08-10T07:00:24.530518+09:00",
   "count": 500,
   "articles": [
     {
@@ -275,6 +275,70 @@
       "lang": "en"
     },
     {
+      "id": "07bd9aa51edc",
+      "title": "中 제안에 '기술 유출' SK하이닉스 전 직원, 2심도 징역 1년 6개월",
+      "desc": "김 씨는 이력서 작성을 위해 보안규정을 위반하고 사내 문서관리시스템에서 영업비밀을 출력하거나 사진을 촬영했으며, 일부 내용을 이력서에 인용해 전달한 것으로 조사됐다. 재판부는 CIS 관련 영업비밀 유출을...",
+      "url": "https://www.globale.co.kr/news/articleView.html?idxno=39776",
+      "date": "8.10.",
+      "datetime": "8.10. 06:52",
+      "rawDate": "2026-08-10T06:52:00+09:00",
+      "source": "globale",
+      "sourceGroup": "globale",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "정책/제도",
+      "tagCls": "tag-green",
+      "lang": "ko"
+    },
+    {
+      "id": "86f37125c4ae",
+      "title": "&quot;왜 자꾸 없어지지‥&quot; 절도범 정체는?",
+      "desc": "누가 이렇게 보안이 철저한 회사에 들어와 감쪽같이 물건을 훔쳐 갈까 이상했는데, 건물 내부 CCTV에는 반전이 담겨 있었습니다. 인적이 드문 새벽 시간. 아무도 없는 틈을 타 한 남성이 회사 승강기에 올라탑니다. 그가...",
+      "url": "https://imnews.imbc.com/replay/2026/nwtoday/article/6843548_37012.html",
+      "date": "8.10.",
+      "datetime": "8.10. 06:43",
+      "rawDate": "2026-08-10T06:43:00+09:00",
+      "source": "MBC",
+      "sourceGroup": "MBC",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "cf21d816b90d",
+      "title": "AI 안전성 테스트, AI 보안 새 리스크로",
+      "desc": "가장 심각한 사례 중 하나로 미공개 오픈AI 모델은 샌드박스를 벗어나 허깅페이스 운영 시스템을 해킹했다. 보안 평가 스타트업 이레귤러가 진행한 별도 평가에서는 앤트로픽과 메타 모델이 설정 오류로 열려 있던 인터넷...",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=691291",
+      "date": "8.10.",
+      "datetime": "8.10. 06:38",
+      "rawDate": "2026-08-10T06:38:00+09:00",
+      "source": "digitaltoday",
+      "sourceGroup": "digitaltoday",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "f8a5cb38a1d4",
+      "title": "“한국인?” 중국인 범죄자가 ‘태극기 모자’ 푹…징역 46년형 선고받...",
+      "desc": "태국 경찰은 이후 수사를 불법 무기·폭발물 유통과 위조 신분증, 초국경 범죄조직, 가상자산·사이버범죄 등 7개 사건으로 확대했으며 관련자 11명을 체포했다. 한편 언론 공개 당시 쑨은 태극기와 함께 ‘한국’이라는...",
+      "url": "https://www.seoul.co.kr/news/international/2026/08/10/20260810500001?wlog_tag3=naver",
+      "date": "8.10.",
+      "datetime": "8.10. 06:31",
+      "rawDate": "2026-08-10T06:31:00+09:00",
+      "source": "seoul",
+      "sourceGroup": "seoul",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "정책/제도",
+      "tagCls": "tag-green",
+      "lang": "ko"
+    },
+    {
       "id": "1eb11b18ef15",
       "title": "[외신 헤드라인] &quot;애플, 中 창신메모리 칩 테스트…공급 초기 논의&quot;",
       "desc": "해킹 사고가 연이어 벌어지는 상황에서 보안 위험을 이유로 개발 속도를 늦추기로 했는데요. 최근 진행한... 목적으로 ‘해킹’이라는 소재를 활용하고 있다는 지적도 나옵니다. ◇ 中 유니트리, IPO 절차 돌입…오늘 청약...",
@@ -300,7 +364,7 @@
       "rawDate": "2026-08-10T06:26:00+09:00",
       "source": "digitaltoday",
       "sourceGroup": "digitaltoday",
-      "channel": "자체개발",
+      "channel": "정보원",
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
@@ -1859,22 +1923,6 @@
       "lang": "ko"
     },
     {
-      "id": "1e53b8768451",
-      "title": "SK하이닉스 영업비밀 中회사에 넘긴 前직원...2심도 징역1년6개월",
-      "desc": "그는 이력서 작성에 활용하기 위해 보안규정을 어기고 사내 문서관리시스템에서 영업비밀 자료를 출력하거나 사진을 찍어 유출했고, 일부 비밀자료 내용은 실제 이력서에 인용해 중국 회사에 누설했다. 1심은 김씨의...",
-      "url": "https://www.tfmedia.co.kr/news/article.html?no=206331",
-      "date": "8.9.",
-      "datetime": "8.9. 19:48",
-      "rawDate": "2026-08-09T19:48:00+09:00",
-      "source": "tfmedia",
-      "sourceGroup": "tfmedia",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "정책/제도",
-      "tagCls": "tag-green",
-      "lang": "ko"
-    },
-    {
       "id": "e83726ab05a1",
       "title": "조승래, 당원 1.7만명 정보 유출 사과…친명 &quot;왜 鄭 사과 없나&quot;(종합)",
       "desc": "사과 한마디로 끝날 일이 아니다\"라며 \"더 놀라운 것은 이상 징후를 알았고, 점검까지 했는데도 해킹 사실을... 민주당은 지난 7일 블루웨이브에 가입한 당원 1만 7000여 명의 개인정보가 외부 해킹으로 유출됐다고 공지했다....",
@@ -2912,22 +2960,6 @@
       "region": "국내",
       "tag": "AI 보안",
       "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "b51ab699fa6f",
-      "title": "화웨이 이직 위해 영업기밀 유출 … SK하이닉스 前 직원, '징역 1년 6개월...",
-      "desc": "이후 2022년 2월경, 중국 최대 통신장비 업체인 화웨이의 자회사(하이실리콘 등)를 비롯한 현지 경쟁사로의 이직을 결심한 김씨는 보안 규정을 위반하고 범행에 착수했다. 그는 사내 문서공유시스템에 접속해 빛을...",
-      "url": "https://biz.newdaily.co.kr/site/data/html/2026/08/09/2026080900049.html",
-      "date": "8.9.",
-      "datetime": "8.9. 16:38",
-      "rawDate": "2026-08-09T16:38:00+09:00",
-      "source": "biz",
-      "sourceGroup": "biz",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "정책/제도",
-      "tagCls": "tag-green",
       "lang": "ko"
     },
     {
@@ -4016,22 +4048,6 @@
       "region": "국내",
       "tag": "AI 보안",
       "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "35b3d54517b3",
-      "title": "&quot;중국 업체 가려고&quot; 기술 유출 前 SK하이닉스직원, 2심도 징역 1년6개월",
-      "desc": "2심 재판부는 \"현지 법인의 보안이 다소 소홀한 점을 이용한 범행으로 죄질이 매우 무겁다\"며 엄벌이 불가피하다고 지적했다. 다만 김씨가 피해 회사를 위해 1천만원을 공탁했고 유출된 자료 대부분이 회수된 점 등을...",
-      "url": "https://www.kyeonggi.com/article/20260809580062",
-      "date": "8.9.",
-      "datetime": "8.9. 12:06",
-      "rawDate": "2026-08-09T12:06:00+09:00",
-      "source": "kyeonggi",
-      "sourceGroup": "kyeonggi",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "정책/제도",
-      "tagCls": "tag-green",
       "lang": "ko"
     },
     {
@@ -7984,22 +8000,6 @@
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "d3f72befc159",
-      "title": "비트코인, 고용 충격·ETF 자금 유입에도 상승 제한-6만3천~6만7천달러 ...",
-      "desc": "이 같은 변화는 하드웨어 지갑 콜드카드(Coldcard)의 펌웨어 결함으로 보안 우려가 확산되면서 기존 지갑의 자산이 새로운 지갑이나 규제권 수탁기관으로 이동한 영향이 큰 것으로 분석된다. 해당 사고로 확인된...",
-      "url": "https://www.mediafine.co.kr/news/articleView.html?idxno=86020",
-      "date": "8.8.",
-      "datetime": "8.8. 09:26",
-      "rawDate": "2026-08-08T09:26:00+09:00",
-      "source": "mediafine",
-      "sourceGroup": "mediafine",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
       "lang": "ko"
     }
   ]
