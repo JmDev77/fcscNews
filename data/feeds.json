@@ -1,7 +1,55 @@
 {
-  "fetched_at": "2026-08-10T00:28:25.730878+09:00",
+  "fetched_at": "2026-08-10T00:59:48.008292+09:00",
   "count": 500,
   "articles": [
+    {
+      "id": "7423e522bddc",
+      "title": "국보법 수사받자 문닫은 여행사… 피해자 수백명 소송 검토",
+      "desc": "본지 취재를 종합하면, A사는 국가보안법 위반 사건에 연루된 혐의로 경찰 수사를 받고 있다. 서울경찰청 안보수사과는 지난 4일 서울 서대문구에 있는 A사 사무실을 압수수색했다. 앞서 경찰은 지난 6월 민중민주당 전...",
+      "url": "https://www.chosun.com/national/national_general/2026/08/10/QSOM2NJ7JRERNIEBT3NV4I46K4/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+      "date": "8.10.",
+      "datetime": "8.10. 00:47",
+      "rawDate": "2026-08-10T00:47:00+09:00",
+      "source": "조선일보",
+      "sourceGroup": "조선일보",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "정책/제도",
+      "tagCls": "tag-green",
+      "lang": "ko"
+    },
+    {
+      "id": "a84f518b19e9",
+      "title": "테슬라, 사이버트럭 PCS 41% 고장에 보증 8년 확대",
+      "desc": "테슬라가 초기형 사이버트럭(Cybertruck)에 탑재된 전력변환장치(PCS, Power Conversion System)가 “신뢰도 기준을 충족하지 못했다”고 인정했다. 회사는 사이버트럭 공식 계정을 통해 7월 31일(현지시각) 이 같은 내용을...",
+      "url": "https://www.wikitree.co.kr/articles/1151357",
+      "date": "8.10.",
+      "datetime": "8.10. 00:38",
+      "rawDate": "2026-08-10T00:38:00+09:00",
+      "source": "wikitree",
+      "sourceGroup": "wikitree",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "12c8e55c48d1",
+      "title": "불모지 한국서 ‘픽업트럭 열풍’",
+      "desc": "픽업트럭으로 분류되는 테슬라의 전기차 ‘사이버트럭’도 올해 상반기에만 268대를 팔아치우며 ‘테슬라 열풍’에 힘을 더하고 있다. 자동차 업계에서는 픽업트럭 인기가 단기간에 높아진 이유로 소비자 선택지가...",
+      "url": "https://www.donga.com/news/Economy/article/all/20260809/134445161/2",
+      "date": "8.10.",
+      "datetime": "8.10. 00:31",
+      "rawDate": "2026-08-10T00:31:00+09:00",
+      "source": "동아일보",
+      "sourceGroup": "동아일보",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
     {
       "id": "36e41f26c888",
       "title": "비트코인(BTC), 보안 악재에도 6만 5,000달러 '철옹성'",
@@ -7235,22 +7283,6 @@
       "lang": "ko"
     },
     {
-      "id": "3302ee4e2ec4",
-      "title": "테슬라, 사이버트럭 전력변환장치 결함 인정…기존 모델 보증 8년 확대",
-      "desc": "테슬라 사이버트럭 [사진: 테슬라] 테슬라가 2026년형 이전 사이버트럭의 전력변환시스템 PCS 결함을 공식 인정하고, 해당 부품의 보증 기간을 8년 또는 15만마일로 연장했다. 7일(현지시간) 전기차 매체 일렉트렉...",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=691239",
-      "date": "8.8.",
-      "datetime": "8.8. 09:16",
-      "rawDate": "2026-08-08T09:16:00+09:00",
-      "source": "digitaltoday",
-      "sourceGroup": "digitaltoday",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
       "id": "6cc766a33b53",
       "title": "서울사이버대, 한·캐나다 온라인 국제전 개최",
       "desc": "서울사이버대학교(총장 이은주)는 디자인대학 멀티미디어디자인학과 주최로 ‘2026 Korea-Canada Invitational... 전시는 12월까지 서울사이버대 멀티미디어디자인학과 온라인 전시관에서 진행된다. 한국과 캐나다를...",
@@ -7968,38 +8000,6 @@
       "region": "국내",
       "tag": "보안",
       "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "51f8feafdacb",
-      "title": "“반려동물 시설에 ‘보안장비 설치’ 서울시장 공문…‘사기’입니다...",
-      "desc": "서울시를 사칭해 반려동물시설 보안 장비 구매를 유도하는 사례가 최근 잇달아 발생하고 있다. 이에 대해... 공무원을 사칭한 인물은 우편으로 보낸 반려동물 시설 보안장비 구축 지원사업에 대한 공문을 수신했는지 물었고...",
-      "url": "https://biz.heraldcorp.com/article/10830863?ref=naver",
-      "date": "8.8.",
-      "datetime": "8.8. 07:26",
-      "rawDate": "2026-08-08T07:26:00+09:00",
-      "source": "biz",
-      "sourceGroup": "biz",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "a1ecd2d83241",
-      "title": "'유부녀 킬러' 2회 만에 8%-논란 불구 수직 상승",
-      "desc": "겉으로는 평범한 회사의 한 부서처럼 보이지만, 실상은 사고사 위장부터 해킹, 독살까지 각종 범죄 기술을 보유한 전문가들이 모인 '악질 범죄자 처리반'이다. 일상의 가장 익숙한 공간인 회사가 어느 순간 범죄의 무대로...",
-      "url": "https://www.mediafine.co.kr/news/articleView.html?idxno=86001",
-      "date": "8.8.",
-      "datetime": "8.8. 07:22",
-      "rawDate": "2026-08-08T07:22:00+09:00",
-      "source": "mediafine",
-      "sourceGroup": "mediafine",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
       "lang": "ko"
     }
   ]
