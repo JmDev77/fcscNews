@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-15T23:47:52.839041+09:00",
+  "fetched_at": "2026-08-16T00:17:38.606153+09:00",
   "count": 500,
   "articles": [
     {
@@ -16,6 +16,38 @@
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "59c83e8ef41b",
+      "title": "콜드카드 시드 재현성 논란 확산…2021년 펌웨어 결함, 키 강도 40비트까...",
+      "desc": "비트코인 하드웨어 지갑 콜드카드(Coldcard)를 겨냥한 대규모 해킹의 피해 규모가 계속 늘어나고 있다.... 블록에이드(Blockaid) 집계에 따르면 2026년 상반기 크립토 프로젝트가 해킹으로 잃은 금액은 약 11억 달러(약...",
+      "url": "https://www.wikitree.co.kr/articles/1152704",
+      "date": "8.16.",
+      "datetime": "8.16. 00:16",
+      "rawDate": "2026-08-16T00:16:00+09:00",
+      "source": "wikitree",
+      "sourceGroup": "wikitree",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "90077d41a917",
+      "title": "지분 늘리고 빌 게이츠 만나고…HD현대, '정기선 리더십' 본격화",
+      "desc": "이날 회의에서는 상반기 실적과 하반기 사업계획을 비롯해 전사적인 인공지능(AI) 기술 도입과 정보보안 리스크 등 인공지능 전환(AX) 가속화 방안도 논의됐다. 단기적인 실적 관리뿐 아니라 AI 등 미래 산업 변화에...",
+      "url": "https://news.tf.co.kr/read/economy/2354437.htm",
+      "date": "8.16.",
+      "datetime": "8.16. 00:01",
+      "rawDate": "2026-08-16T00:01:00+09:00",
+      "source": "news",
+      "sourceGroup": "news",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
       "lang": "ko"
     },
     {
@@ -7968,38 +8000,6 @@
       "region": "국내",
       "tag": "AI 보안",
       "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "bf62ecc08ead",
-      "title": "카자흐스탄 사야사트 누르벡 교육부장관, 서울사이버대 방문",
-      "desc": "서울사이버대학교(총장 이은주)가 지난 8월 12일 카자흐스탄 과학고등교육부 장관을 비롯한 정부... 서울사이버대학교에서는 이상균 신일학원 이사장, 허묘연 국제교류처 협동총장, 구국모 대외협력...",
-      "url": "https://edu.donga.com/news/articleView.html?idxno=110938",
-      "date": "8.14.",
-      "datetime": "8.14. 14:12",
-      "rawDate": "2026-08-14T14:12:00+09:00",
-      "source": "동아일보",
-      "sourceGroup": "동아일보",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "73eb62c29493",
-      "title": "국세청, &quot;가상자산관련 국세청 사칭 헤킹메일 주의!&quot;",
-      "desc": "이미 링크를 눌렀거나 피해가 의심된다면, 경찰청 사이버범죄 신고시스템(ECRM) 또는 한국인터넷진흥원(KISA) 개인정보침해 신고센터에 신고하면 된다. 국세청 디지털자산총괄과는 \"국세청에서 발송한 메일인지 잘...",
-      "url": "http://www.intn.co.kr/news/articleView.html?idxno=2052581",
-      "date": "8.14.",
-      "datetime": "8.14. 14:12",
-      "rawDate": "2026-08-14T14:12:00+09:00",
-      "source": "intn",
-      "sourceGroup": "intn",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
       "lang": "ko"
     }
   ]
