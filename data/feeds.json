@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-16T03:56:19.158895+09:00",
+  "fetched_at": "2026-08-16T04:20:29.992766+09:00",
   "count": 500,
   "articles": [
     {
@@ -16,6 +16,38 @@
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "e157588232cd",
+      "title": "오픈AI CFO “기업 매출이 소비자 앞질렀다”…ARR 400억달러 두 분기 앞...",
+      "desc": "라지치는 구글이 인수한 사이버보안 기업 와이즈(Wiz)에서 최고운영책임자를 지냈으며, 스라이브(Thrive) 창업자 조시 커시너(Josh Kushner)의 소개로 오픈AI와 연결됐다. 두 사람의 퇴사에 앞서 지난 7월에는 AGI 배포...",
+      "url": "https://www.wikitree.co.kr/articles/1152715",
+      "date": "8.16.",
+      "datetime": "8.16. 04:14",
+      "rawDate": "2026-08-16T04:14:00+09:00",
+      "source": "wikitree",
+      "sourceGroup": "wikitree",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "42b277d138e2",
+      "title": "[VC’s Pick]차세대 AI 데이터센터·ESS 기반 '배터리'에 쏠린 시선",
+      "desc": "이번 주(8월 10~14일)에는 인공지능(AI) 데이터 인프라, 미디어, 진단, 보안 등 다양한 분야 스타트업이... AI보안기업 '스틸컷' 딥페이크 생성 차단·탐지 AI보안기업 스틸컷(StealCut)이 매쉬업벤처스로부터 시드 투자를...",
+      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=01095526645547976",
+      "date": "8.16.",
+      "datetime": "8.16. 04:02",
+      "rawDate": "2026-08-16T04:02:00+09:00",
+      "source": "이데일리",
+      "sourceGroup": "이데일리",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
       "lang": "ko"
     },
     {
@@ -7968,38 +8000,6 @@
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "48aafc3a3c94",
-      "title": "원주 세 모녀 살해 시도한 10대, 검찰이 법정 최고형 구형",
-      "desc": "검찰은 징역형과 함께 성폭력 치료프로그램 이수 명령, 신상정보 공개·고지, 보호관찰 등 보안처분도 명령해 달라고 재판부에 요청했다. 공동현관 비밀번호 알고 침입…세 모녀에 흉기 A 군은 지난 2월 5일 오전 9시...",
-      "url": "https://www.wikitree.co.kr/articles/1152489",
-      "date": "8.14.",
-      "datetime": "8.14. 14:24",
-      "rawDate": "2026-08-14T14:24:00+09:00",
-      "source": "wikitree",
-      "sourceGroup": "wikitree",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "정책/제도",
-      "tagCls": "tag-green",
-      "lang": "ko"
-    },
-    {
-      "id": "64809cf4bbd7",
-      "title": "황지효, 글로벌사이버대 ‘미래동심 문화예술공헌상’ 수상",
-      "desc": "글로벌사이버대 ‘미래동심 문화예술공헌상’을 수상한 후 기념촬영을 하고 있다.  작사가이자 문화예술 콘텐츠 기획자로 활동하고 있는 황지효 씨가 글로벌사이버대학교(총장 공병영) ‘미래동심 문화예술공헌상’을...",
-      "url": "https://dhnews.co.kr/news/view/1065590304991554",
-      "date": "8.14.",
-      "datetime": "8.14. 14:24",
-      "rawDate": "2026-08-14T14:24:00+09:00",
-      "source": "dhnews",
-      "sourceGroup": "dhnews",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
       "lang": "ko"
     }
   ]
