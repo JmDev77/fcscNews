@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-16T02:45:02.193916+09:00",
+  "fetched_at": "2026-08-16T03:25:23.767163+09:00",
   "count": 500,
   "articles": [
     {
@@ -12,6 +12,38 @@
       "rawDate": "2026-08-16T06:06:03+09:00",
       "source": "데일리시큐",
       "sourceGroup": "데일리시큐",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "fd2f99ce69df",
+      "title": "윈도우11 작업표시줄, 화면 상단·좌우로 옮기고 크기도 줄인다…9월 정...",
+      "desc": "설정 > 개인정보 및 보안 > 검색에서는 웹과 마이크로소프트 스토어 제안을 로컬 결과와 함께 보여줄지... 기능이 릴리스 프리뷰 채널에 오르면 보통 2~3주 안에 매달 말 나오는 비보안 기능 프리뷰 업데이트나 매달 둘째...",
+      "url": "https://www.wikitree.co.kr/articles/1152714",
+      "date": "8.16.",
+      "datetime": "8.16. 03:16",
+      "rawDate": "2026-08-16T03:16:00+09:00",
+      "source": "wikitree",
+      "sourceGroup": "wikitree",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "50935fd9b245",
+      "title": "75만달러 BTC 탈취, 구글 계정 침해서 시작",
+      "desc": "게시물은 구글 인증기 클라우드 백업을 끄고 유비키(YubiKey) 같은 하드웨어 보안키를 쓰라고 권고했다. 보안키는 한 개만 두지 말고 두 개를 설정해 하나를 잃어버렸을 때 예비 수단으로 쓰라고 했다. 앞서 본지도...",
+      "url": "https://www.tokenpost.kr/news/cryptocurrency/391491",
+      "date": "8.16.",
+      "datetime": "8.16. 03:06",
+      "rawDate": "2026-08-16T03:06:00+09:00",
+      "source": "tokenpost",
+      "sourceGroup": "tokenpost",
       "channel": "자체개발",
       "region": "국내",
       "tag": "해킹/침해",
@@ -7968,38 +8000,6 @@
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "22f01db14680",
-      "title": "주문한 케이크 다 망가져 CCTV 봤더니... 영상에 포착된 배달기사의 황...",
-      "desc": "해당 제보자는 보안 목적으로 집 앞 CCTV를 확인하던 중 우연히 이 장면을 발견했다. 제보자는 배달업체 고객센터에 문제를 제기했고, 업체 측으로부터 해당 배달 기사에게 교육을 실시했다는 답변을 받았다고 전했다....",
-      "url": "https://www.insight.co.kr/news/568327",
-      "date": "8.14.",
-      "datetime": "8.14. 14:22",
-      "rawDate": "2026-08-14T14:22:00+09:00",
-      "source": "insight",
-      "sourceGroup": "insight",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "790f15614c50",
-      "title": "‘드론’에 놀란 트럼프 “100% 관세” 대응…북·중 등 ‘크링크’ 정...",
-      "desc": "트럼프 대통령은 다만 “드론은 현재와 미래의 미국 군사 작전의 핵심 기술”이라며 “핵심 부품을 해외에서 조달하는 것은 국가 안보에 상당한 위험을 초래하고 사이버 보안의 취약점을 야기한다”고 강조했다. 미래형...",
-      "url": "https://www.joongang.co.kr/article/25453384",
-      "date": "8.14.",
-      "datetime": "8.14. 14:18",
-      "rawDate": "2026-08-14T14:18:00+09:00",
-      "source": "중앙일보",
-      "sourceGroup": "중앙일보",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "취약점/CVE",
-      "tagCls": "tag-yellow",
       "lang": "ko"
     }
   ]
