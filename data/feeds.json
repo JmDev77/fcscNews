@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-16T05:19:13.343154+09:00",
+  "fetched_at": "2026-08-16T05:47:32.947219+09:00",
   "count": 500,
   "articles": [
     {
@@ -161,6 +161,22 @@
       "tag": "취약점/CVE",
       "tagCls": "tag-yellow",
       "lang": "en"
+    },
+    {
+      "id": "c1265fae86d0",
+      "title": "NIL 22% 반응 뒤 체인링크 이동 경로 넓혔다",
+      "desc": "다만 통상 브리지와 메시징 프로토콜은 보안, 유동성, 실제 거래 수요가 함께 갖춰져야 사용성이 커진다. 체인링크 CCIP는 최근 여러 프로젝트의 크로스체인 이전과 연결돼 거론됐다. 본지는 앞서 WBTC 크로스체인...",
+      "url": "https://www.tokenpost.kr/news/cryptocurrency/391508",
+      "date": "8.16.",
+      "datetime": "8.16. 05:34",
+      "rawDate": "2026-08-16T05:34:00+09:00",
+      "source": "tokenpost",
+      "sourceGroup": "tokenpost",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
     },
     {
       "id": "1b6fd0ff6d0c",
@@ -7983,22 +7999,6 @@
       "channel": "자체개발",
       "region": "국내",
       "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "dff96299e859",
-      "title": "글로벌사이버대-베트남 빈유니버시티, 문화·창의산업 및 디지털 고등교...",
-      "desc": "글로벌사이버대학교(총장 공병영)는 8월 13일 천안 본교에서 베트남 빈유니버시티(총장 Tan Yap Peng)와 업무협약을 체결했다(출처: 글로벌사이버대학교)  BTS 모교로 알려진 글로벌사이버대학교(총장 공병영)는 지난 13일...",
-      "url": "https://www.lecturernews.com/news/articleView.html?idxno=208548",
-      "date": "8.14.",
-      "datetime": "8.14. 14:32",
-      "rawDate": "2026-08-14T14:32:00+09:00",
-      "source": "lecturernews",
-      "sourceGroup": "lecturernews",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
       "tagCls": "tag-blue",
       "lang": "ko"
     }
