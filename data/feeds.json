@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-16T03:25:23.767163+09:00",
+  "fetched_at": "2026-08-16T03:56:19.158895+09:00",
   "count": 500,
   "articles": [
     {
@@ -12,6 +12,22 @@
       "rawDate": "2026-08-16T06:06:03+09:00",
       "source": "데일리시큐",
       "sourceGroup": "데일리시큐",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "1582cd8267fa",
+      "title": "중국, 태평양 군사 영향력 확대…미국 방산 한계 직면",
+      "desc": "사이버 공세와 미·중 기술 공급망 갈등 격화 가상 공간과 기간시설을 향한 위협도 동시에 고조되고 있다. 대만은 지난해 중국으로부터 전년 대비 두 배에 달하는 약 260만 건의 사이버 공격을 받았다. 호주 서부 해역에서는...",
+      "url": "https://www.g-enews.com/view.php?ud=2026081521105049552bd56fbc3c_1",
+      "date": "8.16.",
+      "datetime": "8.16. 03:30",
+      "rawDate": "2026-08-16T03:30:00+09:00",
+      "source": "g-enews",
+      "sourceGroup": "g-enews",
       "channel": "자체개발",
       "region": "국내",
       "tag": "해킹/침해",
@@ -7984,22 +8000,6 @@
       "region": "국내",
       "tag": "보안",
       "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "a68157637ddf",
-      "title": "미국선 AI 반감 심한데…중국은 수용적인 이유",
-      "desc": "오히려 최근 10년간 소셜미디어(SNS)와 허위정보, 개인정보 침해 등 IT 기술 산업을 둘러싼 논쟁이 더 가열됐다. 대형 기술 기업을 정부가 제대로 통제할 수 있는지에 대한 신뢰도 중국과 미국의 AI에 대한 인식 차이를...",
-      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=05077446645547320",
-      "date": "8.14.",
-      "datetime": "8.14. 14:23",
-      "rawDate": "2026-08-14T14:23:00+09:00",
-      "source": "이데일리",
-      "sourceGroup": "이데일리",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
       "lang": "ko"
     }
   ]
