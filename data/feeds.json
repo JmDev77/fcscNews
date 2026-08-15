@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-16T01:20:51.756105+09:00",
+  "fetched_at": "2026-08-16T01:49:59.840903+09:00",
   "count": 500,
   "articles": [
     {
@@ -12,6 +12,22 @@
       "rawDate": "2026-08-16T06:06:03+09:00",
       "source": "데일리시큐",
       "sourceGroup": "데일리시큐",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "77e59cfb68e6",
+      "title": "하이퍼리퀴드 사칭한 가짜 구글광고에 속아 이용자 USDC 55만개, 7억8000만...",
+      "desc": "당시 데이터셋에는 하이퍼리퀴드를 사칭한 사이트가 17곳 포함돼 있었는데, 이는 브랜드별 분류에 포함된 352개 항목 중 약 5%에 해당한다.SEAL에 따르면 공격자들은 해킹당했거나 불법으로 구매한 인증된 광고주...",
+      "url": "https://www.wikitree.co.kr/articles/1152708",
+      "date": "8.16.",
+      "datetime": "8.16. 01:30",
+      "rawDate": "2026-08-16T01:30:00+09:00",
+      "source": "wikitree",
+      "sourceGroup": "wikitree",
       "channel": "자체개발",
       "region": "국내",
       "tag": "해킹/침해",
@@ -7984,22 +8000,6 @@
       "region": "국내",
       "tag": "AI 보안",
       "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "713e79a30448",
-      "title": "[금융 브리핑] 두나무·빗썸",
-      "desc": "빗썸 관계자는 \"AI 기술 발전에 발맞추어 새로 등장하는 보안 위협에 선제적으로 대응하고자 이번 캠페인을 준비했다\"라며 \"앞으로도 매월 정기적인 정보보호 활동을 통해 최신 해킹 수법과 대응책을 공유하며 건전하고...",
-      "url": "http://www.niceeconomy.co.kr/news/articleView.html?idxno=90553",
-      "date": "8.14.",
-      "datetime": "8.14. 14:16",
-      "rawDate": "2026-08-14T14:16:00+09:00",
-      "source": "niceeconomy",
-      "sourceGroup": "niceeconomy",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
       "lang": "ko"
     }
   ]
