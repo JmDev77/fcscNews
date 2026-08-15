@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-16T00:17:38.606153+09:00",
+  "fetched_at": "2026-08-16T00:44:40.611774+09:00",
   "count": 500,
   "articles": [
     {
@@ -16,6 +16,22 @@
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "285bdfc538a0",
+      "title": "이스라엘 최대은행 레우미, 2022년 무산된 크립토 재도전…갤럭시와 202...",
+      "desc": "서비스는 레우미의 자본시장 애플리케이션 레우미트레이드(Leumi Trade) 안의 별도 보안 구역에서 제공되며... 지갑 보안·자본 기준을 세우고 고객 자산 분리 보관을 의무화했다. 8월 1일 발표된 회람에서는 시가총액...",
+      "url": "https://www.wikitree.co.kr/articles/1152705",
+      "date": "8.16.",
+      "datetime": "8.16. 00:26",
+      "rawDate": "2026-08-16T00:26:00+09:00",
+      "source": "wikitree",
+      "sourceGroup": "wikitree",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
       "lang": "ko"
     },
     {
@@ -7981,22 +7997,6 @@
       "source": "네이버뉴스",
       "sourceGroup": "네이버뉴스",
       "channel": "정보원",
-      "region": "국내",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "10d137530ca1",
-      "title": "구광모·젠슨황, 피지컬 AI 로봇 시대 맞손",
-      "desc": "헤일로스는 산업 현장에서 로봇의 물리적 안전성부터 시스템 보안까지 다양한 안전 요소를 통합 지원하는 체계다. LG는 자신의 강점을 로봇에 고스란히 담는다. LG전자의 엑추에이터(전자 구동 장치), LG이노텍의...",
-      "url": "http://www.globalepic.co.kr/view.php?ud=20260814140415963648439a4874_29",
-      "date": "8.14.",
-      "datetime": "8.14. 14:14",
-      "rawDate": "2026-08-14T14:14:00+09:00",
-      "source": "globalepic",
-      "sourceGroup": "globalepic",
-      "channel": "자체개발",
       "region": "국내",
       "tag": "AI 보안",
       "tagCls": "tag-blue",
