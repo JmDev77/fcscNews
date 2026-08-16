@@ -1,7 +1,39 @@
 {
-  "fetched_at": "2026-08-17T01:50:23.920975+09:00",
+  "fetched_at": "2026-08-17T02:17:20.967718+09:00",
   "count": 500,
   "articles": [
+    {
+      "id": "23b22901cf2a",
+      "title": "AI도 디지털 신분 받는다… 기업 관리 대상 비인간까지 확장",
+      "desc": "SK쉴더스는 AI 에이전트의 과도한 권한과 내부 정보 접근을 주요 위험으로 보고 AI 특화 모의 해킹과 ‘에이전틱 SOC’ 등 관련 사업을 확대할 계획이다. 라온시큐어는 AI 에이전트와 로봇에 별도의 디지털 신분을...",
+      "url": "https://www.kmib.co.kr/article/view.asp?arcid=9000003563&cp=nv",
+      "date": "8.17.",
+      "datetime": "8.17. 02:07",
+      "rawDate": "2026-08-17T02:07:00+09:00",
+      "source": "kmib",
+      "sourceGroup": "kmib",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "3dcad30bf9ca",
+      "title": "앤트로픽 CEO “AI 반감은 신뢰 위기”",
+      "desc": "이런 모델은 데이터센터, 전력 사용, 저작권 데이터, 일자리 변화, 사이버보안 위험과 맞물리며 기술 산업을 넘어 사회적 논쟁의 대상이 되고 있다. 미국에서는 AI 데이터센터와 저작권 데이터 활용, 일자리 변화...",
+      "url": "https://www.tokenpost.kr/news/cryptocurrency/391735",
+      "date": "8.17.",
+      "datetime": "8.17. 02:06",
+      "rawDate": "2026-08-17T02:06:00+09:00",
+      "source": "tokenpost",
+      "sourceGroup": "tokenpost",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
     {
       "id": "a42922994c5d",
       "title": "로봇 경쟁, 눈에서 손으로 이동… ‘손끝’에서 승부 갈린다",
@@ -7968,38 +8000,6 @@
       "region": "국내",
       "tag": "취약점/CVE",
       "tagCls": "tag-yellow",
-      "lang": "ko"
-    },
-    {
-      "id": "33aefccafdc0",
-      "title": "이글루코퍼레이션, 상반기 별도 매출 전년비 14%↑",
-      "desc": "이글루코퍼레이션에 따르면 이는 지난해 4분기 클라우드 보안기업 파이오링크를 자회사로 편입하면서... 하이브리드 확장형 탐지·대응(XDR) 플랫폼과 보안운영·위협대응 자동화(SOAR) 솔루션, 보안 특화 AI에이전트 등...",
-      "url": "https://www.dt.co.kr/article/12078342?ref=naver",
-      "date": "8.14.",
-      "datetime": "8.14. 23:18",
-      "rawDate": "2026-08-14T23:18:00+09:00",
-      "source": "dt",
-      "sourceGroup": "dt",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "5018c2b4937b",
-      "title": "프랭클린템플턴 크립토 &quot;암호화폐, 기관 투자 시대 시작&quot;...대형 상품 유...",
-      "desc": "동시에 암호화폐 산업의 최대 장애물로 보안을 지목했다. 그는 “보안은 암호화폐가 잠재력을 완전히 실현하는 것을 막는 가장 큰 문제”라고 말했다. AI가 단기적으로 공격 위험을 키울 수 있지만 방어자가 최첨단...",
-      "url": "http://coinreaders.com/252916",
-      "date": "8.14.",
-      "datetime": "8.14. 23:02",
-      "rawDate": "2026-08-14T23:02:00+09:00",
-      "source": "coinreaders",
-      "sourceGroup": "coinreaders",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
       "lang": "ko"
     }
   ]
