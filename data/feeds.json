@@ -1,7 +1,39 @@
 {
-  "fetched_at": "2026-08-16T22:28:58.679236+09:00",
+  "fetched_at": "2026-08-16T22:54:58.771024+09:00",
   "count": 500,
   "articles": [
+    {
+      "id": "dbfa0c34961f",
+      "title": "세이프팔 주문 플러그인 사고, 3만9800명 정보 유출",
+      "desc": "세이프팔(SafePal)의 주문 플러그인 보안사고로 약 3만9800명의 사용자 정보가 유출됐다는 보도가 나왔다. 지갑 개인키와 시드 문구는 영향을 받지 않은 것으로 전해졌다. 오데일리는 세이프팔이 주문 플러그인 보안사고...",
+      "url": "https://www.tokenpost.kr/news/breaking/391697",
+      "date": "8.16.",
+      "datetime": "8.16. 22:40",
+      "rawDate": "2026-08-16T22:40:00+09:00",
+      "source": "tokenpost",
+      "sourceGroup": "tokenpost",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "81618789c3c6",
+      "title": "프랑스 국세청 해킹으로 67만8437명 세무정보 유출, 두 달 만에 드러났다",
+      "desc": "프랑스 재정총국(DGFiP)은 이번 공격이 과거에 겪은 어떤 사이버공격보다 정교했다고 밝혔다. 유출 규모를... 두 달 가까이 침해 사실이 드러나지 않았던 셈이다.이후 파리 검찰청 사이버범죄수사부가 사건을...",
+      "url": "https://www.wikitree.co.kr/articles/1152809",
+      "date": "8.16.",
+      "datetime": "8.16. 22:30",
+      "rawDate": "2026-08-16T22:30:00+09:00",
+      "source": "wikitree",
+      "sourceGroup": "wikitree",
+      "channel": "정보원",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
     {
       "id": "8e770f0deac6",
       "title": "솔라나 SOL, 엑셀라 브리지 통해 XRP 레저 DEX 첫 거래…가짜 토큰 주의...",
@@ -19,22 +51,6 @@
       "lang": "ko"
     },
     {
-      "id": "78cbdb079762",
-      "title": "프랑스 국세청 해킹…납세자 67만8천명 세금·개인정보 유출",
-      "desc": "프랑스 세무당국인 공공재정총국(DGFiP)이 해킹을 당해 수십만 명의 개인과 기업 관련 정보가 유출된 것으로 확인됐다. 공격자는 정상 사용자의 계정을 탈취한 뒤 내부 시스템에 접근해 세금 관련 정보를 조회하고 외부로 빼낸 것으로 조사됐다.프랑스 정부 조사 결과 현재까지 영향을 받은 개인과 기업은 약 67만8천명으로 파악됐다. 초기에는 해커가 60만명 이상의 정보를 확보했다고 주장했지만, 이후 DGFiP 조사에서 실제 피해 규모가 구체화됐다.계정 탈취해 내부 시스템 침투이번 공격은 지난 6월과 7월 발생했다. DGFiP는 공격자가 직",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208072",
-      "date": "8.16.",
-      "datetime": "8.16. 22:20",
-      "rawDate": "2026-08-16T22:20:16+09:00",
-      "source": "데일리시큐",
-      "sourceGroup": "데일리시큐",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
       "id": "b14d00c08f7d",
       "title": "애플, 맥OS 화면공유 취약점 긴급 패치",
       "desc": "더해커뉴스는 네덜란드 국가사이버보안센터(NCSC)를 인용해 CVE-2026-65400 취약점의 CVSS 점수가 9.8점이며, 공격자가 유효한 인증정보 없이 인터넷에 노출된 5900번 포트의 맥에 접근할 수 있었다고 전했다. NCSC는...",
@@ -44,7 +60,7 @@
       "rawDate": "2026-08-16T22:20:00+09:00",
       "source": "tokenpost",
       "sourceGroup": "tokenpost",
-      "channel": "자체개발",
+      "channel": "정보원",
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
@@ -163,16 +179,16 @@
       "lang": "ko"
     },
     {
-      "id": "facc2e8448b9",
-      "title": "세이프팔 주문 추적 취약점, 약 4만명 정보 유출 보도",
-      "desc": "보도에 언급된 피해 규모는 약 4만 명이다. 세이프팔은 암호화폐 지갑 서비스를 제공하는 업체다. 이번 보도는 지갑 자체의 자산 탈취 여부보다 주문 추적 과정에서 다뤄지는 사용자 정보 보안 문제에 초점이 맞춰졌다.",
-      "url": "https://www.tokenpost.kr/news/breaking/391685",
+      "id": "2139bac33d95",
+      "title": "세이프팔, 주문 추적 취약점에 3만9798명 노출",
+      "desc": "우블록체인은 세이프팔이 주문 추적 플러그인에 보안 취약점이 있었다고 밝혔다고 보도했다. 영향을 받은 고객은 2025년 3월 2일부터 2026년 4월 11일까지 주문한 일부 이용자로 전해졌다. 이번 사안은 지갑 자체의...",
+      "url": "https://www.tokenpost.kr/news/breaking/391684",
       "date": "8.16.",
       "datetime": "8.16. 21:50",
       "rawDate": "2026-08-16T21:50:00+09:00",
       "source": "tokenpost",
       "sourceGroup": "tokenpost",
-      "channel": "정보원",
+      "channel": "자체개발",
       "region": "국내",
       "tag": "취약점/CVE",
       "tagCls": "tag-yellow",
@@ -6259,6 +6275,22 @@
       "lang": "ko"
     },
     {
+      "id": "135b88a5214f",
+      "title": "프랑스 국세청(DGFiP) 해킹…개인·사업자 세무정보 최대 67만~200만건 유출",
+      "desc": "관련 보도: news1.kr · databreaches.net · theregister.com",
+      "url": "https://therecord.media/french-tax-authority-dgfip-confirms-data-breach",
+      "date": "8.15.",
+      "datetime": "8.15. 08:00",
+      "rawDate": "2026-08-15T08:00:00+09:00",
+      "source": "TheRecord 외 3곳",
+      "sourceGroup": "TheRecord",
+      "channel": "쉴더스",
+      "region": "해외",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "en"
+    },
+    {
       "id": "9d005af94656",
       "title": "공효진, 카지노서 남편과 '일촉즉발' 숨멎 엔딩 연출",
       "desc": "작전이 틀어지자 유보나는 직접 카지노로 향했고, 그곳에는 천성길의 차를 쫓아온 권태성이 보안요원들과 실랑이를 벌이고 있었다. 서로 다른 목적으로 카지노를 찾은 두 사람이 스쳐 지나가며 긴장감은 최고조에...",
@@ -7969,38 +8001,6 @@
       "tag": "해킹/침해",
       "tagCls": "tag-red",
       "lang": "en"
-    },
-    {
-      "id": "573cd952006e",
-      "title": "BNB체인 25일 하드포크, 검증자 보안 강화",
-      "desc": "이번 업그레이드는 크로스체인 검증 보안과 검증자 운영 절차, 블록 생성 효율을 함께 손보는 기술... BEP-682는 CometBFT 라이트 블록 검증 과정에서 중복 검증자를 거부하도록 하는 보안 개선안이다. 기존 검증...",
-      "url": "https://www.tokenpost.kr/news/blockchain/390963",
-      "date": "8.14.",
-      "datetime": "8.14. 20:56",
-      "rawDate": "2026-08-14T20:56:00+09:00",
-      "source": "tokenpost",
-      "sourceGroup": "tokenpost",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "7f55c3c8e682",
-      "title": "[마켓포인트] 빗썸, 2분기 218억 순손실 '적자전환'…상반기 영업익 83%↓",
-      "desc": "법인시장 개방에 대비한 법인회원 유치와 양자내성암호(PQC) 도입 등 보안·이용자 보호 체계 고도화도 추진할 계획이다. 빗썸 관계자는 \"시장 변화에 대응해 내실을 다지는 동시에 서비스 경쟁력을 강화해 지속...",
-      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=477633",
-      "date": "8.14.",
-      "datetime": "8.14. 20:48",
-      "rawDate": "2026-08-14T20:48:00+09:00",
-      "source": "pinpointnews",
-      "sourceGroup": "pinpointnews",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "정책/제도",
-      "tagCls": "tag-green",
-      "lang": "ko"
     }
   ]
 }
