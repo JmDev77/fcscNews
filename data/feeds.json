@@ -1,7 +1,23 @@
 {
-  "fetched_at": "2026-08-17T03:56:04.244111+09:00",
+  "fetched_at": "2026-08-17T04:20:35.585561+09:00",
   "count": 500,
   "articles": [
+    {
+      "id": "5e490e1d491d",
+      "title": "H 38% 반등 뒤 2억6646만개 언락 앞뒀다",
+      "desc": "휴머니티프로토콜(H)이 6월 보안 사고 이후 낙폭을 일부 되돌리며 월간 고점을 회복했다. 이번 반등은... 당시에는 보안 사고 이후 가격 변동성과 파생상품 포지션 쏠림이 함께 관찰됐다. 가격 데이터는...",
+      "url": "https://www.tokenpost.kr/news/cryptocurrency/391749",
+      "date": "8.17.",
+      "datetime": "8.17. 04:12",
+      "rawDate": "2026-08-17T04:12:00+09:00",
+      "source": "tokenpost",
+      "sourceGroup": "tokenpost",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
     {
       "id": "f2f09a0c3f1f",
       "title": "앤트로픽 아모데이, AI 반발 책임론에 “신뢰의 위기” 반박…투자자와...",
@@ -7984,22 +8000,6 @@
       "region": "국내",
       "tag": "정책/제도",
       "tagCls": "tag-green",
-      "lang": "ko"
-    },
-    {
-      "id": "e198531f8bb5",
-      "title": "스페이스X, 그록에 내부 지식 학습 추진",
-      "desc": "스페이스X가 우주 발사와 정부 계약을 다루는 기업이라는 점에서 AI 학습 데이터 분류는 단순한 보안 절차가 아니라 규제 준수 문제와 맞닿아 있다. 테슬라($TSLA)가 미 증권거래위원회(SEC)에 제출한 2025년 연차보고서...",
-      "url": "https://www.tokenpost.kr/news/cryptocurrency/391061",
-      "date": "8.14.",
-      "datetime": "8.14. 23:32",
-      "rawDate": "2026-08-14T23:32:00+09:00",
-      "source": "tokenpost",
-      "sourceGroup": "tokenpost",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
       "lang": "ko"
     }
   ]
