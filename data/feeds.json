@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-16T19:20:56.853258+09:00",
+  "fetched_at": "2026-08-16T19:48:20.556987+09:00",
   "count": 500,
   "articles": [
     {
@@ -35,6 +35,38 @@
       "lang": "ko"
     },
     {
+      "id": "5e2eeda65422",
+      "title": "대구대, 글로벌 창업교육 현장… ‘도전과 희망’을 말하다",
+      "desc": "보안문제 처리방안, 디자인 결정 요인, 시장 경쟁 상황, 수익성, 고개설득(구매자인 부모) 노하우 등에 대한 질의응답이 오갔다. 두 번째 소개 기업은 KBOX AI로, AI를 이용해 영상광고 서비스를 제공하는 베트남...",
+      "url": "https://www.viva100.com/article/20260816500248",
+      "date": "8.16.",
+      "datetime": "8.16. 19:42",
+      "rawDate": "2026-08-16T19:42:00+09:00",
+      "source": "viva100",
+      "sourceGroup": "viva100",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "d841eff1394b",
+      "title": "영국 매체 &quot;우크라, 영국제 드론으로 러시아 본토 타격&quot;",
+      "desc": "이 매체는 영국의 한 고위 국방 소식통이 러시아가 이미 영국을 상대로 간첩 활동과 사이버 공격을 벌이고 있다며 \"우크라이나의 드론전을 지원한 결과 이런 공격이 증가할 수 있다\"고 경고했다고 전했습니다. 그러나...",
+      "url": "http://www.yonhapnewstv.co.kr/news/AKR20260816192330M49",
+      "date": "8.16.",
+      "datetime": "8.16. 19:24",
+      "rawDate": "2026-08-16T19:24:00+09:00",
+      "source": "yonhapnewstv",
+      "sourceGroup": "yonhapnewstv",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
       "id": "5da55592a61d",
       "title": "아마존웹서비스, 가성비 기업용 AI로 글로벌 시장 도전장",
       "desc": "가성비, 보안, 강력한 업무 흐름이라는 강점을 앞세워 이 시장에 뛰어들었다. AWS는 최근 AI 통합 플랫폼... 100시간, 보안 부서의 문서 검토는 월 80시간, 재무 부서의 데이터 취합은 월 40시간이 줄었다. 공급망...",
@@ -48,22 +80,6 @@
       "region": "국내",
       "tag": "AI 보안",
       "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "8d291339e2fe",
-      "title": "우크라, 영국제 장거리 드론으로 러 깊숙이 타격 첫 확인",
-      "desc": "영국의 한 고위 국방 소식통은 러시아가 이미 영국을 상대로 간첩 활동과 핵심 기반 시설에 대한 사이버 공격을 벌이고 있다면서 \"우크라이나의 드론전을 지원한 결과 이런 공격이 증가할 수 있다\"고 경고했습니다. 이런...",
-      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008707708&plink=ORI&cooper=NAVER",
-      "date": "8.16.",
-      "datetime": "8.16. 19:09",
-      "rawDate": "2026-08-16T19:09:00+09:00",
-      "source": "SBS",
-      "sourceGroup": "SBS",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
       "lang": "ko"
     },
     {
@@ -7980,22 +7996,6 @@
       "rawDate": "2026-08-14T19:00:00+09:00",
       "source": "news",
       "sourceGroup": "news",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "d44867edf705",
-      "title": "5·18 유가족에 ‘연대’ 제주4·3단체, “국회는 이진숙 제명하라”",
-      "desc": "앞서 이 의원과 새역사국민운동이 지난 13일 국회에서 함께 연 포럼에는 1979년 전두환 국군보안사령관의 비서실장으로 12·12 쿠데타를 주동한 허화평씨를 비롯한 극우 인사들이 참석했다. 4·3단체들은 “이 자리에서 5...",
-      "url": "https://www.hani.co.kr/arti/area/jeju/1273013.html",
-      "date": "8.14.",
-      "datetime": "8.14. 18:56",
-      "rawDate": "2026-08-14T18:56:00+09:00",
-      "source": "한겨레",
-      "sourceGroup": "한겨레",
       "channel": "자체개발",
       "region": "국내",
       "tag": "보안",
