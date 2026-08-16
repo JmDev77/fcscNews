@@ -1,7 +1,23 @@
 {
-  "fetched_at": "2026-08-17T03:24:46.385172+09:00",
+  "fetched_at": "2026-08-17T03:56:04.244111+09:00",
   "count": 500,
   "articles": [
+    {
+      "id": "f2f09a0c3f1f",
+      "title": "앤트로픽 아모데이, AI 반발 책임론에 “신뢰의 위기” 반박…투자자와...",
+      "desc": "그는 사이버보안 위협, 생물무기 개발, AI 시스템에 대한 인간의 통제력 상실, 완전 자동화된 연구개발 가능성 등 네 가지를 구체적으로 우려해야 할 위험 범주로 꼽았다.이를 뒷받침하기 위해 아모데이는 상당한...",
+      "url": "https://www.wikitree.co.kr/articles/1152829",
+      "date": "8.17.",
+      "datetime": "8.17. 03:36",
+      "rawDate": "2026-08-17T03:36:00+09:00",
+      "source": "wikitree",
+      "sourceGroup": "wikitree",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
     {
       "id": "99fabcca0571",
       "title": "세이프팔, 5월 피싱 신고 두 달 방치 후 3만9798명 주문정보 유출 확인",
@@ -12,7 +28,7 @@
       "rawDate": "2026-08-17T03:14:00+09:00",
       "source": "wikitree",
       "sourceGroup": "wikitree",
-      "channel": "자체개발",
+      "channel": "정보원",
       "region": "국내",
       "tag": "취약점/CVE",
       "tagCls": "tag-yellow",
@@ -32,6 +48,22 @@
       "region": "국내",
       "tag": "보안",
       "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "6edb66f7d25e",
+      "title": "LA서 카드 스키밍 장치 17개 적발",
+      "desc": "USSS는 경호 업무 이외에도 주요 경제 및 사이버 범죄에 대한 수사도 진행한다. 카드 스키밍은 결제 단말기 등에 불법 장치를 설치해 EBT카드나 각종 결제카드 정보를 빼낸 뒤 이를 다른 마그네틱 카드에 복제해...",
+      "url": "https://www.koreadaily.com/article/20260816110336546",
+      "date": "8.17.",
+      "datetime": "8.17. 03:04",
+      "rawDate": "2026-08-17T03:04:00+09:00",
+      "source": "koreadaily",
+      "sourceGroup": "koreadaily",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "정책/제도",
+      "tagCls": "tag-green",
       "lang": "ko"
     },
     {
@@ -80,22 +112,6 @@
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "3dcad30bf9ca",
-      "title": "앤트로픽 CEO “AI 반감은 신뢰 위기”",
-      "desc": "이런 모델은 데이터센터, 전력 사용, 저작권 데이터, 일자리 변화, 사이버보안 위험과 맞물리며 기술 산업을 넘어 사회적 논쟁의 대상이 되고 있다. 미국에서는 AI 데이터센터와 저작권 데이터 활용, 일자리 변화...",
-      "url": "https://www.tokenpost.kr/news/cryptocurrency/391735",
-      "date": "8.17.",
-      "datetime": "8.17. 02:06",
-      "rawDate": "2026-08-17T02:06:00+09:00",
-      "source": "tokenpost",
-      "sourceGroup": "tokenpost",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
       "lang": "ko"
     },
     {
@@ -7983,22 +7999,6 @@
       "channel": "자체개발",
       "region": "국내",
       "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "984f8c9173e5",
-      "title": "에이다 15달러 전망, 2040년 시나리오였다",
-      "desc": "보안 감사도 범위를 구분해 볼 필요가 있다. 솔리드프루프(SolidProof) 트러스트넷은 페페토코인 감사... 다만 해당 감사는 특정 토큰 계약의 보안 분석이다. 프로젝트나 자산의 경제적 가치, 투자 적합성을...",
-      "url": "https://www.tokenpost.kr/news/cryptocurrency/391059",
-      "date": "8.14.",
-      "datetime": "8.14. 23:30",
-      "rawDate": "2026-08-14T23:30:00+09:00",
-      "source": "tokenpost",
-      "sourceGroup": "tokenpost",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
       "tagCls": "tag-blue",
       "lang": "ko"
     }
