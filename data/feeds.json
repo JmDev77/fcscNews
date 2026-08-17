@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-18T02:23:55.821073+09:00",
+  "fetched_at": "2026-08-18T02:55:10.060137+09:00",
   "count": 500,
   "articles": [
     {
@@ -16,6 +16,38 @@
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "320e59d53761",
+      "title": "니어AI, 아이언클로 1.2 출시…개인용 보안서 팀 협업 도구로",
+      "desc": "개인 사용자용 보안 도구로 출발한 IronClaw가 여러 팀원이 함께 쓰는 협업 플랫폼으로 영역을 넓혔다.... 1.0은 첫 출시 당시 개인 사용자를 겨냥한 보안 도구였다. AI 에이전트가 각자의 작업 환경에서 메모리와...",
+      "url": "https://www.tokenpost.kr/news/cryptocurrency/392177",
+      "date": "8.18.",
+      "datetime": "8.18. 02:50",
+      "rawDate": "2026-08-18T02:50:00+09:00",
+      "source": "tokenpost",
+      "sourceGroup": "tokenpost",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "8ccb014ea754",
+      "title": "'英 육상 여신' 金4 땄는데 &quot;경기장서 나가지 마&quot;…왜 꽁꽁 갇혔나? '무...",
+      "desc": "즉각 보안 조치가 시행됐고, 경기와 관련된 모든 수송 시스템도 일시적으로 멈췄다. 그 여파로 헌트를... 당일 예정됐던 6개의 메달 세리머니가 보안 문제로 진행되지 못했다. 대회 조직위원회는 \"웨스트 미들랜즈 경찰이...",
+      "url": "https://www.xportsnews.com/article/2184587",
+      "date": "8.18.",
+      "datetime": "8.18. 02:44",
+      "rawDate": "2026-08-18T02:44:00+09:00",
+      "source": "xportsnews",
+      "sourceGroup": "xportsnews",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "정책/제도",
+      "tagCls": "tag-green",
       "lang": "ko"
     },
     {
@@ -7967,38 +7999,6 @@
       "channel": "자체개발",
       "region": "국내",
       "tag": "클라우드",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "86521b116ad3",
-      "title": "[단독] ‘키스방 알리미’ 첫 유죄 판결… 성매매 광고 집행유예",
-      "desc": "그는 언론에도 등장하고 강연까지 해온 정보기술(IT) 보안 전문가였다. 그런데 농촌의 외딴 창고에 법인 주소를 올려놓고, 단 몇십만원의 서버 비용을 내고 만든 프로그램을 돌려 성매매를 알선하면서 월 수천만원을 벌고...",
-      "url": "https://h21.hani.co.kr/arti/society/society_general/59766.html",
-      "date": "8.16.",
-      "datetime": "8.16. 12:22",
-      "rawDate": "2026-08-16T12:22:00+09:00",
-      "source": "한겨레",
-      "sourceGroup": "한겨레",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "정책/제도",
-      "tagCls": "tag-green",
-      "lang": "ko"
-    },
-    {
-      "id": "705b48009f0d",
-      "title": "이수만 ‘흐린 기억’ 대박 난 현진영 감금한 사연 “밤마다 탈출해 클...",
-      "desc": "현진영은 \"선생님이 퇴근하며 보안 시스템을 켰다. 방이 사무실과 화장실 사이에 있었는데 화장실 출입은 가능한데 사무실 문을 여는 순간 보안 시스템이 작동했다\"고 떠올렸다. 이어 현진영은 \"20대 초반 한창 놀고 싶을...",
-      "url": "https://www.newsen.com/news_view.php?uid=202608161203225710",
-      "date": "8.16.",
-      "datetime": "8.16. 12:21",
-      "rawDate": "2026-08-16T12:21:00+09:00",
-      "source": "newsen",
-      "sourceGroup": "newsen",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
       "tagCls": "tag-blue",
       "lang": "ko"
     }
