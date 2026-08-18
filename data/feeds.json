@@ -1,7 +1,23 @@
 {
-  "fetched_at": "2026-08-19T02:24:37.294965+09:00",
+  "fetched_at": "2026-08-19T02:54:11.601924+09:00",
   "count": 500,
   "articles": [
+    {
+      "id": "c781f4f148fa",
+      "title": "테슬라 사이버캡, 이달 오스틴서 공개 운행…웨이모와 580배 데이터 격차...",
+      "desc": "모델 사이버캡(Cybercab)의 공개 운행을 준비하고 있다고 디인포메이션(The Information)이 보도했다. 계획은 먼저 테슬라 직원들에게 오스틴 공공도로에서 사이버캡 시범 승차 기회를 제공한 뒤, 며칠 후 오스틴의...",
+      "url": "https://www.wikitree.co.kr/articles/1153237",
+      "date": "8.19.",
+      "datetime": "8.19. 02:50",
+      "rawDate": "2026-08-19T02:50:00+09:00",
+      "source": "wikitree",
+      "sourceGroup": "wikitree",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
     {
       "id": "38f65939491a",
       "title": "(온라인) 쳇GPT 청소년 버전 나온다",
@@ -7984,22 +8000,6 @@
       "region": "국내",
       "tag": "보안",
       "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "8b3772812afe",
-      "title": "코레일·인천공항 '해커톤 대회' 공동 개최…국민 체감 모빌리티 서비스...",
-      "desc": "해커톤 대회는 해킹(hacking)과 마라톤(marathon)의 합성어로, 참가자들이 일정 시간 내에 아이디어의 구체적인 결과물을 만들어 내는 대회를 말한다. 이번 대회는 대학생과 일반인 약 70여개 팀이 참여한 예선 심사를 거쳐...",
-      "url": "https://www.newsis.com/view/NISX20260818_0003752432",
-      "date": "8.18.",
-      "datetime": "8.18. 11:23",
-      "rawDate": "2026-08-18T11:23:00+09:00",
-      "source": "뉴시스",
-      "sourceGroup": "뉴시스",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
       "lang": "ko"
     }
   ]
