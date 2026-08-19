@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-19T23:30:38.117897+09:00",
+  "fetched_at": "2026-08-20T00:04:14.204766+09:00",
   "count": 500,
   "articles": [
     {
@@ -15,6 +15,54 @@
       "channel": "자체개발",
       "region": "국내",
       "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "f6ff5f69333f",
+      "title": "[광부백년]문경 은성광업소 막장에서 독일 지하 1,200m 갱도까지…대한...",
+      "desc": "보안관리와 발파 관련 자격을 갖춘 김씨는 필기시험을 통과했지만 신원조회에서 어려움을 겪었다. 한국전쟁 당시 월북한 친척이 있다는 이유였다. 김씨는 “사돈의 팔촌까지 따질 정도로 신원조회가 까다로웠다”며...",
+      "url": "https://www.kwnews.co.kr/article/20260819500691",
+      "date": "8.20.",
+      "datetime": "8.20. 00:02",
+      "rawDate": "2026-08-20T00:02:00+09:00",
+      "source": "kwnews",
+      "sourceGroup": "kwnews",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "북한/APT",
+      "tagCls": "tag-purple",
+      "lang": "ko"
+    },
+    {
+      "id": "592769eae81b",
+      "title": "골프존커머스 최덕형 대표, 청소년 불법도박 근절 캠페인 동참",
+      "desc": "불법 사이버도박의 위험성을 알리는 공익 캠페인이다. 골프존커머스는 최 대표가 김문석 SBI저축은행 대표이사의 지명을 받아 캠페인에 동참했다고 19일 밝혔다. 최 대표는 캠페인 메시지인 \"청소년을 노리는 불법 사이버...",
+      "url": "http://www.worktoday.co.kr/news/articleView.html?idxno=88173",
+      "date": "8.19.",
+      "datetime": "8.19. 23:52",
+      "rawDate": "2026-08-19T23:52:00+09:00",
+      "source": "worktoday",
+      "sourceGroup": "worktoday",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "정책/제도",
+      "tagCls": "tag-green",
+      "lang": "ko"
+    },
+    {
+      "id": "20b797827b08",
+      "title": "[기고]사관학교는 ‘특정 정권의 전리품’이 아니다…미래전 대비 미명...",
+      "desc": "보안을 고려해 개괄해 보면 다음과 같다. 부대별 임무와 능력은 그냥 지시나 명령을 한다고 해서 나오는 것이 아니다. 말로만 AI(인공지능), 우주, 사이버, 드론, 전자기 등을 말한다고 해서 예하부대 장병들이 미래전을...",
+      "url": "https://www.munhwa.com/article/11610542?ref=naver",
+      "date": "8.19.",
+      "datetime": "8.19. 23:48",
+      "rawDate": "2026-08-19T23:48:00+09:00",
+      "source": "munhwa",
+      "sourceGroup": "munhwa",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "AI 보안",
       "tagCls": "tag-blue",
       "lang": "ko"
     },
@@ -4163,22 +4211,6 @@
       "lang": "ko"
     },
     {
-      "id": "72428d4f8b44",
-      "title": "최덕형 골프존커머스 대표, 경찰청 불법 도박 근절 캠페인 동참",
-      "desc": "이번 캠페인은 청소년을 대상으로 확산하고 있는 불법 사이버도박의 심각성을 알리고, 이로 인한 피해로부터... 불법 사이버도박, 절대 이길 수 없는 사기 범죄입니다'를 전하며 청소년 불법 도박 예방과 근절을 위한...",
-      "url": "https://www.m-i.kr/news/articleView.html?idxno=1403846",
-      "date": "8.19.",
-      "datetime": "8.19. 16:22",
-      "rawDate": "2026-08-19T16:22:00+09:00",
-      "source": "m-i",
-      "sourceGroup": "m-i",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "정책/제도",
-      "tagCls": "tag-green",
-      "lang": "ko"
-    },
-    {
       "id": "c07f50bdcc66",
       "title": "77억5000만달러 인수, 서비스나우 보안축 넓혔다",
       "desc": "서비스나우(ServiceNow·$NOW)가 아르미스(Armis) 인수를 마무리하며 기업용 AI와 보안 플랫폼 결합을... 정리하는 보안 업체다. 통상 기업 보안은 계정과 서버, 네트워크 방어에서 출발했지만, AI 에이전트와 산업...",
@@ -7968,38 +8000,6 @@
       "region": "국내",
       "tag": "정책/제도",
       "tagCls": "tag-green",
-      "lang": "ko"
-    },
-    {
-      "id": "68247691a3ac",
-      "title": "그노랜드 오픈소스 '그노엠씨피' 공개… 인공지능 코딩서 보안까지 생태...",
-      "desc": "스마트 컨트랙트 플랫폼 그노랜드가 개발과 보안 전반에 인공지능(AI)을 적용해 개발자 생태계와 플랫폼... AI 보안 시스템 '도라(Dora)'를 함께 발표했다. 개발 진입장벽을 낮춰 더 많은 스마트 컨트랙트과 온체인...",
-      "url": "https://www.tokenpost.kr/news/blockchain/393021",
-      "date": "8.19.",
-      "datetime": "8.19. 11:36",
-      "rawDate": "2026-08-19T11:36:00+09:00",
-      "source": "tokenpost",
-      "sourceGroup": "tokenpost",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "c792f8108965",
-      "title": "과천도시공사, 제주서 '예방감사·AI 활용' 우수사례 공유",
-      "desc": "두 번째 교육에서는 법령·내부규정과 AI를 연계한 감사업무 활용과정을 직접 시연하며, 업무 효율성과 정보보안을 함께 고려한 AI 활용방안을 제시했다. 공사 관계자는 \"이번 교육은 기관 간 벤치마킹이 일회성 방문에...",
-      "url": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1285121",
-      "date": "8.19.",
-      "datetime": "8.19. 11:36",
-      "rawDate": "2026-08-19T11:36:00+09:00",
-      "source": "jeonmae",
-      "sourceGroup": "jeonmae",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
       "lang": "ko"
     }
   ]
