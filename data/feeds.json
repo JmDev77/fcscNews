@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-21T02:25:54.956499+09:00",
+  "fetched_at": "2026-08-21T02:56:28.798203+09:00",
   "count": 500,
   "articles": [
     {
@@ -47,6 +47,38 @@
       "channel": "자체개발",
       "region": "국내",
       "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "a8b7dd841c22",
+      "title": "테슬라, 중국 판매 전 차종에 바이트댄스 더우바오 AI 첫 탑재…그록 대...",
+      "desc": "그록은 2025년 7월부터 미국에서 소프트웨어 버전 2025.26 이상과 AMD 프로세서를 탑재한 모델S·모델3·모델X·모델Y·사이버트럭에서 사용할 수 있게 됐다. 결과적으로 테슬라는 머스크 소유 xAI 제품이 미국 등 해외...",
+      "url": "https://www.wikitree.co.kr/articles/1153767",
+      "date": "8.21.",
+      "datetime": "8.21. 02:42",
+      "rawDate": "2026-08-21T02:42:00+09:00",
+      "source": "wikitree",
+      "sourceGroup": "wikitree",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "6322dcba6556",
+      "title": "바이낸스 ‘블록체인 위크 2026’···11월 방콕서 ‘금융의 진화’ 조...",
+      "desc": "업계 최고 수준의 컴플라이언스 역량을 바탕으로 이용자 보호와 보안 체계를 강화하고, 교육 생태계를 확대하며 디지털 자산 시장의 지속 가능한 성장을 이끌고 있다. 최근에는 상장 전 선물, 주식 토큰, 예측시장 등...",
+      "url": "https://sports.khan.co.kr/article/202608210226003?pt=nv",
+      "date": "8.21.",
+      "datetime": "8.21. 02:27",
+      "rawDate": "2026-08-21T02:27:00+09:00",
+      "source": "sports",
+      "sourceGroup": "sports",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
       "tagCls": "tag-blue",
       "lang": "ko"
     },
@@ -7967,38 +7999,6 @@
       "channel": "자체개발",
       "region": "국내",
       "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "2471f64453e6",
-      "title": "[대구 24시] 가스공사, 하반기 재무부담 더 커져…미수금·이자비용 이중...",
-      "desc": "특히 사이버도박이나 야차룰 등 신종범죄 예방교육을 강화한다. 야차룰은 '상호 합의된 결투'란 구실을 내세워 싸움을 강요하고, 영상 촬영 후 삭제를 빌미로 금전을 요구하는 행위다. 대구경찰은  소년사건의 재범...",
-      "url": "https://www.sisajournal.com/news/articleView.html?idxno=384121",
-      "date": "8.20.",
-      "datetime": "8.20. 13:30",
-      "rawDate": "2026-08-20T13:30:00+09:00",
-      "source": "sisajournal",
-      "sourceGroup": "sisajournal",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "416a80548b12",
-      "title": "인천서 전국 기능인재들의 기술 경쟁 펼쳐진다…제61회 전국기능경기대...",
-      "desc": "인천전자마이스터고등학교에서는 공업전자기기, 정보기술, 사이버보안 분야 선수들이 실력을 겨룬다. 대회... 특히 산업용로봇, 클라우드컴퓨팅, 사이버보안, 모바일앱개발, 산업용드론제어 등 미래산업 분야와 기계...",
-      "url": "https://www.newsfreezone.co.kr/news/articleView.html?idxno=704867",
-      "date": "8.20.",
-      "datetime": "8.20. 13:28",
-      "rawDate": "2026-08-20T13:28:00+09:00",
-      "source": "newsfreezone",
-      "sourceGroup": "newsfreezone",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "클라우드",
       "tagCls": "tag-blue",
       "lang": "ko"
     }
