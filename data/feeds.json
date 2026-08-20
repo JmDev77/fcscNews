@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-21T01:32:33.386281+09:00",
+  "fetched_at": "2026-08-21T02:25:54.956499+09:00",
   "count": 500,
   "articles": [
     {
@@ -48,6 +48,54 @@
       "region": "국내",
       "tag": "AI 보안",
       "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "0353b12bfb34",
+      "title": "AI-Generated Exploit Scripts Target Siemens S7 PLCs in U.S. Critical Infrastructure",
+      "desc": "The U.S. government on Wednesday warned of an \"active threat\" targeting critical infrastructure organizations in the country using artificial intelligence (AI)-generated exploit scripts.\n\nThe activity is targeting Siemens S7 SeriesProgrammable Logic Controllers (PLCs) to conduct reconnaissance and capability development using AI-generated scripts disguised as legitimate monitoring tools. That",
+      "url": "https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html",
+      "date": "8.21.",
+      "datetime": "8.21. 01:59",
+      "rawDate": "2026-08-21T01:59:44+09:00",
+      "source": "TheHackerNews",
+      "sourceGroup": "TheHackerNews",
+      "channel": "자체개발",
+      "region": "해외",
+      "tag": "취약점/CVE",
+      "tagCls": "tag-yellow",
+      "lang": "en"
+    },
+    {
+      "id": "6c113e0e45d0",
+      "title": "앤트로픽 비공개 내부모델 ‘모델2’, 미토스5보다 CoBench 62.8% 앞서고도...",
+      "desc": "machinebrief.com은 여기에 더해 보안업체 Wiz의 자율형 시스템 “레드 에이전트(Red Agent)”가 인간 개입 없이 스노플레이크(Snowflake) 저장소를 겨냥한 전체 공격 체인을 실행한 사례도 함께 언급됐다고 전했다. 국제...",
+      "url": "https://www.wikitree.co.kr/articles/1153762",
+      "date": "8.21.",
+      "datetime": "8.21. 01:56",
+      "rawDate": "2026-08-21T01:56:00+09:00",
+      "source": "wikitree",
+      "sourceGroup": "wikitree",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "a28cceb36ff5",
+      "title": "[이슈] '게이머 권리' 주장한 GTA6 유출자, 스탑 킬링 게이머는 \"지지 반...",
+      "desc": "지난 18일, 스스로를 사이버릭(CyberLeek)이라고 밝힌 해킹 그룹은 자신들의 사이트에 'GTA6'로 추정되는 영상을 공개해 화제를 모았다. 해당 영상에는 주인공 제이슨이 차량을 타고 돌아다니는 장면을 비롯해 NPC와...",
+      "url": "https://m.sports.naver.com/esports/article/442/0000195631",
+      "date": "8.21.",
+      "datetime": "8.21. 01:51",
+      "rawDate": "2026-08-21T01:51:00+09:00",
+      "source": "네이버뉴스",
+      "sourceGroup": "네이버뉴스",
+      "channel": "정보원",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
       "lang": "ko"
     },
     {
@@ -5683,22 +5731,6 @@
       "lang": "ko"
     },
     {
-      "id": "89da07a8f984",
-      "title": "Hackers Using AI to Target Siemens PLCs in Critical US Sectors",
-      "desc": "A cybersecurity advisory with technical details and recommendations has been written by the NSA, CISA and other agencies.\nThe post Hackers Using AI to Target Siemens PLCs in Critical US Sectors appeared first on SecurityWeek.",
-      "url": "https://www.securityweek.com/hackers-using-ai-to-target-siemens-plcs-in-critical-us-sectors/",
-      "date": "8.20.",
-      "datetime": "8.20. 16:02",
-      "rawDate": "2026-08-20T16:02:02+09:00",
-      "source": "SecurityWeek",
-      "sourceGroup": "SecurityWeek",
-      "channel": "자체개발",
-      "region": "해외",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "en"
-    },
-    {
       "id": "337f5e7e26c8",
       "title": "AI 쥔 국가배후 해커…취약점 코드 공개되자 하루 만에 악용",
       "desc": "AI를 손에 쥔 국가배후 해킹조직은 취약점 공개 후 채 하루도 지나지 않아 악용하는 데 성공했다. AI를... 국가배후 해킹조직은 AI를 또 다른 공격 표적으로 삼기도 했다. 북한 연계 해커 조직인 '스타더스트...",
@@ -7967,38 +7999,6 @@
       "channel": "자체개발",
       "region": "국내",
       "tag": "클라우드",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "92c5afeba321",
-      "title": "[특별인터뷰] 한전은 몸, 한전KDN은 신경망…에너지를 움직인다",
-      "desc": "현지에 지사를 열고, 사이버보안과 ICT 분야에서도 협력을 이어가고 있다. 특히 체코 신규 원전 사업은... 박 사장은 \"2025년 체코 신규 원전 건설사업의 본 계약이 확정됨에 따라 한전KDN은 ICT 시스템 구축과 보안...",
-      "url": "https://www.dongponews.net/news/articleView.html?idxno=59962",
-      "date": "8.20.",
-      "datetime": "8.20. 13:28",
-      "rawDate": "2026-08-20T13:28:00+09:00",
-      "source": "dongponews",
-      "sourceGroup": "dongponews",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "d353ac5d504f",
-      "title": "[기고] 한국 스타트업이 미국서 성공하기 위한 3가지 조건",
-      "desc": "이스라엘의 벤처 스튜디오 팀8(Team8)은 대기업에서 정보보안을 책임지는 임원들과 꾸준히 교류하며 기업이 겪는 문제를 찾고, 이를 새로운 스타트업의 사업 아이디어로 연결한다. 둘째, 미국 투자자와 사업 네트워크에...",
-      "url": "https://zdnet.co.kr/view/?no=20260820093747",
-      "date": "8.20.",
-      "datetime": "8.20. 13:27",
-      "rawDate": "2026-08-20T13:27:00+09:00",
-      "source": "지디넷코리아",
-      "sourceGroup": "지디넷코리아",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
       "tagCls": "tag-blue",
       "lang": "ko"
     }
