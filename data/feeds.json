@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-22T23:47:51.120766+09:00",
+  "fetched_at": "2026-08-23T00:18:17.454825+09:00",
   "count": 500,
   "articles": [
     {
@@ -28,6 +28,54 @@
       "rawDate": "2026-08-23T01:26:06+09:00",
       "source": "데일리시큐",
       "sourceGroup": "데일리시큐",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "7cca3ec38594",
+      "title": "트럼프가 띄운 자동차경주 개막…美 심장부서 시속 300㎞ 질주",
+      "desc": "행사에 트럼프 대통령과 주요 행정부 관계자들이 참석하는 만큼 관람객들은 강화된 보안 검색을 거쳐야 행사장에 입장할 수 있다. 이번 대회는 트럼프 대통령이 지난 1월 행정명령을 통해 행사 지원을 지시하면서...",
+      "url": "https://www.yna.co.kr/view/AKR20260822050200071?input=1195m",
+      "date": "8.23.",
+      "datetime": "8.23. 00:07",
+      "rawDate": "2026-08-23T00:07:00+09:00",
+      "source": "연합뉴스",
+      "sourceGroup": "연합뉴스",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "69e32205f6c3",
+      "title": "교관 살해 후 실미도서 탈출한 ‘북파공작원’들…청와대로 돌진한 결과...",
+      "desc": "급기야 “보안 유지를 위해 부대원들을 몰살시킬 수 있다”는 흉흉한 소문까지 퍼졌다. 결국 1971년 8월 23일... 군은 국회 진상조사를 앞두고 이들에게 “보안상 절대 말할 수 없다고 답하면 (너희들은) 살 수 있다”며...",
+      "url": "https://www.sedaily.com/article/20081868?ref=naver",
+      "date": "8.23.",
+      "datetime": "8.23. 00:01",
+      "rawDate": "2026-08-23T00:01:00+09:00",
+      "source": "서울경제",
+      "sourceGroup": "서울경제",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "019749552950",
+      "title": "멕시코 시날로아 카르텔, 캄보디아서 가상화폐 돈세탁 적발",
+      "desc": "미국 재무부는 지난해 5월 캄보디아 금융회사 후이원(후이왕) 그룹이 온라인 사기 수익인 가상화폐 3600만달러(약 500억원)와 북한이 해킹으로 탈취한 가상화폐 최소 3700만달러(약 514억원) 등을 포함해 최소 40억달러(약...",
+      "url": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0400&key=20260822.99099006127",
+      "date": "8.22.",
+      "datetime": "8.22. 23:50",
+      "rawDate": "2026-08-22T23:50:00+09:00",
+      "source": "kookje",
+      "sourceGroup": "kookje",
       "channel": "자체개발",
       "region": "국내",
       "tag": "해킹/침해",
@@ -480,22 +528,6 @@
       "region": "국내",
       "tag": "정책/제도",
       "tagCls": "tag-green",
-      "lang": "ko"
-    },
-    {
-      "id": "dd7088af1f49",
-      "title": "멕시코 최대 마약카르텔, 캄보디아서 가상화폐 돈세탁",
-      "desc": "작년 5월 미 재무부는 캄보디아 금융회사 후이원(후이왕) 그룹에 대해 온라인 사기 수익인 가상화폐 3천600만 달러(약 500억원)와 북한이 해킹으로 탈취한 가상화폐 최소 3천700만 달러(약 514억원)를 포함해 최소 약 40억...",
-      "url": "https://www.yna.co.kr/view/AKR20260822037500084?input=1195m",
-      "date": "8.22.",
-      "datetime": "8.22. 16:52",
-      "rawDate": "2026-08-22T16:52:00+09:00",
-      "source": "연합뉴스",
-      "sourceGroup": "연합뉴스",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
       "lang": "ko"
     },
     {
@@ -7968,38 +8000,6 @@
       "region": "국내",
       "tag": "보안",
       "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "408093ca39ce",
-      "title": "바다 앞 공원·러닝코스… &quot;항만에서 시민 공간으로&quot;",
-      "desc": "시민들의 발길을 막았던 보안 펜스가 사라지고, 수변공원과 역사공원은 물론 바다를 바라보며 달릴 수 있는... 시민들의 접근을 막았던 보안 펜스가 사라지고, 휴식을 즐길 수 있는 수변공원과 역사 공원이 들어설...",
-      "url": "https://news.skbroadband.com/news/articleView.html?idxno=235587",
-      "date": "8.21.",
-      "datetime": "8.21. 14:06",
-      "rawDate": "2026-08-21T14:06:00+09:00",
-      "source": "news",
-      "sourceGroup": "news",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "53dd15a09cf8",
-      "title": "SK이노, 전시 에너지 공급 체계 점검",
-      "desc": "또한 해킹이나 송유관 파손과 같은 비상 상황에서도 신속한 복구와 공정 정상화를 통해 공급 안정성을 유지할 수 있도록 대응 체계를 지속적으로 강화하고 있다. SK이노베이션 비상계획관은 \"유류는 국가 안보와...",
-      "url": "http://www.newsbrite.net/news/articleView.html?idxno=199870",
-      "date": "8.21.",
-      "datetime": "8.21. 14:04",
-      "rawDate": "2026-08-21T14:04:00+09:00",
-      "source": "newsbrite",
-      "sourceGroup": "newsbrite",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
       "lang": "ko"
     }
   ]
