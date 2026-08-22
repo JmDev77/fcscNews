@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-22T17:31:07.518159+09:00",
+  "fetched_at": "2026-08-22T18:24:14.181580+09:00",
   "count": 500,
   "articles": [
     {
@@ -28,6 +28,54 @@
       "rawDate": "2026-08-23T01:26:06+09:00",
       "source": "데일리시큐",
       "sourceGroup": "데일리시큐",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "ccc23d7eb2f8",
+      "title": "AI 안경 '몰카 공포' 확산…곡창지대 삼킨 700개 거대 싱크홀",
+      "desc": "차세대 기기로 주목받는 AI 안경이 무단 촬영과 보안 논란의 중심에 섰다. 'AI 안경' 영국·미국서 착용 금지 확산…AI 안경의 두 얼굴 AI 안경 시장이 급성장하고 있다. 지난해 세계 AI 안경 출하량은 전년보다 322% 늘었다....",
+      "url": "https://www.nocutnews.co.kr/news/6566416?utm_source=naver&utm_medium=article&utm_campaign=20260822060709",
+      "date": "8.22.",
+      "datetime": "8.22. 18:08",
+      "rawDate": "2026-08-22T18:08:00+09:00",
+      "source": "nocutnews",
+      "sourceGroup": "nocutnews",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "c9e2103402d9",
+      "title": "[현장] 복면 알몸남 또 출몰 연대 산책로, 가로등 옆은 칠흙 같은 어둠...",
+      "desc": "이날 연세대는 ‘생활관 구역 보안 강화 안내’ 공지문을 내고 학생 안전 강화 조치를 안내했다. 안내문에는 ▷무학1학사 뒤쪽 출입구 폐쇄 ▷보행로 가로등의 밝기 조절 ▷순찰 업무 강화 등 내용이 담겼다. 그러나...",
+      "url": "https://biz.heraldcorp.com/article/10848616?ref=naver",
+      "date": "8.22.",
+      "datetime": "8.22. 17:46",
+      "rawDate": "2026-08-22T17:46:00+09:00",
+      "source": "biz",
+      "sourceGroup": "biz",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "6e4c91c0f152",
+      "title": "&quot;압수한 가상화폐 97억&quot;…'돈 세탁' 최대 카르텔 털었더니 [글로벌 pick]",
+      "desc": "실제로 작년 5월 미 재무부는 캄보디아 금융회사 후이원(후이왕) 그룹에 대해 온라인 사기 수익인 가상화폐 3,600만 달러(약 500억 원)와 북한이 해킹으로 탈취한 가상화폐 최소 3,700만 달러(약 514억 원)를 포함해 최소...",
+      "url": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202608220367&t=NN",
+      "date": "8.22.",
+      "datetime": "8.22. 17:42",
+      "rawDate": "2026-08-22T17:42:00+09:00",
+      "source": "wowtv",
+      "sourceGroup": "wowtv",
       "channel": "자체개발",
       "region": "국내",
       "tag": "해킹/침해",
@@ -80,22 +128,6 @@
       "region": "국내",
       "tag": "보안",
       "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "88d0d8413852",
-      "title": "&quot;캄보디아서 가상화폐로 돈 세탁&quot;…멕시코 최대 마약 카르텔 적발",
-      "desc": "작년 5월 미 재무부는 캄보디아 금융회사 후이원(후이왕) 그룹에 대해 온라인 사기 수익인 가상화폐 3천600만 달러(약 500억 원)와 북한이 해킹으로 탈취한 가상화폐 최소 3천700만 달러(약 514억 원)를 포함해 최소 약 40억...",
-      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008716872&plink=ORI&cooper=NAVER",
-      "date": "8.22.",
-      "datetime": "8.22. 17:13",
-      "rawDate": "2026-08-22T17:13:00+09:00",
-      "source": "SBS",
-      "sourceGroup": "SBS",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
       "lang": "ko"
     },
     {
@@ -7968,38 +8000,6 @@
       "region": "국내",
       "tag": "랜섬웨어",
       "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "70a4c7964299",
-      "title": "&quot;5·18은 김일성 지령 따른 것&quot; … SNS 허위글 올린 40대 송치",
-      "desc": "취지의 댓글을 게시한 C씨를 지난 6월 불구속 송치했다. 지난 5월에는 광주경찰청 사이버범죄수사대가 언론사 기사 형식을 도용해 5·18 왜곡 게시물을 SNS에 유포한 혐의로 50대 여성을 입건했다. 뉴데일리 배정현",
-      "url": "https://www.newdaily.co.kr/site/data/html/2026/08/21/2026082100151.html",
-      "date": "8.21.",
-      "datetime": "8.21. 13:38",
-      "rawDate": "2026-08-21T13:38:00+09:00",
-      "source": "newdaily",
-      "sourceGroup": "newdaily",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "277a0dd9c33c",
-      "title": "생성형 AI가 건넨 링크도 검증…필상, 컴업스타즈 일본 트랙 선발",
-      "desc": "해외 시장에 진출하려는 사이버보안 기업에는 탐지 기술과 함께 현지의 언어와 플랫폼, 이용 환경에 맞는... 필상은 AI 기반 피싱·악성 URL 탐지 기술을 개발한 사이버보안 스타트업이다. 현재 피싱과 악성사이트 차단...",
-      "url": "https://www.venturesquare.net/1107658/",
-      "date": "8.21.",
-      "datetime": "8.21. 13:36",
-      "rawDate": "2026-08-21T13:36:00+09:00",
-      "source": "venturesquare",
-      "sourceGroup": "venturesquare",
-      "channel": "정보원",
-      "region": "해외",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
       "lang": "ko"
     }
   ]
