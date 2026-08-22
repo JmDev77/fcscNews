@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-22T20:45:06.486125+09:00",
+  "fetched_at": "2026-08-22T21:33:49.943330+09:00",
   "count": 500,
   "articles": [
     {
@@ -32,6 +32,54 @@
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "6660e3bc6095",
+      "title": "[기획특집] 영남대, 2027학년도 수시 4225명 선발…AI융합전공 신설",
+      "desc": "인공지능(AI)과 정보보안 등 산업 수요를 반영한 전공을 확대하고 의예과 지역의사선발 전형을 처음... 기존 소프트웨어융합전공은 소프트웨어보안전공으로 명칭을 바꾸고 교육과정을 정보보안 분야에 맞춰...",
+      "url": "https://www.kbsm.net/news/view.php?idx=531140",
+      "date": "8.22.",
+      "datetime": "8.22. 21:14",
+      "rawDate": "2026-08-22T21:14:00+09:00",
+      "source": "kbsm",
+      "sourceGroup": "kbsm",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "2ddcf5a36253",
+      "title": "만트라체인, 코스모스-EVM 결함으로 30시간 정지…가격 18.5% 급락 후 반...",
+      "desc": "코스모스랩스는 보안 권고 ASA-2026-002를 통해 EVM 스마트컨트랙트가 IBC 프로토콜로 체인 간 토큰 전송을 시작할 때 쓰는 ICS20 프리컴파일(precompile) 구성요소의 오류를 지적했다. 중첩된 EVM 실행 과정에서 상태...",
+      "url": "https://www.wikitree.co.kr/articles/1154157",
+      "date": "8.22.",
+      "datetime": "8.22. 21:12",
+      "rawDate": "2026-08-22T21:12:00+09:00",
+      "source": "wikitree",
+      "sourceGroup": "wikitree",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "가용성",
+      "tagCls": "tag-orange",
+      "lang": "ko"
+    },
+    {
+      "id": "0bd100d9c2e5",
+      "title": "AI 경쟁 3축 재편, 오픈웨이트 비용 압박",
+      "desc": "고객 접점과 업무 데이터를 가진 애플리케이션 기업은 모델 성능뿐 아니라 비용, 지연시간, 보안 조건을... 오픈웨이트가 확산될수록 보안 검증과 배포 책임을 누가 질 것인지를 둘러싼 논쟁도 커질 수 있다. 한국...",
+      "url": "https://www.tokenpost.kr/news/cryptocurrency/395666",
+      "date": "8.22.",
+      "datetime": "8.22. 20:56",
+      "rawDate": "2026-08-22T20:56:00+09:00",
+      "source": "tokenpost",
+      "sourceGroup": "tokenpost",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
       "lang": "ko"
     },
     {
@@ -7491,22 +7539,6 @@
       "lang": "ko"
     },
     {
-      "id": "1f9afa4edb37",
-      "title": "영남대, 2027학년도 수시 4225명 선발…AI융합전공·지역의사전형 신설",
-      "desc": "올해는 산업 수요에 대응해 컴퓨터학부 'AI융합전공'을 신설하고 기존 '소프트웨어융합전공'을 '소프트웨어보안전공'으로 변경했다. 전공자유선택학부에는 창의인재전형을 신설했으며, 의예과에서는 처음 도입하는...",
-      "url": "https://www.webeconomy.co.kr/news/articleView.html?idxno=2273544",
-      "date": "8.21.",
-      "datetime": "8.21. 14:20",
-      "rawDate": "2026-08-21T14:20:00+09:00",
-      "source": "webeconomy",
-      "sourceGroup": "webeconomy",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
       "id": "b3ab0b87bcaf",
       "title": "중수청 특례임용에 지원자 2300명 넘어…검사도 100명 넘게 신청",
       "desc": "경찰·변호사·회계사·사이버 및 금융 전문가 등을 대상으로 한 경력경쟁채용을 통해 충원할 계획이다.... 앞으로 부패, 경제, 방위사업, 마약, 내란·외환 등 국가보호, 사이버, 법왜곡죄 등 7대 중대범죄 수사를...",
@@ -7968,38 +8000,6 @@
       "region": "국내",
       "tag": "정책/제도",
       "tagCls": "tag-green",
-      "lang": "ko"
-    },
-    {
-      "id": "a896fffee929",
-      "title": "[문화트렌드] 신영증권과 함께하는 '예술의전당 The NEXT', 차세대 피아...",
-      "desc": "한국문학세상은 2000년 순수 생활문학을 추구하는 호연지기(浩然之氣) 정신으로 출범해 온라인 문학 창작과 공모전을 운영해 온 문학전문 단체다. 이번 행사는 한국사이버문인협회가 후원한다.",
-      "url": "https://www.ibabynews.com/news/articleView.html?idxno=153882",
-      "date": "8.21.",
-      "datetime": "8.21. 13:50",
-      "rawDate": "2026-08-21T13:50:00+09:00",
-      "source": "ibabynews",
-      "sourceGroup": "ibabynews",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "62fa0a856c61",
-      "title": "SK쉴더스 \"VPN·계정이 랜섬웨어 침투 통로\"...2분기 피해 48% 증가",
-      "desc": "공격자들은 악성코드 유포보다 기업의 보안 취약점과 탈취 계정을 이용해 내부 시스템으로 들어가는... VPN과 방화벽, 서버, 원격접속 시스템을 상시 점검하고 취약점이 발견되면 보안 패치를 적용해야 한다는...",
-      "url": "https://www.insight.co.kr/news/569304",
-      "date": "8.21.",
-      "datetime": "8.21. 13:48",
-      "rawDate": "2026-08-21T13:48:00+09:00",
-      "source": "insight",
-      "sourceGroup": "insight",
-      "channel": "정보원",
-      "region": "국내",
-      "tag": "랜섬웨어",
-      "tagCls": "tag-red",
       "lang": "ko"
     }
   ]
