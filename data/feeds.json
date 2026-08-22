@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-22T19:20:08.880892+09:00",
+  "fetched_at": "2026-08-22T19:48:48.193603+09:00",
   "count": 500,
   "articles": [
     {
@@ -32,6 +32,22 @@
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "dd656c64bfa0",
+      "title": "북침설 강의했다는 누명 쓴 교사의 진실 [김종성의 '히, 스토리']",
+      "desc": "청주지방법원 제천지원은 국가보안법상 찬양·고무를 이유로 그해 10월 7일에 징역 1년을 선고했고... 1989년에 해직된 교사의 상당수가 김영삼 정부 2년 차인 1994년에 복직한 것과 달리, 그는 국가보안법 위반자라는...",
+      "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003259782&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
+      "date": "8.22.",
+      "datetime": "8.22. 19:21",
+      "rawDate": "2026-08-22T19:21:00+09:00",
+      "source": "ohmynews",
+      "sourceGroup": "ohmynews",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "정책/제도",
+      "tagCls": "tag-green",
       "lang": "ko"
     },
     {
@@ -7984,22 +8000,6 @@
       "region": "국내",
       "tag": "정책/제도",
       "tagCls": "tag-green",
-      "lang": "ko"
-    },
-    {
-      "id": "5a400f026db9",
-      "title": "LIG D&A 주관 함대공유도탄 관련 글 온라인 게시 후 삭제…보안 관리 적...",
-      "desc": "작성자는 공개 가능한 범위의 자료를 사용했다는 취지로 설명했지만, 게시된 자료의 실제 출처와 보안등... 함대공유도탄-II,한국형 차기 구축함,KDDX,국방과학연구소,방산업계,보안 논란,블라인드",
-      "url": "https://www.newsworker.co.kr/news/articleView.html?idxno=500043",
-      "date": "8.21.",
-      "datetime": "8.21. 13:44",
-      "rawDate": "2026-08-21T13:44:00+09:00",
-      "source": "newsworker",
-      "sourceGroup": "newsworker",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
       "lang": "ko"
     }
   ]
