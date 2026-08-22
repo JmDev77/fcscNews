@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-23T05:19:30.973742+09:00",
+  "fetched_at": "2026-08-23T05:48:25.416375+09:00",
   "count": 500,
   "articles": [
     {
@@ -161,6 +161,22 @@
       "tag": "취약점/CVE",
       "tagCls": "tag-yellow",
       "lang": "en"
+    },
+    {
+      "id": "f9fa8ad7d80f",
+      "title": "\"아동 정보 무단 수집 논란 매듭\"… 틱톡·바이트댄스, 美 정부와 '4억 ...",
+      "desc": "미성년자의 개인정보를 부모 동의 없이 무단 수집·보관했다는 혐의와 관련해 미국 연방정부에 총 4억... 미국 법무부는 이번 합의를 두고 \"역대 아동 프라이버시 침해(COPPA) 관련 사건 중 최대 규모의 자금 환수 사례...",
+      "url": "https://www.g-enews.com/view.php?ud=2026082216390045160c8c1c064d_1",
+      "date": "8.23.",
+      "datetime": "8.23. 05:36",
+      "rawDate": "2026-08-23T05:36:00+09:00",
+      "source": "g-enews",
+      "sourceGroup": "g-enews",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
     },
     {
       "id": "847c459f7445",
@@ -7981,22 +7997,6 @@
       "source": "nocutnews",
       "sourceGroup": "nocutnews",
       "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "299896a904f5",
-      "title": "지재처, 특허료 납부 깜빡해 소멸된 '특허권 회복' 쉬워진다",
-      "desc": "영업비밀 유출을 목적으로 핵심인력의 이직을 알선하는 행위와 '해킹' 등을 통해 영업비밀을 빼내는 행위... 영업비밀의 부정취득 방법에 '해킹'을 명시해 처벌 대상이라는 점도 법률에 명확하게 규정했다. 김용선...",
-      "url": "https://n.news.naver.com/mnews/article/008/0005403005?sid=102",
-      "date": "8.21.",
-      "datetime": "8.21. 13:52",
-      "rawDate": "2026-08-21T13:52:00+09:00",
-      "source": "네이버뉴스",
-      "sourceGroup": "네이버뉴스",
-      "channel": "정보원",
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
