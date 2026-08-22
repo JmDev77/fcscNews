@@ -1,7 +1,39 @@
 {
-  "fetched_at": "2026-08-23T02:18:05.339763+09:00",
+  "fetched_at": "2026-08-23T02:45:24.249579+09:00",
   "count": 500,
   "articles": [
+    {
+      "id": "2661043118d8",
+      "title": "Wisr AI, 캐나다 톱100 AI 스타트업 선정…같은 날 RSU 261만주 깜짝 부여",
+      "desc": "캐나다 밴쿠버에 본사를 둔 사이버보안 스타트업 Wisr AI 시스템즈(Wisr AI Systems Inc., CSE: WISR)가 캐나다의... 확장 중인 제품 포트폴리오는 리스크 어슈어(Risk Assure), 리스크 인텔(Risk Intel)과 함께, 보안·데이터...",
+      "url": "https://www.wikitree.co.kr/articles/1154187",
+      "date": "8.23.",
+      "datetime": "8.23. 02:38",
+      "rawDate": "2026-08-23T02:38:00+09:00",
+      "source": "wikitree",
+      "sourceGroup": "wikitree",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "7e10846d941d",
+      "title": "양자위성 묵자, 지진 관측 장형, 양자컴퓨터 조충지...중국 과학의 조상...",
+      "desc": "서울대 물리학과 및 동 대학원을 졸업한 뒤 LG전자 연구소 선임연구원, 중소기업 연구소장, 한국사이버대학교 겸임교수 등을 지냈다. 국가과학기술자문회의 위원, 과학기술부 정책평가위원, 교육과학기술부...",
+      "url": "https://www.newsverse.kr/news/articleView.html?idxno=11252",
+      "date": "8.23.",
+      "datetime": "8.23. 02:20",
+      "rawDate": "2026-08-23T02:20:00+09:00",
+      "source": "newsverse",
+      "sourceGroup": "newsverse",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "정책/제도",
+      "tagCls": "tag-green",
+      "lang": "ko"
+    },
     {
       "id": "1960b87576d2",
       "title": "자동차 안드로이드 업데이트 악용…광고 사기·프록시 봇넷에 악용",
@@ -7968,38 +8000,6 @@
       "region": "국내",
       "tag": "취약점/CVE",
       "tagCls": "tag-yellow",
-      "lang": "ko"
-    },
-    {
-      "id": "136362632efe",
-      "title": "트럼프 지키는 여성 3인방…백악관 실세로 주목",
-      "desc": "특히 그는 백악관 내 무분별한 정보 유출을 차단하기 위해 FBI와 연계해 참모진 휴대전화를 검사하는 등 강도 높은 기밀 집행과 보안 조사를 총괄해 논란이 일기도 했다. 와일스 비서실장은 베니티페어 인터뷰에서 트럼프...",
-      "url": "https://www.sidae.com/article/2026082113234020033",
-      "date": "8.21.",
-      "datetime": "8.21. 14:08",
-      "rawDate": "2026-08-21T14:08:00+09:00",
-      "source": "sidae",
-      "sourceGroup": "sidae",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "7ab89544da2e",
-      "title": "[기자수첩] &quot;4억원 빌라 사세요&quot;…청년은 서럽다",
-      "desc": "이들이 비아파트를 첫 집으로 선택하지 않는 데는 주차와 보안, 관리, 생활환경부터 향후 가격 상승 가능성과 환금성까지 여러 이유가 얽혀 있다. 단순히 대출 한도가 부족하거나 금리가 높아서 나타난 현상이라고 보기...",
-      "url": "https://www.newspim.com/news/view/20260821000511",
-      "date": "8.21.",
-      "datetime": "8.21. 14:08",
-      "rawDate": "2026-08-21T14:08:00+09:00",
-      "source": "newspim",
-      "sourceGroup": "newspim",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
       "lang": "ko"
     }
   ]
