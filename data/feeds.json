@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-22T23:18:46.060512+09:00",
+  "fetched_at": "2026-08-22T23:47:51.120766+09:00",
   "count": 500,
   "articles": [
     {
@@ -32,6 +32,54 @@
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "1a730d046724",
+      "title": "유닙스, 온체인 개인 유동성 경쟁 확대 전망",
+      "desc": "앞서 봉크다오의 거버넌스 구조가 악용된 사례는 체인과 커뮤니티 활동이 커질수록 보안과 의사결정... 실제 경쟁 강도는 각 체인의 이용자 증가, 유동성 변화, 애플리케이션 출시, 보안 사고 여부에 따라 달라질 수...",
+      "url": "https://www.tokenpost.kr/news/cryptocurrency/395709",
+      "date": "8.22.",
+      "datetime": "8.22. 23:30",
+      "rawDate": "2026-08-22T23:30:00+09:00",
+      "source": "tokenpost",
+      "sourceGroup": "tokenpost",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "8edd92c736b5",
+      "title": "[도박을 끊어야 산다⑥] 강원랜드 사칭·스포츠스타 딥페이크까지…4만...",
+      "desc": "경북경찰청 사이버수사대는 지난 17일 강원랜드를 사칭해 불법 온라인 카지노를 운영한 혐의로 러시아계... 이번 조직은 사이버도박이 허용된 해외 국가에서 관련 라이선스를 등록한 뒤 다국어 서비스를 운영했다....",
+      "url": "https://sateconomy.co.kr/news/view/1065622876102856",
+      "date": "8.22.",
+      "datetime": "8.22. 23:26",
+      "rawDate": "2026-08-22T23:26:00+09:00",
+      "source": "sateconomy",
+      "sourceGroup": "sateconomy",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "44a00191b557",
+      "title": "'16년 리버풀 생활 마침표' 존스, 작별인사 남겼다…&quot;꿈꾸던 어린아이로...",
+      "desc": "물리치료사와 의료진, 장비 담당 직원, 요리사, 분석팀, 보안팀, 미디어팀, 그라운드 관리 직원 그리고 이곳을 지금의 모습으로 만들어주는 모든 분들에게 감사드린다\"고 말했다. 오랜 시간 함께했던 동료들을 향한 인사도...",
+      "url": "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=96778",
+      "date": "8.22.",
+      "datetime": "8.22. 23:20",
+      "rawDate": "2026-08-22T23:20:00+09:00",
+      "source": "fourfourtwo",
+      "sourceGroup": "fourfourtwo",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
       "lang": "ko"
     },
     {
@@ -7952,54 +8000,6 @@
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "4cf7f1f14eaa",
-      "title": "中 드리미 “로봇청소기 넘어 헤어드라이어·펫케어까지”",
-      "desc": "중국산 제품에 대한 보안 우려에 대해서도 언급했다. 드리미는 한국 이용자의 데이터를 국내 데이터센터로 이전해 개인정보 보호와 소비자 보안 우려에 대응한다는 계획이다. AS 인프라 역시 코오롱글로벌 및...",
-      "url": "https://www.etnews.com/20260821000180",
-      "date": "8.21.",
-      "datetime": "8.21. 14:03",
-      "rawDate": "2026-08-21T14:03:00+09:00",
-      "source": "전자신문",
-      "sourceGroup": "전자신문",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "4e4037091d99",
-      "title": "인권위 &quot;경사 이하 경찰관 단독 조서 작성 관행 개정해야&quot; 권고",
-      "desc": "인권위 침해구제제1위원회는 현장 정황상 개인정보 누설이나 모욕 행위가 있었다고 보기 어렵다며 해당 진정은 기각했다. 다만 조사 과정에서 사법경찰리가 사법경찰관의 권한을 실질적으로 행사하며 단독으로 조서를...",
-      "url": "https://www.nocutnews.co.kr/news/6566069?utm_source=naver&utm_medium=article&utm_campaign=20260821020255",
-      "date": "8.21.",
-      "datetime": "8.21. 14:03",
-      "rawDate": "2026-08-21T14:03:00+09:00",
-      "source": "nocutnews",
-      "sourceGroup": "nocutnews",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "43e535e82e39",
-      "title": "드리미, 한국서 '신뢰' 승부수…로봇청소기 넘어 종합가전 정조준",
-      "desc": "로보락과 드리미 등 중국 업체가 시장을 선점한 가운데 삼성전자와 LG전자가 AI와 보안 및 국내 주거환경에 맞춘 기능을 앞세워 반격에 나섰다. 드리미가 기술 경쟁뿐 아니라 데이터 보호와 AS까지 전면에 내세운 것은...",
-      "url": "https://www.ajunews.com/view/20260821135819042",
-      "date": "8.21.",
-      "datetime": "8.21. 14:02",
-      "rawDate": "2026-08-21T14:02:00+09:00",
-      "source": "ajunews",
-      "sourceGroup": "ajunews",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
       "lang": "ko"
     }
   ]
