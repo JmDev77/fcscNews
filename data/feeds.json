@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-22T19:48:48.193603+09:00",
+  "fetched_at": "2026-08-22T20:18:53.846271+09:00",
   "count": 500,
   "articles": [
     {
@@ -32,6 +32,38 @@
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "04dea0d3aab5",
+      "title": "더 샌드박스 베이스·BSC서 SAND 490억달러 무단발행…실제 피해는 67만5...",
+      "desc": "보안업체 블록에이드(Blockaid)는 8월22일(현지시각) 이 사건을 포착해 “지금까지 400건 이상의... 이후 보안업체 펙쉴드(PeckShield)는 두 개의 주소에서 149억 개의 SAND가 발견됐다고 확인했다. 블록에이드는 여기서...",
+      "url": "https://www.wikitree.co.kr/articles/1154153",
+      "date": "8.22.",
+      "datetime": "8.22. 20:12",
+      "rawDate": "2026-08-22T20:12:00+09:00",
+      "source": "wikitree",
+      "sourceGroup": "wikitree",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "ae21057861b6",
+      "title": "휴미디파이, 내부망 보안사건 조사하며 거래 중단",
+      "desc": "휴미디파이(HumidiFi)가 내부망 일부 시스템에서 보안 사건을 발견해 거래를 중단했다. 회사 측은 고객과 제3자 자산은 영향을 받지 않았다고 공지했다. PANews는 22일 휴미디파이가 X 계정에 올린 글에서 이번 사건의...",
+      "url": "https://www.tokenpost.kr/news/breaking/395654",
+      "date": "8.22.",
+      "datetime": "8.22. 19:52",
+      "rawDate": "2026-08-22T19:52:00+09:00",
+      "source": "tokenpost",
+      "sourceGroup": "tokenpost",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "가용성",
+      "tagCls": "tag-orange",
       "lang": "ko"
     },
     {
@@ -7968,38 +8000,6 @@
       "region": "국내",
       "tag": "보안",
       "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "4cd33e903d87",
-      "title": "화순탄광 노동자, 옥중 사망 64년 만에 '살인 무죄'",
-      "desc": "정 씨는 살인과 국가보안법 위반 등의 혐의로 징역 20년을 확정받았다. 이후 복역하던 중 1962년 교도소에서... 다만, 정 씨에게 적용된 국가보안법 위반 혐의까지 모두 무죄가 된 것은 아니다. 재판부는 해당 혐의에...",
-      "url": "https://news.tf.co.kr/read/national/2356517.htm",
-      "date": "8.21.",
-      "datetime": "8.21. 13:45",
-      "rawDate": "2026-08-21T13:45:00+09:00",
-      "source": "news",
-      "sourceGroup": "news",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "정책/제도",
-      "tagCls": "tag-green",
-      "lang": "ko"
-    },
-    {
-      "id": "eb0fb28d26bd",
-      "title": "허진수 부회장, 파리바게뜨 美 310개점·흑자전환…13개국 730개 매장",
-      "desc": "필라델피아 국제공항은 연간 3000만 명 이상이 이용하는 북미·유럽 노선의 핵심 허브로, 공항 매장은 품질 관리와 보안 규정, 다국적 고객 응대가 요구되는 진입 장벽이 높은 채널이다. 가맹 구조도 바뀌고 있다. 최근...",
-      "url": "https://www.cstimes.com/news/articleView.html?idxno=717595",
-      "date": "8.21.",
-      "datetime": "8.21. 13:44",
-      "rawDate": "2026-08-21T13:44:00+09:00",
-      "source": "cstimes",
-      "sourceGroup": "cstimes",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "정책/제도",
-      "tagCls": "tag-green",
       "lang": "ko"
     }
   ]
