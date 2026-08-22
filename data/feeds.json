@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-23T07:18:41.857740+09:00",
+  "fetched_at": "2026-08-23T07:47:36.759683+09:00",
   "count": 500,
   "articles": [
     {
@@ -161,6 +161,38 @@
       "tag": "취약점/CVE",
       "tagCls": "tag-yellow",
       "lang": "en"
+    },
+    {
+      "id": "a1e97b7db783",
+      "title": "英, 핵잠 위해 견습생 2만명 키운다… 韓 원잠 생태계 시사점",
+      "desc": "고난도 함정과 원자력추진 플랫폼은 설계·용접·특수배관 전반에서 엄격한 숙련도와 보안 검증을 요구한다. 한화오션 거제사업장과 HD현대중공업 울산 특수선 사업부가 글로벌 방산 수주전에 대응하려면 국가...",
+      "url": "https://www.g-enews.com/view.php?ud=202608230729104633fbbec65dfb_1",
+      "date": "8.23.",
+      "datetime": "8.23. 07:38",
+      "rawDate": "2026-08-23T07:38:00+09:00",
+      "source": "g-enews",
+      "sourceGroup": "g-enews",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "dc471bcc74c4",
+      "title": "[비즈톡톡] 코오롱티슈진 임상 실패 후폭풍…주가 하락 조사에 해고 칼...",
+      "desc": "다만 코오롱티슈진은 기존에 임상 자료를 다루는 부서에서 보안을 최고 수준 단계로 유지했다는 입장입니다. 임직원의 주식 매매도 엄격하게 금지했다는데요. 코오롱티슈진은 현재 미국 본사에서 해고 칼바람이 불고...",
+      "url": "https://biz.chosun.com/science-chosun/bio/2026/08/23/MXJD6RNFX5EXFL7PTYW7LICRHI/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+      "date": "8.23.",
+      "datetime": "8.23. 07:32",
+      "rawDate": "2026-08-23T07:32:00+09:00",
+      "source": "조선일보",
+      "sourceGroup": "조선일보",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
     },
     {
       "id": "80a961d95898",
@@ -7968,38 +8000,6 @@
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "4a45767d9679",
-      "title": "에이텀, 테슬라 'ICCU 슬림화' 기술 구현…LS오토모티브와 개발 추진",
-      "desc": "에이텀이 테슬라 사이버트럭에 적용된 '통합충전제어장치(ICCU) 슬림화' 기술을 고도화해 글로벌 완성차... 에이텀은 지난 6월 사이버트럭에 도입된 인쇄회로기판(PCB) 기반 평판형 변압기 구조를 분석하고, 고출력...",
-      "url": "https://www.mt.co.kr/stock/2026/08/21/2026082114142110174",
-      "date": "8.21.",
-      "datetime": "8.21. 14:21",
-      "rawDate": "2026-08-21T14:21:00+09:00",
-      "source": "머니투데이",
-      "sourceGroup": "머니투데이",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "bc8bdd67d706",
-      "title": "JP Yu 프루프포인트 SAK 부사장 \"AI 에이전트 시대, 보안의 핵심은 혁신...",
-      "desc": "AI 에이전트가 사람을 대신해 업무를 수행하는 시대, 보안이 지켜야 할 대상도 사람에서 에이전트로 확장되고 있다. 전 세계 이메일 트래픽의 3분의 1을 분석하며 사람 중심의 사이버보안 시장을 이끌어온...",
-      "url": "https://www.boannews.com/news/articleView.html?idxno=145215",
-      "date": "8.21.",
-      "datetime": "8.21. 14:20",
-      "rawDate": "2026-08-21T14:20:00+09:00",
-      "source": "보안뉴스",
-      "sourceGroup": "보안뉴스",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
       "lang": "ko"
     }
   ]
