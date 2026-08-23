@@ -1,7 +1,23 @@
 {
-  "fetched_at": "2026-08-24T01:50:55.495753+09:00",
+  "fetched_at": "2026-08-24T02:18:20.015938+09:00",
   "count": 500,
   "articles": [
+    {
+      "id": "8daf7ba36e43",
+      "title": "텀파이낸스 거버넌스 공격에 118억원 유출 관측",
+      "desc": "이더리움 기반 디파이 대출 프로토콜 텀파이낸스(Term Finance)에서 거버넌스 공격으로 약 850만 달러(약 118억원)가 유출됐다는 보안업체 분석이 나왔다. 펙실드(PeckShield)는 X 게시물에서 공격자가 텀 볼트에서...",
+      "url": "https://www.tokenpost.kr/news/breaking/396118",
+      "date": "8.24.",
+      "datetime": "8.24. 02:06",
+      "rawDate": "2026-08-24T02:06:00+09:00",
+      "source": "tokenpost",
+      "sourceGroup": "tokenpost",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
     {
       "id": "2cf7c6987523",
       "title": "한국, 10월 형사수사청 출범과 함께 가상자산 범죄 상시 전담 합동수사...",
@@ -464,22 +480,6 @@
       "region": "국내",
       "tag": "보안",
       "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "d6affed7a3f7",
-      "title": "텀랩스, 거버넌스 취약점에 118억원 피해",
-      "desc": "비인크립토(BeInCrypto)는 블록체인 보안업체 펙실드(PeckShield)를 인용해 텀랩스가 23일 거버넌스 익스플로잇으로 피해를 입었다고 보도했다. 펙실드는 ETH 부분을 687만 달러(약 95억원), 스테이블코인 부분을...",
-      "url": "https://www.tokenpost.kr/news/breaking/396047",
-      "date": "8.23.",
-      "datetime": "8.23. 22:10",
-      "rawDate": "2026-08-23T22:10:00+09:00",
-      "source": "tokenpost",
-      "sourceGroup": "tokenpost",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "취약점/CVE",
-      "tagCls": "tag-yellow",
       "lang": "ko"
     },
     {
