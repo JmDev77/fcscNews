@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-24T05:19:30.456555+09:00",
+  "fetched_at": "2026-08-24T05:48:28.499936+09:00",
   "count": 500,
   "articles": [
     {
@@ -209,6 +209,54 @@
       "tag": "취약점/CVE",
       "tagCls": "tag-yellow",
       "lang": "en"
+    },
+    {
+      "id": "8cf8d7a78a7b",
+      "title": "주별 규제 반대했던 오픈AI, 캘리포니아 AI 규제 강화 요구",
+      "desc": "오픈AI가 기존 입장에서 선회한 것으로 풀이됩니다. 이는 최근 자사 AI 모델이 인간의 통제를 벗어나 멋대로 외부 기관을 해킹한 보안 사고가 발생하면서 AI발 사이버 공격 우려가 심화한 데 따른 것으로 풀이됩니다.",
+      "url": "https://www.ytn.co.kr/_ln/0104_202608240536560112",
+      "date": "8.24.",
+      "datetime": "8.24. 05:36",
+      "rawDate": "2026-08-24T05:36:00+09:00",
+      "source": "YTN",
+      "sourceGroup": "YTN",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "27c7d8cf07d1",
+      "title": "워시의 잭슨홀 데뷔, PCE 물가, 엔비디아…랠리의 3대 관문[이번주 美 증...",
+      "desc": "이번주에는 26일 장 마감 후에 엔비디아 외에도 사이버 보안업체인 크라우드스트라이크와 고객관리 소프트웨어 회사인 세일즈포스, PC 제조업체인 HP 등이 실적을 내놓는다. 27일 장 마감 후에는 네트워크 및 스토리지...",
+      "url": "https://www.mt.co.kr/world/2026/08/24/2026082221180458282",
+      "date": "8.24.",
+      "datetime": "8.24. 05:35",
+      "rawDate": "2026-08-24T05:35:00+09:00",
+      "source": "머니투데이",
+      "sourceGroup": "머니투데이",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "87071588ee16",
+      "title": "해킹 공격에 '샌드박스' 위조 가상화폐 발행돼",
+      "desc": "브리지 공격은 서로 다른 블록체인을 연결하는 과정의 보안 취약점을 노려, 실제 자산을 맡기지 않고도 가상화폐를 발행하거나 보관된 자산을 빼내는 해킹 방식이다. 해킹은 8월 22일 공격자가 블록체인 통신 인프라인...",
+      "url": "https://www.khgames.co.kr/news/articleView.html?idxno=307602",
+      "date": "8.24.",
+      "datetime": "8.24. 05:22",
+      "rawDate": "2026-08-24T05:22:00+09:00",
+      "source": "khgames",
+      "sourceGroup": "khgames",
+      "channel": "정보원",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
     },
     {
       "id": "fa16965966b7",
@@ -3804,22 +3852,6 @@
       "rawDate": "2026-08-23T10:00:00+09:00",
       "source": "dt",
       "sourceGroup": "dt",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "0339978811ae",
-      "title": "\"AI 모델 해킹 사고 때문?\"…오픈AI, 캘리포니아 AI 규제법 지지로 급선...",
-      "desc": "오픈AI는 지난달 모델 중 하나가 테스트 환경을 벗어나 허깅페이스 시스템을 해킹했음을 인정한 바 있어, 모델의 통제권 이탈 사고가 안전 규제 강화 입장으로의 선회에 결정적 영향을 미친 것으로 풀이된다. 오픈AI는...",
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=214257",
-      "date": "8.23.",
-      "datetime": "8.23. 09:46",
-      "rawDate": "2026-08-23T09:46:00+09:00",
-      "source": "aitimes",
-      "sourceGroup": "aitimes",
       "channel": "자체개발",
       "region": "국내",
       "tag": "해킹/침해",
@@ -7968,38 +8000,6 @@
       "region": "국내",
       "tag": "보안",
       "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "81f6c461c3a7",
-      "title": "“AI·딥페이크와 결합한 악플…인권 차원 선도적 대응해야”",
-      "desc": "댓글), 사이버 폭력 등 새로운 형태의 디지털 폭력에 대응하기 위한 범국민 행동에 나선다. 선플재단은 다음 달 9일 ‘AI 딥페이크·악플 퇴치 범국민 선언식’과 제1회 ‘2026 선플 인권 앰배서더 위촉식’을 열고 사이버...",
-      "url": "https://www.joongang.co.kr/article/25455241",
-      "date": "8.22.",
-      "datetime": "8.22. 01:10",
-      "rawDate": "2026-08-22T01:10:00+09:00",
-      "source": "중앙일보",
-      "sourceGroup": "중앙일보",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "6d71246689e5",
-      "title": "범죄 예방 vs 개인정보 침해…파사데나 감시카메라 확대 논란",
-      "desc": "파사데나시가 차량 번호판을 자동으로 인식하는 감시 카메라 시스템 확대를 추진하면서 개인정보 침해와 정보 오남용을 우려하는 주민들의 반발이 커지고 있다. 파사데나시에 따르면 어제(20일) 주민 수십 명이 파사데나...",
-      "url": "https://www.radiokorea.com/news/article.php?uid=502149",
-      "date": "8.22.",
-      "datetime": "8.22. 01:10",
-      "rawDate": "2026-08-22T01:10:00+09:00",
-      "source": "radiokorea",
-      "sourceGroup": "radiokorea",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
       "lang": "ko"
     }
   ]
