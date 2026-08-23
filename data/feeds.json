@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-23T22:56:05.707043+09:00",
+  "fetched_at": "2026-08-23T23:21:33.239674+09:00",
   "count": 500,
   "articles": [
     {
@@ -16,6 +16,54 @@
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "04525eb3944c",
+      "title": "군 복무 마치고 돌아온 박건호, 챌린지 바둑리그 우승 견인",
+      "desc": "사이버오로가 대주를 꺾고 2026 STIC CUP 챌린지 바둑리그 정상에 올랐다. 군 복무를 마치고 복귀한 박건호가 챔피언결정전에서도 만점 활약을 펼쳤다. 사이버오로는 23일 서울 성동구 한국기원 바둑TV 스튜디오에서...",
+      "url": "https://www.kukinews.com/article/view/kuk202608230035",
+      "date": "8.23.",
+      "datetime": "8.23. 23:06",
+      "rawDate": "2026-08-23T23:06:00+09:00",
+      "source": "kukinews",
+      "sourceGroup": "kukinews",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "320b405b5435",
+      "title": "[WT논평] China’s espionage threat reaches American living rooms(Ⅰ)",
+      "desc": "영국 국방부는 해당 데이터가 민감한 정보가 아니었으며, 전송이 일상적인 보안점검에서 발견되었다고 우리에게 말했다. 알았어, 계속해, 에이 친구. 국방부는 어떤...",
+      "url": "https://www.segye.com/newsView/20260823507749?OutUrl=naver",
+      "date": "8.23.",
+      "datetime": "8.23. 22:58",
+      "rawDate": "2026-08-23T22:58:00+09:00",
+      "source": "segye",
+      "sourceGroup": "segye",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "728c3bec0192",
+      "title": "[올댓차이나] 中, 차세대 통신망 구축 추진…기업 대금 체불 해소도 강...",
+      "desc": "핵심 통신망과 데이터 보안을 강화하고 비상 상황에서도 통신을 유지할 수 있는 능력을 높이기로 했다. 정부가 지원하고 기업이 주도하는 구축 체계를 마련하며 토지·전력·주파수 등 필요한 자원도 확보할 생각이다....",
+      "url": "https://www.newsis.com/view/NISX20260823_0003759092",
+      "date": "8.23.",
+      "datetime": "8.23. 22:56",
+      "rawDate": "2026-08-23T22:56:00+09:00",
+      "source": "뉴시스",
+      "sourceGroup": "뉴시스",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
       "lang": "ko"
     },
     {
@@ -60,7 +108,7 @@
       "rawDate": "2026-08-23T22:30:00+09:00",
       "source": "wikitree",
       "sourceGroup": "wikitree",
-      "channel": "자체개발",
+      "channel": "정보원",
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
@@ -7953,54 +8001,6 @@
       "tag": "해킹/침해",
       "tagCls": "tag-red",
       "lang": "en"
-    },
-    {
-      "id": "9fed911a1a5d",
-      "title": "파키스탄 前총리 병원 검진 당일 재수감…&quot;법원 명령 위반&quot;",
-      "desc": "타라르 장관은 당초 대법원이 검진 장소로 지정한 민간 병원인 시파국제병원 앞에 칸 전 총리의 지지자들이 모여 \"보안 상황\"이 발생함에 따라 그를 공공 병원인 파키스탄 의과학연구소로 옮겼다고 전했다. 앞서 최근...",
-      "url": "https://www.yna.co.kr/view/AKR20260821175300084?input=1195m",
-      "date": "8.21.",
-      "datetime": "8.21. 20:19",
-      "rawDate": "2026-08-21T20:19:00+09:00",
-      "source": "연합뉴스",
-      "sourceGroup": "연합뉴스",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "정책/제도",
-      "tagCls": "tag-green",
-      "lang": "ko"
-    },
-    {
-      "id": "3d36f4c25dbf",
-      "title": "\"랜섬웨어 그룹, AI 이용 공격으로 몇 달만에 전 세계 3위 등극\"",
-      "desc": "외부 인프라가 해킹당해 관련 데이터 일부가 노출되었지만, 핵심 인프라는 무사하다고 주장했다./ 체크포인트 2분기 랜섬웨어는 상위 10개 그룹의 활동이 다소 주춤해진 반면, 활동중인 그룹 수는 역대 최고치인 93개로...",
-      "url": "https://www.datanet.co.kr/news/articleView.html?idxno=213950",
-      "date": "8.21.",
-      "datetime": "8.21. 20:10",
-      "rawDate": "2026-08-21T20:10:00+09:00",
-      "source": "datanet",
-      "sourceGroup": "datanet",
-      "channel": "정보원",
-      "region": "국내",
-      "tag": "랜섬웨어",
-      "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "417fa81b1c15",
-      "title": "최지원 경기도의원 \"경기교육 AI 플랫폼, 철저한 보안이 우선\"",
-      "desc": "따른 보안대책 마련도 요구했다. 최 의원은 \"수백만 명에 이르는 학생과 학부모, 교직원의 민감한 교육데이터가 한곳에 집중된다\"며 \"단 한 건의 정보 유출이나 시스템 장애도 발생하지 않도록 국가정보원 보안 기준을...",
-      "url": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2461907",
-      "date": "8.21.",
-      "datetime": "8.21. 20:10",
-      "rawDate": "2026-08-21T20:10:00+09:00",
-      "source": "enewstoday",
-      "sourceGroup": "enewstoday",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
     }
   ]
 }
