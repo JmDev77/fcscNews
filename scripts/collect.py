@@ -57,13 +57,15 @@ EXCLUDE_KEYWORDS = [
     '[부고]', '[동정]', '[인사]', '[신간]', '[축사]',
 ]
 
-# 보안 키워드 필터 (해외 피드 필터링용)
+# 보안 키워드 필터 (해외 피드 필터링용 + 기관 웹훅 매칭용)
 SECURITY_KEYWORDS = [
     '해킹', '북한', '유출', '개인정보', 'cve', '취약점', '디도스',
     '사이버', 'ddos', 'ransomware', 'malware', 'phishing', 'breach',
     'exploit', 'vulnerability', 'backdoor', 'zero-day', 'zero day',
     '악성코드', '랜섬웨어', '피싱', 'cybersecurity', 'hack', 'attack',
     'threat', 'security', 'intrusion', 'botnet',
+    '침해', '공격', '랜섬', '보안', '정보유출', '스미싱', '디지털포렌식',
+    '악성', '백도어', '제로데이', '정보보호', '사칭', '스팸',
 ]
 
 # 자동 태그 분류
@@ -397,6 +399,139 @@ def fetch_custom_json(feed):
         print(f"  ❌ {feed['source']}: {e}")
         return []
 
+# ── 기관 모니터링 웹훅 ─────────────────────────────────
+# 제목/요약에 아래 기관명이 들어간 기사를 웹훅으로 전송
+WEBHOOK_URL = os.environ.get('WEBHOOK_URL', '')   # GitHub Actions Secret
+WEBHOOK_SENT_PATH = Path(__file__).parent.parent / 'data' / 'webhook_sent.json'
+
+MONITOR_ORGS = [
+    '기획예산처', '동행복권', '재정경제부', '글로벌지식협력단지', '관세청',
+    '조달청', '국가데이터처', '한국은행', '한국수출입은행', '한국조폐공사',
+    '한국투자공사', '한국재정정보원', 'dBrain', '국세청', '한미전략투자공사',
+]
+
+def match_orgs(title, desc=''):
+    """제목+요약에서 매칭된 기관명 리스트 반환 (dBrain은 대소문자 무시)"""
+    text = (title or '') + ' ' + (desc or '')
+    text_lower = text.lower()
+    hits = []
+    for org in MONITOR_ORGS:
+        if org == 'dBrain':
+            if 'dbrain' in text_lower:
+                hits.append(org)
+        elif org in text:
+            hits.append(org)
+    return hits
+
+def load_webhook_sent():
+    """이미 웹훅으로 보낸 기사 링크 기록 로드 (중복 전송 방지). {link: ISO전송시각}"""
+    if WEBHOOK_SENT_PATH.exists():
+        try:
+            return json.loads(WEBHOOK_SENT_PATH.read_text(encoding='utf-8'))
+        except Exception:
+            return {}
+    return {}
+
+def save_webhook_sent(sent):
+    """보낸 기록 저장 (RETENTION_HRS보다 오래된 항목은 정리)"""
+    cutoff = datetime.now(KST) - timedelta(hours=RETENTION_HRS)
+    pruned = {}
+    for link, ts in sent.items():
+        try:
+            dt = datetime.fromisoformat(ts)
+            if dt.tzinfo is None:
+                dt = KST.localize(dt)
+            if dt >= cutoff:
+                pruned[link] = ts
+        except Exception:
+            pruned[link] = ts  # 파싱 실패 시 보존
+    WEBHOOK_SENT_PATH.parent.mkdir(exist_ok=True)
+    WEBHOOK_SENT_PATH.write_text(json.dumps(pruned, ensure_ascii=False, indent=2), encoding='utf-8')
+
+def send_webhook(title, link, orgs, source=''):
+    """Dooray/Slack 호환 Incoming Webhook 전송. 실패해도 예외 안 던짐."""
+    if not WEBHOOK_URL:
+        return False
+    org_str = ', '.join(orgs)
+    src = f" ({source})" if source else ''
+    text = f"🏛 [{org_str}] 관련 기사\n{title}{src}\n{link}"
+    try:
+        r = requests.post(
+            WEBHOOK_URL,
+            json={'text': text},
+            headers={'Content-Type': 'application/json'},
+            timeout=10,
+        )
+        if r.status_code in (200, 204):
+            return True
+        print(f"  ⚠️ 웹훅 응답 {r.status_code}: {r.text[:120]}")
+        return False
+    except Exception as e:
+        print(f"  ⚠️ 웹훅 전송 실패: {e}")
+        return False
+
+def process_org_webhooks(our_articles):
+    """
+    기관명 매칭 → 미전송 기사만 웹훅 발송.
+    검사 대상: (1) 우리가 수집한 전체 기사, (2) 정보원 외부 feeds.json 전체(보안뉴스+취약점+평판)
+    """
+    if not WEBHOOK_URL:
+        print("\n[기관 웹훅] WEBHOOK_URL 미설정 — 건너뜀")
+        return
+    print("\n[기관 웹훅] 기관명 매칭 검사")
+
+    sent = load_webhook_sent()
+
+    # 검사 대상 통합 (link, title, desc, source) 튜플
+    candidates = []
+    for a in our_articles:
+        candidates.append((a.get('url',''), a.get('title',''), a.get('desc',''), a.get('source','')))
+
+    # 정보원 외부 feeds.json 전체(3개 배열) 추가로 검사
+    for feed in CUSTOM_JSON_FEEDS:
+        try:
+            r = requests.get(feed['url'], headers=HEADERS, timeout=15)
+            if r.status_code == 200:
+                data = r.json()
+                cutoff = datetime.now(KST) - timedelta(hours=RETENTION_HRS)
+                for key in ('security_news', 'vulnerability', 'reputation'):
+                    for a in data.get(key, []):
+                        dt = parse_dt(a.get('published',''))
+                        if dt < cutoff:
+                            continue
+                        title = clean_html(a.get('title_ko') or a.get('title',''))
+                        desc  = clean_html(a.get('summary_ko') or a.get('summary',''))
+                        link  = a.get('link','')
+                        src   = a.get('source','')
+                        candidates.append((link, title, desc, src))
+        except Exception as e:
+            print(f"  ⚠️ 정보원 feeds.json 재조회 실패: {e}")
+
+    # 매칭 + 미전송 기사만 전송
+    sent_count = 0
+    seen_links = set()
+    for link, title, desc, source in candidates:
+        if not link or link in seen_links:
+            continue
+        seen_links.add(link)
+        if link in sent:          # 이미 보낸 기사
+            continue
+        # 제목에 기관명 + 제목에 보안키워드가 모두 있을 때만 전송
+        # (요약에만 흩어져 있는 국감/국정감사 등 무관 기사 오탐 방지)
+        orgs = match_orgs(title)          # desc 제외, 제목만
+        if not orgs:
+            continue
+        if not is_security_related(title):  # desc 제외, 제목만
+            continue
+        if send_webhook(title, link, orgs, source):
+            sent[link] = datetime.now(KST).isoformat()
+            sent_count += 1
+            print(f"  📤 [{', '.join(orgs)}] {title[:40]}")
+            time.sleep(0.5)       # 웹훅 rate limit 여유
+
+    save_webhook_sent(sent)
+    print(f"[기관 웹훅] {sent_count}건 전송 (기록 {len(sent)}건 보관)")
+
 # ── 네이버 API ────────────────────────────────────────
 def fetch_naver(keyword):
     cid = os.environ.get('NAVER_CLIENT_ID','')
@@ -521,6 +656,10 @@ def main():
     }
     FEEDS_PATH.write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding='utf-8')
     print(f"\n✅ feeds.json 저장: {len(deduped)}건")
+
+    # 기관명 매칭 웹훅 전송 (우리 수집분 + 정보원 외부 feeds.json 전체 대상)
+    process_org_webhooks(deduped)
+
     print(f"{'='*50}\n")
 
 if __name__ == '__main__':
