@@ -433,27 +433,60 @@ def match_orgs(title, desc=''):
     return hits
 
 def load_webhook_sent():
-    """이미 웹훅으로 보낸 기사 링크 기록 로드 (중복 전송 방지). {link: ISO전송시각}"""
+    """
+    이미 웹훅으로 보낸 기사 기록 로드. 형식: {link: {"ts": ISO시각, "title": 제목}}
+    (구버전 {link: "ISO시각"} 형식도 자동 호환 — title 없이 로드됨)
+    """
     if WEBHOOK_SENT_PATH.exists():
         try:
-            return json.loads(WEBHOOK_SENT_PATH.read_text(encoding='utf-8'))
+            raw = json.loads(WEBHOOK_SENT_PATH.read_text(encoding='utf-8'))
+            out = {}
+            for link, v in raw.items():
+                if isinstance(v, dict):
+                    out[link] = {'ts': v.get('ts', ''), 'title': v.get('title', '')}
+                else:  # 구버전: 값이 시각 문자열
+                    out[link] = {'ts': v, 'title': ''}
+            return out
         except Exception:
             return {}
     return {}
+
+def mark_sent(sent, link, title):
+    """보낸 기사 기록 추가 (link + 제목 + 현재시각)"""
+    sent[link] = {'ts': datetime.now(KST).isoformat(), 'title': title}
+
+def sent_titles_within_retention(sent):
+    """과거 기록 중 RETENTION_HRS 이내에 보낸 기사들의 제목 목록 (유사도 비교용)"""
+    cutoff = datetime.now(KST) - timedelta(hours=RETENTION_HRS)
+    titles = []
+    for v in sent.values():
+        t = v.get('title', '')
+        if not t:
+            continue
+        try:
+            dt = datetime.fromisoformat(v.get('ts', ''))
+            if dt.tzinfo is None:
+                dt = KST.localize(dt)
+            if dt >= cutoff:
+                titles.append(t)
+        except Exception:
+            titles.append(t)  # 시각 파싱 실패 시 안전하게 포함
+    return titles
 
 def save_webhook_sent(sent):
     """보낸 기록 저장 (RETENTION_HRS보다 오래된 항목은 정리)"""
     cutoff = datetime.now(KST) - timedelta(hours=RETENTION_HRS)
     pruned = {}
-    for link, ts in sent.items():
+    for link, v in sent.items():
+        ts = v.get('ts', '') if isinstance(v, dict) else v
         try:
             dt = datetime.fromisoformat(ts)
             if dt.tzinfo is None:
                 dt = KST.localize(dt)
             if dt >= cutoff:
-                pruned[link] = ts
+                pruned[link] = v if isinstance(v, dict) else {'ts': ts, 'title': ''}
         except Exception:
-            pruned[link] = ts  # 파싱 실패 시 보존
+            pruned[link] = v if isinstance(v, dict) else {'ts': ts, 'title': ''}
     WEBHOOK_SENT_PATH.parent.mkdir(exist_ok=True)
     WEBHOOK_SENT_PATH.write_text(json.dumps(pruned, ensure_ascii=False, indent=2), encoding='utf-8')
 
@@ -542,12 +575,13 @@ def process_org_webhooks(our_articles):
     # 매칭 + 미전송 기사만 전송
     sent_count = 0
     seen_links = set()
-    sent_titles = []   # 이번 실행에서 보낸 제목들 (비슷한 기사 중복 전송 방지용)
+    # 유사도 비교 대상 = 과거 72시간 이내 보낸 제목(사이클 넘나드는 중복 차단) + 이번 실행 제목
+    sent_titles = sent_titles_within_retention(sent)
     for link, title, desc, source, channel in candidates:
         if not link or link in seen_links:
             continue
         seen_links.add(link)
-        if link in sent:          # 이미 보낸 기사
+        if link in sent:          # 이미 보낸 기사(링크 동일)
             continue
         # 제목에 기관명 + 제목에 보안키워드가 모두 있을 때만 전송
         # (요약에만 흩어져 있는 국감/국정감사 등 무관 기사 오탐 방지)
@@ -556,14 +590,15 @@ def process_org_webhooks(our_articles):
             continue
         if not is_security_related(title):  # desc 제외, 제목만
             continue
-        # 같은 사건이 여러 채널로 들어온 경우: 제목 유사도(0.80)로 중복 판단해 한 번만 전송.
+        # 같은 사건이 (여러 채널로 / 다른 수집 사이클에) 들어온 경우:
+        # 제목 유사도(0.80)로 중복 판단해 한 번만 전송. 과거 보낸 제목과도 비교.
         # 중복으로 걸러진 것도 '보낸 것'으로 기록해 다음 실행에서 다시 안 오게 함.
         if any(is_similar_webhook(title, t) for t in sent_titles):
-            sent[link] = datetime.now(KST).isoformat()
+            mark_sent(sent, link, title)
             print(f"  ⏭  (유사중복) [{', '.join(orgs)}] {title[:36]}")
             continue
         if send_webhook(title, link, orgs, source, channel):
-            sent[link] = datetime.now(KST).isoformat()
+            mark_sent(sent, link, title)
             sent_titles.append(title)
             sent_count += 1
             print(f"  📤 [{', '.join(orgs)}] ({channel}) {title[:36]}")
