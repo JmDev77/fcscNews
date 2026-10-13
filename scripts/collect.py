@@ -404,6 +404,10 @@ def fetch_custom_json(feed):
 WEBHOOK_URL = os.environ.get('WEBHOOK_URL', '')   # GitHub Actions Secret
 WEBHOOK_SENT_PATH = Path(__file__).parent.parent / 'data' / 'webhook_sent.json'
 
+# 하트비트: 매 실행마다 "수집 완료, 매칭 N건" 알림 전송 (실행 여부 추적용).
+# 끄고 싶으면 Actions env에 HEARTBEAT=off 추가. 기본값은 켜짐(on).
+HEARTBEAT_ENABLED = os.environ.get('HEARTBEAT', 'on').lower() not in ('off', '0', 'false', 'no')
+
 MONITOR_ORGS = [
     '기획예산처', '동행복권', '재정경제부', '글로벌지식협력단지', '관세청',
     '조달청', '국가데이터처', '한국은행', '한국수출입은행', '한국조폐공사',
@@ -470,6 +474,25 @@ def send_webhook(title, link, orgs, source=''):
         print(f"  ⚠️ 웹훅 전송 실패: {e}")
         return False
 
+def send_webhook_text(text):
+    """임의 텍스트를 웹훅으로 전송 (하트비트 등). 실패해도 예외 안 던짐."""
+    if not WEBHOOK_URL:
+        return False
+    try:
+        r = requests.post(
+            WEBHOOK_URL,
+            json={'text': text},
+            headers={'Content-Type': 'application/json'},
+            timeout=10,
+        )
+        if r.status_code in (200, 204):
+            return True
+        print(f"  ⚠️ 웹훅 응답 {r.status_code}: {r.text[:120]}")
+        return False
+    except Exception as e:
+        print(f"  ⚠️ 웹훅 전송 실패: {e}")
+        return False
+
 def process_org_webhooks(our_articles):
     """
     기관명 매칭 → 미전송 기사만 웹훅 발송.
@@ -477,7 +500,7 @@ def process_org_webhooks(our_articles):
     """
     if not WEBHOOK_URL:
         print("\n[기관 웹훅] WEBHOOK_URL 미설정 — 건너뜀")
-        return
+        return 0
     print("\n[기관 웹훅] 기관명 매칭 검사")
 
     sent = load_webhook_sent()
@@ -531,6 +554,19 @@ def process_org_webhooks(our_articles):
 
     save_webhook_sent(sent)
     print(f"[기관 웹훅] {sent_count}건 전송 (기록 {len(sent)}건 보관)")
+    return sent_count
+
+def send_heartbeat(total_count, matched_count):
+    """매 실행마다 '수집 완료 + 매칭 건수' 하트비트 전송. 실행 여부 추적용."""
+    if not WEBHOOK_URL or not HEARTBEAT_ENABLED:
+        return
+    now = datetime.now(KST).strftime('%m-%d %H:%M')
+    if matched_count > 0:
+        text = f"✅ [수집완료 {now}] 기사 {total_count}건 · 기관매칭 {matched_count}건 전송"
+    else:
+        text = f"✅ [수집완료 {now}] 기사 {total_count}건 · 기관매칭 없음"
+    send_webhook_text(text)
+    print(f"[하트비트] 전송: {text}")
 
 # ── 네이버 API ────────────────────────────────────────
 def fetch_naver(keyword):
@@ -589,7 +625,9 @@ def main():
     # 기존 feeds.json 로드 (있으면 병합)
     all_items = {}
     cutoff = datetime.now(KST) - timedelta(hours=RETENTION_HRS)
-    VALID_CHANNELS = {'자체개발', '쉴더스', '정보원'}  # 예전 버전의 group값(국내/해외/사내/고객사 단일필드)은 정리
+    # 정보원은 더 이상 feeds.json에 저장하지 않음(정보원 탭이 외부 feeds.json 직접 사용).
+    # 기존에 쌓여있던 정보원 기사는 아래 필터에서 자동 정리됨.
+    VALID_CHANNELS = {'자체개발', '쉴더스'}
     VALID_REGIONS  = {'국내', '해외'}
     if FEEDS_PATH.exists():
         try:
@@ -619,12 +657,9 @@ def main():
             all_items[item['id']] = item
         time.sleep(0.3)
 
-    # 고객사 JSON 수집
-    print("\n[고객사 JSON 수집]")
-    for feed in CUSTOM_JSON_FEEDS:
-        for item in fetch_custom_json(feed):
-            all_items[item['id']] = item
-        time.sleep(0.3)
+    # 정보원(외부 feeds.json)은 feeds.json에 저장하지 않음 —
+    # index.html이 정보원 탭에서 외부 feeds.json을 직접 받아 표시하므로 중복 저장 불필요.
+    # (단, 웹훅 검사는 아래 process_org_webhooks에서 외부 feeds.json을 직접 조회함)
 
     # 네이버 수집
     print("\n[네이버 수집]")
@@ -658,7 +693,10 @@ def main():
     print(f"\n✅ feeds.json 저장: {len(deduped)}건")
 
     # 기관명 매칭 웹훅 전송 (우리 수집분 + 정보원 외부 feeds.json 전체 대상)
-    process_org_webhooks(deduped)
+    matched = process_org_webhooks(deduped)
+
+    # 하트비트: 매 실행마다 수집 완료 + 매칭 건수 알림 (실행 여부 추적)
+    send_heartbeat(len(deduped), matched or 0)
 
     print(f"{'='*50}\n")
 
