@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-14T02:31:00.838497+09:00",
+  "fetched_at": "2026-10-14T03:01:01.096461+09:00",
   "count": 500,
   "articles": [
     {
@@ -19,6 +19,38 @@
       "lang": "en"
     },
     {
+      "id": "71894532135e",
+      "title": "&quot;한반도 다영역부대로 다층감지...지도서 베이징·서울 선그어보라&quot;",
+      "desc": "다영역 특임부대는 지상과 해상, 공중, 우주, 사이버·전자전 등 모든 영역에서 이뤄지는 미 육군의 작전 수행 개념인 '다영역 작전'을 수행하는 부대입니다. 미 일간 월스트리트저널(WSJ)에 따르면 미군의 3개 특임부대...",
+      "url": "https://www.ytn.co.kr/_ln/0104_202610140259193190",
+      "date": "10.14.",
+      "datetime": "10.14. 02:59",
+      "rawDate": "2026-10-14T02:59:00+09:00",
+      "source": "YTN",
+      "sourceGroup": "YTN",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "09cb2d113970",
+      "title": "플루토 시큐리티, AI 보안 사업에 4200만달러 조달",
+      "desc": "플루토 시큐리티(Pluto Security)가 기업의 AI 도구와 직원이 만든 앱·에이전트의 보안 위험을 관리하는... 파악하고 보안 정책을 적용하는 플랫폼을 제공한다고 설명한다. 테크크런치는 이 플랫폼이 단말 보안·기기...",
+      "url": "https://www.tokenpost.kr/news/ai/422159",
+      "date": "10.14.",
+      "datetime": "10.14. 02:50",
+      "rawDate": "2026-10-14T02:50:00+09:00",
+      "source": "tokenpost",
+      "sourceGroup": "tokenpost",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
       "id": "1c2b94c42a24",
       "title": "[인사이트] AI 안경이 뚫은 대입 시험 보안, 입실 검사만으로는 못 막는...",
       "desc": "0 대학 논술시험에서 스마트 안경을 착용한 수험생이 잇따라 적발되면서 대입 시험의 보안 체계가 새로운... 시험 보안의 점검 범위가 안경뿐 아니라 연결된 기기와 외부 서비스까지 이어질 수 있다는 의미다. 다만 이번...",
@@ -31,22 +63,6 @@
       "channel": "자체개발",
       "region": "국내",
       "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "01cd50b9e34c",
-      "title": "주한미군사령관 &quot;한반도 다영역부대로 다층감지&quot;",
-      "desc": "MDTF는 지상, 해상, 공중, 우주, 사이버·전자전 등 모든 영역에서 이뤄지는 미 육군의 작전 수행 개념인... 그는 \"우주·사이버·전자전(EW) 영역에서 작전을 수행할 수 있는 능력, 즉 이러한 각 영역에서 필요한 핵심...",
-      "url": "http://www.yonhapnewstv.co.kr/news/AKR20261014022211LNk",
-      "date": "10.14.",
-      "datetime": "10.14. 02:22",
-      "rawDate": "2026-10-14T02:22:00+09:00",
-      "source": "yonhapnewstv",
-      "sourceGroup": "yonhapnewstv",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
       "tagCls": "tag-blue",
       "lang": "ko"
     },
@@ -7983,22 +7999,6 @@
       "channel": "자체개발",
       "region": "국내",
       "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "9e223da8ff1b",
-      "title": "대웅제약, 재생 PC로 소외계층 지원...&quot;환경 보호 기여&quot;",
-      "desc": "한편 대웅제약은 AI 기반 디지털 헬스케어 기업 히포크랏랩스와 분산형 백업·보안 솔루션 메디세이프의 국내 판권 계약을 맺고 전국 병·의원에 공급할 계획이다. 이를 통해 진료와 환자 관리를 지원하는 디지털...",
-      "url": "https://www.newspost.kr/news/articleView.html?idxno=226337",
-      "date": "10.13.",
-      "datetime": "10.13. 16:28",
-      "rawDate": "2026-10-13T16:28:00+09:00",
-      "source": "newspost",
-      "sourceGroup": "newspost",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "AI 보안",
       "tagCls": "tag-blue",
       "lang": "ko"
     }
