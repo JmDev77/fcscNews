@@ -41,6 +41,7 @@ jobs:
           date -u '+%Y-%m-%d %H:%M:%S UTC' > data/last_run.txt
           git add data/feeds.json data/last_run.txt
           git add data/webhook_sent.json 2>/dev/null || true
+          git add data/last_heartbeat.txt 2>/dev/null || true
           git diff --staged --quiet \
             && echo "변경 없음" \
             || (git commit -m "chore: update feeds.json [skip ci]" && git push)
