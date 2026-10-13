@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-14T01:31:01.633479+09:00",
+  "fetched_at": "2026-10-14T02:01:16.109530+09:00",
   "count": 500,
   "articles": [
     {
@@ -17,6 +17,54 @@
       "tag": "보안",
       "tagCls": "tag-blue",
       "lang": "en"
+    },
+    {
+      "id": "7b7f49bddc63",
+      "title": "AI금융사기 급증, 풍전등화 고령자 재산[투데이 窓/반영은]",
+      "desc": "외주업체와 영업지원시스템까지 보안 점검 범위를 넓히고, 이상 접근 조짐을 조기에 발견해 고객에게 신속히 알려야 한다. 고객의 평소 거래와 다른 거액 송금이나 새로운 수취인에 대한 반복 이체 때는 추가 확인 절차를...",
+      "url": "https://www.mt.co.kr/opinion/2026/10/14/2026101207361111066",
+      "date": "10.14.",
+      "datetime": "10.14. 02:00",
+      "rawDate": "2026-10-14T02:00:00+09:00",
+      "source": "머니투데이",
+      "sourceGroup": "머니투데이",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "c6426bfc20e5",
+      "title": "법무부·성평등부·국방부 등 44개 기관 세종 이전",
+      "desc": "수사·보안·관제 등 업무 특성상 독립청사 등이 필요한 외교부와 국방부 등 17개 기관은 2031년까지 청사를... 수사와 보안 등 기관별 업무 특성을 고려해 별도 시설을 마련할 방침이다. 청사 신축과 부처 연계 이전이...",
+      "url": "http://www.babytimes.co.kr/news/articleView.html?idxno=74358",
+      "date": "10.14.",
+      "datetime": "10.14. 01:32",
+      "rawDate": "2026-10-14T01:32:00+09:00",
+      "source": "babytimes",
+      "sourceGroup": "babytimes",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "정책/제도",
+      "tagCls": "tag-green",
+      "lang": "ko"
+    },
+    {
+      "id": "c5d61002e301",
+      "title": "구글, 사이버보안 전문가에 Gemini 4 Argon 우선 제공",
+      "desc": "더블록비츠(TheBlockBeats)는 관련 소식을 전했으나, 구글은 9월 30일 공식 블로그에서 Gemini 4 Argon을 페어윈드(Fairwind) 프로그램을 통해 일부 신뢰받는 사이버보안 전문가에게 우선 제공한다고 밝혔다. 구글은...",
+      "url": "https://www.tokenpost.kr/news/breaking/422130",
+      "date": "10.14.",
+      "datetime": "10.14. 01:30",
+      "rawDate": "2026-10-14T01:30:00+09:00",
+      "source": "tokenpost",
+      "sourceGroup": "tokenpost",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
     },
     {
       "id": "c4c5eac1402f",
@@ -49,6 +97,22 @@
       "tag": "해킹/침해",
       "tagCls": "tag-red",
       "lang": "ko"
+    },
+    {
+      "id": "6f190af3eee3",
+      "title": "GitHub Tightens npm Publishing After Flaw Left 1,500+ Packages Vulnerable to Hijacking",
+      "desc": "GitHub has taken the step of expiring unvalidated npm trusted publishing configurations 48 hours after creation after researchers found that it was possible for an attacker to push new versions of a different user's package without having to steal their credentials.\n\n\"Your configuration becomes validated and exempt from expiry after its first successful publish,\" the Microsoft-owned subsidiary",
+      "url": "https://thehackernews.com/2026/10/github-tightens-npm-publishing-after.html",
+      "date": "10.14.",
+      "datetime": "10.14. 01:18",
+      "rawDate": "2026-10-14T01:18:18+09:00",
+      "source": "TheHackerNews",
+      "sourceGroup": "TheHackerNews",
+      "channel": "자체개발",
+      "region": "해외",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "en"
     },
     {
       "id": "66fd77f96137",
@@ -560,22 +624,6 @@
       "region": "국내",
       "tag": "보안",
       "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "1e98d97684b2",
-      "title": "법무·성평등부 등 44곳, 내년부터 세종 순차 이전",
-      "desc": "수사·보안·관제 등 업무 특성상 독립청사 등이 필요한 17개 기관(6934명)은 2031년까지 별도 청사를 신축해 순차 이전하기로 했다. 행정안전부는 13일 이런 내용의 2차 중앙행정기관 이전 세부 계획을 발표했다. 기관...",
-      "url": "https://www.ksilbo.co.kr/news/articleView.html?idxno=1069464",
-      "date": "10.14.",
-      "datetime": "10.14. 00:02",
-      "rawDate": "2026-10-14T00:02:00+09:00",
-      "source": "ksilbo",
-      "sourceGroup": "ksilbo",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "정책/제도",
-      "tagCls": "tag-green",
       "lang": "ko"
     },
     {
@@ -1680,22 +1728,6 @@
       "region": "국내",
       "tag": "보안",
       "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "51ed27d78847",
-      "title": "법무부·외교부·국방부 등 44개 기관 세종으로 단계적 이전",
-      "desc": "수사·보안·관제 등 업무 특성상 독립청사 등이 필요한 17개 기관(6천934명)은 2031년까지 별도 청사를 신축해 순차 이전하기로 했다. 우선 내년 상반기에는 방송미디어통신위원회, 개인정보보호위원회...",
-      "url": "https://www.idaegu.co.kr/news/articleView.html?idxno=562248",
-      "date": "10.13.",
-      "datetime": "10.13. 21:44",
-      "rawDate": "2026-10-13T21:44:00+09:00",
-      "source": "idaegu",
-      "sourceGroup": "idaegu",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "정책/제도",
-      "tagCls": "tag-green",
       "lang": "ko"
     },
     {
@@ -7968,38 +8000,6 @@
       "region": "국내",
       "tag": "AI 보안",
       "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "126e02e938bd",
-      "title": "김포시, 정보통신과 간판 바꿨다…'AI 행정' 전면에",
-      "desc": "정보보호팀은 AI 활용에 따른 보안과 개인정보 등 정보보호 업무를 담당한다. 행정정보팀은 AI 기반... 각 팀의 역할은 구분하되 사업 추진 과정에서는 긴밀하게 협력하도록 해 정책 설계부터 시스템 운영과 보안까지...",
-      "url": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3037455",
-      "date": "10.13.",
-      "datetime": "10.13. 16:24",
-      "rawDate": "2026-10-13T16:24:00+09:00",
-      "source": "kihoilbo",
-      "sourceGroup": "kihoilbo",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "818ffdf41b38",
-      "title": "[뉴스인사이드 국감톡톡] 제넨셀 신약 청탁 의혹, 국감 증인 채택 놓고...",
-      "desc": "송경희 개인정보보호위원장은 13일 국회 정무위원회 국정감사에서 금융·보안 당국과 협력해 사고 경위와 사후 대응을 점검하겠다고 설명했습니다. 중대한 법 위반에는 매출액의 최대 10%에 해당하는 과징금이 적용될 수...",
-      "url": "https://www.newsinside.kr/news/articleView.html?idxno=5023329",
-      "date": "10.13.",
-      "datetime": "10.13. 16:24",
-      "rawDate": "2026-10-13T16:24:00+09:00",
-      "source": "newsinside",
-      "sourceGroup": "newsinside",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "정책/제도",
-      "tagCls": "tag-green",
       "lang": "ko"
     }
   ]
