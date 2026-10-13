@@ -2,7 +2,9 @@ name: 뉴스 수집
 
 on:
   schedule:
-    - cron: '*/30 * * * *'   # 매 30분마다 (UTC)
+    # 매시 7분·37분 (30분 간격 유지). 정각/30분은 전 세계 작업이 몰려
+    # GitHub가 지연·누락시키므로 분을 비껴 혼잡을 피함.
+    - cron: '7,37 * * * *'
   workflow_dispatch:        # 수동 실행
 
 jobs:
@@ -27,14 +29,17 @@ jobs:
         env:
           NAVER_CLIENT_ID:     ${{ secrets.NAVER_CLIENT_ID }}
           NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
-          WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
+          WEBHOOK_URL:         ${{ secrets.WEBHOOK_URL }}
         run: python scripts/collect.py
 
       - name: feeds.json 커밋
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/feeds.json
+          # 실행 시각 기록 — 새 기사가 없어 feeds.json이 안 바뀌어도 매번 커밋이 남아
+          # 레포 활동이 끊기지 않음(schedule 60일 자동중지 예방 + 자동실행 여부 추적).
+          date -u '+%Y-%m-%d %H:%M:%S UTC' > data/last_run.txt
+          git add data/feeds.json data/last_run.txt
           git add data/webhook_sent.json 2>/dev/null || true
           git diff --staged --quiet \
             && echo "변경 없음" \
