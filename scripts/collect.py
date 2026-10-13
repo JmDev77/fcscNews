@@ -224,7 +224,7 @@ def parse_dt(s):
         if dt.tzinfo is None:
             dt = pytz.utc.localize(dt)
         return dt.astimezone(KST)
-    except:
+    except:ㅊ
         return datetime.now(KST)
 
 def word_jaccard(t1, t2):
@@ -414,6 +414,11 @@ MONITOR_ORGS = [
     '한국투자공사', '한국재정정보원', 'dBrain', '국세청', '한미전략투자공사','재경부','재경위','기획처','한은','디브레인','재정경제기획위원회'
 ]
 
+# 웹훅 중복 전송 방지용 제목 유사도 (수집용 is_similar와 별개, 안전하게 0.80)
+WEBHOOK_SIM_THRESH = 0.80
+def is_similar_webhook(t1, t2):
+    return SequenceMatcher(None, t1, t2).ratio() >= WEBHOOK_SIM_THRESH
+
 def match_orgs(title, desc=''):
     """제목+요약에서 매칭된 기관명 리스트 반환 (dBrain은 대소문자 무시)"""
     text = (title or '') + ' ' + (desc or '')
@@ -452,13 +457,15 @@ def save_webhook_sent(sent):
     WEBHOOK_SENT_PATH.parent.mkdir(exist_ok=True)
     WEBHOOK_SENT_PATH.write_text(json.dumps(pruned, ensure_ascii=False, indent=2), encoding='utf-8')
 
-def send_webhook(title, link, orgs, source=''):
+def send_webhook(title, link, orgs, source='', channel=''):
     """Dooray/Slack 호환 Incoming Webhook 전송. 실패해도 예외 안 던짐."""
     if not WEBHOOK_URL:
         return False
     org_str = ', '.join(orgs)
-    src = f" ({source})" if source else ''
-    text = f"🏛 [{org_str}] 관련 기사\n{title}{src}\n{link}"
+    # 출처 라인: 📍채널 · 매체  (어느 경로로 수집됐는지 구분용)
+    loc = ' · '.join([x for x in (channel, source) if x])
+    loc_line = f"📍{loc}\n" if loc else ''
+    text = f"🏛 [{org_str}] 관련 기사\n{loc_line}{title}\n{link}"
     try:
         r = requests.post(
             WEBHOOK_URL,
@@ -500,17 +507,19 @@ def process_org_webhooks(our_articles):
     """
     if not WEBHOOK_URL:
         print("\n[기관 웹훅] WEBHOOK_URL 미설정 — 건너뜀")
-        return 0
+        return 0, 0
     print("\n[기관 웹훅] 기관명 매칭 검사")
 
     sent = load_webhook_sent()
 
-    # 검사 대상 통합 (link, title, desc, source) 튜플
+    # 검사 대상 통합 (link, title, desc, source, channel) 튜플
     candidates = []
     for a in our_articles:
-        candidates.append((a.get('url',''), a.get('title',''), a.get('desc',''), a.get('source','')))
+        candidates.append((a.get('url',''), a.get('title',''), a.get('desc',''),
+                           a.get('source',''), a.get('channel','')))
 
     # 정보원 외부 feeds.json 전체(3개 배열) 추가로 검사
+    JB_CAT = {'security_news': '정보원·보안뉴스', 'vulnerability': '정보원·취약점', 'reputation': '정보원·평판'}
     for feed in CUSTOM_JSON_FEEDS:
         try:
             r = requests.get(feed['url'], headers=HEADERS, timeout=15)
@@ -526,14 +535,15 @@ def process_org_webhooks(our_articles):
                         desc  = clean_html(a.get('summary_ko') or a.get('summary',''))
                         link  = a.get('link','')
                         src   = a.get('source','')
-                        candidates.append((link, title, desc, src))
+                        candidates.append((link, title, desc, src, JB_CAT.get(key, '정보원')))
         except Exception as e:
             print(f"  ⚠️ 정보원 feeds.json 재조회 실패: {e}")
 
     # 매칭 + 미전송 기사만 전송
     sent_count = 0
     seen_links = set()
-    for link, title, desc, source in candidates:
+    sent_titles = []   # 이번 실행에서 보낸 제목들 (비슷한 기사 중복 전송 방지용)
+    for link, title, desc, source, channel in candidates:
         if not link or link in seen_links:
             continue
         seen_links.add(link)
@@ -546,25 +556,33 @@ def process_org_webhooks(our_articles):
             continue
         if not is_security_related(title):  # desc 제외, 제목만
             continue
-        if send_webhook(title, link, orgs, source):
+        # 같은 사건이 여러 채널로 들어온 경우: 제목 유사도(0.80)로 중복 판단해 한 번만 전송.
+        # 중복으로 걸러진 것도 '보낸 것'으로 기록해 다음 실행에서 다시 안 오게 함.
+        if any(is_similar_webhook(title, t) for t in sent_titles):
             sent[link] = datetime.now(KST).isoformat()
+            print(f"  ⏭  (유사중복) [{', '.join(orgs)}] {title[:36]}")
+            continue
+        if send_webhook(title, link, orgs, source, channel):
+            sent[link] = datetime.now(KST).isoformat()
+            sent_titles.append(title)
             sent_count += 1
-            print(f"  📤 [{', '.join(orgs)}] {title[:40]}")
+            print(f"  📤 [{', '.join(orgs)}] ({channel}) {title[:36]}")
             time.sleep(0.5)       # 웹훅 rate limit 여유
 
     save_webhook_sent(sent)
-    print(f"[기관 웹훅] {sent_count}건 전송 (기록 {len(sent)}건 보관)")
-    return sent_count
+    checked_count = len(seen_links)   # 중복 제거 후 실제로 검사한 고유 기사 수
+    print(f"[기관 웹훅] 검사 {checked_count}건 · {sent_count}건 전송 (기록 {len(sent)}건 보관)")
+    return checked_count, sent_count
 
-def send_heartbeat(total_count, matched_count):
-    """매 실행마다 '수집 완료 + 매칭 건수' 하트비트 전송. 실행 여부 추적용."""
+def send_heartbeat(checked_count, matched_count):
+    """매 실행마다 '수집 완료 + 검사/매칭 건수' 하트비트 전송. 실행 여부 추적용."""
     if not WEBHOOK_URL or not HEARTBEAT_ENABLED:
         return
     now = datetime.now(KST).strftime('%m-%d %H:%M')
     if matched_count > 0:
-        text = f"✅ [수집완료 {now}] 기사 {total_count}건 · 기관매칭 {matched_count}건 전송"
+        text = f"✅ [수집완료 {now}] 검사 {checked_count}건 · 기관매칭 {matched_count}건 전송"
     else:
-        text = f"✅ [수집완료 {now}] 기사 {total_count}건 · 기관매칭 없음"
+        text = f"✅ [수집완료 {now}] 검사 {checked_count}건 · 기관매칭 없음"
     send_webhook_text(text)
     print(f"[하트비트] 전송: {text}")
 
@@ -693,10 +711,10 @@ def main():
     print(f"\n✅ feeds.json 저장: {len(deduped)}건")
 
     # 기관명 매칭 웹훅 전송 (우리 수집분 + 정보원 외부 feeds.json 전체 대상)
-    matched = process_org_webhooks(deduped)
+    checked, matched = process_org_webhooks(deduped)
 
-    # 하트비트: 매 실행마다 수집 완료 + 매칭 건수 알림 (실행 여부 추적)
-    send_heartbeat(len(deduped), matched or 0)
+    # 하트비트: 매 실행마다 '검사한 총 건수(정보원 포함) + 매칭 건수' 알림
+    send_heartbeat(checked, matched)
 
     print(f"{'='*50}\n")
 
