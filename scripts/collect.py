@@ -404,9 +404,13 @@ def fetch_custom_json(feed):
 WEBHOOK_URL = os.environ.get('WEBHOOK_URL', '')   # GitHub Actions Secret
 WEBHOOK_SENT_PATH = Path(__file__).parent.parent / 'data' / 'webhook_sent.json'
 
-# 하트비트: 매 실행마다 "수집 완료, 매칭 N건" 알림 전송 (실행 여부 추적용).
-# 끄고 싶으면 Actions env에 HEARTBEAT=off 추가. 기본값은 켜짐(on).
+# 하트비트: 실행 여부 추적용 "수집 완료, 매칭 N건" 알림.
+# 끄고 싶으면 Actions env에 HEARTBEAT=off. 기본값은 켜짐(on).
 HEARTBEAT_ENABLED = os.environ.get('HEARTBEAT', 'on').lower() not in ('off', '0', 'false', 'no')
+# 하트비트 최소 전송 간격(시간). 매 실행(30분)마다 울리면 시끄러우므로 2시간에 1번만.
+# env HEARTBEAT_INTERVAL_HRS 로 조정 가능. (기관매칭 알림은 이 간격과 무관하게 즉시 전송)
+HEARTBEAT_INTERVAL_HRS = float(os.environ.get('HEARTBEAT_INTERVAL_HRS', '2'))
+HEARTBEAT_PATH = Path(__file__).parent.parent / 'data' / 'last_heartbeat.txt'
 
 MONITOR_ORGS = [
     '기획예산처', '동행복권', '재정경제부', '글로벌지식협력단지', '관세청',
@@ -610,15 +614,38 @@ def process_org_webhooks(our_articles):
     return checked_count, sent_count
 
 def send_heartbeat(checked_count, matched_count):
-    """매 실행마다 '수집 완료 + 검사/매칭 건수' 하트비트 전송. 실행 여부 추적용."""
+    """
+    하트비트 전송. 매 실행마다가 아니라 마지막 전송 후 HEARTBEAT_INTERVAL_HRS(기본 2h) 지났을 때만.
+    마지막 전송 시각은 data/last_heartbeat.txt 에 기록.
+    """
     if not WEBHOOK_URL or not HEARTBEAT_ENABLED:
         return
-    now = datetime.now(KST).strftime('%m-%d %H:%M')
+    now_dt = datetime.now(KST)
+
+    # 마지막 전송 시각 확인 — 2시간 안 지났으면 건너뜀
+    if HEARTBEAT_PATH.exists():
+        try:
+            last = datetime.fromisoformat(HEARTBEAT_PATH.read_text(encoding='utf-8').strip())
+            if last.tzinfo is None:
+                last = KST.localize(last)
+            if now_dt - last < timedelta(hours=HEARTBEAT_INTERVAL_HRS):
+                print(f"[하트비트] 간격 미도달 — 건너뜀 (마지막 {last.strftime('%H:%M')})")
+                return
+        except Exception:
+            pass  # 파싱 실패 시 그냥 전송
+
+    now = now_dt.strftime('%m-%d %H:%M')
     if matched_count > 0:
         text = f"✅ [수집완료 {now}] 검사 {checked_count}건 · 기관매칭 {matched_count}건 전송"
     else:
         text = f"✅ [수집완료 {now}] 검사 {checked_count}건 · 기관매칭 없음"
     send_webhook_text(text)
+    # 전송 성공 여부와 무관하게 시각 기록(실패해도 2시간 뒤 재시도되도록)
+    try:
+        HEARTBEAT_PATH.parent.mkdir(exist_ok=True)
+        HEARTBEAT_PATH.write_text(now_dt.isoformat(), encoding='utf-8')
+    except Exception:
+        pass
     print(f"[하트비트] 전송: {text}")
 
 # ── 네이버 API ────────────────────────────────────────
