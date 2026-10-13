@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-14T02:01:16.109530+09:00",
+  "fetched_at": "2026-10-14T02:07:45.076823+09:00",
   "count": 500,
   "articles": [
     {
@@ -19,6 +19,22 @@
       "lang": "en"
     },
     {
+      "id": "08247bb8d681",
+      "title": "말 한마디로 집안 관리…애플, AI 홈 허브 '홈뷰' 공개[모닝폰]",
+      "desc": "얼굴 인식으로 가족 구성원을 구분하고 AI 음성비서 ‘시리 AI’로 가전과 보안 기기 등을 제어하는... 홈뷰는 스마트 스피커와 디스플레이, AI 비서, 홈 보안 기능을 하나로 통합한 제품이다. 아마존과 구글이 경쟁하는...",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=01262806645612920&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "date": "10.14.",
+      "datetime": "10.14. 02:02",
+      "rawDate": "2026-10-14T02:02:00+09:00",
+      "source": "이데일리",
+      "sourceGroup": "이데일리",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
       "id": "7b7f49bddc63",
       "title": "AI금융사기 급증, 풍전등화 고령자 재산[투데이 窓/반영은]",
       "desc": "외주업체와 영업지원시스템까지 보안 점검 범위를 넓히고, 이상 접근 조짐을 조기에 발견해 고객에게 신속히 알려야 한다. 고객의 평소 거래와 다른 거액 송금이나 새로운 수취인에 대한 반복 이체 때는 추가 확인 절차를...",
@@ -33,6 +49,22 @@
       "tag": "AI 보안",
       "tagCls": "tag-blue",
       "lang": "ko"
+    },
+    {
+      "id": "5ffb29ecedb4",
+      "title": "Google Partially Reverses Chrome Bug Bounty Cuts",
+      "desc": "Google is restructuring bug bounty rewards with a focus on complex memory safety vulnerabilities. \nThe post Google Partially Reverses Chrome Bug Bounty Cuts appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/google-partially-reverses-chrome-bug-bounty-cuts/",
+      "date": "10.14.",
+      "datetime": "10.14. 02:00",
+      "rawDate": "2026-10-14T02:00:00+09:00",
+      "source": "SecurityWeek",
+      "sourceGroup": "SecurityWeek",
+      "channel": "자체개발",
+      "region": "해외",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "en"
     },
     {
       "id": "c6426bfc20e5",
@@ -7968,38 +8000,6 @@
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "686bc021a4c6",
-      "title": "장덕현 삼성전기 사장 &quot;AI 시대, 아직 1월 1일에 불과…적극 대응 필요&quot;",
-      "desc": "해커톤은 해킹(Hacking)과 마라톤(Marathon)의 합성어로, 제한된 시간 안에 집중적으로 아이디어를 기획하고 결과물을 구현하는 개발 경연 프로그램이다. 삼성전기가 사내 해커톤을 여는 것은 이번이 처음이다. 이날부터...",
-      "url": "https://news.tf.co.kr/read/economy/2375781.htm",
-      "date": "10.13.",
-      "datetime": "10.13. 16:24",
-      "rawDate": "2026-10-13T16:24:00+09:00",
-      "source": "news",
-      "sourceGroup": "news",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "77cb69500a3d",
-      "title": "대구교육청, 글로벌 교육수도 대구 위해 조직개편 단행",
-      "desc": "기존 중대재해예방담당의 사무를 산업안전담당으로 통합하고, 통학안전담당을 신설해 통학로 안전, 교통안전, 학교 CCTV, 학교보안관 등 학교와 학생의 일상적인 안전과 밀접한 업무를 담당한다. 미래교육연구원은 AI기반...",
-      "url": "https://www.idaegu.co.kr/news/articleView.html?idxno=562139",
-      "date": "10.13.",
-      "datetime": "10.13. 16:24",
-      "rawDate": "2026-10-13T16:24:00+09:00",
-      "source": "idaegu",
-      "sourceGroup": "idaegu",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
       "lang": "ko"
     }
   ]
