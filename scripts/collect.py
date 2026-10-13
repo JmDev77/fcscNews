@@ -224,7 +224,7 @@ def parse_dt(s):
         if dt.tzinfo is None:
             dt = pytz.utc.localize(dt)
         return dt.astimezone(KST)
-    except:ㅊ
+    except:
         return datetime.now(KST)
 
 def word_jaccard(t1, t2):
