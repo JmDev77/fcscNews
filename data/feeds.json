@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-15T01:31:01.016405+09:00",
+  "fetched_at": "2026-10-15T02:01:10.651937+09:00",
   "count": 500,
   "articles": [
     {
@@ -99,6 +99,22 @@
       "lang": "ko"
     },
     {
+      "id": "cdac7a5b83c7",
+      "title": "LG전자, 북미 프리미엄 가전·AI홈 사업 확대…데이터센터 냉각기술도 ...",
+      "desc": "실내 카메라는 아기 울음소리와 유리 파손음 등도 감지하며, LG전자의 보안 솔루션 'LG 쉴드'와 애플의 데이터 암호화 기술을 활용해 개인정보 보호 기능을 강화했다. LG전자는 이번 제품군을 AI홈 허브 '씽큐 온'과 기존...",
+      "url": "https://www.webeconomy.co.kr/news/articleView.html?idxno=2334333",
+      "date": "10.15.",
+      "datetime": "10.15. 01:44",
+      "rawDate": "2026-10-15T01:44:00+09:00",
+      "source": "webeconomy",
+      "sourceGroup": "webeconomy",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
       "id": "cea62ddc45ba",
       "title": "레저 지갑 화면 뒤 칩이 24단어 복구 문구 읽어 LTE로 전송…와이파이 ...",
       "desc": "레저 내부 보안팀 돈종(Donjon)이 분석한 결과 이 장치는 디스플레이 뒤쪽에 자리 잡고 있었다. 화면에... 하드웨어 지갑의 보안 논리는 개인 키가 인터넷에 연결된 기기에 닿지 않는다는 데 있다. 자체 이동통신 안테나를...",
@@ -193,6 +209,22 @@
       "tag": "AI 보안",
       "tagCls": "tag-blue",
       "lang": "ko"
+    },
+    {
+      "id": "d066527c67ed",
+      "title": "AI Agents Navigate Unfamiliar OT Systems and Move Equipment in Minutes, Booz Allen Finds",
+      "desc": "In Booz Allen’s isolated OT lab, AI models met every objective across eight scenarios and reached an industrial control network from a perimeter compromise in just over 16 minutes.\nThe post AI Agents Navigate Unfamiliar OT Systems and Move Equipment in Minutes, Booz Allen Finds appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/ai-agents-navigate-unfamiliar-ot-systems-and-move-equipment-in-minutes-booz-allen-finds/",
+      "date": "10.15.",
+      "datetime": "10.15. 01:00",
+      "rawDate": "2026-10-15T01:00:00+09:00",
+      "source": "SecurityWeek",
+      "sourceGroup": "SecurityWeek",
+      "channel": "자체개발",
+      "region": "해외",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "en"
     },
     {
       "id": "6cc5fd982fba",
@@ -7968,38 +8000,6 @@
       "region": "국내",
       "tag": "AI 보안",
       "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "64e05a66872a",
-      "title": "오픈AI, 사이버보안 강화 위해 전문 스타트업 인수 추진",
-      "desc": "오픈AI가 사이버보안 사업을 강화하기 위해 오픈소스 소프트웨어 취약점 분석 전문 스타트업 트레일 오브... 이번 인수 추진은 오픈AI가 사이버보안을 새로운 사업 기회로 보고 있다는 점을 보여준다. AI 모델의 코딩...",
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=216256",
-      "date": "10.14.",
-      "datetime": "10.14. 16:10",
-      "rawDate": "2026-10-14T16:10:00+09:00",
-      "source": "aitimes",
-      "sourceGroup": "aitimes",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "취약점/CVE",
-      "tagCls": "tag-yellow",
-      "lang": "ko"
-    },
-    {
-      "id": "deec054f0c99",
-      "title": "\"미토스급 AI가 해킹한다 가정하고 대비하라\"",
-      "desc": "[사진: 팔로알토 네트웍스] \"미토스급 AI가 우리 회사를 해킹한다는 가정 아래 대비해야 한다. AI 전환(AX)과... 박 대표는 올해를 AI 해킹 변곡점으로 규정했다.  앤트로픽 미토스 등장과 오픈AI 모델에 허깅페이스를...",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=707083",
-      "date": "10.14.",
-      "datetime": "10.14. 16:08",
-      "rawDate": "2026-10-14T16:08:00+09:00",
-      "source": "digitaltoday",
-      "sourceGroup": "digitaltoday",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
       "lang": "ko"
     }
   ]
