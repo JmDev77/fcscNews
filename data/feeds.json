@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-17T00:31:02.406891+09:00",
+  "fetched_at": "2026-10-17T01:01:11.922033+09:00",
   "count": 500,
   "articles": [
     {
@@ -51,6 +51,22 @@
       "lang": "ko"
     },
     {
+      "id": "b9291f55cbf4",
+      "title": "캐나다군 3명, 가상자산 거래소 소유주 납치 혐의 기소",
+      "desc": "토론토 경찰은 10월 14일 발표에서 피해자가 7월 25일 토론토에서 납치됐으며, 용의자들이 피해자의 가상자산과 사업 보안 시스템에 접근하려 한 혐의를 받는다고 밝혔다. 경찰은 전체 피의자 7명이 기소됐고, 이...",
+      "url": "https://www.tokenpost.kr/news/breaking/423481",
+      "date": "10.17.",
+      "datetime": "10.17. 00:54",
+      "rawDate": "2026-10-17T00:54:00+09:00",
+      "source": "tokenpost",
+      "sourceGroup": "tokenpost",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
       "id": "73c7323f5d53",
       "title": "연세대 바른ICT연구소, 아시아 전문가들과 AI 개인정보보호 과제 논의",
       "desc": "연세대학교 바른ICT연구소(소장 김범수 정보대학원 교수)는 10월 16일 서울 여의도 FKI타워 컨퍼런스센터에서 한국CPO포럼, 싱가포르경영대학교와 공동으로 ‘제15회 아시아 개인정보보호 협력 포럼 2026’을 개최했다.이번 포럼은 ‘자율형 AI 시대의 회복탄력성과 책임성 확보’를 주제로 열렸다. 국내외 학계·연구기관·기업·법률·정책 전문가들이 참여해 AI의 자율적인 판단과 여러 AI 시스템이 연결된 의사결정 과정에서 개인정보를 보호할 방안을 논의했다.주요 쟁점은 AI에 부여할 권한의 범위와 책임 소재였다. AI가 데이터를 축적하고",
@@ -67,6 +83,38 @@
       "lang": "ko"
     },
     {
+      "id": "81ff31c17d39",
+      "title": "경복궁 영추문 앞 그 나무, 위험하다며 자른다는데…",
+      "desc": "옛 보안여관 앞. 높이 20m가 넘는 커다란 양버즘나무(플라타너스)에 이런 팻말이 붙어 있었다. 이 나무는 최근... 이곳에 자리 잡은 복합 문화 공간 ‘보안1942(옛 보안여관)’는 지난달 30일 “(가게) 앞에 있는 플라타너스...",
+      "url": "https://www.chosun.com/national/weekend/2026/10/17/CS27ZVHNXZGJFBX7EVOMCW3VDY/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+      "date": "10.17.",
+      "datetime": "10.17. 00:32",
+      "rawDate": "2026-10-17T00:32:00+09:00",
+      "source": "조선일보",
+      "sourceGroup": "조선일보",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "9b636341cd6c",
+      "title": "7만5000개 조직 겨눈 피싱망, 마이크로소프트가 차단",
+      "desc": "마이크로소프트는 일본 사이버범죄대책센터(JC3), Resecurity, Cloudflare, Oracle, Proofpoint, TRM Labs와 정보를 공유해 서비스 간 연결 구조를 추적했다고 밝혔다. 미국 플로리다 남부 연방지방법원의 명령에 따라...",
+      "url": "https://www.tokenpost.kr/news/tech/423474",
+      "date": "10.17.",
+      "datetime": "10.17. 00:30",
+      "rawDate": "2026-10-17T00:30:00+09:00",
+      "source": "tokenpost",
+      "sourceGroup": "tokenpost",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "정책/제도",
+      "tagCls": "tag-green",
+      "lang": "ko"
+    },
+    {
       "id": "0987f519aea7",
       "title": "[홍콩 금융허브] 자유 위축되고 IB 수익성 뚝…화려한 복귀 뒤에 가려진...",
       "desc": "2020년 국가보안법 시행 이후 민주화 활동가와 언론인 체포가 이어졌고, 올해 2월에는 지미 라이가 징역 20년을 선고받았다. 예일대 로스쿨 폴 차이 중국센터의 스티븐 로치 선임연구원은 홍콩에서 언론과 출판의 자유...",
@@ -80,6 +128,22 @@
       "region": "국내",
       "tag": "정책/제도",
       "tagCls": "tag-green",
+      "lang": "ko"
+    },
+    {
+      "id": "82c2272788e5",
+      "title": "김미숙·김귀근, 군포 급경사지 점검·산본로데오 화재예방 캠페인",
+      "desc": "점검단은 이어 산본로데오거리에서 상인회, 군포시, 군포소방서, 한국전기안전공사, 군포시 안전보안관과 상가밀집지역 안전관리 방안을 논의했다. 음식점과 의류점 등 1649개 점포가 모인 이곳에서는 상인과 방문객에게...",
+      "url": "http://www.newstown.co.kr/news/articleView.html?idxno=718835",
+      "date": "10.17.",
+      "datetime": "10.17. 00:25",
+      "rawDate": "2026-10-17T00:25:00+09:00",
+      "source": "newstown",
+      "sourceGroup": "newstown",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
       "lang": "ko"
     },
     {
@@ -7936,70 +8000,6 @@
       "region": "국내",
       "tag": "보안",
       "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "9e5384b82f30",
-      "title": "해킹 위험 커지는데 “문제는 경영진”",
-      "desc": "대형 정보침해 사건이 연이어 터지고 있지만 사이버 보험 가입등 위험 관리 체계가 미흡하다는 지적이 잇따르고 있다. 근본 원인으로는 경영진의 낮은 인식이 지목됐다 16일 화재보험협회의 ‘2026년 사이버 리스크와...",
-      "url": "https://www.naeil.com/news/read/605352?ref=naver",
-      "date": "10.16.",
-      "datetime": "10.16. 13:04",
-      "rawDate": "2026-10-16T13:04:00+09:00",
-      "source": "naeil",
-      "sourceGroup": "naeil",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "e1e96d6de3f7",
-      "title": "&quot;기술 보호냐, 수출 족쇄냐&quot;⋯한중 협력에 다시 불붙은 '톡신 규제'",
-      "desc": "수출을 막는 규제가 아니라 기술 유출을 방지하기 위한 장치라고 주장했다. 특히 해외 해킹 등 기술 탈취 위협이 존재하는 만큼 국내 기업의 경쟁력과 기술 주권을 지키기 위해서라도 현행 제도를 유지해야 한다고 강조했다.",
-      "url": "http://www.inews24.com/view/2015829",
-      "date": "10.16.",
-      "datetime": "10.16. 13:03",
-      "rawDate": "2026-10-16T13:03:00+09:00",
-      "source": "아이뉴스24",
-      "sourceGroup": "아이뉴스24",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "20203a37dd30",
-      "title": "5G 넘어 6G·위성통신으로…통신장비주 투자심리 달아올랐다",
-      "desc": "통신용 반도체를 개발하는 자람테크놀로지와 보안 솔루션 관련 기업 카티스도 상승 흐름에 동참했다. 글로벌 보안·영상 장비 기업 한화비전은 6.60% 오른 4만400원에 거래되고 있다. 위성통신 분야에서는 AP위성과...",
-      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=495903",
-      "date": "10.16.",
-      "datetime": "10.16. 13:02",
-      "rawDate": "2026-10-16T13:02:00+09:00",
-      "source": "pinpointnews",
-      "sourceGroup": "pinpointnews",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "8a1205ccac17",
-      "title": "중대범죄수사청, '종이 영장' 시대의 불편함과 전산화의 딜레마",
-      "desc": "이는 기록 분실 및 보안 문제를 야기할 수 있으며, 법원과의 업무 마찰 가능성도 존재한다. 수기 접수가 지연되거나 반려될 수 있다는 우려도 있다. 중수청 관계자는 과거 사건 기록은 여전히 종이 형태로 처리해야 한다고...",
-      "url": "https://www.gokorea.kr/news/articleView.html?idxno=881647",
-      "date": "10.16.",
-      "datetime": "10.16. 13:02",
-      "rawDate": "2026-10-16T13:02:00+09:00",
-      "source": "gokorea",
-      "sourceGroup": "gokorea",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "정책/제도",
-      "tagCls": "tag-green",
       "lang": "ko"
     }
   ]
