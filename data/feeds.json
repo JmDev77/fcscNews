@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-17T01:34:03.709118+09:00",
+  "fetched_at": "2026-10-17T02:01:10.076552+09:00",
   "count": 500,
   "articles": [
     {
@@ -17,6 +17,22 @@
       "tag": "보안",
       "tagCls": "tag-blue",
       "lang": "en"
+    },
+    {
+      "id": "7a0459a2b138",
+      "title": "코인베이스, 전송·현금 인출 보호 설정 안내",
+      "desc": "코인베이스는 17일 오전 1시 44분(한국시간) X 게시물에서 전송 보호 설정이 발송과 인출에 추가 보안 계층을 제공한다고 밝혔다. 오데일리(Odaily)는 해당 게시물을 전했다. 코인베이스 고객지원 문서에 따르면 전송 보호는...",
+      "url": "https://www.tokenpost.kr/news/cryptocurrency/423496",
+      "date": "10.17.",
+      "datetime": "10.17. 01:48",
+      "rawDate": "2026-10-17T01:48:00+09:00",
+      "source": "tokenpost",
+      "sourceGroup": "tokenpost",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
     },
     {
       "id": "d9be3e45ca9e",
@@ -7980,22 +7996,6 @@
       "rawDate": "2026-10-16T13:11:00+09:00",
       "source": "ohmynews",
       "sourceGroup": "ohmynews",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "87e6e26b11eb",
-      "title": "치과계 온라인 교육사이트 ‘보안 비상’",
-      "desc": "외부 학습관리시스템(LMS) 전문업체가 해킹당하면서 해당 업체에 교육시스템 운영을 위탁한 치과계 학회 회원들의 개인정보까지 유출된 것으로 파악됐다. 기본적인 인적사항뿐 아니라 면허번호와 근무처 등 직업 관련...",
-      "url": "https://www.dentalnews.or.kr/news/article.html?no=48460",
-      "date": "10.16.",
-      "datetime": "10.16. 13:10",
-      "rawDate": "2026-10-16T13:10:00+09:00",
-      "source": "dentalnews",
-      "sourceGroup": "dentalnews",
       "channel": "자체개발",
       "region": "국내",
       "tag": "해킹/침해",
