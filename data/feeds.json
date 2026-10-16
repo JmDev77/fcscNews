@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-17T04:31:03.851573+09:00",
+  "fetched_at": "2026-10-17T04:42:34.208563+09:00",
   "count": 500,
   "articles": [
     {
@@ -449,6 +449,22 @@
       "tag": "해킹/침해",
       "tagCls": "tag-red",
       "lang": "en"
+    },
+    {
+      "id": "fd128eeeea8f",
+      "title": "[포토에세이] 로봇이 아닙니다",
+      "desc": "등장하는 주전자머리의 깡통로봇은 어린이들을 깔깔 웃게 한 감초 역할이었다. 깡통로봇의 친구처럼 보이는 한 보안업체 감시카메라가 \"여러분, 안심하고 다니세요. 제가 잘 지켜보고 있을게요\"라고 속삭이는 것 같다.",
+      "url": "https://www.hankookilbo.com/news/article/A2026101513330004228?did=NA",
+      "date": "10.17.",
+      "datetime": "10.17. 04:30",
+      "rawDate": "2026-10-17T04:30:00+09:00",
+      "source": "hankookilbo",
+      "sourceGroup": "hankookilbo",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
     },
     {
       "id": "2156359882a0",
@@ -7980,22 +7996,6 @@
       "rawDate": "2026-10-16T13:54:00+09:00",
       "source": "ilyo",
       "sourceGroup": "ilyo",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "36b6cf61dfc9",
-      "title": "트럼프 AI 작업반, 첫 회의서 위험 평가 보고서 추진",
-      "desc": "백악관은 AI 연구소가 보안 취약점과 해킹, 모델 탈옥 등 문제를 정부에 조기에 알릴 수 있도록 관련 절차와 체계를 마련하겠다고 밝혔다. 블록비츠는 도널드 트럼프 대통령이 선호하는 AI 관련 용어가 ‘초지능’이라고...",
-      "url": "https://www.tokenpost.kr/news/ai/423247",
-      "date": "10.16.",
-      "datetime": "10.16. 13:54",
-      "rawDate": "2026-10-16T13:54:00+09:00",
-      "source": "tokenpost",
-      "sourceGroup": "tokenpost",
       "channel": "자체개발",
       "region": "국내",
       "tag": "해킹/침해",
