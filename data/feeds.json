@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-17T03:31:05.038662+09:00",
+  "fetched_at": "2026-10-17T04:01:12.805188+09:00",
   "count": 500,
   "articles": [
     {
@@ -49,6 +49,22 @@
       "tag": "해킹/침해",
       "tagCls": "tag-red",
       "lang": "ko"
+    },
+    {
+      "id": "11f986cc77fa",
+      "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
+      "desc": "A local privilege escalation exploit published today gains root on OpenBSD 7.9 by chaining a roughly 37-year-old integer overflow with a separate kernel flaw, bypassing OpenBSD's KARL kernel-address randomization and its SMAP and SMEP hardware protections. Security firm Calif, which found and reported the flaws, published a detailed writeup and full proof-of-concept code after OpenBSD shipped",
+      "url": "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
+      "date": "10.17.",
+      "datetime": "10.17. 02:48",
+      "rawDate": "2026-10-17T02:48:45+09:00",
+      "source": "TheHackerNews",
+      "sourceGroup": "TheHackerNews",
+      "channel": "자체개발",
+      "region": "해외",
+      "tag": "취약점/CVE",
+      "tagCls": "tag-yellow",
+      "lang": "en"
     },
     {
       "id": "542d22c36294",
@@ -7984,22 +8000,6 @@
       "region": "국내",
       "tag": "피싱/사기",
       "tagCls": "tag-orange",
-      "lang": "ko"
-    },
-    {
-      "id": "cd8e7fab1911",
-      "title": "패스워드리스 얼라이언스, 워드프레스용 무료 'Passwordless X1280' 배포",
-      "desc": "캐싱·보안 플러그인에 호환된다. 설치 후 로그인 화면(wp-login.php)에 '패스워드/패스워드리스' 선택... 하드웨어나 보안키 등 추가 장비가 전혀 필요 없다. B2C/G2C 온라인 서비스에 전면 무료 플러그인과...",
-      "url": "https://www.boannews.com/news/articleView.html?idxno=146447",
-      "date": "10.16.",
-      "datetime": "10.16. 13:26",
-      "rawDate": "2026-10-16T13:26:00+09:00",
-      "source": "보안뉴스",
-      "sourceGroup": "보안뉴스",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
       "lang": "ko"
     }
   ]
