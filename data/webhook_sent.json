@@ -1,20 +1,4 @@
 {
-  "https://www.taxtimes.co.kr/news/article.html?no=277229": {
-    "ts": "2026-10-13T10:06:30.696014+09:00",
-    "title": ""
-  },
-  "https://www.cwn.kr/news/articleView.html?idxno=59073": {
-    "ts": "2026-10-13T10:06:32.462008+09:00",
-    "title": ""
-  },
-  "http://www.hansbiz.co.kr/news/articleView.html?idxno=872124": {
-    "ts": "2026-10-13T10:06:33.979524+09:00",
-    "title": ""
-  },
-  "https://n.news.naver.com/mnews/article/082/0001402180?sid=101": {
-    "ts": "2026-10-13T10:06:35.303455+09:00",
-    "title": ""
-  },
   "http://www.queen.co.kr/news/articleView.html?idxno=464601": {
     "ts": "2026-10-13T11:00:31.867332+09:00",
     "title": ""
@@ -126,5 +110,9 @@
   "https://www.livebiz.today/news/articleView.html?idxno=205649": {
     "ts": "2026-10-16T10:01:14.835922+09:00",
     "title": "AI 해킹 시발점 신한은행, 올해 정보보호 예산 시중은행 '꼴찌'...국민은..."
+  },
+  "https://www.seoulfn.com/news/articleView.html?idxno=640226": {
+    "ts": "2026-10-16T10:16:26.091545+09:00",
+    "title": "올해 은행 정보보호예산, KB 최다···신한은 꼴찌"
   }
 }
