@@ -1,12 +1,4 @@
 {
-  "https://www.dailysecu.com/news/articleView.html?idxno=208860": {
-    "ts": "2026-10-13T13:31:04.130229+09:00",
-    "title": ""
-  },
-  "https://www.dailian.co.kr/news/view/1700889/?sc=Naver": {
-    "ts": "2026-10-13T13:48:49.600446+09:00",
-    "title": ""
-  },
   "https://www.dailian.co.kr/news/view/1700760/?sc=Naver": {
     "ts": "2026-10-13T14:31:04.343358+09:00",
     "title": ""
@@ -117,6 +109,10 @@
   },
   "https://www.ddaily.co.kr/page/view/2026101611352247561": {
     "ts": "2026-10-16T13:31:02.713959+09:00",
+    "title": "끝나지 않은 라임·ELS 청구서…신한은행, 정보유출까지 겹악재"
+  },
+  "https://n.news.naver.com/mnews/article/138/0002244984?sid=101": {
+    "ts": "2026-10-16T14:01:13.178626+09:00",
     "title": "끝나지 않은 라임·ELS 청구서…신한은행, 정보유출까지 겹악재"
   }
 }
