@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-17T02:01:10.076552+09:00",
+  "fetched_at": "2026-10-17T02:31:02.234390+09:00",
   "count": 500,
   "articles": [
     {
@@ -19,6 +19,22 @@
       "lang": "en"
     },
     {
+      "id": "e1cacd30aa0d",
+      "title": "온열한째 이야기, 백두산으로 찾아가자(2)",
+      "desc": "국가보안법이 철폐되어서 속 시원히 알게 되었으면 좋겠다는 생각이다. 정우능원을 둘러보았다. 소년병의 모습이 새겨진 그림이 있었다. 가이드의 설명으로는 양정우 장군을 최후까지 지키다 자결한 소년병으로 알려져...",
+      "url": "http://www.tongilnews.com/news/articleView.html?idxno=217824",
+      "date": "10.17.",
+      "datetime": "10.17. 02:22",
+      "rawDate": "2026-10-17T02:22:00+09:00",
+      "source": "tongilnews",
+      "sourceGroup": "tongilnews",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "정책/제도",
+      "tagCls": "tag-green",
+      "lang": "ko"
+    },
+    {
       "id": "7a0459a2b138",
       "title": "코인베이스, 전송·현금 인출 보호 설정 안내",
       "desc": "코인베이스는 17일 오전 1시 44분(한국시간) X 게시물에서 전송 보호 설정이 발송과 인출에 추가 보안 계층을 제공한다고 밝혔다. 오데일리(Odaily)는 해당 게시물을 전했다. 코인베이스 고객지원 문서에 따르면 전송 보호는...",
@@ -31,6 +47,22 @@
       "channel": "자체개발",
       "region": "국내",
       "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "a9a2e80a1b04",
+      "title": "미 육군, 신흥 국방기술 신속 도입 모색",
+      "desc": "미 육군은 해군, 공군, 해병대, 우주군, 해안경비대와 함께 활동하는 \"합동군의 토대\"라는 것입니다.지상, 해상, 공중, 우주, 사이버 공간에 걸쳐 전쟁 양상이 진화하고 있습니다. 이에 따라 육군 지도부는 병사들이...",
+      "url": "https://www.voakorea.com/a/8212023.html",
+      "date": "10.17.",
+      "datetime": "10.17. 01:34",
+      "rawDate": "2026-10-17T01:34:00+09:00",
+      "source": "voakorea",
+      "sourceGroup": "voakorea",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
       "tagCls": "tag-blue",
       "lang": "ko"
     },
@@ -7968,38 +8000,6 @@
       "region": "국내",
       "tag": "보안",
       "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "39eb2b3169ed",
-      "title": "유클리드소프트, 화이트해커 기술력 담은 랜섬웨어 대응 솔루션 '곳간'...",
-      "desc": "AI 보안 전문기업 유클리드소프트(대표 박주한)가 랜섬웨어 대응 솔루션 '곳간(GOKGAN)'을 올해 안에 정식... 랜섬웨어 공격을 받더라도 중요 데이터를 잃지 않는 보안 환경을 구축하는 데 초점을 맞췄다. 랜섬웨어로 인한...",
-      "url": "https://www.gokorea.kr/news/articleView.html?idxno=881624",
-      "date": "10.16.",
-      "datetime": "10.16. 13:16",
-      "rawDate": "2026-10-16T13:16:00+09:00",
-      "source": "gokorea",
-      "sourceGroup": "gokorea",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "랜섬웨어",
-      "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "4fe98ac26ff6",
-      "title": "\"은행권 해킹, AI로 인해 숨겨진 위기 발견된 것\"",
-      "desc": "\" 최근 AI를 악용한 은행권 해킹 사고가 잇따라 터지면서, 개인정보 유출과 관련한 우려의 목소리도 높아지고 있다. 무엇보다 AI가 해킹의 진입 장벽을 낮추면서, 공공기관과 기업들의 보안 취약점이 이전보다 더 빠른...",
-      "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003275880&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
-      "date": "10.16.",
-      "datetime": "10.16. 13:11",
-      "rawDate": "2026-10-16T13:11:00+09:00",
-      "source": "ohmynews",
-      "sourceGroup": "ohmynews",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
       "lang": "ko"
     }
   ]
