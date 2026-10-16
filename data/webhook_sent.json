@@ -1,8 +1,4 @@
 {
-  "https://www.mstoday.co.kr/news/articleView.html?idxno=200137": {
-    "ts": "2026-10-13T17:31:06.527467+09:00",
-    "title": "국세청 해킹 올해만 7만건 돌파…보안 대응 목소리 커져"
-  },
   "http://www.joseilbo.com/news/news_read.php?uid=577313&class=7&grp=": {
     "ts": "2026-10-13T18:21:00.042613+09:00",
     "title": "&quot;정보유출 우려&quot; &quot;기분 나빠&quot; 체납관리단 잇단 우려 목소리   [국세청 국..."
@@ -126,5 +122,9 @@
   "https://www.dailysecu.com/news/articleView.html?idxno=208915": {
     "ts": "2026-10-16T16:31:04.337384+09:00",
     "title": "박대출 의원  “우리은행 21.7%·신한은행 10.4% 감액…5대 은행 정보보호 예산 공개“"
+  },
+  "https://www.meconomynews.com/news/articleView.html?idxno=202613": {
+    "ts": "2026-10-16T18:01:01.917536+09:00",
+    "title": "은행장 '성과급 환수' 법제화?... 명분 제공한 신한은행 정보 유출"
   }
 }
