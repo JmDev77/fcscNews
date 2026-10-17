@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-17T21:01:08.109637+09:00",
+  "fetched_at": "2026-10-17T21:30:55.578541+09:00",
   "count": 500,
   "articles": [
     {
@@ -17,6 +17,38 @@
       "tag": "보안",
       "tagCls": "tag-blue",
       "lang": "en"
+    },
+    {
+      "id": "6213b579b45a",
+      "title": "[증권가H] 금융위 부위원장 신진창/200배 레버리지 선물 당국 경고 등",
+      "desc": "최근 금융권 인공지능(AI) 해킹 침해사고가 터졌을 때도 금융권에 보안점검 지시 등 발 빠른 긴급 대응으로 눈길을 끌었다. 지난 5월 민간 배드뱅크 '상록수'의 과도한 장기추심 문제가 도마 위에 올랐을 때도...",
+      "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=873836",
+      "date": "10.17.",
+      "datetime": "10.17. 21:04",
+      "rawDate": "2026-10-17T21:04:00+09:00",
+      "source": "hansbiz",
+      "sourceGroup": "hansbiz",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "f6c8ce298d99",
+      "title": "'극한직업' 청주여자교도소 교도관",
+      "desc": "17일 방송되는 EBS1 '극한직업'에서는 희대의 여성 범죄자들이 수감된 국가 보안 시설, 청주여자교도소 속 난동을 막아내는 사람들을 만난다. 청주여자교도소는 지도상에 위치가 표시되지 않는 국가 보안 시설이다....",
+      "url": "https://enter.etoday.co.kr/news/view/303887",
+      "date": "10.17.",
+      "datetime": "10.17. 21:02",
+      "rawDate": "2026-10-17T21:02:00+09:00",
+      "source": "enter",
+      "sourceGroup": "enter",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
     },
     {
       "id": "73da60fc2fcc",
@@ -240,22 +272,6 @@
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "840f8f1ca45d",
-      "title": "EBS1 '극한직업'…청주여자교도소",
-      "desc": "국가 보안 시설인 만큼 교도관들도 매일 출근할 때마다 검색 절차를 거친다. 휴대전화 등 전자기기와 화기는 입구에서부터 반입할 수 없다.여러 겹의 철문을 지나 근무지에 도착한 교도관을 기다리는 것은 '보고전...",
-      "url": "https://www.wikitree.co.kr/articles/1167018",
-      "date": "10.17.",
-      "datetime": "10.17. 19:32",
-      "rawDate": "2026-10-17T19:32:00+09:00",
-      "source": "wikitree",
-      "sourceGroup": "wikitree",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
       "lang": "ko"
     },
     {
@@ -7983,22 +7999,6 @@
       "channel": "자체개발",
       "region": "국내",
       "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "e90b1adaa74d",
-      "title": "[백세시대 / 뉴스브리핑] 미국과 난제 산적, 우크라이나와 갈등… 한국...",
-      "desc": "미국이 제기하는 정보보안 우려가 사실이라면 개선할 부분은 신속하게 개선하고, 부당하거나 과도한 요구에는 우리도 분명한 논리와 원칙을 갖고 협상해야 한다. 무엇보다 한·미 간 소통 채널을 촘촘하게 복원해야 한다....",
-      "url": "https://www.100ssd.co.kr/news/articleView.html?idxno=213571",
-      "date": "10.16.",
-      "datetime": "10.16. 16:38",
-      "rawDate": "2026-10-16T16:38:00+09:00",
-      "source": "100ssd",
-      "sourceGroup": "100ssd",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
       "tagCls": "tag-blue",
       "lang": "ko"
     }
