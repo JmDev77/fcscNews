@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-17T23:31:00.922795+09:00",
+  "fetched_at": "2026-10-18T00:01:10.998160+09:00",
   "count": 500,
   "articles": [
     {
@@ -17,6 +17,54 @@
       "tag": "보안",
       "tagCls": "tag-blue",
       "lang": "en"
+    },
+    {
+      "id": "8c46cd9b0fe6",
+      "title": "[김대호 진단] 반도체 열전(66) 아이온큐(Q).. 양자컴 D-데이",
+      "desc": "아이온큐가 최근 사이버보안 기업 엘리시티를 전액 주식 교환 방식으로 최대 13억 달러에 인수하며 또다시... 이번 엘리시티 인수 역시 다가올 양자 시대의 보안 위협을 선제적으로 방어하려는 경영진의 치밀한 전략적...",
+      "url": "https://www.g-enews.com/view.php?ud=202610130852423518906806b77b_1",
+      "date": "10.18.",
+      "datetime": "10.18. 00:00",
+      "rawDate": "2026-10-18T00:00:00+09:00",
+      "source": "g-enews",
+      "sourceGroup": "g-enews",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "442d84b08f7f",
+      "title": "[패트롤] 구리시-남양주시-양평군-포천시-하남시",
+      "desc": "구리=에너지경제신문 강근주기자 구리시가 주요 지형과 시설물을 드론으로 촬영한 고화질 영상자료의 보안... 다만 자료 용량이 크고 보안상 민감한 공간 정보가 포함돼 있어 외부 클라우드(인터넷 기반 정보통신 자원...",
+      "url": "https://www.ekn.kr/web/view.php?key=20261017022487609",
+      "date": "10.18.",
+      "datetime": "10.18. 00:00",
+      "rawDate": "2026-10-18T00:00:00+09:00",
+      "source": "ekn",
+      "sourceGroup": "ekn",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "클라우드",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "d3f795e66092",
+      "title": "솔라나 모바일, 레저 아톰에 시커 앱 사전 설치",
+      "desc": "레저는 아톰에 안드로이드 오픈소스 프로젝트(AOSP)와 분리된 레저 OS와 EAL6+ 보안 요소를 적용한다고... 회사가 제시한 시커의 사업 지표로 아톰의 이용 실적은 아니다. 아톰의 앱 구성과 보안 기능은 출시 전 계획이다.",
+      "url": "https://www.tokenpost.kr/news/cryptocurrency/423739",
+      "date": "10.17.",
+      "datetime": "10.17. 23:50",
+      "rawDate": "2026-10-17T23:50:00+09:00",
+      "source": "tokenpost",
+      "sourceGroup": "tokenpost",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
     },
     {
       "id": "b12f4ad77fff",
@@ -7953,54 +8001,6 @@
       "tag": "클라우드",
       "tagCls": "tag-blue",
       "lang": "en"
-    },
-    {
-      "id": "d13cd51c6bf9",
-      "title": "신진창 금융위 부위원장 &quot;금융안정에 더 신경…유관기관 소통 중요&quot;",
-      "desc": "신진창 신임 금융위원회 부위원장이 최근 증시 변동성과 금융권 해킹 사고, 부동산시장 불안 등에 대응해... 최근 금융권에서는 주요 금융사를 대상으로 한 해킹 사고가 잇따르면서 정보 유출과 보안 취약성에 대한 우려가...",
-      "url": "https://www.financialpost.co.kr/news/articleView.html?idxno=280950",
-      "date": "10.16.",
-      "datetime": "10.16. 16:50",
-      "rawDate": "2026-10-16T16:50:00+09:00",
-      "source": "financialpost",
-      "sourceGroup": "financialpost",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "09aa56f19998",
-      "title": "장관들 국무회의 생중계 축소 건의…李 &quot;동의 못 해&quot;",
-      "desc": "회의록은 기존에도 공개돼 왔고 공개가 원칙이며, 보안이 필요하거나 입장이 난처한 안건은 비공개로 논의한다고 설명했다. 공개라서 말을 못 한다는 장관들의 말은 회의 공개를 막으려는 쪽의 바람이라고 했고, 회의...",
-      "url": "https://www.thepublic.kr/news/articleView.html?idxno=322570",
-      "date": "10.16.",
-      "datetime": "10.16. 16:50",
-      "rawDate": "2026-10-16T16:50:00+09:00",
-      "source": "thepublic",
-      "sourceGroup": "thepublic",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "811a14de2189",
-      "title": "한국부동산원, 국토부 산하기관 최초 AI 경영시스템 국제표준 인증 획득",
-      "desc": "오류와 보안 위험 등을 체계적으로 식별하고 통제하는 관리체계를 평가해 부여한다. 한국부동산원은 이번... 위한 보안 환경과 위험 식별 프로세스를 강화했다. 이헌욱 한국부동산원장은 \"AI 기술이 적용된 부동산...",
-      "url": "https://www.pointdaily.co.kr/news/articleView.html?idxno=322619",
-      "date": "10.16.",
-      "datetime": "10.16. 16:50",
-      "rawDate": "2026-10-16T16:50:00+09:00",
-      "source": "pointdaily",
-      "sourceGroup": "pointdaily",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
     }
   ]
 }
