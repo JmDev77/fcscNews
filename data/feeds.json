@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-18T03:30:58.224720+09:00",
+  "fetched_at": "2026-10-18T04:01:07.282708+09:00",
   "count": 500,
   "articles": [
     {
@@ -17,6 +17,38 @@
       "tag": "보안",
       "tagCls": "tag-blue",
       "lang": "en"
+    },
+    {
+      "id": "29280ceeae10",
+      "title": "테슬라 '나는 로드스터'의 역설…대중차 시장은 중국 차지하나",
+      "desc": "대표적인 사례가 운전대를 중심으로 설계된 기존 자동차와 달리 무인 운행을 전제로 개발한 사이버캡이다. 테슬라는 최근 텍사스주 오스틴에서 운영하는 사이버캡이 첫 한 달 동안 300대를 넘어섰다고 발표했다. 다만...",
+      "url": "https://www.g-enews.com/view.php?ud=2026101720035981529a1f309431_1",
+      "date": "10.18.",
+      "datetime": "10.18. 04:00",
+      "rawDate": "2026-10-18T04:00:00+09:00",
+      "source": "g-enews",
+      "sourceGroup": "g-enews",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "38fc831a980e",
+      "title": "가상자산 물리 공격 기록 702건…AI 검색으로 누락 사례 발견",
+      "desc": "‘렌치 공격’은 지갑 암호를 기술적으로 해킹하는 대신 보유자를 폭행하거나 협박해 암호나 키를 넘기도록 강요하는 범죄를 뜻한다. 온라인 보안만으로 대응하기 어려운 신체적 위협이 핵심이다. 롭의 저장소에는...",
+      "url": "https://www.tokenpost.kr/news/blockchain/423786",
+      "date": "10.18.",
+      "datetime": "10.18. 03:36",
+      "rawDate": "2026-10-18T03:36:00+09:00",
+      "source": "tokenpost",
+      "sourceGroup": "tokenpost",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
     },
     {
       "id": "2e5dacdbb934",
@@ -2588,22 +2620,6 @@
       "rawDate": "2026-10-17T09:54:00+09:00",
       "source": "mediapen",
       "sourceGroup": "mediapen",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "2864c196c219",
-      "title": "테슬라, '하늘 나는 로드스터' 공개…&quot;전시용일 뿐&quot; 지적도",
-      "desc": "Real life, baby pic.twitter.com/3QEqn18wig — Tesla (@Tesla) October 16, 2026 또 다른 시연에서는 사이버캡과 사이버트럭, 세미 트럭, 모델Y, 모델3 등 일렬로 세워놓은 테슬라 차량 위를 뛰어넘으며 공중에서 회전했다. 안전을 위해...",
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=216356",
-      "date": "10.17.",
-      "datetime": "10.17. 09:52",
-      "rawDate": "2026-10-17T09:52:00+09:00",
-      "source": "aitimes",
-      "sourceGroup": "aitimes",
       "channel": "자체개발",
       "region": "국내",
       "tag": "보안",
@@ -7984,22 +8000,6 @@
       "region": "국내",
       "tag": "정책/제도",
       "tagCls": "tag-green",
-      "lang": "ko"
-    },
-    {
-      "id": "aa7e53061a0b",
-      "title": "금융위 부위원장에 신진창 사무처장…&quot;포용·생산적 금융 이끌 내부 승...",
-      "desc": "최근 금융권에서 해킹 사고가 났을 때는 업권별로 보안 상태를 서둘러 점검하도록 하는 등 수습에 나섰다. 청와대도 이런 경력을 높이 샀다. 강유정 청와대 수석대변인은 서면 브리핑에서 \"금융정책국장과 금융산업국장...",
-      "url": "https://www.greened.kr/news/articleView.html?idxno=352306",
-      "date": "10.16.",
-      "datetime": "10.16. 17:02",
-      "rawDate": "2026-10-16T17:02:00+09:00",
-      "source": "greened",
-      "sourceGroup": "greened",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
       "lang": "ko"
     }
   ]
