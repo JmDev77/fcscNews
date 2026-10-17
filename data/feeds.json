@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-17T21:30:55.578541+09:00",
+  "fetched_at": "2026-10-17T22:01:11.692832+09:00",
   "count": 500,
   "articles": [
     {
@@ -17,6 +17,38 @@
       "tag": "보안",
       "tagCls": "tag-blue",
       "lang": "en"
+    },
+    {
+      "id": "850760fe3d05",
+      "title": "레저, 10월 변조 기기 1대서 무단 임플란트 확인",
+      "desc": "보안 연구자 조 그랜드(Joe Grand)는 2025년 8월 태국 라자다(Lazada)에서 구매한 나노 X에서 변조 의심 부품을 발견해 2026년 3월 4일 레저에 알렸다고 밝혔다. 그랜드는 레저가 내부 조사에 나서겠다고 답했지만 고객에게...",
+      "url": "https://www.tokenpost.kr/news/blockchain/423710",
+      "date": "10.17.",
+      "datetime": "10.17. 21:44",
+      "rawDate": "2026-10-17T21:44:00+09:00",
+      "source": "tokenpost",
+      "sourceGroup": "tokenpost",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "b9b4b3af3dad",
+      "title": "예멘 후티 반군, 아덴 이틀 연속 공격…공항에 발사체 2발",
+      "desc": "AP통신은 16일(현지시간) 아덴의 보안 관계자와 항공관제사들을 인용해 이날 밤 아덴 공항에 발사체 2발이 떨어졌다고 보도했다. 익명을 요구한 관계자들에 따르면 발사체가 떨어진 곳은 사우디아라비아의 지원을 받는...",
+      "url": "https://www.sentv.co.kr/article/view/sentv202610170034",
+      "date": "10.17.",
+      "datetime": "10.17. 21:42",
+      "rawDate": "2026-10-17T21:42:00+09:00",
+      "source": "sentv",
+      "sourceGroup": "sentv",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
     },
     {
       "id": "6213b579b45a",
@@ -1936,22 +1968,6 @@
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "4bd05b668108",
-      "title": "후티 반군, 임시 수도 아덴 이틀 연속 타격…공항에 발사체",
-      "desc": "현지 보안 관계자와 항공관제사에 따르면 이날 밤 아덴 공항에 발사체 2발이 떨어졌습니다. 익명을 요구한 관계자들은 피격 구역이 사우디아라비아의 지원을 받는 예멘 정부군 및 연합 군부대가 주둔하고 있는 곳이라고...",
-      "url": "https://www.ichannela.com/news/main/news_detailPage.do?publishId=000000555519",
-      "date": "10.17.",
-      "datetime": "10.17. 10:43",
-      "rawDate": "2026-10-17T10:43:00+09:00",
-      "source": "ichannela",
-      "sourceGroup": "ichannela",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
       "lang": "ko"
     },
     {
@@ -7980,22 +7996,6 @@
       "rawDate": "2026-10-16T16:38:00+09:00",
       "source": "venturesquare",
       "sourceGroup": "venturesquare",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "ad30da8bfd4d",
-      "title": "신용한 지사, AI 활용·정보보안 동시에 챙긴다...\"도민 체감 행정서비...",
-      "desc": "공공부문 AI 전환 정책·실무 집중 교육 AI 활용 우수사례·정보보안 대응방안 공유...행정 현장 적용 가능한... 정보보안 역량 강화에 나섰다. 16일 도에 따르면 지난 15일부터 이날까지 이틀간 옥천군 장령산휴양림에서...",
-      "url": "https://www.ajunews.com/view/20261016161330283",
-      "date": "10.16.",
-      "datetime": "10.16. 16:38",
-      "rawDate": "2026-10-16T16:38:00+09:00",
-      "source": "ajunews",
-      "sourceGroup": "ajunews",
       "channel": "자체개발",
       "region": "국내",
       "tag": "AI 보안",
