@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-18T07:14:58.928372+09:00",
+  "fetched_at": "2026-10-18T07:30:55.659671+09:00",
   "count": 500,
   "articles": [
     {
@@ -448,6 +448,22 @@
       "region": "국내",
       "tag": "피싱/사기",
       "tagCls": "tag-orange",
+      "lang": "ko"
+    },
+    {
+      "id": "6490dfefc22e",
+      "title": "2금융권 해킹 확산…저축은행중앙회, 1400억 '차세대 전산망' 구축",
+      "desc": "은행권에서 시작된 해킹과 개인정보 유출 사고가 저축은행 등 제2금융권으로 확산하면서 금융권의 보안... 최근 금융권에서는 AI를 활용한 것으로 추정되는 해킹 공격과 개인정보 유출 사고가 잇따르고 있다. 은행권에...",
+      "url": "https://www.dailian.co.kr/news/view/1702421/?sc=Naver",
+      "date": "10.18.",
+      "datetime": "10.18. 07:16",
+      "rawDate": "2026-10-18T07:16:00+09:00",
+      "source": "dailian",
+      "sourceGroup": "dailian",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
       "lang": "ko"
     },
     {
@@ -7980,22 +7996,6 @@
       "rawDate": "2026-10-16T17:46:00+09:00",
       "source": "news",
       "sourceGroup": "news",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "bd96a2843207",
-      "title": "KISA, 침해대응 유지비 35억 '돌려막기'…보안시스템 절반 교체 대상",
-      "desc": "김남국 의원실 자료에 따르면 KISA의 해킹·바이러스 대응체계 고도화 사업예산은 2025년 본예산... 최근 주요 은행과 저축은행·캐피탈사 등 금융권에서 해킹과 개인정보 유출 사고가 잇따른 가운데 일부 공격에서는...",
-      "url": "https://www.lawissue.co.kr/view.php?ud=202610161714169070f4ab64559d_12",
-      "date": "10.16.",
-      "datetime": "10.16. 17:46",
-      "rawDate": "2026-10-16T17:46:00+09:00",
-      "source": "lawissue",
-      "sourceGroup": "lawissue",
       "channel": "자체개발",
       "region": "국내",
       "tag": "해킹/침해",
