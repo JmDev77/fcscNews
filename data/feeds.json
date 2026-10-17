@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-18T03:01:01.006142+09:00",
+  "fetched_at": "2026-10-18T03:30:58.224720+09:00",
   "count": 500,
   "articles": [
     {
@@ -17,6 +17,38 @@
       "tag": "보안",
       "tagCls": "tag-blue",
       "lang": "en"
+    },
+    {
+      "id": "2e5dacdbb934",
+      "title": "석유공사, 인사 운영 개방성 확대 · 전문성 기반 조직 전반 업무 혁신",
+      "desc": "경력직은 비축시설 건설, 원유 트레이딩, 사이버 보안 등 분야에서 실무에 즉시 투입할 수 있는 인력을 선발한다. 이를 통해 비축시설 확장 공사에서 완성도를 높이고 글로벌 트레이딩 역량을 강화하며 정보 보안 사고...",
+      "url": "https://www.todayenergy.kr/news/articleView.html?idxno=304321",
+      "date": "10.18.",
+      "datetime": "10.18. 03:12",
+      "rawDate": "2026-10-18T03:12:00+09:00",
+      "source": "todayenergy",
+      "sourceGroup": "todayenergy",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "4c9d8cc980e0",
+      "title": "손정의 소프트뱅크, 세계 최대 민간 보안업체 인수 추진",
+      "desc": "손정의 회장이 이끄는 일본 소프트뱅크그룹이 세계 최대 민간 보안업체 얼라이드 유니버설 인수를... 데이터센터 보안사업도 소프트뱅크의 AI 인프라 투자와 연결될 수 있다는 관측이 나온다. 파이낸셜타임스(FT)는...",
+      "url": "https://www.g-enews.com/view.php?ud=2026101723082522099a1f309431_1",
+      "date": "10.18.",
+      "datetime": "10.18. 03:00",
+      "rawDate": "2026-10-18T03:00:00+09:00",
+      "source": "g-enews",
+      "sourceGroup": "g-enews",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
     },
     {
       "id": "c3cf25e07de7",
@@ -7968,38 +8000,6 @@
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "8192d2539ca8",
-      "title": "홀란, 여친과 '침실 10개' 쓰는 스케일 &quot;이러니 미녀가 반하지&quot;... 사막 ...",
-      "desc": "수도 오슬로에는 보안을 극대화한 280만 파운드(약 50억원)짜리 아파트와 도심 부촌 프로그네르 지역의 95만 파운드(약 17억원) 상당 고급 아파트를 소유했다. 자신의 축구 고향인 브리네 경기장 인근에서는 2022년...",
-      "url": "https://www.starnewskorea.com/sports/2026/10/16/2026101614230524153",
-      "date": "10.16.",
-      "datetime": "10.16. 17:02",
-      "rawDate": "2026-10-16T17:02:00+09:00",
-      "source": "starnewskorea",
-      "sourceGroup": "starnewskorea",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "df7f8ac3c493",
-      "title": "[퇴근길이슈] 유해진 신변보호 해제·'나혼산' 조작 재점화·송민호 재복...",
-      "desc": "16일 국민의힘 김은혜 의원실은 '나혼자 산다'의 인천국제공항 촬영 허가신청 공문과 인천공항 촬영 보안서약서, 항공사 체크인 카운터 촬영 동의서, 공항 촬영분 시나리오 등을 확보해 공개했습니다. 공항 촬영분...",
-      "url": "http://www.joynews24.com/view/2015938",
-      "date": "10.16.",
-      "datetime": "10.16. 17:02",
-      "rawDate": "2026-10-16T17:02:00+09:00",
-      "source": "joynews24",
-      "sourceGroup": "joynews24",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
       "lang": "ko"
     }
   ]
