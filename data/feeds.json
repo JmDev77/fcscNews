@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-17T19:30:52.663424+09:00",
+  "fetched_at": "2026-10-17T20:01:08.063897+09:00",
   "count": 500,
   "articles": [
     {
@@ -17,6 +17,54 @@
       "tag": "보안",
       "tagCls": "tag-blue",
       "lang": "en"
+    },
+    {
+      "id": "838bc16394b2",
+      "title": "Israeli Ad Firm Doubled as Candiru’s Zero-Click Spyware Delivery Channel",
+      "desc": "Israeli company Discover-Tech’s ads allow threat actors to fingerprint and track devices at scale and infect selected targets.\nThe post Israeli Ad Firm Doubled as Candiru’s Zero-Click Spyware Delivery Channel appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/israeli-ad-firm-doubled-as-candirus-zero-click-spyware-delivery-channel/",
+      "date": "10.17.",
+      "datetime": "10.17. 20:00",
+      "rawDate": "2026-10-17T20:00:00+09:00",
+      "source": "SecurityWeek",
+      "sourceGroup": "SecurityWeek",
+      "channel": "자체개발",
+      "region": "해외",
+      "tag": "취약점/CVE",
+      "tagCls": "tag-yellow",
+      "lang": "en"
+    },
+    {
+      "id": "cd450fa9d521",
+      "title": "은행권, 모바일 신분증 개방 확대… &quot;편의성·보안성 동시 강화&quot;",
+      "desc": "이용 편의성이 증대되는 한편, 개인정보 유출 방지와 외부 해킹에 대응하기 위한 보안 체계 구축도 강화되는... 금융사 해킹에 따른 개인정보 유출 우려에 대해 은행권은 앱 내부의 강화된 보안 체계를 내세우고 있다....",
+      "url": "https://www.newscj.com/news/articleView.html?idxno=3441063",
+      "date": "10.17.",
+      "datetime": "10.17. 19:46",
+      "rawDate": "2026-10-17T19:46:00+09:00",
+      "source": "newscj",
+      "sourceGroup": "newscj",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "840f8f1ca45d",
+      "title": "EBS1 '극한직업'…청주여자교도소",
+      "desc": "국가 보안 시설인 만큼 교도관들도 매일 출근할 때마다 검색 절차를 거친다. 휴대전화 등 전자기기와 화기는 입구에서부터 반입할 수 없다.여러 겹의 철문을 지나 근무지에 도착한 교도관을 기다리는 것은 '보고전...",
+      "url": "https://www.wikitree.co.kr/articles/1167018",
+      "date": "10.17.",
+      "datetime": "10.17. 19:32",
+      "rawDate": "2026-10-17T19:32:00+09:00",
+      "source": "wikitree",
+      "sourceGroup": "wikitree",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
     },
     {
       "id": "90160c9cf392",
@@ -112,22 +160,6 @@
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "f74b62073e4a",
-      "title": "EBS '극한직업', 청주여자교도소 최초 공개…800명 수용자 관리하는 교도...",
-      "desc": "청주여자교도소는 여성 강력범을 비롯해 20년 이상 수감 생활을 이어온 장기수와 무기징역수 등이 생활하는 국가 보안 시설이다. 일반인이 쉽게 접근할 수 없는 공간인 만큼 교도관들의 일상 역시 철저한 보안 속에서...",
-      "url": "https://www.mhns.co.kr/news/articleView.html?idxno=764581",
-      "date": "10.17.",
-      "datetime": "10.17. 19:06",
-      "rawDate": "2026-10-17T19:06:00+09:00",
-      "source": "mhns",
-      "sourceGroup": "mhns",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
       "lang": "ko"
     },
     {
@@ -384,22 +416,6 @@
       "region": "국내",
       "tag": "정책/제도",
       "tagCls": "tag-green",
-      "lang": "ko"
-    },
-    {
-      "id": "6162601c0d7a",
-      "title": "[극한직업] 지도에도 없다! 청주여자교도소",
-      "desc": "이곳에서 일하는 교도관들도 매일 출근길마다 피할 수 없는 절차가 있으니, 바로 철통 보안 검색! 휴대 전화를 비롯한 전자기기, 화기 등은 입구에서부터 반입이 금지된다. 여러 개의 철문을 거쳐 출근한 교도관을...",
-      "url": "http://www.queen.co.kr/news/articleView.html?idxno=464758",
-      "date": "10.17.",
-      "datetime": "10.17. 17:30",
-      "rawDate": "2026-10-17T17:30:00+09:00",
-      "source": "queen",
-      "sourceGroup": "queen",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
       "lang": "ko"
     },
     {
@@ -7984,22 +8000,6 @@
       "region": "국내",
       "tag": "보안",
       "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "95598313e432",
-      "title": "미 연방기관 32% '기초 자산 목록'조차 없어... 한계 부딪힌 글로벌 OT 보...",
-      "desc": "이에 미국 내 보안 통제는 단순 권고를 넘어 강제화 단계로 급변하고 있다. 미 국립표준기술연구소(NIST)가 수자원 OT 원격접속 보안 가이던스를 긴급 발표한 데 이어, 민간 연합(OTCC)은 미 사이버보안 및 인프라 보안국...",
-      "url": "https://www.boannews.com/news/articleView.html?idxno=146463",
-      "date": "10.16.",
-      "datetime": "10.16. 16:32",
-      "rawDate": "2026-10-16T16:32:00+09:00",
-      "source": "보안뉴스",
-      "sourceGroup": "보안뉴스",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "정책/제도",
-      "tagCls": "tag-green",
       "lang": "ko"
     }
   ]
