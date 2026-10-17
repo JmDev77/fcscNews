@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-17T15:31:01.285557+09:00",
+  "fetched_at": "2026-10-17T16:01:00.123213+09:00",
   "count": 500,
   "articles": [
     {
@@ -17,6 +17,38 @@
       "tag": "보안",
       "tagCls": "tag-blue",
       "lang": "en"
+    },
+    {
+      "id": "4870b929c616",
+      "title": "[2026 국감] 공공기관 채용 검증 잣대, 기관장엔 예외?…KISA 원장 경력·...",
+      "desc": "구미대 사이버보안연구원장 재직 기간도 쟁점이 됐다. 이 의원은 이 원장이 2023년부터 연구원장을 맡았는데 경력에는 재직 시작 시점을 2021년 3월로 적었다고 주장했다. 이 원장은 경력증명서가 첨부돼 있다고 반박했다....",
+      "url": "http://www.rightknow.co.kr/news/articleView.html?idxno=35121",
+      "date": "10.17.",
+      "datetime": "10.17. 15:38",
+      "rawDate": "2026-10-17T15:38:00+09:00",
+      "source": "rightknow",
+      "sourceGroup": "rightknow",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "b1dc2cb91b92",
+      "title": "&quot;버거킹부터 신문까지 다 털렸다&quot;…개인정보 유출 초비상 [도쿄나우]",
+      "desc": "인공지능(AI)이 공격에 필요한 시간과 비용을 줄이면서 기업의 보안 대응이 뒤처지고 있다는 분석이 나온다.... 마이니치신문에 따르면 보안업체 트렌드마이크로가 집계한 올해 일본 기업·지자체의 불법 접속 등 피해...",
+      "url": "https://www.hankyung.com/article/202610177811i",
+      "date": "10.17.",
+      "datetime": "10.17. 15:32",
+      "rawDate": "2026-10-17T15:32:00+09:00",
+      "source": "한국경제",
+      "sourceGroup": "한국경제",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
     },
     {
       "id": "7b0966f00a87",
@@ -97,6 +129,22 @@
       "tag": "정책/제도",
       "tagCls": "tag-green",
       "lang": "ko"
+    },
+    {
+      "id": "9a0cd5bfb89f",
+      "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
+      "desc": "Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud Backup (formerly SkyKick) to gain unauthorized access to customers' M365 environments.\n\nConnectWise Cloud Backup is a cloud-based backup and recovery service built for managed service providers (MSPs",
+      "url": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
+      "date": "10.17.",
+      "datetime": "10.17. 15:16",
+      "rawDate": "2026-10-17T15:16:46+09:00",
+      "source": "TheHackerNews",
+      "sourceGroup": "TheHackerNews",
+      "channel": "자체개발",
+      "region": "해외",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "en"
     },
     {
       "id": "56b9755358d6",
@@ -7952,54 +8000,6 @@
       "region": "국내",
       "tag": "보안",
       "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "fd06f7083f91",
-      "title": "젠슨 황, 올트먼 AI 보안론 정면 반박⋯\"사이버 사고는 단 한 건도 용납...",
-      "desc": "사이버 보안사고를 사회가 일정 부분 감수해야 한다는 샘 올트먼 오픈AI CEO의 견해를 공개적으로 반박했다. 16일 미국 경제지 포춘에 따르면 황 CEO는 최근 영국 런던에서 가진 인터뷰에서 \"나는 어떠한 사이버 보안사고도...",
-      "url": "https://www.autodaily.co.kr/news/articleView.html?idxno=601219",
-      "date": "10.16.",
-      "datetime": "10.16. 16:08",
-      "rawDate": "2026-10-16T16:08:00+09:00",
-      "source": "autodaily",
-      "sourceGroup": "autodaily",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "1e952aa8626e",
-      "title": "&quot;사이버 범죄자끼리 싸웠다&quot;... 샤이니헌터스 vs 클롭 다툼 무슨 일?",
-      "desc": "유명 랜섬웨어 조직 '클롭'(Cl0p)의 다크웹 사이트가 또다른 해킹 조직 '샤이니헌터스'(ShinyHunters)에 의해 사이트가 해킹당하는 일이 벌어졌다. 사이버 범죄자 간 갈등이 다른 경쟁 그룹에 대한 직접적 해킹 공격으로...",
-      "url": "https://www.boannews.com/news/articleView.html?idxno=146459",
-      "date": "10.16.",
-      "datetime": "10.16. 16:06",
-      "rawDate": "2026-10-16T16:06:00+09:00",
-      "source": "보안뉴스",
-      "sourceGroup": "보안뉴스",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "랜섬웨어",
-      "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "c58d4b1efae4",
-      "title": "광고 안 눌렀는데 해킹…연구진이 밝힌 충격 수법",
-      "desc": "이용자의 클릭이나 파일 다운로드 없이 작동하는 '제로클릭' 공격으로, 기존 광고 시스템이 감시와 해킹의 통로로 악용됐다는 지적이다. 16일(이하 현지시간) 일본 매체 기가진에 따르면 캐나다 토론토대 연구기관...",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=707731",
-      "date": "10.16.",
-      "datetime": "10.16. 16:06",
-      "rawDate": "2026-10-16T16:06:00+09:00",
-      "source": "digitaltoday",
-      "sourceGroup": "digitaltoday",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
       "lang": "ko"
     }
   ]
