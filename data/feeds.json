@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-18T04:42:47.499890+09:00",
+  "fetched_at": "2026-10-18T05:01:05.365187+09:00",
   "count": 500,
   "articles": [
     {
@@ -416,6 +416,22 @@
       "region": "국내",
       "tag": "피싱/사기",
       "tagCls": "tag-orange",
+      "lang": "ko"
+    },
+    {
+      "id": "66c50ef94d17",
+      "title": "[크립토리뷰] 위믹스, '서틱'과 손잡고 버그바운티 개편…위믹스3.0 보안...",
+      "desc": "완전한 개인키가 어느 한 지점에도 존재하지 않아 외부 해킹이나 내부자에 의한 유출 위험을 구조적으로 낮출 수 있다. 2020년 프랑스 파리에서 설립된 DFNS는 네덜란드(ABN Amro), 영국 스탠다드차타드(Standard Chartered)...",
+      "url": "https://www.theguru.co.kr/news/article.html?no=108400",
+      "date": "10.18.",
+      "datetime": "10.18. 04:42",
+      "rawDate": "2026-10-18T04:42:00+09:00",
+      "source": "theguru",
+      "sourceGroup": "theguru",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
       "lang": "ko"
     },
     {
@@ -7984,22 +8000,6 @@
       "region": "국내",
       "tag": "AI 보안",
       "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "0cb7207df2d5",
-      "title": "‘금융권 침해사고 긴급회의 주재’ 신진창, 금융위 부위원장에",
-      "desc": "신 신임 부위원장은 은행권 고객정보 유출 사태 이후 보안 관리체계에 대한 철저한 재점검을 강조해 온 인물이다. 이번 인사로 금융위의 보안 강화 방침에 속도가 붙을 수 있을 것으로 보인다. 강유정 청와대 수석대변인은...",
-      "url": "https://www.donga.com/news/Economy/article/all/20261016/134855891/1",
-      "date": "10.16.",
-      "datetime": "10.16. 17:08",
-      "rawDate": "2026-10-16T17:08:00+09:00",
-      "source": "동아일보",
-      "sourceGroup": "동아일보",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
       "lang": "ko"
     }
   ]
