@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-17T20:01:08.063897+09:00",
+  "fetched_at": "2026-10-17T20:10:09.951048+09:00",
   "count": 500,
   "articles": [
     {
@@ -19,6 +19,54 @@
       "lang": "en"
     },
     {
+      "id": "d0b7ef70568c",
+      "title": "[2026 국감] 이소희 의원, 식약처 국감 자료 삭제 요구 “국정감사 방해...",
+      "desc": "이 의원은 “피해 기업 통보와 전수조사보다 국회 자료 삭제가 먼저인가”라며 “의원실에 들이닥쳐 자료를 지우라고 요구한 것은 ‘보안 조치’가 아니라 ‘국정감사 방해’”라고 강조했다. 이 의원은 식약처에 사실과...",
+      "url": "https://www.medigatenews.com/news/2570690260",
+      "date": "10.17.",
+      "datetime": "10.17. 20:08",
+      "rawDate": "2026-10-17T20:08:00+09:00",
+      "source": "medigatenews",
+      "sourceGroup": "medigatenews",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "a84ec37c38be",
+      "title": "테슬라·스페이스X 합병 현실화하나? 머스크의 'Tesla x SpaceX' 메시지에...",
+      "desc": "사이버트럭(Cybertruck)과 2024년 사이버캡(Cybercab) 로보택시 공개, 지난 9월 사이버캡 관련 행사 이후에도 테슬라 주가는 약세를 보였다. 화려한 신제품 발표만으로 지속적인 주가 상승을 이끌기는 어렵다는 의미다....",
+      "url": "http://coinreaders.com/263736",
+      "date": "10.17.",
+      "datetime": "10.17. 20:08",
+      "rawDate": "2026-10-17T20:08:00+09:00",
+      "source": "coinreaders",
+      "sourceGroup": "coinreaders",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "891f8c082473",
+      "title": "한·싱가포르, 첫 차관급 공동운영위…FTA 개선·신산업 협력 논의",
+      "desc": "양측은 사이버안보와 초국가범죄 등 비전통 안보 위협에 대응하기 위해 양자·다자 차원의 협력을 이어가기로 했다. 디지털경제와 녹색경제, 에너지전환, AI 분야 협력을 강화하고 교육·문화·인적교류도 확대하기로...",
+      "url": "https://www.segye.com/newsView/20261016518172?OutUrl=naver",
+      "date": "10.17.",
+      "datetime": "10.17. 20:02",
+      "rawDate": "2026-10-17T20:02:00+09:00",
+      "source": "segye",
+      "sourceGroup": "segye",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
       "id": "838bc16394b2",
       "title": "Israeli Ad Firm Doubled as Candiru’s Zero-Click Spyware Delivery Channel",
       "desc": "Israeli company Discover-Tech’s ads allow threat actors to fingerprint and track devices at scale and infect selected targets.\nThe post Israeli Ad Firm Doubled as Candiru’s Zero-Click Spyware Delivery Channel appeared first on SecurityWeek.",
@@ -33,6 +81,22 @@
       "tag": "취약점/CVE",
       "tagCls": "tag-yellow",
       "lang": "en"
+    },
+    {
+      "id": "4f08aa38d387",
+      "title": "충북교육청, '모두가 함께, 올(All)바른 학교 만들기' 정책 홍보활동 진...",
+      "desc": "교직원들은 현수막과 리플릿, 손팻말 등을 활용해 ▲ 학교폭력 및 사이버폭력 예방 ▲ 불법 사이버도박 근절 ▲ 아동학대 예방 ▲ 디지털 성폭력 및 불법촬영 근절 ▲ 365일 언제나 책봄 ▲ 마음건강 지원 ▲ '모두가 나다움...",
+      "url": "https://www.newstnt.com/news/articleView.html?idxno=723487",
+      "date": "10.17.",
+      "datetime": "10.17. 20:00",
+      "rawDate": "2026-10-17T20:00:00+09:00",
+      "source": "newstnt",
+      "sourceGroup": "newstnt",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "정책/제도",
+      "tagCls": "tag-green",
+      "lang": "ko"
     },
     {
       "id": "cd450fa9d521",
@@ -6595,22 +6659,6 @@
       "lang": "ko"
     },
     {
-      "id": "ce3d3a970735",
-      "title": "한·싱가포르 1차 공동운영위원회 개최…FTA 개선 등 논의",
-      "desc": "또 사이버안보 및 초국가범죄 등 지역 안정을 저해하는 심각한 비전통 안보 위협에 대응하기 위해 양자 차원뿐 아니라 다자협의체를 통해서도 지속 협력하기로 했다. 아울러 디지털경제, 녹색경제 및 에너지전환, AI 등...",
-      "url": "https://www.newsis.com/view/NISX20261016_0003829617",
-      "date": "10.16.",
-      "datetime": "10.16. 17:46",
-      "rawDate": "2026-10-16T17:46:00+09:00",
-      "source": "뉴시스",
-      "sourceGroup": "뉴시스",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
       "id": "c016809ba1f4",
       "title": "NBA 공식 인스타그램, 갑자기 밈코인 홍보?...팬심 노린 사기 논란 확산",
       "desc": "NBA 공식 인스타그램 계정이 해킹된 것으로 알려진 가운데, 존재하지도 않는 공식 밈코인 홍보 글이... 10월 15일(현지시간) 암호화폐 전문 매체 비인크립토에 따르면, NBA 공식 인스타그램 계정은 14일 해킹돼...",
@@ -7951,54 +7999,6 @@
       "channel": "자체개발",
       "region": "국내",
       "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "82dc4b5d9d25",
-      "title": "[더밸류 브리핑] 오늘의 금융계 소식…KB국민은행·빗썸",
-      "desc": "[이미지=빗썸] 빗썸에 따르면 사기범은 “정보가 유출돼 보상 대상이다”, “보안 점검을 위해 계정 확인이... 명의도용·피해보상·보안 점검 관련 연락을 받더라도 문자나 이메일, 메신저에 포함된 링크를 누르지 말고...",
-      "url": "http://www.thevaluenews.co.kr/news/view.php?idx=202424",
-      "date": "10.16.",
-      "datetime": "10.16. 16:34",
-      "rawDate": "2026-10-16T16:34:00+09:00",
-      "source": "thevaluenews",
-      "sourceGroup": "thevaluenews",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "564c6339b011",
-      "title": "테슬라, '하늘 나는 자동차 시대' 열었다…공중회전·차량 5대 뛰어넘어",
-      "desc": "또 다른 시연에서는 사이버트럭과 세미트럭 등 테슬라 차량 5대가 늘어선 구간을 단숨에 뛰어넘었다. 모든 시연은 안전을 위해 운전자 없이 진행됐다. 이 같은 움직임을 가능하게 한 핵심은 스페이스X와 공동 개발한...",
-      "url": "https://www.wikileaks-kr.org/news/articleView.html?idxno=193350",
-      "date": "10.16.",
-      "datetime": "10.16. 16:34",
-      "rawDate": "2026-10-16T16:34:00+09:00",
-      "source": "wikileaks-kr",
-      "sourceGroup": "wikileaks-kr",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "0e34e3bd70fb",
-      "title": "항공보안 3개 노조 연대체 출범, '항공보안공단' 설립 대응",
-      "desc": "▲ 전국보안방재노조·보안검색통합노조·인천국제공항보안노조는 16일 오전 인천국제공항에서 '올바른 가칭 항공보안공단 설립을 위한 항공보안연대' 출범 기자회견을 열었다. 정부가 공공기관 기능개혁의 일환으로...",
-      "url": "https://www.labortoday.co.kr/news/articleView.html?idxno=237254",
-      "date": "10.16.",
-      "datetime": "10.16. 16:32",
-      "rawDate": "2026-10-16T16:32:00+09:00",
-      "source": "labortoday",
-      "sourceGroup": "labortoday",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
       "tagCls": "tag-blue",
       "lang": "ko"
     }
