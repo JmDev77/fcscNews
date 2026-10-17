@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-18T02:31:56.210821+09:00",
+  "fetched_at": "2026-10-18T03:01:01.006142+09:00",
   "count": 500,
   "articles": [
     {
@@ -17,6 +17,38 @@
       "tag": "보안",
       "tagCls": "tag-blue",
       "lang": "en"
+    },
+    {
+      "id": "c3cf25e07de7",
+      "title": "토스, 11월에 보안 콘퍼런스 '가디언즈 26' 개최…21일까지 참가 신청 접...",
+      "desc": "토스가 오는 11월 6일 서울 코엑스 그랜드볼룸에서 보안 콘퍼런스 '가디언즈 26'을 개최한다. 사진=토스  토스(운영사 비바리퍼블리카)가 오는 11월 6일 서울 코엑스 그랜드볼룸에서 보안 콘퍼런스 '가디언즈(GUARDIANS) 26'을...",
+      "url": "http://www.bizwnews.com/news/articleView.html?idxno=149118",
+      "date": "10.18.",
+      "datetime": "10.18. 02:58",
+      "rawDate": "2026-10-18T02:58:00+09:00",
+      "source": "bizwnews",
+      "sourceGroup": "bizwnews",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "e42242501c71",
+      "title": "XRP 레저 보안 수정안 29표…대출 제안은 승인 기준 미달",
+      "desc": "XRP 레저(XRP Ledger)의 보안 수정안 ‘fixCleanup3_4_0’은 10월 23일 활성화가 예상된다. 대출 기능은 별도 수정안의 승인이 필요해 보안 수정안이 적용돼도 곧바로 이용할 수 없다. 비트코인닷컴 뉴스(Bitcoin.com...",
+      "url": "https://www.tokenpost.kr/news/blockchain/423779",
+      "date": "10.18.",
+      "datetime": "10.18. 02:36",
+      "rawDate": "2026-10-18T02:36:00+09:00",
+      "source": "tokenpost",
+      "sourceGroup": "tokenpost",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
     },
     {
       "id": "5660a6e8da20",
@@ -4661,7 +4693,7 @@
     {
       "id": "11f986cc77fa",
       "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
-      "desc": "A local privilege escalation exploit published today gains root on OpenBSD 7.9 by chaining a roughly 37-year-old integer overflow with a separate kernel flaw, bypassing OpenBSD's KARL kernel-address randomization and its SMAP and SMEP hardware protections. Security firm Calif, which found and reported the flaws, published a detailed writeup and full proof-of-concept code after OpenBSD shipped",
+      "desc": "A local privilege escalation exploit published today gains root on OpenBSD 7.9 by chaining a roughly 37-year-old integer overflow with a separate kernel flaw, bypassing OpenBSD's KARL kernel-address randomization and its SMAP and SMEP hardware protections.Security firm Calif, which found and reported the flaws, published a detailed writeup and full proof-of-concept code after OpenBSD shipped",
       "url": "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
       "date": "10.17.",
       "datetime": "10.17. 02:48",
@@ -7964,38 +7996,6 @@
       "rawDate": "2026-10-16T17:02:00+09:00",
       "source": "joynews24",
       "sourceGroup": "joynews24",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "679b14336fac",
-      "title": "인텔리빅스, 30일 코스닥 상장…목표는 'K-AI 대표기업'",
-      "desc": "회사는 이를 통해 군 경계 감시와 특수 보안 인프라 수요를 집중 공략할 계획이다. 해당 특수 AI 카메라 센서는 현재 국방 분야 적용을 위한 성능 시험을 앞두고 있다. 아르고스는 자율 순찰형 AI 로봇이다. 회사는 로봇...",
-      "url": "https://www.epnc.co.kr/news/articleView.html?idxno=408333",
-      "date": "10.16.",
-      "datetime": "10.16. 17:00",
-      "rawDate": "2026-10-16T17:00:00+09:00",
-      "source": "epnc",
-      "sourceGroup": "epnc",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "6d94cb7a0ba7",
-      "title": "CDPR 첫 오리지널 IP '하다르', 세계관 설정 마쳤다...개발 들어가",
-      "desc": "이전 작품인 위쳐와 사이버펑크는 각각 안제이 사프콥스키(Andrzej Sapkowski)의 소설과 마이크 폰드스미스(Mike Pondsmith)의 테이블탑 RPG를 원작으로 제작됐다. 앞서 CDPR은 지난 6월 채용 공고에서 하다르를 '감성적인...",
-      "url": "https://www.inven.co.kr/webzine/news/?news=322228",
-      "date": "10.16.",
-      "datetime": "10.16. 17:00",
-      "rawDate": "2026-10-16T17:00:00+09:00",
-      "source": "inven",
-      "sourceGroup": "inven",
       "channel": "자체개발",
       "region": "국내",
       "tag": "보안",
