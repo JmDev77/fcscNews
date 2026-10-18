@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-18T22:30:58.830123+09:00",
+  "fetched_at": "2026-10-18T22:34:53.482254+09:00",
   "count": 500,
   "articles": [
     {
@@ -17,6 +17,22 @@
       "tag": "보안",
       "tagCls": "tag-blue",
       "lang": "en"
+    },
+    {
+      "id": "67023c0be8af",
+      "title": "비대면진료 12월 시행인데 공공플랫폼은 2028년…민간 독점 우려",
+      "desc": "예산 삭감 내역을 살펴보면 공단이 요구한 인건비성 수수료(7억8,000먼원)와 홍보·교육·공청회 등 경비는 전액 삭감됐으며, 민감한 개인정보 처리와 직결된 보안설비 등 시스템 구축비도 대폭 감액된 것으로 확인됐다....",
+      "url": "https://www.koreahealthlog.com/news/articleView.html?idxno=59488",
+      "date": "10.18.",
+      "datetime": "10.18. 22:32",
+      "rawDate": "2026-10-18T22:32:00+09:00",
+      "source": "koreahealthlog",
+      "sourceGroup": "koreahealthlog",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "정책/제도",
+      "tagCls": "tag-green",
+      "lang": "ko"
     },
     {
       "id": "2c63643041df",
@@ -7983,22 +7999,6 @@
       "channel": "자체개발",
       "region": "국내",
       "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "d9695175f64d",
-      "title": "[CEO리포트] 서울우유협동조합 문진섭 조합장, ‘균형 리더십’으로 조...",
-      "desc": "외부 생성형 AI 서비스 이용에 따른 정보 유출 우려를 줄이고, 내부 보안 체계 안에서 AI 기술을 활용할 수 있도록 마련한 것이 특징이다. 서울우유 GPT는 문서 작성과 자료 요약을 비롯해 회계 시스템 연계 업무, 데이터...",
-      "url": "https://www.news2day.co.kr/article/20261016500170",
-      "date": "10.17.",
-      "datetime": "10.17. 14:30",
-      "rawDate": "2026-10-17T14:30:00+09:00",
-      "source": "news2day",
-      "sourceGroup": "news2day",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "AI 보안",
       "tagCls": "tag-blue",
       "lang": "ko"
     }
