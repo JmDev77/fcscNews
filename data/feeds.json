@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-19T01:30:52.236510+09:00",
+  "fetched_at": "2026-10-19T01:54:08.900375+09:00",
   "count": 500,
   "articles": [
     {
@@ -17,6 +17,22 @@
       "tag": "보안",
       "tagCls": "tag-blue",
       "lang": "en"
+    },
+    {
+      "id": "02d0a546aba0",
+      "title": "수술실 CCTV 해킹 피해, “예견된 참사”…“의료기관에 책임 전가 말고...",
+      "desc": "사진=게티이미지뱅크 최근 의료기관 내 수술실과 진료 공간에서 촬영된 영상이 해킹 등으로 유출됐다는... 그는 “대기업과 국가기관도 해킹을 당하는 상황에서 개인 병·의원에 그만큼의 보안 수준을 요구하는 것 자체가...",
+      "url": "https://www.medigatenews.com/news/3429402935",
+      "date": "10.19.",
+      "datetime": "10.19. 01:50",
+      "rawDate": "2026-10-19T01:50:00+09:00",
+      "source": "medigatenews",
+      "sourceGroup": "medigatenews",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
     },
     {
       "id": "81a2527ce2da",
@@ -7984,22 +8000,6 @@
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "c4057db20588",
-      "title": "‘별걸 다 조사하는 美’…유령 목격·귀신호텔 다 따져봤다..‘가장 으...",
-      "desc": "뉴욕포스트 최근 보도에 따르면 미국 스마트홈 보안업체 비빈트가 발표한 ‘2026 스푸키니스 지수(Spookiness Index)’에서 네바다주 버지니아시티가 1위를 차지했다. 이어 애리조나주 툼스톤, 아칸소주...",
-      "url": "https://www.munhwa.com/article/11624179?ref=naver",
-      "date": "10.17.",
-      "datetime": "10.17. 17:01",
-      "rawDate": "2026-10-17T17:01:00+09:00",
-      "source": "munhwa",
-      "sourceGroup": "munhwa",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
       "lang": "ko"
     }
   ]
