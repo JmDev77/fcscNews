@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-18T22:01:05.687126+09:00",
+  "fetched_at": "2026-10-18T22:30:58.830123+09:00",
   "count": 500,
   "articles": [
     {
@@ -17,6 +17,70 @@
       "tag": "보안",
       "tagCls": "tag-blue",
       "lang": "en"
+    },
+    {
+      "id": "2c63643041df",
+      "title": "테슬라 로드스터, 공중서 차량 5대 뛰어넘어…2028년 양산",
+      "desc": "이어 사이버캡, 사이버트럭, 세미 트럭 등 차량 5대를 향해 돌진한 뒤 압축 가스를 뿜으며 도약해 차체를 옆으로 한 바퀴 돌리는 배럴 롤 묘기로 모두 뛰어넘었다. 정지 상태에서 시속 60마일(약 97km/h)까지 가속하는...",
+      "url": "https://www.electimes.com/news/articleView.html?idxno=373560",
+      "date": "10.18.",
+      "datetime": "10.18. 22:10",
+      "rawDate": "2026-10-18T22:10:00+09:00",
+      "source": "electimes",
+      "sourceGroup": "electimes",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "15e1da28b9a8",
+      "title": "&quot;회의 공개라 말 못한다는 건 거짓말&quot;…李대통령, &quot;불편한 쓴소리 해야...",
+      "desc": "이 대통령은 \"공개 회의를 보신 분들은 아시겠지만, 국무위원은 물론 지자체장까지 할 말을 다 하신다\"며 \"모든 공개 회의 후에는 보안이 필요한 사안을 논의하는 비공개회의가 예외 없이 이어진다\"고 설명했다. 이어 \"저는...",
+      "url": "https://www.fnnews.com/news/202610182201147734",
+      "date": "10.18.",
+      "datetime": "10.18. 22:03",
+      "rawDate": "2026-10-18T22:03:00+09:00",
+      "source": "fnnews",
+      "sourceGroup": "fnnews",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "9a61539da1f2",
+      "title": "빗썸, '유출 정보 악용' 2차 사기 근절…10월 정보보호 캠페인 진행",
+      "desc": "빗썸은 이와 함께 비정상 로그인 시도를 즉시 인지할 수 있는 '해외 IP 접속 차단' 기능과 키보드 입력 보호·피싱 차단·메모리 해킹 방지를 지원하는 '안랩 세이프 트랜젝션(AhnLab Safe Transaction)' 보안 프로그램도 제공하고...",
+      "url": "http://www.ftoday.co.kr/news/articleView.html?idxno=367511",
+      "date": "10.18.",
+      "datetime": "10.18. 22:02",
+      "rawDate": "2026-10-18T22:02:00+09:00",
+      "source": "ftoday",
+      "sourceGroup": "ftoday",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "eccf4d3383ce",
+      "title": "슈워츠, 지갑 복구 문구 노린 사기 알림 경고...&quot;문구 입력 절대로 하지...",
+      "desc": "확인된 정보만으로는 세큐엑스 앱이나 인프라가 해킹당했는지도 독립적으로 입증되지 않는다. 세큐엑스는... -알림의 발신 출처는 알려지지 않았고 세큐엑스 앱이나 인프라가 해킹당했는지도 확인되지 않았다....",
+      "url": "http://coinreaders.com/263788",
+      "date": "10.18.",
+      "datetime": "10.18. 22:02",
+      "rawDate": "2026-10-18T22:02:00+09:00",
+      "source": "coinreaders",
+      "sourceGroup": "coinreaders",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
     },
     {
       "id": "fe96fc1ae583",
@@ -64,22 +128,6 @@
       "region": "국내",
       "tag": "정책/제도",
       "tagCls": "tag-green",
-      "lang": "ko"
-    },
-    {
-      "id": "21ecc4467b6d",
-      "title": "李대통령 &quot;회의 공개 말라 압박 이해 어려워…불편한 얘기하는 참모가 ...",
-      "desc": "또 \"국무회의는 공개회의에 이어 비공개회의가 따로 있고 보안이 필요하거나 국무위원들 입장이 난처할 수 있는 사안들은 비공개회의에서 논의하고 있다\"며 \"국정을 포함한 모든 행정은 공개가 원칙이고, 이전부터...",
-      "url": "https://www.news1.kr/politics/president/6323809",
-      "date": "10.18.",
-      "datetime": "10.18. 21:45",
-      "rawDate": "2026-10-18T21:45:00+09:00",
-      "source": "뉴스1",
-      "sourceGroup": "뉴스1",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
       "lang": "ko"
     },
     {
@@ -416,22 +464,6 @@
       "region": "국내",
       "tag": "AI 보안",
       "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "ba3caf12a02a",
-      "title": "빗썸, '유출 정보 악용'하는 2차 사기 근절 위한 '정보보호' 캠페인 전개",
-      "desc": "여기에 안전한 거래를 원할 경우 빗썸이 공식적으로 제공하는 '2채널 인증'과 같이 검증된 보안 기능을 활용하는 것이 권장되며 빗썸은 이에 맞춰 '해외 IP 접속 차단' 기능과 키보드 입력 보호·피싱 차단·메모리 해킹...",
-      "url": "http://www.bizwnews.com/news/articleView.html?idxno=149121",
-      "date": "10.18.",
-      "datetime": "10.18. 20:42",
-      "rawDate": "2026-10-18T20:42:00+09:00",
-      "source": "bizwnews",
-      "sourceGroup": "bizwnews",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
       "lang": "ko"
     },
     {
@@ -7968,38 +8000,6 @@
       "region": "국내",
       "tag": "AI 보안",
       "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "2d737c76de42",
-      "title": "IPARK현대산업개발, 청주교통 중심에 '가경 아이파크 7·8단지' 분양… ...",
-      "desc": "입주민들에게 보안이 강화된 출입 통제 시스템을 제공한다. 지하 주차장에는 비상벨을 설치해... 있어 보안을 한층 강화했다. 세대 내부에는 월패드와 통합스위치, 스마트 스위치 등을 실별 기능에 알맞게...",
-      "url": "http://www.ikld.kr/news/articleView.html?idxno=342426",
-      "date": "10.17.",
-      "datetime": "10.17. 14:28",
-      "rawDate": "2026-10-17T14:28:00+09:00",
-      "source": "ikld",
-      "sourceGroup": "ikld",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "f96dc63fb10a",
-      "title": "이통3사 영업익 '5조원 시대' 열릴까…3분기 추정치 무려",
-      "desc": "지난해 해킹 사고와 일회성 비용 등에 따른 기저효과로 수익성이 회복되는 가운데 인공지능(AI)... 지난해 발생한 해킹 사고에 따른 고객 보상 프로그램이 올해 7월까지 이어지면서 무선 사업 매출에 부담을 준...",
-      "url": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202610170010&t=NN",
-      "date": "10.17.",
-      "datetime": "10.17. 14:19",
-      "rawDate": "2026-10-17T14:19:00+09:00",
-      "source": "wowtv",
-      "sourceGroup": "wowtv",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
       "lang": "ko"
     }
   ]
