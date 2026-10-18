@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-19T01:54:08.900375+09:00",
+  "fetched_at": "2026-10-19T02:01:04.807932+09:00",
   "count": 500,
   "articles": [
     {
@@ -17,6 +17,22 @@
       "tag": "보안",
       "tagCls": "tag-blue",
       "lang": "en"
+    },
+    {
+      "id": "6b27ff20a0f2",
+      "title": "[미국 특징주] 英 경쟁당국, MS 규제 칼 빼들어 엑셀·팀즈·코파일럿 묶...",
+      "desc": "CMA는 또 고객이 AI 도구를 자유롭게 선택할 수 있는지, 경쟁사가 코파일럿과 경쟁할 수 있는지, 마이크로소프트의 보안 제품 끼워팔기가 선택권을 제한하는지, 마이크로소프트의 라이선스 관행이 고객의 클라우드...",
+      "url": "https://www.newspim.com/news/view/20261019000015",
+      "date": "10.19.",
+      "datetime": "10.19. 01:58",
+      "rawDate": "2026-10-19T01:58:00+09:00",
+      "source": "newspim",
+      "sourceGroup": "newspim",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
     },
     {
       "id": "02d0a546aba0",
@@ -7984,22 +8000,6 @@
       "region": "국내",
       "tag": "가용성",
       "tagCls": "tag-orange",
-      "lang": "ko"
-    },
-    {
-      "id": "3eba58ca3bd7",
-      "title": "AI로 CCTV 영상도 조작…ONVIF, 위변조 검증 표준화 추진",
-      "desc": "CCTV 보안도 해킹이나 영상 유출을 막는 데서 나아가 영상 자체의 출처와 원본성을 확인하는 영역으로 확대되는 모습이다. 온비프는 연말 미디어 사이닝 애드온 최종 규격을 확정할 예정이다.",
-      "url": "https://www.etnews.com/20261016000227",
-      "date": "10.17.",
-      "datetime": "10.17. 17:01",
-      "rawDate": "2026-10-17T17:01:00+09:00",
-      "source": "전자신문",
-      "sourceGroup": "전자신문",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
       "lang": "ko"
     }
   ]
