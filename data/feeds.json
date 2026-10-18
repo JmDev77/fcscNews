@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-18T18:30:56.641374+09:00",
+  "fetched_at": "2026-10-18T18:36:08.249525+09:00",
   "count": 500,
   "articles": [
     {
@@ -17,6 +17,22 @@
       "tag": "보안",
       "tagCls": "tag-blue",
       "lang": "en"
+    },
+    {
+      "id": "14f02604e439",
+      "title": "한전, 직원 안면인증·CCTV 비밀번호도 유출… &quot;2차 분석서 드러나&quot;",
+      "desc": "연관기사 • 한전 직원 2만4000명 정보 외부 웹페이지 노출… \"해킹 시도 파악 안 돼\" (www.hankookilbo.com/news... 외부 해킹 가능성을 모두 열어두고 조사하고 있다. 한전은 유출 데이터를 무력화하기 위한 전담팀을...",
+      "url": "https://www.hankookilbo.com/news/article/A2026101818060005516?did=NA",
+      "date": "10.18.",
+      "datetime": "10.18. 18:31",
+      "rawDate": "2026-10-18T18:31:00+09:00",
+      "source": "hankookilbo",
+      "sourceGroup": "hankookilbo",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
     },
     {
       "id": "716421346d75",
@@ -108,22 +124,6 @@
       "rawDate": "2026-10-18T18:20:00+09:00",
       "source": "dt",
       "sourceGroup": "dt",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "724997bc4470",
-      "title": "한전 직원 안면인증·CCTV 비밀번호도 노출…기존 발표서 빠져",
-      "desc": "한전의 내부 보안 관리 문제도 확인됐다. 2024년부터 2026년까지 한전 자체감사 결과보고서에 따르면 총 8차례의 감사에서 협력업체 직원들이 한전 직원의 계정을 이용해 내부 시스템에 접속한 사례가 적발됐다. 이와...",
-      "url": "https://www.news1.kr/economy/trend/6323755",
-      "date": "10.18.",
-      "datetime": "10.18. 18:19",
-      "rawDate": "2026-10-18T18:19:00+09:00",
-      "source": "뉴스1",
-      "sourceGroup": "뉴스1",
       "channel": "자체개발",
       "region": "국내",
       "tag": "보안",
@@ -883,6 +883,22 @@
       "lang": "ko"
     },
     {
+      "id": "7ab6f8e2ab1c",
+      "title": "한전, 개인정보 노출 사고…안면 인증·CCTV 비번 숨겼다",
+      "desc": "출입보안과 시설감시의 핵심정보까지 해외 서버에 노출된 것이다. 윤 의원은 노출된 정보가 어디까지... 협력업체를 통한 보안 구멍은 한전 내부 감사에서 이미 수차례 경고됐던 문제라는 지적도 제기됐다. 지난...",
+      "url": "https://www.newsis.com/view/NISX20261018_0003830557",
+      "date": "10.18.",
+      "datetime": "10.18. 17:01",
+      "rawDate": "2026-10-18T17:01:00+09:00",
+      "source": "뉴시스",
+      "sourceGroup": "뉴시스",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
       "id": "fe1deeb6aad8",
       "title": "엔비디아 1페타플롭 로컬 AI 노트북 'RTX 스파크' 출격",
       "desc": "엔비디아 오픈셸(OpenShell) 보안 런타임과 마이크로소프트 실행 컨테이너(MXC)로 구동 권한을 제어한다. 윈도우 온 암(Windows on Arm) 기반 환경에서 네이티브 실행되는 파이썬 빌드와 파이토치-CUDA(PyTorch-CUDA)...",
@@ -1532,6 +1548,22 @@
       "rawDate": "2026-10-18T15:45:00+09:00",
       "source": "busan",
       "sourceGroup": "busan",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "69fc3b8082ca",
+      "title": "[2026국감] 한전, 직원 얼굴정보·CCTV 비밀번호까지 유출···발표선 쏙...",
+      "desc": "조사에서는 협력업체를 통한 정보 유출과 외부 해킹 가능성을 모두 열어두고 있다. 문제는 협력업체의 보안관리 부실이 한전 자체감사에서도 반복적으로 지적됐다는 점이다. 윤 의원실이 2024년부터 2026년까지 한전의...",
+      "url": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2481419",
+      "date": "10.18.",
+      "datetime": "10.18. 15:40",
+      "rawDate": "2026-10-18T15:40:00+09:00",
+      "source": "enewstoday",
+      "sourceGroup": "enewstoday",
       "channel": "자체개발",
       "region": "국내",
       "tag": "해킹/침해",
@@ -7968,38 +8000,6 @@
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "5ca8c137ba78",
-      "title": "은퇴해도 기술은 남는다…AI·로봇으로 부활하는 현장 명장의 '암묵지'",
-      "desc": "통신 지연이나 보안 우려로 자동화 도입이 더뎠던 원전, 방산, 바이오 현장이 핵심 타깃이다. 두 번째 과제는 원전 기자재급 고난도 용접을 자동화하는 지능형 솔루션이다. 협동로봇에 AI와 디지털 트윈을 결합해...",
-      "url": "https://www.thepublic.kr/news/articleView.html?idxno=322520",
-      "date": "10.17.",
-      "datetime": "10.17. 09:18",
-      "rawDate": "2026-10-17T09:18:00+09:00",
-      "source": "thepublic",
-      "sourceGroup": "thepublic",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "c718744085e1",
-      "title": "수출·협력 장애물 vs 기술·이익 보호…'K-톡신 국가핵심기술' 갑론을박",
-      "desc": "요구되는 보안 수준 역시 매우 엄격해 시간적·금전적 규제 비용이나 기회비용이 매우 크다고 지적했다. 이어... 이 같은 주장 등에 대해 안진용 한국산업보안관리사협회 부회장은 보툴리눔 톡신의 국가핵심기술 지정 해제...",
-      "url": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065579720563080",
-      "date": "10.17.",
-      "datetime": "10.17. 09:16",
-      "rawDate": "2026-10-17T09:16:00+09:00",
-      "source": "megaeconomy",
-      "sourceGroup": "megaeconomy",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
       "lang": "ko"
     }
   ]
