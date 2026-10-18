@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-19T03:30:57.752481+09:00",
+  "fetched_at": "2026-10-19T04:01:01.984130+09:00",
   "count": 500,
   "articles": [
     {
@@ -17,6 +17,54 @@
       "tag": "보안",
       "tagCls": "tag-blue",
       "lang": "en"
+    },
+    {
+      "id": "f8c9f8e3d0dd",
+      "title": "사우디·예멘 후티 반군 공습 주고받아…리야드 업무·학교 마비",
+      "desc": "건물 측은 구체적인 이유를 밝히지 않았지만 최근 리야드 일대에서 드론 요격과 보안 경보가 잇따른 데 따른 조치로 보인다. 리야드와 주변 지역 학교들은 원격수업을 2주째 연장했다. 지난주 후티 반군의 대규모 공격으로...",
+      "url": "https://www.news1.kr/world/middleeast-africa/6323838",
+      "date": "10.19.",
+      "datetime": "10.19. 03:56",
+      "rawDate": "2026-10-19T03:56:00+09:00",
+      "source": "뉴스1",
+      "sourceGroup": "뉴스1",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "c94b9a0657a4",
+      "title": "머리부터 바닥에 꽂아 진압, 관중 난동 용서 없다…&quot;UFC, 저 경찰 계약해...",
+      "desc": "경찰과 보안요원들이 제지하는 모습이 담겼다. 상황이 격화되자 한 경찰관은 남성을 뒤에서 끌어안은 뒤... 주변 사람들은 남성을 옆으로 눕히는 회복 자세를 취하게 했고, 경찰과 보안요원, 관중들이 그를 둘러싸고...",
+      "url": "https://www.xportsnews.com/article/2208881",
+      "date": "10.19.",
+      "datetime": "10.19. 03:38",
+      "rawDate": "2026-10-19T03:38:00+09:00",
+      "source": "xportsnews",
+      "sourceGroup": "xportsnews",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "c743484d6916",
+      "title": "비트겟 해킹 연관 2746 ZEC, 지캐시 차폐 풀로 이동",
+      "desc": "비트겟 해킹과 연관된 지갑에서 지캐시(Zcash·ZEC)의 아이언우드 차폐 풀로 2746 ZEC가 이동했다. 차폐 풀에... 비트겟 해킹 전체 피해액이나 현재 가치와는 다른 수치다. 지캐시는 공개 거래와 차폐 거래를 모두...",
+      "url": "https://www.tokenpost.kr/news/cryptocurrency/424019",
+      "date": "10.19.",
+      "datetime": "10.19. 03:36",
+      "rawDate": "2026-10-19T03:36:00+09:00",
+      "source": "tokenpost",
+      "sourceGroup": "tokenpost",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
     },
     {
       "id": "7f2972bcbdef",
@@ -7952,54 +8000,6 @@
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "660482f17af0",
-      "title": "SK텔레콤 &quot;KCSI 등 고객만족도 3대 조사 1위&quot;…AI 기반 서비스·국방 기술...",
-      "desc": "저궤도 위성 통신과 양자암호, 스텔스 와이파이 등 미래 전장 통신·보안 기술도 전시했다. SK텔레콤은 SK텔링크, 테크트리이노베이션, 인핸스, 머큐리, KCS, 파블로항공 등과 협력해 관련 기술의 국방 현장 적용...",
-      "url": "https://www.webeconomy.co.kr/news/articleView.html?idxno=2337585",
-      "date": "10.17.",
-      "datetime": "10.17. 18:04",
-      "rawDate": "2026-10-17T18:04:00+09:00",
-      "source": "webeconomy",
-      "sourceGroup": "webeconomy",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "7c68bb203a9b",
-      "title": "OK저축은행 보안망 구멍…해킹 알고도 또 뚫렸다",
-      "desc": "고객 250명의 개인정보가 유출된 사실을 확인하고도 사흘 만에 또 다른 해킹 공격을 받아 268명의 금융정보가... 홈페이지가 해킹 공격을 받은 사실을 추가로 확인했다. 공격은 지난 15일 오전 3시 32분부터 약 4시간 동안...",
-      "url": "http://wemakenews.co.kr/news/view.php?no=26576",
-      "date": "10.17.",
-      "datetime": "10.17. 18:02",
-      "rawDate": "2026-10-17T18:02:00+09:00",
-      "source": "wemakenews",
-      "sourceGroup": "wemakenews",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "f573fb80cb14",
-      "title": "동료 고민 들어주다 '성희롱급 징계'…인사팀 직원 '날벼락' [김대영의...",
-      "desc": "이후 정보보안 위반 의혹까지 제기되면서 추가로 정직 처분을 받았다. 회사는 상담 과정에서 중립성을 잃고... 회사는 정보보안 위반 의혹과 관련한 사건 해결 요청에 협조하지 않았다는 이유로 A씨에게 정직 3개월을...",
-      "url": "https://www.hankyung.com/article/202610165135g",
-      "date": "10.17.",
-      "datetime": "10.17. 18:01",
-      "rawDate": "2026-10-17T18:01:00+09:00",
-      "source": "한국경제",
-      "sourceGroup": "한국경제",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
       "lang": "ko"
     }
   ]
