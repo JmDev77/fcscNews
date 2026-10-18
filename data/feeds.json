@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-18T14:00:58.165955+09:00",
+  "fetched_at": "2026-10-18T14:06:09.625734+09:00",
   "count": 500,
   "articles": [
     {
@@ -19,6 +19,38 @@
       "lang": "en"
     },
     {
+      "id": "f27bfea1cfa0",
+      "title": "[2026 국정감사] 4년 만에 국감 모이는 5대 은행장…해킹·포용금융 도마",
+      "desc": "최근 은행권에서 잇따른 해킹·개인정보 유출 사고를 계기로 보안 투자와 취약점 관리 실태, 경영진의 책임... 이번 국감에서는 최근 은행권에서 잇따른 인공지능(AI) 기반 해킹·개인정보 유출 사고의 경위와 대응 과정...",
+      "url": "https://www.ajunews.com/view/20261018135942759",
+      "date": "10.18.",
+      "datetime": "10.18. 14:04",
+      "rawDate": "2026-10-18T14:04:00+09:00",
+      "source": "ajunews",
+      "sourceGroup": "ajunews",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "e58704d9fee8",
+      "title": "안랩, 싱가포르서 AI 보안 솔루션 공개",
+      "desc": "안랩은 이달 13일부터 15일까지 싱가포르에서 열린 글로벌 보안 행사 ‘거브웨어 2026’에서 인공지능(AI) 기반 보안 솔루션을 선보였다고 18일 밝혔다. 이번 행사에서 안랩은 통합 브랜드 ‘안랩 AI 플러스’를...",
+      "url": "https://www.mk.co.kr/article/12178765",
+      "date": "10.18.",
+      "datetime": "10.18. 14:02",
+      "rawDate": "2026-10-18T14:02:00+09:00",
+      "source": "매일경제",
+      "sourceGroup": "매일경제",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
       "id": "e3ab0b4a0333",
       "title": "앤트로픽, 美 의회에 'AI 안전 법안' 제안…&quot;위험 임박 시 차단&quot;",
       "desc": "17일(현지시간) 미국 정치매체 폴리티코 보도에 따르면 앤트로픽 관계자들은 미 연방의회 의원들에게 첨단 AI 안전과 보안을 규제하는 법안 초안을 제출했다. 초안은 대규모 피해가 예상되고 위험이 임박했을 때 정부가 AI...",
@@ -31,6 +63,22 @@
       "channel": "자체개발",
       "region": "국내",
       "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "135305b235a9",
+      "title": "외국인 관광객 급증하자 자영업자 고민도 함께 늘었다",
+      "desc": "정부는 군사·보안시설 처리를 요구했지만, 구글이 글로벌 서비스의 일관성을 이유로 보완책을 받아들이지 않았다. 결국 지난 2월 구글이 원본 데이터 가공 및 군사·보안시설 가림 처리 등 정부의 조건을 수용하면서 1대...",
+      "url": "http://weekly.chosun.com/news/articleView.html?idxno=56239",
+      "date": "10.18.",
+      "datetime": "10.18. 14:00",
+      "rawDate": "2026-10-18T14:00:00+09:00",
+      "source": "조선일보",
+      "sourceGroup": "조선일보",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
       "tagCls": "tag-blue",
       "lang": "ko"
     },
@@ -460,22 +508,6 @@
       "rawDate": "2026-10-18T12:33:00+09:00",
       "source": "ggilbo",
       "sourceGroup": "ggilbo",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "6fff6ae30831",
-      "title": "[포토] 안랩, 싱가포르 'GovWare 2026'서 AI 보안 운영 기술 공개",
-      "desc": "글로벌 보안 컨퍼런스 'GovWare 2026'에 참가했다고 18일 밝혔다. 안랩은 통합 브랜드 '안랩 AI 플러스'를 중심으로 AI SOC와 IT·OT 융합 사이버물리시스템(CPS) 보안, 위협 인텔리전스(TI) 기술을 소개했다고 전했다....",
-      "url": "https://www.fetv.co.kr/news/articleView.html?idxno=311955",
-      "date": "10.18.",
-      "datetime": "10.18. 12:32",
-      "rawDate": "2026-10-18T12:32:00+09:00",
-      "source": "fetv",
-      "sourceGroup": "fetv",
       "channel": "자체개발",
       "region": "국내",
       "tag": "AI 보안",
@@ -947,6 +979,22 @@
       "lang": "ko"
     },
     {
+      "id": "a78043f554a8",
+      "title": "안랩, 싱가포르 ‘거브웨어’서 AI보안 운영기술 공개",
+      "desc": "안랩은 지난 13~15일 싱가포르 샌즈 엑스포 앤 컨벤션 센터에서 열린 보안 콘퍼런스 ‘거브웨어 2026’에 참가했다고 18일 밝혔다. 싱가포르 사이버보안청이 주관하는 ‘싱가포르 국제 사이버 위크’의 부대 행사다....",
+      "url": "https://www.dt.co.kr/article/12089641?ref=naver",
+      "date": "10.18.",
+      "datetime": "10.18. 11:34",
+      "rawDate": "2026-10-18T11:34:00+09:00",
+      "source": "dt",
+      "sourceGroup": "dt",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
       "id": "5e513e304932",
       "title": "[칼럼] 항공기 내부자 위협의 공포",
       "desc": "그러나 '외부 차단'에만 몰두한 보안 시스템은 뜻밖의 치명적 허점을 드러냈다. 2015년 독일의 저먼윙스 추락... 9.11 사건 이후 항공보안은 철저히 '외부자의 공격'을 전제로 강화 대책을 설계했다. 그러나 오늘날 이 대책을...",
@@ -1347,22 +1395,6 @@
       "lang": "ko"
     },
     {
-      "id": "a92528907e8d",
-      "title": "안랩, 싱가포르 거브웨어 2026서 AI SOC 등 소개",
-      "desc": "융합 사이버물리시스템(CPS) 보안, 위협 인텔리전스(TI) 역량을 선보였다. 거브웨어는 싱가포르 사이버보안청이 주관하는 '싱가포르 국제 사이버 위크(Singapore International Cyber Week)' 부대 행사다. 안랩은 이번...",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=707953",
-      "date": "10.18.",
-      "datetime": "10.18. 10:40",
-      "rawDate": "2026-10-18T10:40:00+09:00",
-      "source": "digitaltoday",
-      "sourceGroup": "digitaltoday",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
       "id": "5d0218397211",
       "title": "&quot;20년 동안 한 번도 못 봤어&quot; 어머니 떠나보낸 김지현의 눈물",
       "desc": "그는 \"장례식만 하고 모시고 귀국하는데 뉴욕 보안검색대를 빠져나가는 순간 눈물이 쏟아지더라\"며 \"너무 울어서 안경을 썼다\"고 떠올렸다. 이어 \"엄마가 20년 만에 미국을 떠나는 거였다\"며 \"느낌은 내가 아니라 엄마의...",
@@ -1376,22 +1408,6 @@
       "region": "국내",
       "tag": "보안",
       "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "c505755c4282",
-      "title": "4년 만에 국감장 서는 5대 은행장… 핵심은 '보안·내부통제'",
-      "desc": "금융권 해킹과 개인정보 유출 사고를 둘러싼 경영진의 관리·감독 책임이 쟁점으로 떠오르고 있다. ▲5대 은행장 증인 채택…해킹 사고 점검 국회 정무위원회는 지난 8일 전체회의에서 이환주 KB국민은행장, 정상혁...",
-      "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=873623",
-      "date": "10.18.",
-      "datetime": "10.18. 10:36",
-      "rawDate": "2026-10-18T10:36:00+09:00",
-      "source": "hansbiz",
-      "sourceGroup": "hansbiz",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
       "lang": "ko"
     },
     {
@@ -1647,22 +1663,6 @@
       "channel": "자체개발",
       "region": "국내",
       "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "aa4beb9b8cfb",
-      "title": "안랩, 싱가포르서 AI 에이전트 협업 기반 보안관제 전시",
-      "desc": "거브웨어는 싱가포르 사이버보안청이 주관하는 '싱가포르 국제 사이버 위크'의 부대 행사다. 올해는 AI 에이전트 확산에 따른 사이버 위협과 기술 변화에 대응하면서 책임과 신뢰, 인간 감독 원칙을 유지하는 방안을...",
-      "url": "https://www.newsis.com/view/NISX20261018_0003830266",
-      "date": "10.18.",
-      "datetime": "10.18. 10:00",
-      "rawDate": "2026-10-18T10:00:00+09:00",
-      "source": "뉴시스",
-      "sourceGroup": "뉴시스",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "AI 보안",
       "tagCls": "tag-blue",
       "lang": "ko"
     },
@@ -2832,6 +2832,22 @@
       "region": "국내",
       "tag": "보안",
       "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "b8851a256862",
+      "title": "수협은행 금융사기 피해액 9억원 넘어 2년 새 10배… 2023년 메신저피싱 1건에서 은행·공공기관 사칭, 대출사기, 파밍 등으로 유형 확대(국감 자료)",
+      "desc": "수협은행 금융사기 피해액 9억원 넘어 2년 새 10배… 2023년 메신저피싱 1건에서 은행·공공기관 사칭, 대출사기, 파밍 등으로 유형 확대(국감 자료)",
+      "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=873928",
+      "date": "10.18.",
+      "datetime": "10.18. 08:00",
+      "rawDate": "2026-10-18T08:00:00+09:00",
+      "source": "hansbiz",
+      "sourceGroup": "hansbiz",
+      "channel": "쉴더스",
+      "region": "국내",
+      "tag": "피싱/사기",
+      "tagCls": "tag-orange",
       "lang": "ko"
     },
     {
@@ -7984,22 +8000,6 @@
       "region": "국내",
       "tag": "보안",
       "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "5b6f15d4af0c",
-      "title": "오픈AI, 국내 CISO 대상 사이버 방어 전략 공유…“실제 위험 감소가 핵심”",
-      "desc": "오픈AI가 국내 기업 경영진을 대상으로 AI를 활용해 취약점 발견부터 수정과 검증까지 이어가는 사이버 방어 전략을 제시했다. AI가 찾아낸 문제를 나열하는 데 그치지 않고, 실제 보안 위험을 줄이는 운영 체계를 갖춰야 한다는 설명이다.오픈AI는 16일 웨스틴 서울 파르나스에서 ‘오픈AI 사이버 CXO 라운드테이블’을 개최했다고 밝혔다. 최고정보보호책임자(CISO)를 비롯한 국내 기업 임원급 60여명을 초청한 이번 행사에서는 AI에 따른 사이버 위협 변화와 기업 보안 업무 적용 방안을 다뤘다.김경훈 오픈AI 코리아 총괄 대표가 행사를",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208912",
-      "date": "10.17.",
-      "datetime": "10.17. 00:13",
-      "rawDate": "2026-10-17T00:13:53+09:00",
-      "source": "데일리시큐",
-      "sourceGroup": "데일리시큐",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "취약점/CVE",
-      "tagCls": "tag-yellow",
       "lang": "ko"
     }
   ]
