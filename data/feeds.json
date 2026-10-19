@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-20T03:01:11.793186+09:00",
+  "fetched_at": "2026-10-20T03:31:09.926622+09:00",
   "count": 500,
   "articles": [
     {
@@ -83,6 +83,38 @@
       "lang": "ko"
     },
     {
+      "id": "4383dd1c2aa7",
+      "title": "취약점 검증 후 패치… 보안, AI로 지킨다",
+      "desc": "한국인터넷진흥원(KISA)이 AI(인공지능)로 보안취약점 검증 및 수정코드 후보까지 만들어주는 기술을 개발한다. AI를 보안문제 탐색뿐 아니라 실제로 고치는 과정에도 활용하려는 시도다. 내년 하반기에 개발을 마친 뒤...",
+      "url": "https://www.mt.co.kr/tech/2026/10/20/2026101920051610104",
+      "date": "10.20.",
+      "datetime": "10.20. 03:21",
+      "rawDate": "2026-10-20T03:21:00+09:00",
+      "source": "머니투데이",
+      "sourceGroup": "머니투데이",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "취약점/CVE",
+      "tagCls": "tag-yellow",
+      "lang": "ko"
+    },
+    {
+      "id": "8a932078c3a7",
+      "title": "Siemens Software Center Vulnerability Exploited in ClickFix Malware Attacks",
+      "desc": "Attackers paired a genuine, signed copy of Siemens Software Center with malicious DLLs to infect Windows PCs via ClickFix lures.\nThe post Siemens Software Center Vulnerability Exploited in ClickFix Malware Attacks appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/siemens-software-center-vulnerability-exploited-in-clickfix-malware-attacks/",
+      "date": "10.20.",
+      "datetime": "10.20. 03:15",
+      "rawDate": "2026-10-20T03:15:39+09:00",
+      "source": "SecurityWeek",
+      "sourceGroup": "SecurityWeek",
+      "channel": "자체개발",
+      "region": "해외",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "en"
+    },
+    {
       "id": "47a3d7ef34fe",
       "title": "남인순 의원, 비대면진료 공공플랫폼 조속 구축·예산 확보 촉구",
       "desc": "시스템 구축비는 주로 보안설비 등에서 삭감된 것으로 나타났다. 남 의원 측은 \"건강보험 자격정보와 진료·처방정보 등 민감한 개인정보를 다루는 시스템 특성상 보안 예산 삭감에 대한 우려도 제기된다\"고 밝혔다....",
@@ -96,6 +128,22 @@
       "region": "국내",
       "tag": "보안",
       "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "ece96146cd62",
+      "title": "김동식 목사 유족, 북한 IT 노동자 수익·사이버 범죄 자금 7천만 달러 ...",
+      "desc": "원고들은 이 가운데 일부가 2025년 2월 발생한 가상자산 거래소 바이비트(Bybit) 해킹 사건의 자금 세탁... 앞서 VOA는 김 목사 유족 등 배상 판결 채권자들이 켈프 다오(Kelp DAO) 해킹 이후 동결된 약 7천100만 달러 상당의...",
+      "url": "https://www.voakorea.com/a/north-korean-terror-victims-70-million-in-cryptocurrency-101926/8212853.html",
+      "date": "10.20.",
+      "datetime": "10.20. 02:24",
+      "rawDate": "2026-10-20T02:24:00+09:00",
+      "source": "voakorea",
+      "sourceGroup": "voakorea",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
       "lang": "ko"
     },
     {
@@ -2211,6 +2259,22 @@
       "lang": "ko"
     },
     {
+      "id": "7cba27234348",
+      "title": "[2026국감]이찬진 &quot;금융권 해킹, CEO 책임 따질 것&quot;…금감원 혁신안 11월...",
+      "desc": "이 원장은 19일 국회 정무위원회의 금감원 등에 대한 국정감사에서 금융권 침해 사고에 대해 \"내부통제 기준 관리 의무와 관련해 사이버 보안, (이번) 해킹 사건이 최초의 CEO 책임 문제가 다뤄지는 사안이 될 것\"이라고...",
+      "url": "https://view.asiae.co.kr/article/2026101920434049034",
+      "date": "10.19.",
+      "datetime": "10.19. 20:43",
+      "rawDate": "2026-10-19T20:43:00+09:00",
+      "source": "아시아경제",
+      "sourceGroup": "아시아경제",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
       "id": "511fb672ea2a",
       "title": "IP 추적 단서로 뉴욕 노드 운영자 법정 증언",
       "desc": "이 사건이 유라늄 파이낸스(Uranium Finance) 해킹과 관련된 것으로 보인다고 우블록체인(Wu Blockchain)은 전했다. 미국 법무부는 조너선 스팔레타(Jonathan Spalletta)가 10월 7일 배심원단으로부터 컴퓨터 사기와...",
@@ -3072,22 +3136,6 @@
       "region": "국내",
       "tag": "보안",
       "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "2f78ff6dfd22",
-      "title": "이찬진 &quot;해킹때 CEO 책임 강화...망분리규제 완화는 단계적으로&quot;(종합)",
-      "desc": "한편, 최근 금융권 연쇄 AI해킹 침해사고 관련해 당국이 금융사 내부 보고체계를 점검할 예정인 가운데 \"내부통제 기준 관리의무와 사이버보안 해킹사건과 관련해, 아마 최초로 최고경영자(CEO) 책임 문제가 다뤄지는...",
-      "url": "https://www.yna.co.kr/view/AKR20261019146751002?input=1195m",
-      "date": "10.19.",
-      "datetime": "10.19. 19:21",
-      "rawDate": "2026-10-19T19:21:00+09:00",
-      "source": "연합뉴스",
-      "sourceGroup": "연합뉴스",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
       "lang": "ko"
     },
     {
@@ -7536,54 +7584,6 @@
       "region": "국내",
       "tag": "정책/제도",
       "tagCls": "tag-green",
-      "lang": "ko"
-    },
-    {
-      "id": "60538b81a801",
-      "title": "고스트패스, 대법원 청사에 ‘얼굴 정보 서버 저장 없는’ 탈중앙 인증...",
-      "desc": "서버에 생체정보가 쌓이지 않아, 해킹이나 서버 침해 사고가 발생하더라도 생체정보 유출 위험은 낮출 수 있는 것이다. 고스트패스 측은 “사법기관은 개인정보뿐 아니라 재판 기록이라는 핵심 자산을 다루기 때문에...",
-      "url": "https://www.munhwa.com/article/11624574?ref=naver",
-      "date": "10.19.",
-      "datetime": "10.19. 16:02",
-      "rawDate": "2026-10-19T16:02:00+09:00",
-      "source": "munhwa",
-      "sourceGroup": "munhwa",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "9ef104a28f25",
-      "title": "[정보보안 연재소설-로그아웃되지 않는 밤] 제54화 '전 세계가 터진 날'",
-      "desc": "데일리시큐는 7월부터 장삼봉 작가(필명)의 정보보안 소설《로그아웃되지 않는 밤》을 매주 4편씩 연재한다. 화려한 디지털 서비스 뒤에서 보이지 않는 위협과 맞서는 보안 담당자들의 현실과 고뇌, 성장을 생생하게 담았다. 수많은 오탐 속에 숨은 단 하나의 진짜 공격을 추적하는 이들의 잠들지 못하는 밤이 시작된다. -보안의 연대-임시 차단에는 임시 차단의 위험이 있었다. 길목을 거칠게 막으면, 정상적인 기능까지 함께 멈출 수 있었다. 도윤은 막을 때마다 한쪽 눈으로는 ‘이게 진짜 서비스를 끊지는 않나’를 살폈다. 보안과 가용성은 늘 한 줄",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208920",
-      "date": "10.19.",
-      "datetime": "10.19. 16:00",
-      "rawDate": "2026-10-19T16:00:00+09:00",
-      "source": "데일리시큐",
-      "sourceGroup": "데일리시큐",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "feeb7ed073cd",
-      "title": "[이혁중 CISO 칼럼] AI 시대에도 아무것도 믿지 말라",
-      "desc": "AI라는 기술이 계속 진화하면서 정보보호에서도 가장 큰 화두가 되어 버렸다. 최근 금융권 이슈도 있었고 여러 가지로 신경 쓸 게 많은 시대에 있어 대응책으로 Zero Trust를 AI에 적용하는 것을 고민하면서 2회에 나누어 기고해 본다.생성형 AI와 자율형 에이전트가 제로 트러스트를 다시 부르는 이유최근 생성형 AI, 대규모 언어모델, 자율형 AI 에이전트가 기업 업무 전반에 확산되는 속도는 과거 클라우드가 시장에 보였을때의 변화보다 빠르다. AI는 더 이상 실험실의 기술도, 일부 부서의 생산성 도구도 아니다. 문서 작성, 고객",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208919",
-      "date": "10.19.",
-      "datetime": "10.19. 16:00",
-      "rawDate": "2026-10-19T16:00:00+09:00",
-      "source": "데일리시큐",
-      "sourceGroup": "데일리시큐",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "취약점/CVE",
-      "tagCls": "tag-yellow",
       "lang": "ko"
     },
     {
