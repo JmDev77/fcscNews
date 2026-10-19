@@ -45,7 +45,8 @@ FEEDS = [
 ]
 
 # 네이버 검색 키워드 (해킹/보안/사이버 중심) — 자체개발 · 국내로 분류
-NAVER_KEYWORDS = ['해킹', '보안', '사이버', '랜섬웨어', '개인정보침해']
+NAVER_KEYWORDS = ['해킹', '보안', '사이버', '랜섬웨어', '개인정보침해',
+                  '킴수키', '라자루스', '샤이니헌터스', '실버폭스']
 
 # 네이버 검색 결과 중 보안뉴스와 무관한 문맥(드라마/영화/게임/연예 등) 제외용 키워드
 EXCLUDE_KEYWORDS = [
@@ -415,7 +416,30 @@ HEARTBEAT_PATH = Path(__file__).parent.parent / 'data' / 'last_heartbeat.txt'
 MONITOR_ORGS = [
     '기획예산처', '동행복권', '재정경제부', '글로벌지식협력단지', '관세청',
     '조달청', '국가데이터처', '한국은행', '한국수출입은행', '한국조폐공사',
-    '한국투자공사', '한국재정정보원', 'dBrain', '국세청', '한미전략투자공사','재경부','재경위','기획처','한은','디브레인','재정경제기획위원회'
+    '한국투자공사', '한국재정정보원', 'dBrain', '국세청', '한미전략투자공사','재경부','재경위','기획처','한은','디브레인','재정경제기획위원회','한미'
+]
+
+# 짧은 약칭은 단어 경계로만 매칭 (예: '한은'이 '신한은행'의 일부로 걸리는 오탐 방지).
+# 이 목록의 단어는 앞/뒤에 한글·영숫자가 바로 붙어 있으면 다른 단어의 일부로 보고 제외.
+SHORT_ORG_ALIASES = {'한은', '재경부', '재경위', '기획처','한미'}
+
+# 위협 그룹(APT·랜섬웨어·해킹그룹). 그룹명 자체가 보안 주제이므로
+# 제목에 그룹명이 있으면 보안키워드 없이도 웹훅 전송. (dBrain처럼 영문은 대소문자 무시)
+THREAT_GROUPS = [
+    '샤이니헌터스', 'ShinyHunters',
+    '킴수키', 'Kimsuky',
+    '라자루스', 'Lazarus',
+    '실버폭스', 'SilverFox', 'Silver Fox',
+    '안다리엘', 'Andariel',
+    '김수키',                       # 표기 변형
+    'APT37', 'APT38', 'APT28', 'APT29',
+    'BlueNoroff', '블루노로프',
+    'ScarCruft', '스카크루프트',
+    'Konni', '코니',
+    '락빗', 'LockBit',
+    '블랙캣', 'BlackCat', 'ALPHV',
+    '클롭', 'Clop', 'Cl0p',
+    '알피에이치씨',                 # (여유분, 필요시 제거)
 ]
 
 # 웹훅 중복 전송 방지용 제목 유사도 (수집용 is_similar와 별개, 안전하게 0.80)
@@ -423,8 +447,25 @@ WEBHOOK_SIM_THRESH = 0.80
 def is_similar_webhook(t1, t2):
     return SequenceMatcher(None, t1, t2).ratio() >= WEBHOOK_SIM_THRESH
 
+def _contains_bounded(text, kw):
+    """kw가 text에 '단어 단위'로 들어있는지. 앞뒤에 한글/영숫자가 바로 붙으면 제외."""
+    for m in re.finditer(re.escape(kw), text):
+        s, e = m.start(), m.end()
+        before = text[s-1] if s > 0 else ''
+        after  = text[e]   if e < len(text) else ''
+        boundary = re.compile(r'[가-힣A-Za-z0-9]')
+        if boundary.match(before or ' '):   # 앞에 글자 붙음 → 다른 단어 일부
+            continue
+        if boundary.match(after or ' '):     # 뒤에 글자 붙음 → 다른 단어 일부
+            continue
+        return True
+    return False
+
 def match_orgs(title, desc=''):
-    """제목+요약에서 매칭된 기관명 리스트 반환 (dBrain은 대소문자 무시)"""
+    """제목+요약에서 매칭된 기관명 리스트 반환.
+    - dBrain은 대소문자 무시
+    - 짧은 약칭(SHORT_ORG_ALIASES)은 단어 경계로만 매칭(신한은행 등 오탐 방지)
+    """
     text = (title or '') + ' ' + (desc or '')
     text_lower = text.lower()
     hits = []
@@ -432,8 +473,25 @@ def match_orgs(title, desc=''):
         if org == 'dBrain':
             if 'dbrain' in text_lower:
                 hits.append(org)
+        elif org in SHORT_ORG_ALIASES:
+            if _contains_bounded(text, org):
+                hits.append(org)
         elif org in text:
             hits.append(org)
+    return hits
+
+def match_threat_groups(title, desc=''):
+    """제목+요약에서 매칭된 위협 그룹명 리스트 반환 (영문은 대소문자 무시)"""
+    text = (title or '') + ' ' + (desc or '')
+    text_lower = text.lower()
+    hits = []
+    for g in THREAT_GROUPS:
+        if re.search(r'[A-Za-z]', g):   # 영문 포함 → 대소문자 무시 비교
+            if g.lower() in text_lower:
+                hits.append(g)
+        else:
+            if g in text:
+                hits.append(g)
     return hits
 
 def load_webhook_sent():
@@ -587,25 +645,29 @@ def process_org_webhooks(our_articles):
         seen_links.add(link)
         if link in sent:          # 이미 보낸 기사(링크 동일)
             continue
-        # 제목에 기관명 + 제목에 보안키워드가 모두 있을 때만 전송
-        # (요약에만 흩어져 있는 국감/국정감사 등 무관 기사 오탐 방지)
-        orgs = match_orgs(title)          # desc 제외, 제목만
-        if not orgs:
+        # 전송 조건 (제목만 검사):
+        #  (A) 기관명 + 보안키워드 둘 다  → 기관 관련 보안기사
+        #  (B) 위협그룹명               → 그룹명 자체가 보안 주제이므로 보안키워드 불필요
+        orgs    = match_orgs(title)
+        groups  = match_threat_groups(title)
+        hit_org   = bool(orgs) and is_security_related(title)
+        hit_group = bool(groups)
+        if not (hit_org or hit_group):
             continue
-        if not is_security_related(title):  # desc 제외, 제목만
-            continue
+        # 알림 라벨 = 매칭된 기관명 + 위협그룹명 (둘 다 표시)
+        labels = (orgs if hit_org else []) + groups
         # 같은 사건이 (여러 채널로 / 다른 수집 사이클에) 들어온 경우:
         # 제목 유사도(0.80)로 중복 판단해 한 번만 전송. 과거 보낸 제목과도 비교.
         # 중복으로 걸러진 것도 '보낸 것'으로 기록해 다음 실행에서 다시 안 오게 함.
         if any(is_similar_webhook(title, t) for t in sent_titles):
             mark_sent(sent, link, title)
-            print(f"  ⏭  (유사중복) [{', '.join(orgs)}] {title[:36]}")
+            print(f"  ⏭  (유사중복) [{', '.join(labels)}] {title[:36]}")
             continue
-        if send_webhook(title, link, orgs, source, channel):
+        if send_webhook(title, link, labels, source, channel):
             mark_sent(sent, link, title)
             sent_titles.append(title)
             sent_count += 1
-            print(f"  📤 [{', '.join(orgs)}] ({channel}) {title[:36]}")
+            print(f"  📤 [{', '.join(labels)}] ({channel}) {title[:36]}")
             time.sleep(0.5)       # 웹훅 rate limit 여유
 
     save_webhook_sent(sent)
@@ -759,8 +821,18 @@ def main():
         seen_titles.append(item['title'])
         deduped.append(item)
 
-    # 최신순 정렬 + 최대 개수 제한
-    deduped = deduped[:MAX_ARTICLES]
+    # 최대 개수 제한 — 단순 [:500]이면 실시간으로 쏟아지는 자체개발이 다 차지하고
+    # 소량 피드(쉴더스)가 전부 밀려나므로, 채널별 최소 보장 후 나머지를 채운다.
+    # (deduped는 이미 최신순 정렬된 상태)
+    SHIELDUS_MIN = 50   # 쉴더스 최소 보장 건수(최신순, 있으면 이만큼은 무조건 남김)
+    shieldus = [a for a in deduped if a.get('channel') == '쉴더스']
+    others   = [a for a in deduped if a.get('channel') != '쉴더스']
+    keep_shieldus = shieldus[:SHIELDUS_MIN]
+    keep_others   = others[:MAX_ARTICLES - len(keep_shieldus)]
+    # 합친 뒤 다시 최신순 정렬
+    deduped = sorted(keep_shieldus + keep_others,
+                     key=lambda x: x.get('rawDate', ''), reverse=True)
+    print(f"[개수 제한] 전체 {len(deduped)}건 (쉴더스 {len(keep_shieldus)} + 그외 {len(keep_others)})")
 
     # 저장
     FEEDS_PATH.parent.mkdir(exist_ok=True)
