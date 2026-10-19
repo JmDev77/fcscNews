@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-20T01:01:12.607445+09:00",
+  "fetched_at": "2026-10-20T01:31:03.536691+09:00",
   "count": 500,
   "articles": [
     {
@@ -80,6 +80,54 @@
       "region": "국내",
       "tag": "취약점/CVE",
       "tagCls": "tag-yellow",
+      "lang": "ko"
+    },
+    {
+      "id": "9fbdbcfe30d3",
+      "title": "트럼프 행정부, 美 연방기관서 中 AI '딥시크' 전면 퇴출",
+      "desc": "국토안보부는 딥시크가 \"다중 보안 위협 경로\"가 될 수 있다며 \"미 정부 직원이나 공급업체가 사용할 경우 민감한 데이터가 중국으로 이전될 위험이 크다\"라고 경고했다. 아울러 악성코드나 보안 취약점을 통해 미국...",
+      "url": "https://www.fnnews.com/news/202610200106359940",
+      "date": "10.20.",
+      "datetime": "10.20. 01:09",
+      "rawDate": "2026-10-20T01:09:00+09:00",
+      "source": "fnnews",
+      "sourceGroup": "fnnews",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "취약점/CVE",
+      "tagCls": "tag-yellow",
+      "lang": "ko"
+    },
+    {
+      "id": "2a5e54611eec",
+      "title": "에스원, AI 가상펜스·AED 모니터링으로 가을철 산악 안전 지킨다",
+      "desc": "가을 단풍철을 맞아 등산객이 증가하면서 산악 안전사고 위험이 커지는 가운데, 보안기업 에스원의 산악 안전 솔루션이 주목받고 있다. 소방청에 따르면 가을철(9~11월)은 연간 산악사고의 30% 이상이 집중되는 시기다....",
+      "url": "https://www.job-post.co.kr/news/articleView.html?idxno=233267",
+      "date": "10.20.",
+      "datetime": "10.20. 01:08",
+      "rawDate": "2026-10-20T01:08:00+09:00",
+      "source": "job-post",
+      "sourceGroup": "job-post",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "b80eb8ca3e07",
+      "title": "가스공사 등, '국산 둔갑' 중국산 CCTV 배짱 운용…국정원 경고·유죄 판...",
+      "desc": "1심 법원은 양형 사유로 업체 대표는 '스스로도 위 수입 물건의 보안 신뢰성을 의심하였던 것으로... 특히 한국가스공사는 2021년 12월 국가정보원의 긴급 보안조치 통보를 받은 이후에도 해당 업체의 위반 모델...",
+      "url": "https://www.job-post.co.kr/news/articleView.html?idxno=233276",
+      "date": "10.20.",
+      "datetime": "10.20. 01:04",
+      "rawDate": "2026-10-20T01:04:00+09:00",
+      "source": "job-post",
+      "sourceGroup": "job-post",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "정책/제도",
+      "tagCls": "tag-green",
       "lang": "ko"
     },
     {
@@ -304,22 +352,6 @@
       "region": "국내",
       "tag": "보안",
       "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "04845fb2b8d2",
-      "title": "美 연방기관서 中 딥시크 퇴출…민감 정보 이전 우려",
-      "desc": "미국 사이버보안법을 근거로 들었고, 딥시크의 연방정부 계약 참여도 막았다. 국토안보부는 딥시크 모델이... 다른 보안 취약점이 포함돼 있을 수 있다\"고 강조했다. 앞서 상무부와 해군 등 일부 기관은 정부 기기에서...",
-      "url": "https://www.newspim.com/news/view/20261020000002",
-      "date": "10.20.",
-      "datetime": "10.20. 00:22",
-      "rawDate": "2026-10-20T00:22:00+09:00",
-      "source": "newspim",
-      "sourceGroup": "newspim",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "취약점/CVE",
-      "tagCls": "tag-yellow",
       "lang": "ko"
     },
     {
@@ -7555,54 +7587,6 @@
       "lang": "ko"
     },
     {
-      "id": "04aead4d7cbd",
-      "title": "“한국 세계서 유례 없는 ‘마르크스 지적유산과 단절된 사회’ 돼”·...",
-      "desc": "김태경은 국가보안법 위반 혐의로 기소됐다. 재판에서 기소가 중지되고 판매 금지가 해제되면서 마르크스 관련 저술은 봇물 터지듯 나왔다. 지금은 그 물줄기가 끊겼다. 마르크스에 관한 책 출간도, 연구도 고갈돼 간다....",
-      "url": "https://www.khan.co.kr/article/202610191556011",
-      "date": "10.19.",
-      "datetime": "10.19. 15:56",
-      "rawDate": "2026-10-19T15:56:00+09:00",
-      "source": "khan",
-      "sourceGroup": "khan",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "정책/제도",
-      "tagCls": "tag-green",
-      "lang": "ko"
-    },
-    {
-      "id": "a9b62642d6b4",
-      "title": "해킹비상에 금융보안원 몸집 키운다…내년도 예산 10% 확대",
-      "desc": "금융권 안팎에선 사이버해킹 위협 고조로 금융보안원의 역할이 확대되면서 규모를 키워야한다는 의견이... 및 해킹 대비 훈련을 진행한다. 또한 전자금융감독규정에서 침해사고 대응기관으로 지정받아 사고...",
-      "url": "https://www.mt.co.kr/finance/2026/10/19/2026101914364712944",
-      "date": "10.19.",
-      "datetime": "10.19. 15:55",
-      "rawDate": "2026-10-19T15:55:00+09:00",
-      "source": "머니투데이",
-      "sourceGroup": "머니투데이",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "c591388d285e",
-      "title": "[은행이 뚫린다] \"보조자에서 지휘관으로\"... 바이브 해킹과 28초 침투가...",
-      "desc": "과거 막대한 자원과 숙련된 전문 인력을 갖춘 국가 배후 조직만 수행할 수 있었던 다중 표적 해킹... AI 해킹 공격 관련 긴급 좌담회' 참석 전문가들은 모두 '공격 역량의 평준화'와 '압도적 속도전'을 가장 치명적인...",
-      "url": "https://www.boannews.com/news/articleView.html?idxno=146493",
-      "date": "10.19.",
-      "datetime": "10.19. 15:54",
-      "rawDate": "2026-10-19T15:54:00+09:00",
-      "source": "보안뉴스",
-      "sourceGroup": "보안뉴스",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
       "id": "40788f7e8b9f",
       "title": "레코디드 퓨처 \"국내 금융권 연쇄 해킹 배후 'TAG-217', 8월부터 공격 인프라·도구 준비\"… AI로 다양한 시스템 취약점 탐색해 공격 범위 확대 정황",
       "desc": "레코디드 퓨처 &quot;국내 금융권 연쇄 해킹 배후 &#x27;TAG-217&#x27;, 8월부터 공격 인프라·도구 준비&quot;… AI로 다양한 시스템 취약점 탐색해 공격 범위 확대 정황",
@@ -8000,6 +7984,22 @@
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "e116980a53da",
+      "title": "美 트럼프 행정부, 연방기관 시스템에서 中 딥시크 AI 모델 사용 금지… 국토안보부 '민감정보 이전 우려, 악성코드나 보안 취약점 포함 가능성' 지적, 완전 제거 시까지 정부 웹사이트 네트워크 트래픽 감시 지시",
+      "desc": "✅ 조치: 공공기관·기업은 내부 시스템·단말의 딥시크 모델·앱 사용 현황을 점검하고 업무망 사용 정책 확인관련 보도: hankookilbo.com · newspim.com · wowtv.co.kr",
+      "url": "https://www.yna.co.kr/view/AKR20261020000500071?input=1195m",
+      "date": "10.19.",
+      "datetime": "10.19. 08:00",
+      "rawDate": "2026-10-19T08:00:00+09:00",
+      "source": "연합뉴스 외 3곳",
+      "sourceGroup": "연합뉴스",
+      "channel": "쉴더스",
+      "region": "국내",
+      "tag": "취약점/CVE",
+      "tagCls": "tag-yellow",
       "lang": "ko"
     }
   ]
