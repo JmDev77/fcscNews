@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-20T02:31:00.459905+09:00",
+  "fetched_at": "2026-10-20T02:46:01.886966+09:00",
   "count": 500,
   "articles": [
     {
@@ -80,6 +80,22 @@
       "region": "국내",
       "tag": "취약점/CVE",
       "tagCls": "tag-yellow",
+      "lang": "ko"
+    },
+    {
+      "id": "47a3d7ef34fe",
+      "title": "남인순 의원, 비대면진료 공공플랫폼 조속 구축·예산 확보 촉구",
+      "desc": "시스템 구축비는 주로 보안설비 등에서 삭감된 것으로 나타났다. 남 의원 측은 \"건강보험 자격정보와 진료·처방정보 등 민감한 개인정보를 다루는 시스템 특성상 보안 예산 삭감에 대한 우려도 제기된다\"고 밝혔다....",
+      "url": "https://www.medigatenews.com/news/2432739350",
+      "date": "10.20.",
+      "datetime": "10.20. 02:36",
+      "rawDate": "2026-10-20T02:36:00+09:00",
+      "source": "medigatenews",
+      "sourceGroup": "medigatenews",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
       "lang": "ko"
     },
     {
@@ -7568,22 +7584,6 @@
       "region": "국내",
       "tag": "취약점/CVE",
       "tagCls": "tag-yellow",
-      "lang": "ko"
-    },
-    {
-      "id": "603bc7762577",
-      "title": "[김승주 교수 칼럼] ISMS 인증을 받았는데 왜 해킹을 당했을까?",
-      "desc": "기업에서 대규모 해킹 사고가 발생하면 빠지지 않고 등장하는 질문이 있다. \"ISMS 인증까지 받은 기업이 왜 해킹을 당했느냐?\"는 것이다. 심지어 인증을 내준 기관에도 책임을 물어야 한다는 주장까지 나온다.충분히 제기할 수 있는 의문이다. 하지만 이 질문에 답하려면 먼저 ISMS가 무엇인지부터 이해할 필요가 있다.ISMS(Information Security Management System)는 우리말로 '정보보호 관리체계'라고 한다. 영국의 BS 7799를 토대로 발전한 국제표준 ISO/IEC 27001을 참고해 우리나라 실정에 맞",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208918",
-      "date": "10.19.",
-      "datetime": "10.19. 16:00",
-      "rawDate": "2026-10-19T16:00:00+09:00",
-      "source": "데일리시큐",
-      "sourceGroup": "데일리시큐",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
       "lang": "ko"
     },
     {
