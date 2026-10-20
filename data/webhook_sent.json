@@ -98,5 +98,9 @@
   "https://n.news.naver.com/mnews/article/015/0005344557?sid=102": {
     "ts": "2026-10-20T18:31:07.574973+09:00",
     "title": "다크웹 유출된 국내 카드정보 8만건"
+  },
+  "https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html": {
+    "ts": "2026-10-20T21:31:14.461443+09:00",
+    "title": "Russian APT28 Breaches NATO Naval Shipbuilder in NATO Country, Deploys New Reflective Loader"
   }
 }
