@@ -102,5 +102,9 @@
   "https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html": {
     "ts": "2026-10-20T21:31:14.461443+09:00",
     "title": "Russian APT28 Breaches NATO Naval Shipbuilder in NATO Country, Deploys New Reflective Loader"
+  },
+  "https://www.dailysecu.com/news/articleView.html?idxno=208970": {
+    "ts": "2026-10-20T23:31:13.479744+09:00",
+    "title": "러시아 해킹조직 APT28, NATO 회원국 방산업체 침투…신종 악성코드로 내부망 접근"
   }
 }
