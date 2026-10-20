@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-21T03:31:14.280759+09:00",
+  "fetched_at": "2026-10-21T04:01:21.035914+09:00",
   "count": 500,
   "articles": [
     {
@@ -64,6 +64,38 @@
       "region": "국내",
       "tag": "AI 보안",
       "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "622ec86d592e",
+      "title": "프랑스, 폭력시위 강경 대응‥24일 시위에 군병력도 투입",
+      "desc": "지난 주말 폭력 시위로 얼룩진 프랑스가 지역별 부분 통행금지를 시행하고 군 병력까지 포함된 보안 인력을 대거 배치하기로 했습니다. 현지시간 20일 세바스티앵 르코르뉘 총리는 엑스를 통해 \"간밤에 특정 지역에 내린...",
+      "url": "https://imnews.imbc.com/news/2026/world/article/6859459_36925.html",
+      "date": "10.21.",
+      "datetime": "10.21. 03:55",
+      "rawDate": "2026-10-21T03:55:00+09:00",
+      "source": "MBC",
+      "sourceGroup": "MBC",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "정책/제도",
+      "tagCls": "tag-green",
+      "lang": "ko"
+    },
+    {
+      "id": "dc9429dc9b63",
+      "title": "'독일 극우당' 이메일 42만 통 털려...&quot;인종차별·외국인 혐오 1만여 건...",
+      "desc": "독일 극우 성향 독일대안당 당직자들이 주고받은 이메일 42만여 통이 해킹으로 유출됐는데 해커 측이... 웹사이트에는 해킹된 이메일이 약 42만1천 통, 첨부파일 3만9천 건, 문서 4만9천 건 등으로 데이터 용량이...",
+      "url": "https://www.ytn.co.kr/_ln/0104_202610210334381006",
+      "date": "10.21.",
+      "datetime": "10.21. 03:34",
+      "rawDate": "2026-10-21T03:34:00+09:00",
+      "source": "YTN",
+      "sourceGroup": "YTN",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
       "lang": "ko"
     },
     {
@@ -451,22 +483,6 @@
       "lang": "ko"
     },
     {
-      "id": "4eb227901b6b",
-      "title": "프랑스, 폭력 시위 강경 대응…24일 시위에 군병력도 투입",
-      "desc": "또 오는 24일 예고된 시위에는 군 병력까지 포함해 보안 인력을 대거 배치하기로 했습니다. 세바스티앵... 로랑 뉘녜즈 내무장관은 의회에서 \"내부 보안군의 대체 인력으로 상티넬(군의 대테러 경계 작전) 병력을...",
-      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008807065&plink=ORI&cooper=NAVER",
-      "date": "10.21.",
-      "datetime": "10.21. 01:22",
-      "rawDate": "2026-10-21T01:22:00+09:00",
-      "source": "SBS",
-      "sourceGroup": "SBS",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
       "id": "9789ac44095d",
       "title": "스렛북, AI 기반 침투 테스트 플랫폼 ‘RedAgents’ 출시...다중 에이전트 연동 지원",
       "desc": "에이전틱 보안 기업 스렛북(ThreatBook)이 인공지능(AI) 기반 침투 테스트 통합 플랫폼인 'RedAgents'를 출시했다.이번에 선보인 플랫폼은 보안 운영(SecOps) 팀이 자체 네트워크를 대상으로 다중 에이전트 공격을 수행해 숨겨진 취약점을 찾아내고 사이버 방어 역량을 강화할 수 있도록 돕는다.기존에는 침투 테스트에 오랜 시간과 많은 인력이 필요했으나, 고성능 AI 침투 테스트 에이전트들이 등장하면서 지속적이고 정기적인 점검이 가능해졌다. 스렛북은 단일 공급업체의 에이전트만으로는 다양한 사이버 위험을 모두 파악하기 어렵",
@@ -515,22 +531,6 @@
       "lang": "ko"
     },
     {
-      "id": "2386857d232f",
-      "title": "독일 극우당 AfD 이메일 42만통 털려…&quot;인종차별 1만건&quot;",
-      "desc": "극우 반대진영 정치적 목적 해킹 추정 김계연 특파원 = 독일 극우 성향 독일대안당(AfD) 당직자들이 주고받은 이메일 42만여통이 해킹으로 유출됐다. 해커 측은 이 가운데 상당수가 인종차별과 외국인 혐오 메시지라고...",
-      "url": "https://www.yna.co.kr/view/AKR20261021001600082?input=1195m",
-      "date": "10.21.",
-      "datetime": "10.21. 01:08",
-      "rawDate": "2026-10-21T01:08:00+09:00",
-      "source": "연합뉴스",
-      "sourceGroup": "연합뉴스",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
       "id": "643cd706b25a",
       "title": "토큰화 주식, 여러 체인 잇는 거래 계층 제안 나와",
       "desc": "따라서 실행 보안과 가격 신뢰뿐 아니라 수탁·상환 조건, 법적 청구권도 상품을 살필 때 고려해야 한다. 시장 구조를 둘러싼 우려도 제기됐다. 시타델 시큐리티즈(Citadel Securities)는 SEC에 제출한 의견서에서 토큰화...",
@@ -559,6 +559,22 @@
       "channel": "자체개발",
       "region": "국내",
       "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "32c19fdcce80",
+      "title": "프랑스, 폭력 시위에 軍 병력 투입키로… 야간 통금도 연장",
+      "desc": "정부는 오는 24일 예고된 추가 시위에 대응하기 위해 보안 인력을 대폭 늘리기로 했다. 르코르뉘 총리는 이날 하원에서 경찰력 배치 규모가 대규모가 될 것이라고 밝혔다. 로랑 뉘녜즈 내무장관은 대테러 경계 작전인...",
+      "url": "https://biz.chosun.com/international/international_general/2026/10/21/DND7YH7DTVGWPKJRHZVHYEETYI/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+      "date": "10.21.",
+      "datetime": "10.21. 00:52",
+      "rawDate": "2026-10-21T00:52:00+09:00",
+      "source": "조선일보",
+      "sourceGroup": "조선일보",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
       "tagCls": "tag-blue",
       "lang": "ko"
     },
@@ -1884,6 +1900,22 @@
       "rawDate": "2026-10-20T22:24:00+09:00",
       "source": "gnmaeil",
       "sourceGroup": "gnmaeil",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "03dc145ac777",
+      "title": "독일 극우 AfD, 해킹으로 당원 정보 털려…이메일 42만건 유출",
+      "desc": "독일의 극우 정당 독일대안당(AfD)이 해킹당해 이메일 42만 1000여 건과 당원의 개인정보가 유출됐다는... 이번 해킹의 배후가 누구인지는 아직 밝혀지지 않았다. AfD 대변인은 해커들이 당에서 이용하던 이메일 서비스...",
+      "url": "https://www.news1.kr/world/europe/6326517",
+      "date": "10.20.",
+      "datetime": "10.20. 22:20",
+      "rawDate": "2026-10-20T22:20:00+09:00",
+      "source": "뉴스1",
+      "sourceGroup": "뉴스1",
       "channel": "자체개발",
       "region": "국내",
       "tag": "해킹/침해",
@@ -7168,38 +7200,6 @@
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "70ba49c4811a",
-      "title": "[신제품 발표 현장] 앤커코리아, '유튜버의 배터리'가 프리미엄이 된 이...",
-      "desc": "미국 보안 카메라 시장 최상위 점유율 브랜드로서 데이터 보안에 자신이 있다는 입장이다. 오프라인 접점도 넓힌다. 올해 1월 스타필드 시티 위례 팝업스토어를 시작으로 롯데백화점 본점을 거쳐 현재 롯데백화점...",
-      "url": "https://kr.aving.net/news/articleView.html?idxno=1815805",
-      "date": "10.20.",
-      "datetime": "10.20. 16:18",
-      "rawDate": "2026-10-20T16:18:00+09:00",
-      "source": "kr",
-      "sourceGroup": "kr",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "b2dc1fbec60e",
-      "title": "'프랑스 폭동' 상황이 얼마나 심각한지 알 수 있는 실제 영상들",
-      "desc": "전국에 배치한 경찰·보안 병력 6만명으로는 빠르게 이동하며 치고 빠지는 폭력 집단을 막기에 역부족이었다. 르몽드는 20일 이번 사태를 '치안 참사'로 규정했다. 정보 판단 착오부터 병력...",
-      "url": "https://www.wikitree.co.kr/articles/1167722",
-      "date": "10.20.",
-      "datetime": "10.20. 16:18",
-      "rawDate": "2026-10-20T16:18:00+09:00",
-      "source": "wikitree",
-      "sourceGroup": "wikitree",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "정책/제도",
-      "tagCls": "tag-green",
       "lang": "ko"
     },
     {
