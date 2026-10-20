@@ -23,7 +23,11 @@ MAX_ARTICLES  = 500     # 최대 보관 수
 
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-    'Accept-Language': 'ko-KR,ko;q=0.9',
+    'Accept-Language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+    'Accept-Encoding': 'gzip, deflate',
+    'Referer': 'https://www.google.com/',
+    'Connection': 'keep-alive',
 }
 
 SIMILARITY_THRESH = 0.85
@@ -32,7 +36,7 @@ WORD_JACCARD_THRESH = 0.20
 # ── RSS 피드 목록 ─────────────────────────────────────
 FEEDS = [
     # ── 자체개발 · 국내 ────────────────────────────────
-    {'url': 'https://www.boannews.com/media/news_rss.xml',          'source': '보안뉴스',      'channel': '자체개발', 'region': '국내'},
+    {'url': 'https://www.boannews.com/rss/allArticle.xml',          'source': '보안뉴스',      'channel': '자체개발', 'region': '국내'},
     {'url': 'https://www.dailysecu.com/rss/allArticle.xml',         'source': '데일리시큐',    'channel': '자체개발', 'region': '국내'},
     # ── 자체개발 · 해외 ────────────────────────────────
     {'url': 'https://feeds.feedburner.com/TheHackersNews',         'source': 'TheHackerNews', 'channel': '자체개발', 'region': '해외'},
@@ -271,14 +275,33 @@ def fetch_rss(feed):
         if r.status_code != 200:
             print(f"  ❌ {feed['source']}: HTTP {r.status_code}")
             return []
-        d = feedparser.parse(r.content)
 
-        # 진단: 파싱 실패나 HTTP 오류 시 원인 로그
+        # 인코딩 정규화: 보안뉴스 등 일부 국내 RSS는 EUC-KR이라 feedparser가
+        # 'syntax error'를 내며 실패함. 바이트를 올바른 인코딩으로 디코드해 UTF-8로 넘김.
+        raw = r.content
+        # XML 선언에 명시된 encoding 우선, 없으면 HTTP 헤더/추정값 사용
+        m = re.search(rb'encoding=["\']([\w\-]+)["\']', raw[:200])
+        enc = (m.group(1).decode('ascii', 'ignore') if m
+               else (r.encoding or r.apparent_encoding or 'utf-8'))
+        try:
+            text = raw.decode(enc, errors='replace')
+        except (LookupError, TypeError):
+            text = raw.decode('utf-8', errors='replace')
+        # XML 선언의 encoding 을 UTF-8 로 교체(선언과 실제 바이트 불일치로 인한 파싱오류 방지)
+        text = re.sub(r'(<\?xml[^>]*encoding=["\'])[\w\-]+(["\'])', r'\1UTF-8\2', text, count=1)
+        d = feedparser.parse(text.encode('utf-8'))
+
+        # 진단: 파싱 실패나 HTTP 오류 시 원인 + 응답 앞부분 로그
         if d.get('bozo') and not d.entries:
             reason = d.get('bozo_exception', '알 수 없음')
             print(f"  ⚠️ {feed['source']}: 파싱 오류 - {reason}")
+            # 응답이 RSS가 아닌 HTML(차단/에러 페이지)인지 확인용 미리보기
+            preview = re.sub(r'\s+', ' ', text[:200]).strip()
+            print(f"      응답 미리보기: {preview}")
         elif not d.entries:
             print(f"  ⚠️ {feed['source']}: entries 없음")
+            preview = re.sub(r'\s+', ' ', text[:200]).strip()
+            print(f"      응답 미리보기: {preview}")
 
         items = []
         cutoff = datetime.now(KST) - timedelta(hours=RETENTION_HRS)
@@ -473,7 +496,7 @@ THREAT_GROUPS = [
     '락빗', 'LockBit',
     '블랙캣', 'BlackCat', 'ALPHV',
     '클롭', 'Clop', 'Cl0p',
-    '알피에이치씨','에베레스트','Everest'                 # (여유분, 필요시 제거)
+    '알피에이치씨','에베레스트','Everest','다크웹'                 # (여유분, 필요시 제거)
 ]
 
 # 웹훅 중복 전송 방지용 제목 유사도 (수집용 is_similar와 별개, 안전하게 0.80)
