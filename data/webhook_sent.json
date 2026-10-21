@@ -1,8 +1,4 @@
 {
-  "https://n.news.naver.com/mnews/article/008/0005428039?sid=101": {
-    "ts": "2026-10-19T06:51:01.531266+09:00",
-    "title": "\"해킹은 못 막고\" 신한은행장 '성과급 53억' 도마 위...국감 소환"
-  },
   "http://www.knpnews.com/news/articleView.html?idxno=34693": {
     "ts": "2026-10-19T08:30:55.764795+09:00",
     "title": "롯데카드 297만 명·신한은행 2만 5,000명 정보유출…금융권 해킹사고에..."
@@ -94,5 +90,9 @@
   "https://www.itdaily.kr/news/articleView.html?idxno=242353": {
     "ts": "2026-10-21T17:46:08.257843+09:00",
     "title": "[현장] 진화한 北 '라자루스'…AI로 속이고 양자내성암호로 숨겼다"
+  },
+  "https://www.pointe.co.kr/news/articleView.html?idxno=86405": {
+    "ts": "2026-10-22T07:01:26.192364+09:00",
+    "title": "339조 굴리는 한국투자공사 사내 AI 모두 '중국산'… 보안 의식 도마 위"
   }
 }
