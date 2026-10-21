@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-22T01:31:14.715120+09:00",
+  "fetched_at": "2026-10-22T02:01:25.060874+09:00",
   "count": 500,
   "articles": [
     {
@@ -97,6 +97,22 @@
       "tag": "보안",
       "tagCls": "tag-blue",
       "lang": "ko"
+    },
+    {
+      "id": "65e2dc10b298",
+      "title": "PHP2Shell Patches Land as First Exploitation Attempts Hit Sensors",
+      "desc": "The two RCE bugs can be exploited against WordPress, Drupal, Joomla, and other popular applications.\nThe post PHP2Shell Patches Land as First Exploitation Attempts Hit Sensors appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/php2shell-patches-land-as-first-exploitation-attempts-hit-sensors/",
+      "date": "10.22.",
+      "datetime": "10.22. 01:50",
+      "rawDate": "2026-10-22T01:50:40+09:00",
+      "source": "SecurityWeek",
+      "sourceGroup": "SecurityWeek",
+      "channel": "자체개발",
+      "region": "해외",
+      "tag": "취약점/CVE",
+      "tagCls": "tag-yellow",
+      "lang": "en"
     },
     {
       "id": "dd9a847172c1",
@@ -7184,22 +7200,6 @@
       "region": "국내",
       "tag": "보안",
       "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "d50d61759482",
-      "title": "'아이들 놀이터'서 회원 6.7만명 정보 유출…보안은 어디서 뚫렸나",
-      "desc": "해커가 관리자 계정을 탈취했는지, 시스템 취약점을 이용했는지도 아직 밝혀지지 않았다. 약 6시간의 불법 접근 과정에서 비정상적인 정보 조회를 탐지하거나 차단할 수 있었는지 역시 조사 대상이다. 비밀번호와...",
-      "url": "https://www.peoplewatch.co.kr/article/view/ppw202610210009",
-      "date": "10.21.",
-      "datetime": "10.21. 16:02",
-      "rawDate": "2026-10-21T16:02:00+09:00",
-      "source": "peoplewatch",
-      "sourceGroup": "peoplewatch",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "취약점/CVE",
-      "tagCls": "tag-yellow",
       "lang": "ko"
     },
     {
