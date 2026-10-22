@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-23T02:31:08.485502+09:00",
+  "fetched_at": "2026-10-23T02:37:19.907476+09:00",
   "count": 500,
   "articles": [
     {
@@ -128,6 +128,22 @@
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "b5516076e27e",
+      "title": "&quot;오픈AI AI 감시체계에 구멍…에이전트 수백 건 행동 숨길 수도&quot;",
+      "desc": "챗GPT 개발사 오픈AI의 내부 인공지능(AI) 감시체계에서 여러 보안 취약점이 발견됐다는 시험 결과가 나왔다. 특히 이번 시험에선 AI 에이전트가 자신의 행동 수백 건을 감시망에서 숨길 수 있는 것으로 파악됐다. 22일...",
+      "url": "https://www.news1.kr/world/usa-canada/6329297",
+      "date": "10.23.",
+      "datetime": "10.23. 02:30",
+      "rawDate": "2026-10-23T02:30:00+09:00",
+      "source": "뉴스1",
+      "sourceGroup": "뉴스1",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "취약점/CVE",
+      "tagCls": "tag-yellow",
       "lang": "ko"
     },
     {
@@ -7260,22 +7276,6 @@
       "rawDate": "2026-10-22T17:16:00+09:00",
       "source": "newstnt",
       "sourceGroup": "newstnt",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "0664618b1dcb",
-      "title": "반도체엔 지원, 섬박람회엔 질타… 전남광주시 국감 현장",
-      "desc": "진행 상황도 보안을 이유로 (미군 측이) 저희에게 제공해주지 않고 있다\"고 답했다. 다만 민 시장은 \"국방장관 등을 통해 들은 이야기로는 저희 진행 속도에 (미군 측이) 협조하고 가는 데 문제가 없다는 취지로 듣고 있다...",
-      "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003277643&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
-      "date": "10.22.",
-      "datetime": "10.22. 17:16",
-      "rawDate": "2026-10-22T17:16:00+09:00",
-      "source": "ohmynews",
-      "sourceGroup": "ohmynews",
       "channel": "자체개발",
       "region": "국내",
       "tag": "보안",
