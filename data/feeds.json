@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-22T10:28:26.628379+09:00",
+  "fetched_at": "2026-10-22T10:31:04.979770+09:00",
   "count": 500,
   "articles": [
     {
@@ -160,6 +160,54 @@
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "cbbb5b849f78",
+      "title": "카카오, 명의 도용 막는 '내 명의 보호' 기능 도입",
+      "desc": "계정 보안 기능 강화 [사진 = 카카오] [뉴스투데이=최현제 기자] 카카오가 이용자 명의가 다른 카카오계정에 무단으로 등록되는 것을 막기 위한 보안 기능을 선보였다. 카카오는 이용자가 자신의 명의 등록 과정을 직접...",
+      "url": "https://www.news2day.co.kr/article/20261022500056",
+      "date": "10.22.",
+      "datetime": "10.22. 10:30",
+      "rawDate": "2026-10-22T10:30:00+09:00",
+      "source": "news2day",
+      "sourceGroup": "news2day",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "7ecdbad9309e",
+      "title": "진은숙표 현대차 'DX 자가진단'…6개월 만에 리더 역량 '쑥'",
+      "desc": "보안 사고나 시스템 장애가 왜 났는지, 어떻게 풀었고 무엇을 아직 풀지 못했는지, 새로 시도해 성과를 낸 일은 무엇인지 등 ICT본부의 크고 작은 일상을 담는다. 그는 \"경영진이 재미있게, 관심을 갖고 볼 수 있도록...",
+      "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1728739",
+      "date": "10.22.",
+      "datetime": "10.22. 10:28",
+      "rawDate": "2026-10-22T10:28:00+09:00",
+      "source": "ebn",
+      "sourceGroup": "ebn",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "cf1da2dd9190",
+      "title": "전교생에게 생성형 AI 나눠 주는 대학 늘었다, 마인드로직 대학용 AI 플...",
+      "desc": "학교 현장에 필요한 보안과 관리 기능도 갖췄다. 서비스는 공공기관이 쓸 수 있는 클라우드 보안 인증(CSAP)을 받은 환경에서 운영되며, 학교 포털 계정과 연동돼 따로 가입하지 않아도 바로 쓸 수 있다. 사용자의 대화...",
+      "url": "https://platum.kr/archives/296825",
+      "date": "10.22.",
+      "datetime": "10.22. 10:28",
+      "rawDate": "2026-10-22T10:28:00+09:00",
+      "source": "platum",
+      "sourceGroup": "platum",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
       "lang": "ko"
     },
     {
@@ -368,6 +416,22 @@
       "region": "국내",
       "tag": "정책/제도",
       "tagCls": "tag-green",
+      "lang": "ko"
+    },
+    {
+      "id": "20cd750cf932",
+      "title": "두나무 '기와' 사칭 가짜 블록체인 사기 발생…금감원 소비자경보",
+      "desc": "두나무가 개발 중인 블록체인 네트워크 '기와(GIWA)'를 사칭해 투자자들의 가상자산을 탈취하는 신종 사기... 또 개발사의 공식 계정에 게시되지 않은 '기습 출시', '에어드랍', '사전참여 이벤트' 등의 마케팅 정보는...",
+      "url": "https://www.newspim.com/news/view/20261022000398",
+      "date": "10.22.",
+      "datetime": "10.22. 10:26",
+      "rawDate": "2026-10-22T10:26:00+09:00",
+      "source": "newspim",
+      "sourceGroup": "newspim",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
       "lang": "ko"
     },
     {
@@ -819,22 +883,6 @@
       "lang": "ko"
     },
     {
-      "id": "1b0a33eba3f0",
-      "title": "두나무 '기와' 사칭 가짜 체인 사기 발생···금융감독원, 소비자경보 ...",
-      "desc": "이외의 정보는 신뢰하지 말라\"고 밝혔다. 앞서 지난 19일 금감원 국정감사에서 블록체인 기와체인을 사칭, 사기조직이 약 28억원을 탈취한 사례가 지적된 바 있다. 그러면서 금감원은 후속 조치로 이날 소비자경보령을...",
-      "url": "https://www.ngonews.kr/news/articleView.html?idxno=241176",
-      "date": "10.22.",
-      "datetime": "10.22. 10:20",
-      "rawDate": "2026-10-22T10:20:00+09:00",
-      "source": "ngonews",
-      "sourceGroup": "ngonews",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
       "id": "845a9add1544",
       "title": "테슬라, 3분기 영업익 반토막…AI 투자 부담 커졌다",
       "desc": "테슬라는 지난 9월부터 전용 자율주행 차량인 사이버캡을 오스틴 로보택시 서비스에 투입했다. 휴머노이드 로봇 '옵티머스'도 초기 생산에 들어갔다. 테슬라는 캘리포니아주 프리몬트 공장에서 판매용 제품...",
@@ -1139,22 +1187,6 @@
       "lang": "ko"
     },
     {
-      "id": "81426d33a5bc",
-      "title": "금감원, '가짜 블록체인' 사기 소비자경보…기와 사칭 피해에 '주의'",
-      "desc": "금융감독원이 두나무가 개발 중인 블록체인 네트워크 '기와(GIWA)'를 사칭해 가상자산을 탈취하는 이른바... 특히 '기습 출시'나 '에어드랍' 등 개발사의 공식 계정에 게시되지 않은 홍보 정보에 주의해야 한다고 강조했다....",
-      "url": "https://www.newsis.com/view/NISX20261022_0003836270",
-      "date": "10.22.",
-      "datetime": "10.22. 10:11",
-      "rawDate": "2026-10-22T10:11:00+09:00",
-      "source": "뉴시스",
-      "sourceGroup": "뉴시스",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
       "id": "0e45da18e1ef",
       "title": "뉴질랜드 피셔앤페이켈 헬스케어, 사이버 공격 피해…조사 착수",
       "desc": "뉴질랜드 의료기기 업체 피셔앤페이켈 헬스케어(Fisher & Paykel Healthcare)가 사이버 보안 사고를 당해 조사에 착수했다. 피셔앤페이켈 헬스케어는 최근 회사의 정보기술 시스템과 관련한 사이버 보안 침해 사실을 확인하고...",
@@ -1344,6 +1376,22 @@
       "region": "국내",
       "tag": "정책/제도",
       "tagCls": "tag-green",
+      "lang": "ko"
+    },
+    {
+      "id": "f7227cb27573",
+      "title": "&quot;AI·로봇 기업 변신한다더니&quot;…테슬라, 설비투자 50억 달러 삭감에 쏟아...",
+      "desc": "옵티머스와 사이버캡이 실제로 얼마나 빠르게 구축되고 있는지 투자자들이 확인할 수 있는 유일한 확정... 테슬라는 지난달 공개한 2인승 자율주행차 사이버캡을 오스틴 로보택시 운용에 투입하고 피닉스...",
+      "url": "https://www.smarttoday.co.kr/ko-kr/articles/113014",
+      "date": "10.22.",
+      "datetime": "10.22. 10:04",
+      "rawDate": "2026-10-22T10:04:00+09:00",
+      "source": "smarttoday",
+      "sourceGroup": "smarttoday",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
       "lang": "ko"
     },
     {
@@ -1760,22 +1808,6 @@
       "region": "국내",
       "tag": "정책/제도",
       "tagCls": "tag-green",
-      "lang": "ko"
-    },
-    {
-      "id": "2b8a15378a41",
-      "title": "카카오, 명의 도용 피해 예방 돕는 '내 명의 보호' 기능 도입",
-      "desc": "디지털 인사이트 | 김동욱 기자 최근 나날이 개인 정보 보안 중요도가 높아지고 있는 상황 속에서 카카오가... 하는 보안 기능이다. 카카오에 따르면 이번 기능은 명의 도용으로 인한 피해가 증가하는 가운데 피해 예방을...",
-      "url": "https://ditoday.com/%ec%b9%b4%ec%b9%b4%ec%98%a4-%eb%aa%85%ec%9d%98-%eb%8f%84%ec%9a%a9-%ed%94%bc%ed%95%b4-%ec%98%88%eb%b0%a9-%eb%8f%95%eb%8a%94-%eb%82%b4-%eb%aa%85%ec%9d%98-%eb%b3%b4%ed%98%b8-%ea%b8%b0%eb%8a%a5/",
-      "date": "10.22.",
-      "datetime": "10.22. 09:54",
-      "rawDate": "2026-10-22T09:54:00+09:00",
-      "source": "ditoday",
-      "sourceGroup": "ditoday",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
       "lang": "ko"
     },
     {
@@ -7680,38 +7712,6 @@
       "region": "국내",
       "tag": "가용성",
       "tagCls": "tag-orange",
-      "lang": "ko"
-    },
-    {
-      "id": "5ead84ee8920",
-      "title": "DB손보, 중소기업 사이버보험 시장 공략",
-      "desc": "해킹 등 침해사고 예방부터 사후 대응과 피해 보상까지 연계해 기업의 위험관리 역량을 높인다는 구상이다. DB손해보험은 지난 20일 경기 성남시 SK쉴더스 판교사옥에서 중소기업기술혁신협회(이노비즈협회)...",
-      "url": "https://www.lcnews.co.kr/news/articleView.html?idxno=210048",
-      "date": "10.22.",
-      "datetime": "10.22. 00:12",
-      "rawDate": "2026-10-22T00:12:00+09:00",
-      "source": "lcnews",
-      "sourceGroup": "lcnews",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "5d96f3a403a5",
-      "title": "섀도AI가 부른 싱가포르 첫 AI 유출 사고, 괄호 하나 빠져 9만 5,364명 주...",
-      "desc": "실제 발송 전에 가짜 수신 계정으로 테스트 메일을 보내는 보안 개발 절차를 갖춘다. 대응을 문서화된... 막는다고 사라지지 않는다…금지가 오히려 AI를 숨긴다섀도AI는 IT·보안팀이 볼 수 없는 AI 사용을 뜻한다....",
-      "url": "https://www.wikitree.co.kr/articles/1168145",
-      "date": "10.22.",
-      "datetime": "10.22. 00:12",
-      "rawDate": "2026-10-22T00:12:00+09:00",
-      "source": "wikitree",
-      "sourceGroup": "wikitree",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
       "lang": "ko"
     },
     {
