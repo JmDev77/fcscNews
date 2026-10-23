@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-24T04:09:22.495153+09:00",
+  "fetched_at": "2026-10-24T04:31:07.065178+09:00",
   "count": 500,
   "articles": [
     {
@@ -448,6 +448,22 @@
       "region": "국내",
       "tag": "AI 보안",
       "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "a7421eee2443",
+      "title": "‘프로젝트 김치’ 토큰, 시총 1,400만 달러서 98% 급락…펌프펀 손잡은...",
+      "desc": "계정 해킹설과 자작극설이 맞서고 있다. 환불 합의나 공식 조사 결과는 아직 확인되지 않았다.QR코드 한... 짚었다.해킹인가 자작인가, 엇갈리는 해석초기에는 김치 계정이 해킹당했다는 보도가 나왔다. 그러나...",
+      "url": "https://www.wikitree.co.kr/articles/1168708",
+      "date": "10.24.",
+      "datetime": "10.24. 04:10",
+      "rawDate": "2026-10-24T04:10:00+09:00",
+      "source": "wikitree",
+      "sourceGroup": "wikitree",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
       "lang": "ko"
     },
     {
@@ -2709,7 +2725,7 @@
     {
       "id": "600ea043be15",
       "title": "AI Agents as Insider Threats: Inside Microsoft's Bet on a Unified Security Stack",
-      "desc": "Microsoft's Project Perception adds Guardian Agents to monitor and contain anomalous AI agents, but experts warn that policing unpredictable agents with other agents may multiply — not contain — the risk.",
+      "desc": "Microsoft's Project Perception adds Guardian Agents to monitor and contain anomalous AI agents, but experts warn that policing unpredictable agents with other agents may compound — not contain — the risk.",
       "url": "https://www.darkreading.com/cybersecurity-operations/ai-agents-insider-threats-inside-microsoft-unified-security-stack",
       "date": "10.23.",
       "datetime": "10.23. 20:38",
@@ -7601,22 +7617,6 @@
       "tag": "해킹/침해",
       "tagCls": "tag-red",
       "lang": "en"
-    },
-    {
-      "id": "c20bddad5b0b",
-      "title": "&quot;韓 방산 '골든타임' 3~4년뿐&quot;",
-      "desc": "우리 군 안팎 정보는 물론 국제 정세에도 밝은 그에게 남·북 군사력 현황 등에 대해 다각도로 물었다. 한국... 해커들이 가상화폐 거래소에서 탈취한 암호화폐가 지도부 통치 자금과 무기 개발 비용으로 활용되는 식이다....",
-      "url": "https://www.m-joongang.com/news/articleView.html?idxno=403221",
-      "date": "10.23.",
-      "datetime": "10.23. 12:06",
-      "rawDate": "2026-10-23T12:06:00+09:00",
-      "source": "m-joongang",
-      "sourceGroup": "m-joongang",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
     },
     {
       "id": "7256bd4004b1",
