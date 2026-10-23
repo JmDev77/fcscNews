@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-24T04:31:07.065178+09:00",
+  "fetched_at": "2026-10-24T05:01:13.826575+09:00",
   "count": 500,
   "articles": [
     {
@@ -433,6 +433,22 @@
       "tag": "해킹/침해",
       "tagCls": "tag-red",
       "lang": "en"
+    },
+    {
+      "id": "3734cb3538bc",
+      "title": "美전문가 &quot;김정은 최고의 시기…北성장률, 韓추정보다 높을수도&quot;",
+      "desc": "그는 이렇게 평가한 배경으로 우크라이나 전쟁과 중국과의 협력 확대, 사이버 범죄를 통한 수입 증대 등을 꼽았다. 이어 이 같은 요인들이 맞물리면서 북한이 향후 몇 년간 확보할 수 있는 것보다 현재 더 많은 자금을...",
+      "url": "https://www.yna.co.kr/view/AKR20261024004000071?input=1195m",
+      "date": "10.24.",
+      "datetime": "10.24. 04:47",
+      "rawDate": "2026-10-24T04:47:00+09:00",
+      "source": "연합뉴스",
+      "sourceGroup": "연합뉴스",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "북한/APT",
+      "tagCls": "tag-purple",
+      "lang": "ko"
     },
     {
       "id": "2a1bfa07ba3d",
@@ -7601,22 +7617,6 @@
       "tag": "해킹/침해",
       "tagCls": "tag-red",
       "lang": "ko"
-    },
-    {
-      "id": "e8e62db5030f",
-      "title": "State Bank of India Suffers a Customer PII Data Leak",
-      "desc": "Relatively small data breaches in India can turn quite serious, thanks to a sophisticated underground market for trading PII.",
-      "url": "https://www.darkreading.com/cyberattacks-data-breaches/state-bank-india-customer-pii-data-leak",
-      "date": "10.23.",
-      "datetime": "10.23. 12:30",
-      "rawDate": "2026-10-23T12:30:00+09:00",
-      "source": "DarkReading",
-      "sourceGroup": "DarkReading",
-      "channel": "자체개발",
-      "region": "해외",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "en"
     },
     {
       "id": "7256bd4004b1",
