@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-24T03:31:16.308169+09:00",
+  "fetched_at": "2026-10-24T04:01:22.236905+09:00",
   "count": 500,
   "articles": [
     {
@@ -31,6 +31,38 @@
       "channel": "자체개발",
       "region": "국내",
       "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "0f2175cedd51",
+      "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
+      "desc": "Diplomatic organizations in Central Asia have been targeted by a sophisticated new Unified Extensible Firmware Interface (UEFI) bootkit called BlackX.\n\nThe activity, which singled out diplomatic entities in Tajikistan, Uzbekistan, and Turkmenistan in early 2026, is suspected to be orchestrated by a China-linked state-sponsored hacking group known as APT41, Kaspersky said in a technical report",
+      "url": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
+      "date": "10.24.",
+      "datetime": "10.24. 03:50",
+      "rawDate": "2026-10-24T03:50:13+09:00",
+      "source": "TheHackerNews",
+      "sourceGroup": "TheHackerNews",
+      "channel": "자체개발",
+      "region": "해외",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "en"
+    },
+    {
+      "id": "6b29bdba8aaf",
+      "title": "프랑스 주말 시위에 군경 7만 명 투입...긴장 고조 속 총기 난사까지",
+      "desc": "명의 보안 인력을 투입하기로 했습니다. 특히 시청과 같은 공공시설에는 대테러 작전에 투입되는... 프랑스 정부가 보안 조치를 대폭 강화했지만, 허가받지 않은 단체들도 시위를 강행한다는 입장이어서 또다시 폭력...",
+      "url": "https://www.ytn.co.kr/_ln/0104_202610240336344557",
+      "date": "10.24.",
+      "datetime": "10.24. 03:36",
+      "rawDate": "2026-10-24T03:36:00+09:00",
+      "source": "YTN",
+      "sourceGroup": "YTN",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
       "tagCls": "tag-blue",
       "lang": "ko"
     },
@@ -176,22 +208,6 @@
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "ec9badc3d587",
-      "title": "프랑스, 주말 시위에 보안인력 7만명 투입…장갑차·물대포차 동원",
-      "desc": "프랑스는 주말 사이 예고된 대규모 집회에 7만명의 보안인력과 장갑차를 투입해 대응합니다. 로랑 뉘녜즈 프랑스 내무장관은 현지시간 23일 기자회견에서 \"폭력을 저지르는 폭도와 약탈꾼에는 강경 대응할 것\"이라고...",
-      "url": "http://www.yonhapnewstv.co.kr/news/AKR2026102402322400t",
-      "date": "10.24.",
-      "datetime": "10.24. 02:33",
-      "rawDate": "2026-10-24T02:33:00+09:00",
-      "source": "yonhapnewstv",
-      "sourceGroup": "yonhapnewstv",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
       "lang": "ko"
     },
     {
@@ -480,22 +496,6 @@
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "d16539828c41",
-      "title": "프랑스, 주말 시위 예고에 경찰 7만 명 배치",
-      "desc": "로랑 누네즈 내무장관은 파리에서 열린 기자회견에서 토요일 약 7만 명의 보안 병력이 배치될 것이라고... 이에 누네즈 장관은 총리실의 요청에 따라 23일 오를레앙을 방문해 보안 상황을 점검할 예정이다. 마크롱...",
-      "url": "https://www.gukjenews.com/news/articleView.html?idxno=3731272",
-      "date": "10.24.",
-      "datetime": "10.24. 01:18",
-      "rawDate": "2026-10-24T01:18:00+09:00",
-      "source": "gukjenews",
-      "sourceGroup": "gukjenews",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
       "lang": "ko"
     },
     {
