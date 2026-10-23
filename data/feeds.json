@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-24T07:31:11.155250+09:00",
+  "fetched_at": "2026-10-24T07:37:14.167520+09:00",
   "count": 500,
   "articles": [
     {
@@ -261,12 +261,12 @@
     {
       "id": "b2f559bd1a51",
       "title": "대한항공·아시아나, 아마데우스 협력사 해킹으로 고객정보 유출",
-      "desc": "관련 보도: news.sbs.co.kr",
+      "desc": "관련 보도: news.sbs.co.kr · newsian.co.kr",
       "url": "https://www.hankyung.com/article/2026102320337",
       "date": "10.24.",
       "datetime": "10.24. 08:00",
       "rawDate": "2026-10-24T08:00:00+09:00",
-      "source": "한국경제 외 1곳",
+      "source": "한국경제 외 2곳",
       "sourceGroup": "한국경제",
       "channel": "쉴더스",
       "region": "국내",
@@ -435,6 +435,22 @@
       "lang": "en"
     },
     {
+      "id": "787f4ded968f",
+      "title": "면세구역서 주운 담배 반출하다 걸린 직원, 징계 피해 퇴사 후 재입사",
+      "desc": "인천국제공항 자회사 직원이 공항 면세구역 화장실에서 주운 담배를 반출하려다 보안 검색에 적발, 징계를... 퇴근하다가 보안 검색에 적발됐다. 이 사건은 같은 해 4월 9일에야 감사 부서에 정식 접수됐다. A 씨가 감사...",
+      "url": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20261024.99099006940",
+      "date": "10.24.",
+      "datetime": "10.24. 07:33",
+      "rawDate": "2026-10-24T07:33:00+09:00",
+      "source": "kookje",
+      "sourceGroup": "kookje",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
       "id": "3a6eb26adebe",
       "title": "식당 CCTV를 SNS 홍보에?…얼굴 무단 노출 시 법적 책임 따른다",
       "desc": "사생활 침해로 법적 책임을 질 수 있다. 음식점이나 관광지 등에서 음식과 장소를 기록하려고 찍은 사진에... 싫다\", \"개인정보에 대한 개념이 없는 것 같다\" 등의 반응을 보였다. 법조계와 사법부 역시 공공장소라는...",
@@ -448,6 +464,22 @@
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "8c7e772dd499",
+      "title": "신민당 돌풍의 서곡; 민한당 집단탈당 [그날의 증언들]",
+      "desc": "보안을 위해 \"엠파이어호텔에서 커피나 한잔 하자\"는 말 외에는 일절 하지 않았다. 12월 19일 오전 7시. 서울 엠파이어호텔 커피숍. \"지난 4년 동안 소속 의원들의 노력으로 조금씩 축적되어 왔던 민한당의 자생력과 집권...",
+      "url": "https://www.sisaon.co.kr/news/articleView.html?idxno=205161",
+      "date": "10.24.",
+      "datetime": "10.24. 07:30",
+      "rawDate": "2026-10-24T07:30:00+09:00",
+      "source": "sisaon",
+      "sourceGroup": "sisaon",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
       "lang": "ko"
     },
     {
@@ -1039,22 +1071,6 @@
       "channel": "자체개발",
       "region": "국내",
       "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "149c4e52d5b7",
-      "title": "공항서 주운 담배 빼돌리다 걸린 직원…징계 피해 퇴사후 재입사",
-      "desc": "반출하려다 보안검색에 적발됐으나 징계를 피해 퇴사한 뒤 다시 입사한 사례가 확인됐다. 24일 국회... 퇴근하다가 보안검색에 적발됐다. 이 사건은 같은 해 4월 9일에야 감사 부서에 정식 접수됐지만, A씨가 감사 계획이...",
-      "url": "https://www.yna.co.kr/view/AKR20261023124600065?input=1195m",
-      "date": "10.24.",
-      "datetime": "10.24. 06:00",
-      "rawDate": "2026-10-24T06:00:00+09:00",
-      "source": "연합뉴스",
-      "sourceGroup": "연합뉴스",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
       "tagCls": "tag-blue",
       "lang": "ko"
     },
@@ -7596,22 +7612,6 @@
       "rawDate": "2026-10-23T16:21:00+09:00",
       "source": "뉴시스",
       "sourceGroup": "뉴시스",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "ec9462ac7fd6",
-      "title": "[기자수첩] 해킹은 전방위인데, 1년 전 정부 약속 어디로",
-      "desc": "올해 국감에서 해킹 문제가 차지한 지분은 상당했다. 정무위에서는 은행권과 강남언니의 개인정보 유출을... 금융권 해킹은 금융당국 소관이라는 이유에서다. 배경훈 부총리 겸 과기정통부 장관은 사이버 공격 대응 총괄...",
-      "url": "https://www.techm.kr/news/articleView.html?idxno=156453",
-      "date": "10.23.",
-      "datetime": "10.23. 16:20",
-      "rawDate": "2026-10-23T16:20:00+09:00",
-      "source": "techm",
-      "sourceGroup": "techm",
       "channel": "자체개발",
       "region": "국내",
       "tag": "해킹/침해",
