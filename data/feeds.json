@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-24T20:31:08.774374+09:00",
+  "fetched_at": "2026-10-24T21:01:19.422773+09:00",
   "count": 500,
   "articles": [
     {
@@ -44,6 +44,54 @@
       "rawDate": "2026-10-24T22:58:49+09:00",
       "source": "보안뉴스",
       "sourceGroup": "보안뉴스",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "1a8f41dd4f4b",
+      "title": "대한항공·아시아나, 글로벌 IT 외주업체 해킹에 고객 정보 털렸다",
+      "desc": "내부 전산망이 직접 해킹된 것은 아니지만, 아웃소싱 체계의 구조적 취약점이 노출되면서 항공업계 전반의 IT 공급망 보안 리스크가 수면 위로 떠올랐다. 23일 항공업계에 따르면 대한항공과 아시아나항공은 20일...",
+      "url": "https://www.industrynews.co.kr/news/articleView.html?idxno=88141",
+      "date": "10.24.",
+      "datetime": "10.24. 20:50",
+      "rawDate": "2026-10-24T20:50:00+09:00",
+      "source": "industrynews",
+      "sourceGroup": "industrynews",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "796d7811ff78",
+      "title": "AI가 스스로 감시 장치를 껐다…AI ‘미스얼라인먼트’의 정체",
+      "desc": "오픈AI는 지난 8월 공개한 내부 사이버보안 평가 사고 분석에서 목표 달성을 위해 평가 구조의 허점을 이용하는 ‘리워드 해킹’, 실패한 업무를 계속 시도하는 과도한 지속성, 승인되지 않은 통신 등을...",
+      "url": "https://www.ddaily.co.kr/page/view/2026102411543063408",
+      "date": "10.24.",
+      "datetime": "10.24. 20:42",
+      "rawDate": "2026-10-24T20:42:00+09:00",
+      "source": "디지털데일리",
+      "sourceGroup": "디지털데일리",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "aa7a42a314dc",
+      "title": "'금융권 해킹' 수사, 돌고 돌아 다시 경찰이…'사건 지연' 현실화?",
+      "desc": "이후 사이버 범죄는 중수청이 담당하는 6대 중대범죄에 포함된다고 보고, 금융당국의 유권해석 등을 바탕으로 사건 통보를 결정했습니다. 하지만 통보 사흘 만에 중수청은 사건을 이첩받지 않기로 했습니다. 경찰 수사가...",
+      "url": "http://www.yonhapnewstv.co.kr/news/MYH202610242029043r2",
+      "date": "10.24.",
+      "datetime": "10.24. 20:30",
+      "rawDate": "2026-10-24T20:30:00+09:00",
+      "source": "yonhapnewstv",
+      "sourceGroup": "yonhapnewstv",
       "channel": "자체개발",
       "region": "국내",
       "tag": "해킹/침해",
@@ -129,6 +177,22 @@
       "tag": "보안",
       "tagCls": "tag-blue",
       "lang": "ko"
+    },
+    {
+      "id": "0f71ebe7a492",
+      "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
+      "desc": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python&nbsp;Brotli&nbsp;and&nbsp;brotlicffi&nbsp;packages, and Envoy proxies set up to decompress Brotli.\n\nTracked as&nbsp;CVE-2026-111497, the flaw allows crafted compressed data to overwrite past the end of a buffer and corrupt a program's memory, potentially",
+      "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
+      "date": "10.24.",
+      "datetime": "10.24. 20:09",
+      "rawDate": "2026-10-24T20:09:29+09:00",
+      "source": "TheHackerNews",
+      "sourceGroup": "TheHackerNews",
+      "channel": "자체개발",
+      "region": "해외",
+      "tag": "취약점/CVE",
+      "tagCls": "tag-yellow",
+      "lang": "en"
     },
     {
       "id": "e2abdd38dae0",
@@ -225,6 +289,22 @@
       "tag": "보안",
       "tagCls": "tag-blue",
       "lang": "ko"
+    },
+    {
+      "id": "9d52cbe35a24",
+      "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
+      "desc": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python package.\n\n\"On May 27, 2026, a configuration file was committed to the public LiteLLM-Labs/lite-harness repository which inadvertently contained the master key to a deployment of",
+      "url": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
+      "date": "10.24.",
+      "datetime": "10.24. 20:03",
+      "rawDate": "2026-10-24T20:03:33+09:00",
+      "source": "TheHackerNews",
+      "sourceGroup": "TheHackerNews",
+      "channel": "자체개발",
+      "region": "해외",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "en"
     },
     {
       "id": "f37a12cfd2ea",
@@ -705,22 +785,6 @@
       "tag": "보안",
       "tagCls": "tag-blue",
       "lang": "ko"
-    },
-    {
-      "id": "0f71ebe7a492",
-      "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
-      "desc": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python&nbsp;Brotli&nbsp;and&nbsp;brotlicffi&nbsp;packages, and Envoy proxies set up to decompress Brotli.\n\nTracked as&nbsp;CVE-2026-111497, the flaw allows crafted compressed data to overwrite past the end of a buffer and corrupt a program's memory, potentially",
-      "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
-      "date": "10.24.",
-      "datetime": "10.24. 17:45",
-      "rawDate": "2026-10-24T17:45:56+09:00",
-      "source": "TheHackerNews",
-      "sourceGroup": "TheHackerNews",
-      "channel": "자체개발",
-      "region": "해외",
-      "tag": "취약점/CVE",
-      "tagCls": "tag-yellow",
-      "lang": "en"
     },
     {
       "id": "0bcf0ecf1bfe",
@@ -2947,22 +3011,6 @@
       "lang": "ko"
     },
     {
-      "id": "ff43ce8b1b39",
-      "title": "[금융 해킹 수사 핑퐁] \"경찰서 넘겼더니 다시 경찰로\"…금융권 해킹 '수...",
-      "desc": "해킹의 원서버와 IP, 공격 경로 추적을 위해서는 중국 등과의 국제공조가 필수적이지만, 중수청의 관련... 이런 상황에서 중수청이 경찰로부터 통보받은 금융기관 인공지능(AI) 해킹 사건에 대해 수사에 착수하지 않기로...",
-      "url": "https://www.cbci.co.kr/news/articleView.html?idxno=618798",
-      "date": "10.24.",
-      "datetime": "10.24. 10:06",
-      "rawDate": "2026-10-24T10:06:00+09:00",
-      "source": "cbci",
-      "sourceGroup": "cbci",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
       "id": "e4a939e862ee",
       "title": "美 대형은행들, AI의 고객 계좌 접근 차단…무단 금융거래 우려",
       "desc": "다만 현재까지 AI 에이전트의 비정상적인 행동으로 고객 자금에 피해가 발생하거나 계좌가 해킹당한 증거는 발견되지 않았다. 미국 은행들은 AI를 활용한 대규모 사이버 공격에도 대비하고 있다. 주요 은행들은 앞서...",
@@ -3168,22 +3216,6 @@
       "region": "국내",
       "tag": "북한/APT",
       "tagCls": "tag-purple",
-      "lang": "ko"
-    },
-    {
-      "id": "6938a14f72d0",
-      "title": "'대한항공·아시아나 고객정보 샜다'…글로벌 IT망 보안 '비상'",
-      "desc": "대한항공과 아시아나항공의 항공권 예약·발권 업무를 지원하는 글로벌 항공 IT 기업에서 개인정보 유출 사고가 발생해 고객 정보 보호에 비상이 걸렸다. 양사는 자체 시스템에 대한 직접적인 침해 정황은 확인되지...",
-      "url": "https://www.ngonews.kr/news/articleView.html?idxno=241351",
-      "date": "10.24.",
-      "datetime": "10.24. 09:38",
-      "rawDate": "2026-10-24T09:38:00+09:00",
-      "source": "ngonews",
-      "sourceGroup": "ngonews",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
       "lang": "ko"
     },
     {
@@ -7664,38 +7696,6 @@
       "region": "국내",
       "tag": "정책/제도",
       "tagCls": "tag-green",
-      "lang": "ko"
-    },
-    {
-      "id": "d90f0d58d104",
-      "title": "駐日 미군기지, BYD車 출입금지령…“中 전기차, 바퀴달린 ‘몰래카메라...",
-      "desc": "기지 내 핵심 시설 보호와 치안 유지를 담당하는 제18보안전대는 모든 출입구에서 BYD 차량의 진입을... 2018년에는 보안 우려를 이유로 전 세계 미군 기지 내 매점에서 중국 통신장비업체 화웨이와 ZTE가 제조한 스마트폰의...",
-      "url": "https://www.dailian.co.kr/news/view/1705566/?sc=Naver",
-      "date": "10.23.",
-      "datetime": "10.23. 20:02",
-      "rawDate": "2026-10-23T20:02:00+09:00",
-      "source": "dailian",
-      "sourceGroup": "dailian",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "6dc3a19273d5",
-      "title": "전 세계 웹 노린 'PHP' 보안 구멍… 구글·아마존·오픈AI '긴급 방어전...",
-      "desc": "아마존은 자체 위협 탐지 시스템인 '매드팟(MadPot)'을 통해 이번 취약점이 일반에 공개되기 전부터 이를 악용하려는 해킹 시도를 선제 탐지했다고 밝혔다. 다만 해커들이 사전에 취약점 정보를 입수한 경로는 아직...",
-      "url": "https://it.chosun.com/news/articleView.html?idxno=2023092172709",
-      "date": "10.23.",
-      "datetime": "10.23. 19:52",
-      "rawDate": "2026-10-23T19:52:00+09:00",
-      "source": "조선일보",
-      "sourceGroup": "조선일보",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
       "lang": "ko"
     },
     {
