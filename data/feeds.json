@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-25T01:01:14.769520+09:00",
+  "fetched_at": "2026-10-25T01:30:59.140260+09:00",
   "count": 500,
   "articles": [
     {
@@ -17,6 +17,54 @@
       "tag": "보안",
       "tagCls": "tag-blue",
       "lang": "en"
+    },
+    {
+      "id": "d6718baea550",
+      "title": "비트겟 해커 지갑, 사흘간 52건 이체로 1,948만 달러 이동…99%가 비트코...",
+      "desc": "거래소 비트겟(Bitget)을 노린 해킹 자금이 다시 움직이고 있다. 블록체인 분석업체 아캄(Arkham)은 해커 연계 지갑이 10월 15일(현지시각) 이후 새 주소로 7,801만 달러를 보냈다고 밝혔다. 최근 사흘 남짓 동안에만...",
+      "url": "https://www.wikitree.co.kr/articles/1168863",
+      "date": "10.25.",
+      "datetime": "10.25. 01:24",
+      "rawDate": "2026-10-25T01:24:00+09:00",
+      "source": "wikitree",
+      "sourceGroup": "wikitree",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "1fe00a60d107",
+      "title": "[르포] 김정은 떠난 단둥…대북소식통 &quot;아침부터 공안과 함께 있었다&quot;",
+      "desc": "이에 앞서 15일 신압록강대교 개통식을 앞두고도 주변에서는 보안 조치가 이뤄졌다. 관계자들이 대교가... 이날 소식통이 아침부터 공안과 함께 있었던 것도 김 총비서 방문에 따른 경호·보안 조치의 일환이었을 가능성이...",
+      "url": "https://www.news1.kr/world/northeast-asia/6330851",
+      "date": "10.25.",
+      "datetime": "10.25. 01:11",
+      "rawDate": "2026-10-25T01:11:00+09:00",
+      "source": "뉴스1",
+      "sourceGroup": "뉴스1",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "aa670a69587a",
+      "title": "YS의 오른팔 '우형우' 최형우 전 장관 별세…민주화 투쟁 이끈 6선 정치...",
+      "desc": "국군보안사령부 대공분실에 끌려가 약 3개월간 고문을 당했다. 1980년 전두환 신군부의 5·17 비상계엄 선포 이후에도 보안사령부에 연행돼 고초를 겪었으며, 신군부에 의해 의원직을 상실했다. 1981년 김 전 대통령이...",
+      "url": "http://weekly.chosun.com/news/articleView.html?idxno=56531",
+      "date": "10.25.",
+      "datetime": "10.25. 01:00",
+      "rawDate": "2026-10-25T01:00:00+09:00",
+      "source": "조선일보",
+      "sourceGroup": "조선일보",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
     },
     {
       "id": "09499fbbafa8",
@@ -928,22 +976,6 @@
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "89f60ceeb115",
-      "title": "'YS 오른팔' 최형우 전 장관, 별세…여야 조문 행렬, 민주화 투쟁 재조명",
-      "desc": "고인은 박정희 정권의 장기 집권 움직임을 비판하다 보안사령부 소속 대공분실에 끌려가 약 3개월간 고문을 당했다. 1980년 전두환 신군부의 5·17 비상계엄 선포 직후에도 연행돼 고초를 겪었고, 의원직을 상실했다. 이후...",
-      "url": "https://www.ajunews.com/view/20261024193847433",
-      "date": "10.24.",
-      "datetime": "10.24. 19:48",
-      "rawDate": "2026-10-24T19:48:00+09:00",
-      "source": "ajunews",
-      "sourceGroup": "ajunews",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
       "lang": "ko"
     },
     {
@@ -4357,12 +4389,12 @@
     {
       "id": "aba619eeae30",
       "title": "오픈AI, 훈련 중 AI 모델이 보안망을 뚫고 인터넷에 접속해 훈련 일시 중단 — 로이터 보도, 이 과정에서 압축 소프트웨어 Brotli의 임의 코드 실행 취약점도 발견",
-      "desc": "관련 보도: yna.co.kr · m-economynews.com · mbn.mk.co.kr · tfmedia.co.kr · hansbiz.co.kr · aitimes.com",
+      "desc": "관련 보도: yna.co.kr · m-economynews.com · mbn.mk.co.kr · tfmedia.co.kr · hansbiz.co.kr · aitimes.com · cbci.co.kr",
       "url": "https://www.news1.kr/world/usa-canada/6330607",
       "date": "10.24.",
       "datetime": "10.24. 08:00",
       "rawDate": "2026-10-24T08:00:00+09:00",
-      "source": "뉴스1 외 6곳",
+      "source": "뉴스1 외 7곳",
       "sourceGroup": "뉴스1",
       "channel": "쉴더스",
       "region": "국내",
@@ -7664,38 +7696,6 @@
       "region": "국내",
       "tag": "보안",
       "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "83b4a78755a2",
-      "title": "국회 농해수위, 해수부 종합감사 끝으로 2026년 국정감사 완료",
-      "desc": "이외에도 중국산 항만 장비의 보안 위험, 해양쓰레기 처리 대책, 어선원 구명조끼 착용 실효성 확보 등 다양한 현안에 대한 개선책 마련을 요구했다. 농해수위는 이날 종합감사를 끝으로 17일간 51개 피감기관을 대상으로...",
-      "url": "https://www.tournews21.com/news/articleView.html?idxno=146552",
-      "date": "10.23.",
-      "datetime": "10.23. 20:50",
-      "rawDate": "2026-10-23T20:50:00+09:00",
-      "source": "tournews21",
-      "sourceGroup": "tournews21",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "1d0be009e65f",
-      "title": "조달청, 계약이행 능력 없는 업체 사전 배제... ‘묻지마 입찰’ 차단",
-      "desc": "조달청이 계약 이행 능력이 부족한 업체의 공공조달시장 진입을 사전에 차단하기 위한 강도 높은 대책 시행에 나선다.조달청(청장 백승보)은 기업의 정당한 낙찰 기회를 보호하고 공정한 경쟁 환경을 조성하기 위해 11월 16일부터 ‘물품구매 무분별 입찰 근절 대책’을 본격 시행한다고 밝혔다.조달청은 2021년부터 제조 입찰 전환과 직접이행 의무 도입 등 세 차례에 걸쳐 개선 대책을 추진해 왔다. 그러나 입찰 브로커 개입 여부를 확인하기 어렵고 입찰 이후 제재 중심의 사후 조치만으로는 무분별한 입찰을 근본적으로 막는 데 한계가 있다는 지적이",
-      "url": "https://www.boannews.com/news/articleView.html?idxno=146695",
-      "date": "10.23.",
-      "datetime": "10.23. 20:48",
-      "rawDate": "2026-10-23T20:48:21+09:00",
-      "source": "보안뉴스",
-      "sourceGroup": "보안뉴스",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "정책/제도",
-      "tagCls": "tag-green",
       "lang": "ko"
     },
     {
