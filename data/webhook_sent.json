@@ -114,5 +114,9 @@
   "https://www.etoday.co.kr/news/view/2639654": {
     "ts": "2026-10-24T14:31:08.291093+09:00",
     "title": "PHP 취약점 악용한 공격 준비 정황…北 라자루스 연계 가능성"
+  },
+  "https://www.obsnews.co.kr/news/articleView.html?idxno=1541590": {
+    "ts": "2026-10-24T20:31:09.238783+09:00",
+    "title": "북한 라자루스, PHP 취약점 악용 공격 준비 정황"
   }
 }
