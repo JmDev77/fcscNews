@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-25T04:47:34.533258+09:00",
+  "fetched_at": "2026-10-25T05:01:14.954271+09:00",
   "count": 500,
   "articles": [
     {
@@ -433,6 +433,22 @@
       "tag": "해킹/침해",
       "tagCls": "tag-red",
       "lang": "en"
+    },
+    {
+      "id": "6b6ccdd1f807",
+      "title": "'서프라이즈 미스터리 살롱' 이찬원, 감옥서 10년 견딘 6000억 보물선 건...",
+      "desc": "가명으로 플로리다 호텔 등을 전전하며 은신하던 그는 도피 3년 만인 2015년 미 연방 보안관에게 체포되었다. 톰슨을 ​체포한 후 검찰과 법원은 그가 가져간 보물 중 행방이 묘연해진 '금화 500개'의 위치를 공개하라고...",
+      "url": "https://www.topstarnews.net/news/articleView.html?idxno=16257066",
+      "date": "10.25.",
+      "datetime": "10.25. 04:58",
+      "rawDate": "2026-10-25T04:58:00+09:00",
+      "source": "topstarnews",
+      "sourceGroup": "topstarnews",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "정책/제도",
+      "tagCls": "tag-green",
+      "lang": "ko"
     },
     {
       "id": "b39f2521500a",
@@ -7889,22 +7905,6 @@
       "tag": "해킹/침해",
       "tagCls": "tag-red",
       "lang": "en"
-    },
-    {
-      "id": "6dc3a19273d5",
-      "title": "전 세계 웹 노린 'PHP' 보안 구멍… 구글·아마존·오픈AI '긴급 방어전...",
-      "desc": "이번 취약점이 악용될 경우 민감한 정보 탈취는 물론 시스템 통제권까지 통째로 넘어갈 수 있다. 사태가 일파만파 커지자 각국 정부도 긴급 조치에 나섰다. 미국 NSA는 21일 관련 기업과 기관에 신속한 보안...",
-      "url": "https://it.chosun.com/news/articleView.html?idxno=2023092172709",
-      "date": "10.23.",
-      "datetime": "10.23. 19:52",
-      "rawDate": "2026-10-23T19:52:00+09:00",
-      "source": "조선일보",
-      "sourceGroup": "조선일보",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "취약점/CVE",
-      "tagCls": "tag-yellow",
-      "lang": "ko"
     },
     {
       "id": "7256bd4004b1",
