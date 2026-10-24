@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-24T21:01:19.422773+09:00",
+  "fetched_at": "2026-10-24T21:31:03.655754+09:00",
   "count": 500,
   "articles": [
     {
@@ -48,6 +48,54 @@
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "e081c2b16a92",
+      "title": "미국, 외국산 정보통신기술(ICT) 규제 강화",
+      "desc": "사이버 보안 등 공급망 전반의 투명성과 추적 가능성을 점검하고 관련 규제 변화가 자사 제품 및 조달구조에 미치는 영향을 사전에 파악할 필요성이 높아지고 있다”고 밝혔다. 이어 “광통신 부품, 데이터센터...",
+      "url": "https://weeklytrade.co.kr/news/view.html?section=1&category=136&item=&no=101871",
+      "date": "10.24.",
+      "datetime": "10.24. 21:26",
+      "rawDate": "2026-10-24T21:26:00+09:00",
+      "source": "weeklytrade",
+      "sourceGroup": "weeklytrade",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "1def7327800c",
+      "title": "AI가 고객 계좌에 멋대로 접속⋯美은행 '비상'",
+      "desc": "은행 고객들이 편의를 위해 AI 에이전트에 계좌 로그인 정보를 제공하면서 은행의 보안 검증을 거치지 않은... 고객은 비밀번호를 다른 사람이나 사물과 공유해서는 안 된다\"며 계좌 보안에 주의할 것을 당부했다.",
+      "url": "http://www.inews24.com/view/2018608",
+      "date": "10.24.",
+      "datetime": "10.24. 21:12",
+      "rawDate": "2026-10-24T21:12:00+09:00",
+      "source": "아이뉴스24",
+      "sourceGroup": "아이뉴스24",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "25a981ea3ea8",
+      "title": "WLD월드코인 14% 급락, 토큰 공급 확대 우려까지",
+      "desc": "최근 생태계에서는 토큰 마이그레이션과 관련된 보안 문제가 발생한 이력이 있으며, 오는 28일에는 AGIX... 그러나 페치에이아이의 당일 하락분 전체를 해당 일정이나 과거 보안 문제로 설명하기는 어렵다. 가상자산...",
+      "url": "https://www.cbci.co.kr/news/articleView.html?idxno=618960",
+      "date": "10.24.",
+      "datetime": "10.24. 21:10",
+      "rawDate": "2026-10-24T21:10:00+09:00",
+      "source": "cbci",
+      "sourceGroup": "cbci",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
       "lang": "ko"
     },
     {
@@ -1184,22 +1232,6 @@
       "region": "국내",
       "tag": "보안",
       "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "c8311f1933f9",
-      "title": "AI가 멋대로 금융거래 할라…美은행들 계좌 접근 막으려 비상",
-      "desc": "다만 은행들은 현재까지 AI 에이전트의 일탈 행동으로 고객 자금에 피해가 발생하거나 계좌가 해킹당한 증거는 발견되지 않았다고 밝혔다. 대형 은행들은 이와 별개로 AI를 활용한 대규모 사이버 공격 가능성에도...",
-      "url": "https://www.tfmedia.co.kr/news/article.html?no=208330",
-      "date": "10.24.",
-      "datetime": "10.24. 15:50",
-      "rawDate": "2026-10-24T15:50:00+09:00",
-      "source": "tfmedia",
-      "sourceGroup": "tfmedia",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
       "lang": "ko"
     },
     {
@@ -3877,12 +3909,12 @@
     {
       "id": "aba619eeae30",
       "title": "오픈AI, 훈련 중 AI 모델이 보안망을 뚫고 인터넷에 접속해 훈련 일시 중단 — 로이터 보도, 이 과정에서 압축 소프트웨어 Brotli의 임의 코드 실행 취약점도 발견",
-      "desc": "관련 보도: yna.co.kr · m-economynews.com · mbn.mk.co.kr · tfmedia.co.kr · hansbiz.co.kr",
+      "desc": "관련 보도: yna.co.kr · m-economynews.com · mbn.mk.co.kr · tfmedia.co.kr · hansbiz.co.kr · aitimes.com",
       "url": "https://www.news1.kr/world/usa-canada/6330607",
       "date": "10.24.",
       "datetime": "10.24. 08:00",
       "rawDate": "2026-10-24T08:00:00+09:00",
-      "source": "뉴스1 외 5곳",
+      "source": "뉴스1 외 6곳",
       "sourceGroup": "뉴스1",
       "channel": "쉴더스",
       "region": "국내",
@@ -7664,38 +7696,6 @@
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "d3c34f9897fb",
-      "title": "[종합] PHP 취약점부터 5G·AIDC까지⋯과방위, ICT 현안 집중 점검",
-      "desc": "23일 열린 국회 과학기술정보방송통신위원회 종합국정감사에서는 PHP 보안 취약점과 LG유플러스 해킹 은폐... 세계적인 해킹 대란이 우려된다\"며 \"여러 국가에서 문제를 제기하고 있는 사안인데 (정부의 대응이) 너무...",
-      "url": "http://www.inews24.com/view/2018537",
-      "date": "10.23.",
-      "datetime": "10.23. 20:07",
-      "rawDate": "2026-10-23T20:07:00+09:00",
-      "source": "아이뉴스24",
-      "sourceGroup": "아이뉴스24",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "1384bdbf7281",
-      "title": "[카드뉴스] 개인정보보호법 개정 2026, 유출 가능성 72시간 통지",
-      "desc": "2026년 9월 11일부터 개정 개인정보 보호법이 시행되면서, 반복적이거나 중대한 개인정보 유출 사고를 낸 기업에는 전체 매출액의 최대 10%까지 과징금이 부과될 수 있게 됐다. 3년 내 위반 반복, 1천만 명 이상 대규모 피해, 시정명령 불이행 후 유출 등 법이 정한 요건에 해당하는 경우가 대상이다.이번 개정으로 '유출 가능성 통지제'도 도입됐다. 유출이 최종 확인되지 않았더라도 불법적인 시스템 접근이나 다크웹 내 자사 데이터 샘플 발견 등 객관적 정황으로 유출 가능성이 높다고 판단되면, 이를 안 때부터 72시간 이내에 정보주체에",
-      "url": "https://www.boannews.com/news/articleView.html?idxno=146698",
-      "date": "10.23.",
-      "datetime": "10.23. 20:06",
-      "rawDate": "2026-10-23T20:06:31+09:00",
-      "source": "보안뉴스",
-      "sourceGroup": "보안뉴스",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "정책/제도",
-      "tagCls": "tag-green",
       "lang": "ko"
     },
     {
