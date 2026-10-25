@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-26T03:31:09.833857+09:00",
+  "fetched_at": "2026-10-26T04:01:16.785543+09:00",
   "count": 500,
   "articles": [
     {
@@ -80,6 +80,22 @@
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "7bcd3625b874",
+      "title": "&quot;테슬라·스페이스X, 내년 말까지 합병 확률 90%&quot;…월가 전망",
+      "desc": "합병이 성사되면 스페이스X의 우주·AI 사업과 테슬라의 휴머노이드 로봇 '옵티머스', 자율주행 택시 '사이버캡', 반도체 자체 생산 계획인 '테라팹' 등이 결합하게 된다. 테라팹은 반도체를 직접 생산해 제조 비용을...",
+      "url": "https://www.newsis.com/view/NISX20261026_0003840269",
+      "date": "10.26.",
+      "datetime": "10.26. 03:53",
+      "rawDate": "2026-10-26T03:53:00+09:00",
+      "source": "뉴시스",
+      "sourceGroup": "뉴시스",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
       "lang": "ko"
     },
     {
@@ -7712,22 +7728,6 @@
       "region": "국내",
       "tag": "AI 보안",
       "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "2efa0735329b",
-      "title": "돈만 기부하던 시대 지났다…AI 빅테크의 새 나눔법",
-      "desc": "사이버 보안 지원까지 다양한 활동에 나서고 있다. 사회적 책임을 이행하는 동시에 기업의 신뢰도를... 앤트로픽·오픈AI·MS, 안전한 사이버 세상 위한 협력 생태계 확대 사이버 보안 분야에서 AI는 공격과 방어 양...",
-      "url": "https://it.chosun.com/news/articleView.html?idxno=2023092172597",
-      "date": "10.25.",
-      "datetime": "10.25. 06:00",
-      "rawDate": "2026-10-25T06:00:00+09:00",
-      "source": "조선일보",
-      "sourceGroup": "조선일보",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
       "lang": "ko"
     },
     {
