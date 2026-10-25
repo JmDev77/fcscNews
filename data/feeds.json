@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-26T02:01:16.344030+09:00",
+  "fetched_at": "2026-10-26T02:31:12.201439+09:00",
   "count": 500,
   "articles": [
     {
@@ -17,6 +17,38 @@
       "tag": "보안",
       "tagCls": "tag-blue",
       "lang": "en"
+    },
+    {
+      "id": "3e74e44091af",
+      "title": "애플 홈뷰, 아이패드 자리 넘보지 않는다…가족 6명 알아보는 주방 붙박...",
+      "desc": "집 안 제어 기능으로는 호환 조명과 온도조절기 조작, 지원 도어록 잠금, 블라인드 닫기, 보안 카메라 영상 확인이 있다. 애플은 홈 카메라 인터페이스에서 카메라 영상을 최대 9개까지 동시에 띄울 수 있다고 밝혔다....",
+      "url": "https://www.wikitree.co.kr/articles/1169032",
+      "date": "10.26.",
+      "datetime": "10.26. 02:08",
+      "rawDate": "2026-10-26T02:08:00+09:00",
+      "source": "wikitree",
+      "sourceGroup": "wikitree",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "6f567c754c12",
+      "title": "“‘PHP發 위기’ 향후 2년은 이어질 것”… 北 연계 정황도 거론",
+      "desc": "PHP 결함을 악용한 대규모 해킹 모의에 북한이 연계됐을 정황도 포착됐다. 싱가포르 보안기업 사이퍼마는... 사이퍼마는 해당 세력이 북한 배후 해킹조직 ‘라자루스’에 속하거나 연계됐을 가능성을 제기했다. 사이버...",
+      "url": "https://www.kmib.co.kr/article/20261025501535",
+      "date": "10.26.",
+      "datetime": "10.26. 02:04",
+      "rawDate": "2026-10-26T02:04:00+09:00",
+      "source": "kmib",
+      "sourceGroup": "kmib",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
     },
     {
       "id": "45a96cdd68ff",
@@ -7696,38 +7728,6 @@
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "495393f7a67f",
-      "title": "&quot;단순 시연 넘어 공장·카페로&quot;… 中 휴머노이드, 韓 '물리적 AI' 생태계...",
-      "desc": "반면 야당 국민의힘 안철수 의원은 \"해당 로봇들의 데이터 유출 가능성과 보안 점검 여부가 확인되지 않았다\"며 \"국회가 중국 테크 기업의 홍보 무대로 전락했다\"고 날을 세웠다. 배경훈 부총리 겸...",
-      "url": "https://www.g-enews.com/view.php?ud=2026102416253111080c8c1c064d_1",
-      "date": "10.25.",
-      "datetime": "10.25. 05:50",
-      "rawDate": "2026-10-25T05:50:00+09:00",
-      "source": "g-enews",
-      "sourceGroup": "g-enews",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "cdf90bd448dc",
-      "title": "[월드 투데이] 뉴욕 법원, 코넬대 성폭행 소송 원고 익명 유지 결정…&quot;사...",
-      "desc": "재판부는 원고와 관계자들을 겨냥한 협박과 사이버 스토킹이 연방 범죄에 해당할 수 있다며 이례적인... 페리본드 판사는 \"사이버 스토킹은 물론, 주(州) 경계를 넘어 협박을 하거나 이를 부추기는 행위는 대상이 '제인 도...",
-      "url": "https://www.wikileaks-kr.org/news/articleView.html?idxno=193687",
-      "date": "10.25.",
-      "datetime": "10.25. 05:48",
-      "rawDate": "2026-10-25T05:48:00+09:00",
-      "source": "wikileaks-kr",
-      "sourceGroup": "wikileaks-kr",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "정책/제도",
-      "tagCls": "tag-green",
       "lang": "ko"
     },
     {
