@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-28T01:33:22.521165+09:00",
+  "fetched_at": "2026-10-28T02:01:22.138850+09:00",
   "count": 500,
   "articles": [
     {
@@ -131,6 +131,22 @@
       "lang": "ko"
     },
     {
+      "id": "a47581d9c5a4",
+      "title": "바이낸스, 유명 코인 사칭 ‘가짜 결제 사기’ 주의 당부",
+      "desc": "가상자산 거래소 바이낸스(공동대표 리처드 텅, 허 이)는 가상자산 보안 교육의 일환으로 공식 블로그에... 업계 최고 수준의 컴플라이언스 역량을 바탕으로 이용자 보호와 보안 체계를 강화하고, 교육 생태계를 확대하며...",
+      "url": "https://sports.khan.co.kr/article/202610280150003?pt=nv",
+      "date": "10.28.",
+      "datetime": "10.28. 01:51",
+      "rawDate": "2026-10-28T01:51:00+09:00",
+      "source": "sports",
+      "sourceGroup": "sports",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
       "id": "d1dd177c3d0f",
       "title": "세이퍼존, 중소기업 전용 보안 데이터센터 ‘벙커’ 준공... “AI 통합 관제 본격화”",
       "desc": "세이퍼존이 중소기업 전용 보안 데이터센터 인프라를 확보하고 AI 기반 올인원 보안 사업 확장에 나섰다.세이퍼존은 대전·세종 국제과학비즈니스벨트에 6611㎡(약 2000평) 규모의 보안 전용 데이터센터 ‘벙커’를 준공했다고 27일 밝혔다.‘벙커’는 보안 투자 여력이 부족한 중소기업의 정보보호 환경을 고도화하기 위해 마련된 전용 시설이다. 세이퍼존은 신축 데이터센터를 기반으로 중소기업을 위한 보안 폐쇄형 인터넷망을 구현하고 어플라이언스와 온프레미스, 클라우드 등 3가지 형태의 보안 서비스를 맞춤 공급할 계획이다.세이퍼존은 전용 인프라",
@@ -145,6 +161,22 @@
       "tag": "AI 보안",
       "tagCls": "tag-blue",
       "lang": "ko"
+    },
+    {
+      "id": "a445affa8ffc",
+      "title": "'Aokigahara' Stealer Targets 'Developer Keyrings' &amp; AI Assistants",
+      "desc": "The malware's focus on AI tools expands the traditional infostealer playbook to expose a forest of AI sessions, sensitive business data, and developer infrastructure from a single compromised endpoint.",
+      "url": "https://www.darkreading.com/endpoint-security/aokigahara-stealer-developer-keyrings-ai-assistants",
+      "date": "10.28.",
+      "datetime": "10.28. 01:47",
+      "rawDate": "2026-10-28T01:47:20+09:00",
+      "source": "DarkReading",
+      "sourceGroup": "DarkReading",
+      "channel": "자체개발",
+      "region": "해외",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "en"
     },
     {
       "id": "85b33572320c",
@@ -897,6 +929,22 @@
       "tag": "취약점/CVE",
       "tagCls": "tag-yellow",
       "lang": "ko"
+    },
+    {
+      "id": "6dcd4c9e974b",
+      "title": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
+      "desc": "Apple on Monday backported fixes for a high-severity security flaw that was exploited in real-world cyber attacks to older devices.\n\nThe vulnerability, tracked as CVE-2026-86950 (CVSS score: 8.8), is an out-of-bounds write affecting CoreGraphics that could result in arbitrary code execution when processing a maliciously crafted file.\n\nPatches for the flaw were released last month by Apple in",
+      "url": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
+      "date": "10.27.",
+      "datetime": "10.27. 22:59",
+      "rawDate": "2026-10-27T22:59:09+09:00",
+      "source": "TheHackerNews",
+      "sourceGroup": "TheHackerNews",
+      "channel": "자체개발",
+      "region": "해외",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "en"
     },
     {
       "id": "7dd273b092b7",
@@ -7183,54 +7231,6 @@
       "channel": "자체개발",
       "region": "국내",
       "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "5ab15913c565",
-      "title": "에픽비즈, CRM 솔루션·통신사업자 IT 컨설팅 강화",
-      "desc": "이에 에픽비즈는 대량문자 발송 사업자들이 관련 요건을 충족할 수 있도록 기존 시스템 분석부터 보안 정책... 에픽비즈는 기존 시스템 환경을 분석한 뒤 정부 가이드라인에 부합하는 보안 정책과 시스템 개선 방안을...",
-      "url": "https://www.ekn.kr/web/view.php?key=20261027029471780",
-      "date": "10.27.",
-      "datetime": "10.27. 15:54",
-      "rawDate": "2026-10-27T15:54:00+09:00",
-      "source": "ekn",
-      "sourceGroup": "ekn",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "정책/제도",
-      "tagCls": "tag-green",
-      "lang": "ko"
-    },
-    {
-      "id": "2b192458bcc1",
-      "title": "쯔양X김수현 사건까지 낱낱이 폭로…웨이브 ‘포식자들’, 제대로 일냈...",
-      "desc": "사이버 레카 추적 다큐멘터리 웨이브 ‘포식자들 : 사이버 레커, 전쟁의 기록’이 2주 연속 시사교양 장르 유료 가입 견인 1위, 시청 유저 1위를 싹쓸이하며 돌풍을 일으키고 있다. 23일 3, 4회를 공개한 웨이브 ‘포식자들...",
-      "url": "https://www.heraldmuse.com/article/10916467?ref=naver",
-      "date": "10.27.",
-      "datetime": "10.27. 15:54",
-      "rawDate": "2026-10-27T15:54:00+09:00",
-      "source": "heraldmuse",
-      "sourceGroup": "heraldmuse",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "d14792d9f500",
-      "title": "KT, '토큰팩토리'로 韓 AX 가속…플랫폼 하나로 끝낸다",
-      "desc": "인프라와 보안 역량에 기반한 '신뢰'를 AI 서비스 영역으로 확장한 것이 특징이다. 급증하는 AI 토큰 수요에... 비용, 보안 요구 사항에 맞는 최적의 모델을 손쉽게 활용할 수 있다. 여러 AI 모델을 개별적으로 탐색하거나...",
-      "url": "https://www.nocutnews.co.kr/news/6597878?utm_source=naver&utm_medium=article&utm_campaign=20261027035223",
-      "date": "10.27.",
-      "datetime": "10.27. 15:53",
-      "rawDate": "2026-10-27T15:53:00+09:00",
-      "source": "nocutnews",
-      "sourceGroup": "nocutnews",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "AI 보안",
       "tagCls": "tag-blue",
       "lang": "ko"
     },
