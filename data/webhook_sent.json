@@ -1,24 +1,4 @@
 {
-  "https://www.boannews.com/news/articleView.html?idxno=146723": {
-    "ts": "2026-10-24T14:01:21.197830+09:00",
-    "title": "“채용 공고 열었더니 시스템 장악”... 라자루스·신종 백도어 경보"
-  },
-  "https://www.munhwa.com/article/11625906?ref=naver": {
-    "ts": "2026-10-24T14:01:22.255279+09:00",
-    "title": "[속보]“북한 해킹조직 라자루스, PHP 약점 활용 사이버 공격 준비 정황..."
-  },
-  "https://www.kmib.co.kr/article/20261024500028": {
-    "ts": "2026-10-24T14:01:23.338449+09:00",
-    "title": "‘PHP 취약점’ 악용…北라자루스, 대규모 공격준비 정황"
-  },
-  "https://www.donga.com/news/Politics/article/all/20261024/134900929/1": {
-    "ts": "2026-10-24T14:31:07.191053+09:00",
-    "title": "北라자루스, ‘PHP 취약점’ 결함 악용…韓 포함 전세계 정부·금융 정찰..."
-  },
-  "https://www.etoday.co.kr/news/view/2639654": {
-    "ts": "2026-10-24T14:31:08.291093+09:00",
-    "title": "PHP 취약점 악용한 공격 준비 정황…北 라자루스 연계 가능성"
-  },
   "https://www.obsnews.co.kr/news/articleView.html?idxno=1541590": {
     "ts": "2026-10-24T20:31:09.238783+09:00",
     "title": "북한 라자루스, PHP 취약점 악용 공격 준비 정황"
