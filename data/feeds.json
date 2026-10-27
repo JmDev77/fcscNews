@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-27T19:58:29.948203+09:00",
+  "fetched_at": "2026-10-27T20:01:16.069116+09:00",
   "count": 500,
   "articles": [
     {
@@ -444,6 +444,22 @@
       "rawDate": "2026-10-27T20:12:53+09:00",
       "source": "보안뉴스",
       "sourceGroup": "보안뉴스",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "3decff46b1ca",
+      "title": "테슬라 FSD 무단 활성화한 80여명 적발… 비인가 장치로 기능 뚫어",
+      "desc": "현재 국내에서는 자유무역협정(FTA)에 따라 자동차 안전기준 인증을 면제받는 미국 생산 모델S·모델X와 사이버트럭만 FSD를 사용할 수 있다. 하지만 최근 중국에서 생산된 모델Y 등에서도 비공식 장비나 소스 코드 등을...",
+      "url": "https://it.chosun.com/news/articleView.html?idxno=2023092172917",
+      "date": "10.27.",
+      "datetime": "10.27. 20:00",
+      "rawDate": "2026-10-27T20:00:00+09:00",
+      "source": "조선일보",
+      "sourceGroup": "조선일보",
       "channel": "자체개발",
       "region": "국내",
       "tag": "보안",
@@ -7212,22 +7228,6 @@
       "rawDate": "2026-10-27T14:58:00+09:00",
       "source": "sentv",
       "sourceGroup": "sentv",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "8ffd6a08a30d",
-      "title": "[ZD SW 투데이] 어도비, 히스로 공항과 AI 검색 정보 정확도 높인다 外",
-      "desc": "SW뿐 아니라 클라우드, 보안, 인공지능(AI) 등 여러 분야에서 활발히 활동하고 있는 기업들의 소식을 담은... 금융권 보안 요구와 데이터 통제권을 설계에 반영했으며 삼성증권은 이를 바탕으로 사내 AI 적용 업무를...",
-      "url": "https://zdnet.co.kr/view/?no=20261027145103",
-      "date": "10.27.",
-      "datetime": "10.27. 14:58",
-      "rawDate": "2026-10-27T14:58:00+09:00",
-      "source": "지디넷코리아",
-      "sourceGroup": "지디넷코리아",
       "channel": "자체개발",
       "region": "국내",
       "tag": "AI 보안",
