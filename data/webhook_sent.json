@@ -22,5 +22,9 @@
   "https://www.boannews.com/news/articleView.html?idxno=146718": {
     "ts": "2026-10-27T11:01:25.825007+09:00",
     "title": "[PHP 파장] 해킹 포럼들 조차 사이트 닫았다... 다크웹도 몸사리는 취약..."
+  },
+  "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html": {
+    "ts": "2026-10-27T21:31:16.930311+09:00",
+    "title": "Lazarus Abuses South Korean Security Software to Deploy Malware Using Post-Quantum Encryption"
   }
 }
