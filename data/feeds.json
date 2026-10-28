@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-29T04:01:22.441815+09:00",
+  "fetched_at": "2026-10-29T04:05:53.681630+09:00",
   "count": 500,
   "articles": [
     {
@@ -112,6 +112,38 @@
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "172c44ce5299",
+      "title": "투표지 검증 종료...국민의힘, 투표함 이송 반대",
+      "desc": "검증 과정에서 이상이 없다고 판명된 투표용지들이 이송 대상입니다. 만일 반출에 성공한다면, 투표용지는 선관위가 마련한 수도권 소재 보안 시설로 경찰 호위를 받으며 옮겨지는데요, 지금까지 정치부에서 전해드렸습니다.",
+      "url": "https://www.ytn.co.kr/_ln/0101_202610290402216657",
+      "date": "10.29.",
+      "datetime": "10.29. 04:02",
+      "rawDate": "2026-10-29T04:02:00+09:00",
+      "source": "YTN",
+      "sourceGroup": "YTN",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "1299e0eafa6f",
+      "title": "AI 수학 능력 급진전…전 세계 금융·통신 암호체계 안전성 위협",
+      "desc": "차세대 보안기술을 재검토하고 있다고 28일(현지시각) 보도했다. 다만 AI가 현재 널리 사용되는 핵심 암호... 일부 사이버보안 전문가들은 AI의 수학적 성과가 실제 암호해독 능력으로 이어질 것이라는 전망에 회의적인...",
+      "url": "https://www.g-enews.com/view.php?ud=2026102820434769229a1f309431_1",
+      "date": "10.29.",
+      "datetime": "10.29. 04:00",
+      "rawDate": "2026-10-29T04:00:00+09:00",
+      "source": "g-enews",
+      "sourceGroup": "g-enews",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
       "lang": "ko"
     },
     {
@@ -7184,38 +7216,6 @@
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "5f7c45754f15",
-      "title": "S&P글로벌, 블록체인 보안기업 인수 완료…오픈소스 라이브러리는 무료...",
-      "desc": "S&P글로벌($SPGI)이 블록체인 보안 기업 OpenZeppelin 인수를 마쳤다. 거래 금액은 공개되지 않았다. S&P글로벌은 공지에서 인수 완료 사실을 밝혔다. 양사는 지난 9월 17일 이 거래를 처음 발표했으며, S...",
-      "url": "https://www.tokenpost.kr/news/breaking/427512",
-      "date": "10.28.",
-      "datetime": "10.28. 17:58",
-      "rawDate": "2026-10-28T17:58:00+09:00",
-      "source": "tokenpost",
-      "sourceGroup": "tokenpost",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "edac44873736",
-      "title": "[자정 뉴스브리핑] 앤트로픽, 나스닥 상장 서류 공개 제출 外",
-      "desc": "S&P글로벌(S&P Global)이 블록체인 보안 기업 오픈제플린(OpenZeppelin) 인수를 마쳤다. 거래 금액은 공개되지 않았으며, 오픈제플린의 스마트 컨트랙트 라이브러리는 계속 무료 오픈소스로 유지된다. S...",
-      "url": "https://www.tokenpost.kr/news/briefing/427532",
-      "date": "10.28.",
-      "datetime": "10.28. 17:58",
-      "rawDate": "2026-10-28T17:58:00+09:00",
-      "source": "tokenpost",
-      "sourceGroup": "tokenpost",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
       "lang": "ko"
     },
     {
