@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-30T02:01:22.813140+09:00",
+  "fetched_at": "2026-10-30T02:31:09.364939+09:00",
   "count": 500,
   "articles": [
     {
@@ -99,6 +99,22 @@
       "lang": "ko"
     },
     {
+      "id": "fd5de24dbf5f",
+      "title": "비트코인 개인키 도출에 2만9588큐비트·61.8분 추산",
+      "desc": "구글은 양자 공격에 견디는 포스트양자암호(PQC)를 블록체인 보안 강화 경로로 제시하면서 실제 전환에는 시간이 걸린다고 밝혔다. 두 연구가 제시한 큐비트 수와 시간은 각기 다른 장비 가정을 바탕으로 한 계산치다.",
+      "url": "https://www.tokenpost.kr/news/blockchain/429480",
+      "date": "10.30.",
+      "datetime": "10.30. 02:24",
+      "rawDate": "2026-10-30T02:24:00+09:00",
+      "source": "tokenpost",
+      "sourceGroup": "tokenpost",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
       "id": "146c0c91f92c",
       "title": "크랜베리, KAIST와 업무협약... 사운드 AI 기술 고도화 착수",
       "desc": "AI 음향분석 전문기업 크랜베리(대표이사 이은혜)가 29일 크랜베리 본사에서 KAIST 소음 및 진동제어 연구센터(NOVIC+)와 사운드(Sound) AI 기술 고도화 및 산업 적용 확대를 위한 업무협약(MOU)을 체결했다고 밝혔다.크랜베리가 보유한 현장 중심의 사운드 AI 및 에지(Edge) AI 기술과 KAIST NOVIC+의 음향·진동 분석 및 인공지능 연구 역량을 결합해 원천 기술 개발부터 현장 검증, 사업화에 이르는 전주기 협력 체계를 구축한다. 양측은 음향 데이터 구축과 신호처리, AI 모델 개발 및 기술 검증 영역에서",
@@ -131,6 +147,22 @@
       "lang": "ko"
     },
     {
+      "id": "b9427da3b6c1",
+      "title": "美정보기관 &quot;중국, 美동맹 위성까지 노리는 요격무기 개발 가속&quot;",
+      "desc": "이 보고서에서 DIA는 중국이 위성요격미사일(ASAT)뿐만 아니라 레이저, 전파 방해, 사이버 공격 등 다양한... 이와 함께 중국은 우주와 사이버, 전자전 능력을 군사 작전에 통합하는 대대적인 조직 개편을 단행했다....",
+      "url": "https://www.news1.kr/world/usa-canada/6337145",
+      "date": "10.30.",
+      "datetime": "10.30. 02:18",
+      "rawDate": "2026-10-30T02:18:00+09:00",
+      "source": "뉴스1",
+      "sourceGroup": "뉴스1",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
       "id": "26c2b1092175",
       "title": "[단독] 국내 최대 식물 전문 쇼핑몰 심폴 해킹 피해…악성 스크립트 삽입·외부 사이트 연결 시도",
       "desc": "2002년부터 운영된 국내 최대 규모의 식물 전문 쇼핑 오픈마켓 심폴(Simpol)이 외부 공격으로 악성 스크립트가 삽입되는 해킹 사고를 겪은 것으로 확인됐다. 공격자가 무단으로 삽입한 스크립트는 이용자가 쇼핑몰에 접속할 때 외부 사이트로 연결을 시도하는 방식으로 작동했다.심폴은 10월 23일 자사 홈페이지에 '심폴 사이트 보안 이상 징후에 따른 조치 사항 안내'라는 공지문을 게시하고, 지난 22일 외부인이 쇼핑몰에 무단으로 스크립트를 삽입한 사실을 확인했다고 밝혔다.심폴은 다양한 식물과 원예용품을 판매하는 전문 판매자들이 입점한",
@@ -144,6 +176,38 @@
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "586b724b8986",
+      "title": "ADT 주당 10달러 현금 인수…쓰라이브 홀딩스와 합의",
+      "desc": "쓰라이브 홀딩스가 미국 보안업체 ADT($ADT)를 현금 인수하기로 계약했다. ADT의 지분가치는 76억달러(약... 쓰라이브 홀딩스는 29일 발표문에서 거래가 완료되면 ADT를 스마트홈 보안 사업의 기반으로 삼겠다고...",
+      "url": "https://www.tokenpost.kr/news/market/429471",
+      "date": "10.30.",
+      "datetime": "10.30. 02:08",
+      "rawDate": "2026-10-30T02:08:00+09:00",
+      "source": "tokenpost",
+      "sourceGroup": "tokenpost",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "15b38cbadc6e",
+      "title": "한국공학대, 3개 기업과 맞손…최대 6억4300만원 규모 기술이전 성사",
+      "desc": "㈜티데이트는 박성원 국제미래공학부 교수가 개발한 운영체제 이중화 및 복구 시스템 기술을 토대로 데이터 보안과 복구 시스템 사업화를 진행한다. ㈜원퍼스트글로벌은 이낙범 전자공학부 교수의 무인판매 키오스크용...",
+      "url": "https://www.cstimes.com/news/articleView.html?idxno=725899",
+      "date": "10.30.",
+      "datetime": "10.30. 02:04",
+      "rawDate": "2026-10-30T02:04:00+09:00",
+      "source": "cstimes",
+      "sourceGroup": "cstimes",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
       "lang": "ko"
     },
     {
@@ -6581,7 +6645,7 @@
     {
       "id": "e2ca95308164",
       "title": "Cyber Vulnerabilities Besiege Italy, Absent Clear Cause",
-      "desc": "Researchers can't quite explain why cyber threats look so different in Italy compared to everywhere else.",
+      "desc": "Researchers can't quite explain why cyber threats look so different in Italy compared with everywhere else.",
       "url": "https://www.darkreading.com/cybersecurity-analytics/cyber-vulnerabilities-besiege-italy",
       "date": "10.29.",
       "datetime": "10.29. 17:00",
@@ -7136,70 +7200,6 @@
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "4b865e277c27",
-      "title": "조롱받던 제미나이의 반격…구글 AI, 성능평가 1위 탈환",
-      "desc": "구글은 이번 모델을 \"우리의 차세대 개척 모델\"이라며 \"최첨단 사이버 보안 및 장기적인 운용 능력을 갖춘... 구글이 이번 모델에서 특히 강조한 분야는 사이버보안이다. 구글은 코딩과 AI 에이전트 작업뿐 아니라...",
-      "url": "https://www.news1.kr/it-science/internet-platform/6336602",
-      "date": "10.29.",
-      "datetime": "10.29. 16:49",
-      "rawDate": "2026-10-29T16:49:00+09:00",
-      "source": "뉴스1",
-      "sourceGroup": "뉴스1",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "b07e02724e31",
-      "title": "[위클리오늘] LHㆍSHㆍ한전 (10.29)",
-      "desc": "■ LH, 사이버보안 점검·대책 회의 개최···금융권 해킹·PHP 취약점 선제 대응 - 이성훈 사장 주재로 진주... (사진=LH) [위클리오늘=김인환 기자] 한국토지주택공사(LH)가 금융권 해킹사고와 PHP 보안 취약점 등 사이버...",
-      "url": "http://www.weeklytoday.com/news/articleView.html?idxno=800281",
-      "date": "10.29.",
-      "datetime": "10.29. 16:48",
-      "rawDate": "2026-10-29T16:48:00+09:00",
-      "source": "weeklytoday",
-      "sourceGroup": "weeklytoday",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "78fd6f10f6f5",
-      "title": "청소년 도박 자진신고 1777명인데 상담은 119명...연계된 121명도 '깜깜'",
-      "desc": "업다운뉴스=손예림 기자 / 청소년 사이버도박 자진신고제가 전국으로 확대됐지만 신고 이후 상담과 치유... 청소년 사이버도박 자진신고제를 전국으로 확대한 이후 8월 말까지 1777명이 신고했다. 이 가운데...",
-      "url": "https://www.updownnews.co.kr/news/articleView.html?idxno=319366",
-      "date": "10.29.",
-      "datetime": "10.29. 16:48",
-      "rawDate": "2026-10-29T16:48:00+09:00",
-      "source": "updownnews",
-      "sourceGroup": "updownnews",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "1461606814eb",
-      "title": "성북구의회, 의원‧직원 대상 폭력예방 통합교육 실시...실제 사례 들어...",
-      "desc": "국가기관·지방자치단체·학교 등 의무 대상 기관의 기관장과 구성원, 학생 등을 대상으로 하며, 각 교육은 연 1회 이상 1시간 이상 집합·사이버 교육 등으로 운영할 수 있다.",
-      "url": "https://www.cnbizm.com/news/articleView.html?idxno=319752",
-      "date": "10.29.",
-      "datetime": "10.29. 16:48",
-      "rawDate": "2026-10-29T16:48:00+09:00",
-      "source": "cnbizm",
-      "sourceGroup": "cnbizm",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
       "lang": "ko"
     },
     {
