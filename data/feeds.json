@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-30T01:53:57.949371+09:00",
+  "fetched_at": "2026-10-30T02:01:22.813140+09:00",
   "count": 500,
   "articles": [
     {
@@ -385,6 +385,22 @@
       "tag": "해킹/침해",
       "tagCls": "tag-red",
       "lang": "ko"
+    },
+    {
+      "id": "879452bb4332",
+      "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
+      "desc": "A flaw in the Linux kernel's TCP code, tracked as&nbsp;CVE-2026-98432, affects Ubuntu, Red Hat Enterprise Linux (RHEL), and other Linux distributions. The kernel's own CVE team rates it 9.8 out of 10 on the CVSS scale.\n\nAnthropic said&nbsp;on October 27 that its AI model wrote an exploit that uses the flaw to let a remote attacker with no credentials run commands as root on Linux servers with a",
+      "url": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
+      "date": "10.30.",
+      "datetime": "10.30. 00:57",
+      "rawDate": "2026-10-30T00:57:05+09:00",
+      "source": "TheHackerNews",
+      "sourceGroup": "TheHackerNews",
+      "channel": "자체개발",
+      "region": "해외",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "en"
     },
     {
       "id": "fd8ce05dd198",
@@ -7184,22 +7200,6 @@
       "region": "국내",
       "tag": "보안",
       "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "9aa018b10b73",
-      "title": "“직접 안 부숴도 1500만원” 佛 ‘시위 연대배상법’ 상원 통과",
-      "desc": "또 정부가 시위를 더욱 쉽게 금지할 수 있도록 하고, ▲외국인 추방 조치 ▲감시 드론·보안 영상 활용 간소화 ▲문제아 공공 주택 퇴거 조치 등의 내용도 담겼다. 좌파 정당들은 법안 토론 과정에서 “집회의 자유에...",
-      "url": "https://www.chosun.com/international/international_general/2026/10/29/BKM4UWNG2JBHPEX56HJKXFXI5U/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
-      "date": "10.29.",
-      "datetime": "10.29. 16:47",
-      "rawDate": "2026-10-29T16:47:00+09:00",
-      "source": "조선일보",
-      "sourceGroup": "조선일보",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "정책/제도",
-      "tagCls": "tag-green",
       "lang": "ko"
     },
     {
