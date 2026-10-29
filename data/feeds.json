@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-30T01:31:13.958424+09:00",
+  "fetched_at": "2026-10-30T01:53:57.949371+09:00",
   "count": 500,
   "articles": [
     {
@@ -163,6 +163,22 @@
       "lang": "ko"
     },
     {
+      "id": "15ff806b97b8",
+      "title": "싸이식, 브리지 재개…BNB체인서 CYS 720만2002개 소각",
+      "desc": "테크플로우(TechFlow)는 29일 싸이식의 공식 공지를 인용해 앞선 브리지 보안 사고 뒤 중단됐던 서비스가 재개돼 이용자들이 메인넷과 지원 블록체인 사이에서 CYS를 다시 전송할 수 있으며, 소각 거래는...",
+      "url": "https://www.tokenpost.kr/news/breaking/429456",
+      "date": "10.30.",
+      "datetime": "10.30. 01:44",
+      "rawDate": "2026-10-30T01:44:00+09:00",
+      "source": "tokenpost",
+      "sourceGroup": "tokenpost",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "가용성",
+      "tagCls": "tag-orange",
+      "lang": "ko"
+    },
+    {
       "id": "c9c8225412ea",
       "title": "쿠팡·G마켓·SK브로드밴드 등 9개사 점검…고객정보 과다 노출·임의 검색 위험 확인",
       "desc": "고객센터 상담사가 고객의 이름이나 전화번호만 입력해도 상세주소 등 개인정보를 조회할 수 있거나, 상담화면에 고객정보가 마스킹 처리 없이 노출되는 사례가 확인됐다. 개인정보보호위원회는 고객센터 상담 과정에서 발생할 수 있는 개인정보 무단 조회와 오·남용을 예방하기 위해 개인정보 표시 범위를 최소화하고 접근통제를 강화하도록 권고했다.개인정보보호위원회(위원장 송경희)는 배달·홈쇼핑·온라인쇼핑·유선통신 등 4개 분야의 서비스 사업자와 고객센터 운영사 총 9개사를 대상으로 사전 실태점검을 실시하고, 그 결과와 시정조치안을 10월 28일 제2",
@@ -193,6 +209,22 @@
       "tag": "랜섬웨어",
       "tagCls": "tag-red",
       "lang": "ko"
+    },
+    {
+      "id": "1a143efabf32",
+      "title": "When Risk Becomes Personal: What Security Leaders Can Learn From a Cancer Diagnosis",
+      "desc": "Risk managers are trained to spot weak signals, plan for disruption and make hard decisions under uncertainty. But the discipline looks different when the risk is not a system or an enterprise, but you.\nThe post When Risk Becomes Personal: What Security Leaders Can Learn From a Cancer Diagnosis appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/when-risk-becomes-personal-what-security-leaders-can-learn-from-a-cancer-diagnosis/",
+      "date": "10.30.",
+      "datetime": "10.30. 01:30",
+      "rawDate": "2026-10-30T01:30:00+09:00",
+      "source": "SecurityWeek",
+      "sourceGroup": "SecurityWeek",
+      "channel": "자체개발",
+      "region": "해외",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "en"
     },
     {
       "id": "fcbd4c3f1980",
@@ -7168,38 +7200,6 @@
       "region": "국내",
       "tag": "정책/제도",
       "tagCls": "tag-green",
-      "lang": "ko"
-    },
-    {
-      "id": "4cb975f58af4",
-      "title": "[단독] 靑 인력 88명 부족하다더니…비공개 인력 포함하면 '과 TO' 의혹",
-      "desc": "최은석 의원은 \"유독 대통령 변호인, 경기·성남라인 등 측근들이 포진한 민정·공직기강·인사비서관실의 실무진 명단만 통째로 감춘 것은 석연치 않다\"며 \"보안을 명분으로 선택적 비공개를 정당화할 것이 아니라...",
-      "url": "https://www.imaeil.com/page/view/2026102916464319514",
-      "date": "10.29.",
-      "datetime": "10.29. 16:47",
-      "rawDate": "2026-10-29T16:47:00+09:00",
-      "source": "imaeil",
-      "sourceGroup": "imaeil",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "a666356bfc03",
-      "title": "\"6개월 만에 해킹 재발\" 대교, 과징금 맞고 주가도 급락",
-      "desc": "두 차례 해킹이 발생한 가운데 첫 사고 당시 보안 이상징후를 통보받고도 충분한 대응 조치를 하지 않았고... 이번 처분은 외부 해킹에 따른 피해뿐 아니라 보안 경고 이후의 대응, 계열사 서버 관리, 개인정보 보호...",
-      "url": "http://www.koreastocknews.com/news/articleView.html?idxno=122001",
-      "date": "10.29.",
-      "datetime": "10.29. 16:46",
-      "rawDate": "2026-10-29T16:46:00+09:00",
-      "source": "koreastocknews",
-      "sourceGroup": "koreastocknews",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
       "lang": "ko"
     },
     {
