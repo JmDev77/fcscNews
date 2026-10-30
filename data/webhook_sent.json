@@ -70,5 +70,9 @@
   "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html": {
     "ts": "2026-10-30T22:31:13.024285+09:00",
     "title": "라자루스, 국내 보안 SW 'INISAFE CrossWeb EX'를 악용해 건설·SW·통신장비 기업을 공격(Operation FlashHole)"
+  },
+  "https://www.hani.co.kr/arti/economy/economy_general/1285060.html": {
+    "ts": "2026-10-31T04:31:10.334522+09:00",
+    "title": "MS 보고서: 북한 해킹조직이 AI로 한국 겨냥 피싱 문서 대량 제작(안다리엘, PDF 100개 이상)"
   }
 }
