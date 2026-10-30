@@ -70,5 +70,9 @@
   "https://www.boannews.com/news/articleView.html?idxno=146903": {
     "ts": "2026-10-30T18:01:24.616928+09:00",
     "title": "바이낸스 8조원 규모 가상자산 탈취 배후에 北 라자루스 지목"
+  },
+  "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html": {
+    "ts": "2026-10-30T22:31:13.024285+09:00",
+    "title": "라자루스, 국내 보안 SW 'INISAFE CrossWeb EX'를 악용해 건설·SW·통신장비 기업을 공격(Operation FlashHole)"
   }
 }
