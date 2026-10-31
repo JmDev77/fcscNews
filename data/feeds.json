@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-01T00:31:15.147291+09:00",
+  "fetched_at": "2026-11-01T01:01:19.800498+09:00",
   "count": 500,
   "articles": [
     {
@@ -96,6 +96,22 @@
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "0e5936b6ae6b",
+      "title": "디파이 사이트 12곳 탈취 보도…네임닷컴 등록·피해액 약 1억8423만원",
+      "desc": "13만8000달러(약 1억8423만원)가 빠져나갔다고 보도했다. 크립토브리핑은 DNS 취약점이 스마트컨트랙트가 안전하더라도 서비스 보안을 위협할 수 있다며 디파이 프로젝트의 도메인 보안 강화 필요성을 짚었다.",
+      "url": "https://www.tokenpost.kr/news/breaking/430686",
+      "date": "11.1.",
+      "datetime": "11.1. 00:40",
+      "rawDate": "2026-11-01T00:40:00+09:00",
+      "source": "tokenpost",
+      "sourceGroup": "tokenpost",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "취약점/CVE",
+      "tagCls": "tag-yellow",
       "lang": "ko"
     },
     {
@@ -7690,22 +7706,6 @@
       "date": "10.31.",
       "datetime": "10.31. 06:50",
       "rawDate": "2026-10-31T06:50:00+09:00",
-      "source": "KBS",
-      "sourceGroup": "KBS",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "57863597d554",
-      "title": "GS건설도 해킹…아파트 입주민 개인정보 유출",
-      "desc": "정부 기관과 금융계, 교회까지 해킹 피해가 전방위로 확산하는 가운데, 국내 건설사에서도 정보 유출 사고가... GS건설은 이런 아파트 커뮤니티 시설 예약 관리 시스템이 해킹돼 일부 고객 정보가 유출됐다고 어제...",
-      "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8700406&ref=A",
-      "date": "10.31.",
-      "datetime": "10.31. 06:48",
-      "rawDate": "2026-10-31T06:48:00+09:00",
       "source": "KBS",
       "sourceGroup": "KBS",
       "channel": "자체개발",
