@@ -1,8 +1,4 @@
 {
-  "https://www.gokorea.kr/news/articleView.html?idxno=883183": {
-    "ts": "2026-10-29T07:31:18.604671+09:00",
-    "title": "국내 거점 해커, 대규모 해킹 사태로 기업 기밀 다크웹에 유출"
-  },
   "https://www.newspim.com/news/view/20261029000380": {
     "ts": "2026-10-29T10:31:19.728114+09:00",
     "title": "통관시스템 장애·보안 관리 인정...관세청 '유니패스' 21년 연속 ISO 200..."
@@ -50,5 +46,9 @@
   "https://www.edaily.co.kr/News/Read?newsId=01971286645618496&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article": {
     "ts": "2026-11-01T04:31:03.705116+09:00",
     "title": "MS \"북한 안다리엘, AI로 한국 겨냥 맞춤형 피싱 문서 100여 개 제작\""
+  },
+  "https://www.yna.co.kr/view/AKR20261030165100017?input=1195m": {
+    "ts": "2026-11-01T08:01:20.988155+09:00",
+    "title": "북한 라자루스 악성코드, 대한산부인과학회 등 국내 웹사이트를 명령제어(C2) 통신 거점으로 악용 정황…카스퍼스키 보고서"
   }
 }
