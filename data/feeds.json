@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-01T05:17:57.216585+09:00",
+  "fetched_at": "2026-11-01T05:31:09.961197+09:00",
   "count": 500,
   "articles": [
     {
@@ -400,6 +400,22 @@
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "94845830b294",
+      "title": "정치권 단골 논란 '대통령 골프'...공방도 찍어낸 듯 반복",
+      "desc": "의혹을 제기한 국민의힘 의원에겐 일부 허위사실을 이유로 고발과 함께 '사이버 레커'라며 집중 공세로 대응했고, [박지원 / 더불어민주당 의원(지난달 26일) : (골프장에) 카메라 대놓고 있다고 하는 것은 이것도 문제...",
+      "url": "https://www.ytn.co.kr/_ln/0101_202611010522394023",
+      "date": "11.1.",
+      "datetime": "11.1. 05:22",
+      "rawDate": "2026-11-01T05:22:00+09:00",
+      "source": "YTN",
+      "sourceGroup": "YTN",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
       "lang": "ko"
     },
     {
@@ -7841,22 +7857,6 @@
       "tag": "해킹/침해",
       "tagCls": "tag-red",
       "lang": "ko"
-    },
-    {
-      "id": "81fc409ec8fe",
-      "title": "Devs Hit by Trojanized Claude Code Extension for Cursor",
-      "desc": "Two serious security issues hit Cursor on the same day, highlighting the risks for AI-powered integrated development environments (IDEs).",
-      "url": "https://www.darkreading.com/cyberattacks-data-breaches/devs-trojanized-claude-code-extension-cursor",
-      "date": "10.31.",
-      "datetime": "10.31. 05:05",
-      "rawDate": "2026-10-31T05:05:58+09:00",
-      "source": "DarkReading",
-      "sourceGroup": "DarkReading",
-      "channel": "자체개발",
-      "region": "해외",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "en"
     },
     {
       "id": "171ad7b62d61",
