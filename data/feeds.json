@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-01T02:01:24.362537+09:00",
+  "fetched_at": "2026-11-01T02:31:13.356774+09:00",
   "count": 500,
   "articles": [
     {
@@ -76,6 +76,22 @@
       "rawDate": "2026-11-01T03:41:49+09:00",
       "source": "데일리시큐",
       "sourceGroup": "데일리시큐",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "0eeabc406a4e",
+      "title": "바이낸스, 말레이시아와 10개월째 면허 협상…SC는 경보 목록에 다시 올...",
+      "desc": "협상이 알려진 시점이 대형 해킹 사고 직후와 겹치고, SC가 최근 바이낸스를 투자자 경보 목록에 다시... Startup Fortune은 재등재가 해킹 소식이 알려지기 전에 이뤄졌다는 점에서 SC가 이미 우려를 갖고 있었을...",
+      "url": "https://www.wikitree.co.kr/articles/1170768",
+      "date": "11.1.",
+      "datetime": "11.1. 02:10",
+      "rawDate": "2026-11-01T02:10:00+09:00",
+      "source": "wikitree",
+      "sourceGroup": "wikitree",
       "channel": "자체개발",
       "region": "국내",
       "tag": "해킹/침해",
@@ -7696,22 +7712,6 @@
       "region": "국내",
       "tag": "보안",
       "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "cafe02421da8",
-      "title": "해킹에도 96% 뛴 이니시아…매도 물량 제한 영향?[코인현미경]",
-      "desc": "이니시아는 지난 23일(현지시간) 블록체인 네트워크의 보안 취약점을 악용한 공격으로 약 270만 달러(약 39억... 업비트와 빗썸, 코인원은 지난 24일 보안 사고를 이유로 이니시아의 입출금을 일시 중단했다. 이어 업비트와...",
-      "url": "https://www.news1.kr/finance/blockchain-fintech/6338227",
-      "date": "10.31.",
-      "datetime": "10.31. 07:00",
-      "rawDate": "2026-10-31T07:00:00+09:00",
-      "source": "뉴스1",
-      "sourceGroup": "뉴스1",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
       "lang": "ko"
     },
     {
