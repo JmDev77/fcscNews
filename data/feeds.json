@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-02T03:33:09.409338+09:00",
+  "fetched_at": "2026-11-02T04:01:12.777493+09:00",
   "count": 500,
   "articles": [
     {
@@ -99,6 +99,70 @@
       "lang": "ko"
     },
     {
+      "id": "e81ad164fd92",
+      "title": "커서, 악성 클로드 코드 확장 설치자에 자격 증명 교체 권고",
+      "desc": "커서(Cursor)는 10월 29일 보안 공지에서 자사 VS Code 확장 마켓플레이스에 악성으로 변조된 클로드... 마이크로소프트 보안 블로그(Microsoft Security Blog)는 악성 패키지가 Microsoft Visual Studio Marketplace와...",
+      "url": "https://www.tokenpost.kr/news/breaking/431010",
+      "date": "11.2.",
+      "datetime": "11.2. 03:52",
+      "rawDate": "2026-11-02T03:52:00+09:00",
+      "source": "tokenpost",
+      "sourceGroup": "tokenpost",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "f33f2d7fe9bf",
+      "title": "프랑스, 시위대 화염병 투척에 '살인미수' 수사",
+      "desc": "지난달 31일 프랑스 파리에서 시위대가 보안요원들을 향해 화염병을 투척한 가운데, 현지 당국이 이 문제를... 이번 시위로 체포된 사람은 779명이라고 밝혔습니다. 경찰 등 보안 요원 부상자는 159명으로 집계됐습니다.",
+      "url": "https://imnews.imbc.com/news/2026/world/article/6862359_36925.html",
+      "date": "11.2.",
+      "datetime": "11.2. 03:50",
+      "rawDate": "2026-11-02T03:50:00+09:00",
+      "source": "MBC",
+      "sourceGroup": "MBC",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "b0d04cd3eb20",
+      "title": "대규모 정보유출 日 IT대기업 \"해킹 배후에 北‥정부에 보고\"",
+      "desc": "또 해킹 피해 이후 자신도 모르게 금융 거래가 이뤄진 한 이용자가 지난달 해커로부터 이메일을 받았는데, 공격자로 추정되는 이 발신자는 러시아식 이름을 사용했습니다. 이처럼 GMO 인터넷 그룹 해킹과 관련해 여러...",
+      "url": "https://imnews.imbc.com/news/2026/world/article/6862357_36925.html",
+      "date": "11.2.",
+      "datetime": "11.2. 03:47",
+      "rawDate": "2026-11-02T03:47:00+09:00",
+      "source": "MBC",
+      "sourceGroup": "MBC",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "744b9b33f9b8",
+      "title": "바이낸스 해킹 이후 대규모 고객 자금 이탈",
+      "desc": "규모의 해킹을 겪은 바이낸스(Binance) 가상화폐 거래소에서 대규모 자금 이탈이 발생했다는 소식이다. 출금 재개 후 바이낸스에서는 첫 9시간 30분 동안 약 4조 8,500억원이 순유출됐다. 바이낸스는 해킹...",
+      "url": "https://www.khgames.co.kr/news/articleView.html?idxno=309888",
+      "date": "11.2.",
+      "datetime": "11.2. 03:32",
+      "rawDate": "2026-11-02T03:32:00+09:00",
+      "source": "khgames",
+      "sourceGroup": "khgames",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
       "id": "34ca70c89907",
       "title": "바이낸스 해킹 후 4.9조원 순유출…전체 관리 자산의 2.1%",
       "desc": "북한 해킹조직의 공격으로 약 63억달러(약 8조4000억원) 규모의 가상자산을 탈취당한 세계 최대 가상자산... 역대 최대 규모의 가상자산 해킹 사건 이후 고객들이 대거 자산 인출에 나서면서 거래소에 대한 신뢰 회복이...",
@@ -195,22 +259,6 @@
       "lang": "ko"
     },
     {
-      "id": "897f3dd419c7",
-      "title": "프랑스, '화염병 투척' 시위대 살인미수 수사",
-      "desc": "폭력 시위에 강력히 대응하고 있는 프랑스가 지난달 31일(현지시간) 파리에서 벌어진 시위 도중 보안요원들을 향해 화염병을 투척한 일을 살인미수 사건으로 수사하고 있습니다. AFP 통신에 따르면 파리 검찰청은 지난 1일...",
-      "url": "http://www.yonhapnewstv.co.kr/news/AKR20261102023853Dw7",
-      "date": "11.2.",
-      "datetime": "11.2. 02:39",
-      "rawDate": "2026-11-02T02:39:00+09:00",
-      "source": "yonhapnewstv",
-      "sourceGroup": "yonhapnewstv",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
       "id": "13675c5d35d6",
       "title": "바이낸스 허이, 엔지니어·북한 간첩 연애설 주장 부인",
       "desc": "허이(He Yi) 바이낸스(Binance) 공동 CEO가 바이낸스 해킹을 엔지니어와 북한 간첩의 교제설에 연결한 주장을 부인했다. PANews는 허이가 X에서 해당 주장을 “더 극적이지만 사실은 아니다”라고 반박했다고...",
@@ -272,22 +320,6 @@
       "region": "국내",
       "tag": "보안",
       "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "e37ff0d7cc60",
-      "title": "바이낸스 해킹 자금 5억달러 이상, 솔라나 등으로 분산",
-      "desc": "바이낸스 해킹으로 탈취된 자금 5억달러(약 6675억원) 이상이 트론(TRX)에서 이동한 뒤 솔라나(SOL) 등 여러 블록체인으로 분산됐다고 디파이언트(The Defiant)는 체이널리시스(Chainalysis) 분석을 인용해...",
-      "url": "https://www.tokenpost.kr/news/breaking/431001",
-      "date": "11.2.",
-      "datetime": "11.2. 02:14",
-      "rawDate": "2026-11-02T02:14:00+09:00",
-      "source": "tokenpost",
-      "sourceGroup": "tokenpost",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
       "lang": "ko"
     },
     {
@@ -1219,22 +1251,6 @@
       "lang": "ko"
     },
     {
-      "id": "a9dbabfd5c07",
-      "title": "\"日 IT 대기업 '해킹 배후 北해커집단' 분석…日정부에 보고\"",
-      "desc": "일본 IT 대기업 GMO인터넷그룹은 최근 당했던 사이버 공격 배후에 북한계 해커 집단이 있을 가능성이 높다고 분석하고, 일본 정부 측에 보고한 것으로 보인다고 산케이신문이 1일 보도했다. 1일 산케이신문은 관계자를...",
-      "url": "https://www.newsis.com/view/NISX20261101_0003850003",
-      "date": "11.1.",
-      "datetime": "11.1. 22:57",
-      "rawDate": "2026-11-01T22:57:00+09:00",
-      "source": "뉴시스",
-      "sourceGroup": "뉴시스",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
       "id": "fd6aa19e5c5a",
       "title": "박진영, 계암리 학살 진실 알았다…김유정 &quot;울지 말아요&quot; ('100일의 거짓...",
       "desc": "김명남이 사토 히데오의 약혼녀 신분으로 보안 수색을 통과해서 폭탄이 숨겨진 보약을 들고 가면 이가경이 폭탄을 숨겨놓는 계획이었다. 그러나 보안이 강화된 탓에 탐지견이 있었다. 탐지견은 보자기를 물어뜯고, 폭탄을...",
@@ -1568,6 +1584,22 @@
       "region": "국내",
       "tag": "정책/제도",
       "tagCls": "tag-green",
+      "lang": "ko"
+    },
+    {
+      "id": "1f4c7d782c35",
+      "title": "IT 대기업도 &quot;해킹 배후 북한&quot;…해커 협박에 '현상금' 걸었다",
+      "desc": "회사는 자사 서버를 겨냥한 사이버 공격 과정에서 발견된 악성 소프트웨어의 특징 등을 분석해 북한 연계 해커 조직의 관여 가능성이 높다고 본 것으로 전해졌다. 교도통신이 보안 전문가와 함께 공격자가 범행 내용을...",
+      "url": "https://www.hankyung.com/article/2026110187267",
+      "date": "11.1.",
+      "datetime": "11.1. 21:44",
+      "rawDate": "2026-11-01T21:44:00+09:00",
+      "source": "한국경제",
+      "sourceGroup": "한국경제",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
       "lang": "ko"
     },
     {
@@ -3347,22 +3379,6 @@
       "lang": "ko"
     },
     {
-      "id": "bbd4a63c1e1c",
-      "title": "&quot;바이낸스 해킹 북한 소행&quot;…FBI가 지목한 '배후 조직'",
-      "desc": "지난 2월 바이비트를 해킹해 15억달러 규모의 가상자산도 탈취했다고 지목됐던 조직입니다. [황석진/동국대 국제정보보호대학원 교수 : 북한의 해킹 능력은 상당히 고도화되었습니다. 특히 가상자산 탈취 분야에서는...",
-      "url": "https://news.jtbc.co.kr/article/NB12325907?influxDiv=NAVER",
-      "date": "11.1.",
-      "datetime": "11.1. 18:36",
-      "rawDate": "2026-11-01T18:36:00+09:00",
-      "source": "news",
-      "sourceGroup": "news",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
       "id": "f20eac5c771e",
       "title": "보안점검에도 해킹 잇따라…금융당국, 5일 추가 대책회의",
       "desc": "［뉴시안= 조은주 기자］금융당국이 잇단 보안점검에도 금융권 해킹 사고가 계속되자 인공지능(AI) 기반... 1일 금융당국과 금융권에 따르면 금융위원회는 5일 이억원 금융위원장 주재로 전 금융권 해킹 대응 점검회의를...",
@@ -3968,6 +3984,22 @@
       "region": "국내",
       "tag": "보안",
       "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "4ce24802c1e6",
+      "title": "[사설]&quot;바이낸스 해킹 배후는 北&quot;…우리 사이버 방비도 불안불안",
+      "desc": "지난달에만 은행과 증권사, 가상화폐 거래소는 물론 대학과 항공사 등에서 개인정보 유출 사고가 잇따랐다.... 실제 침해와 다르고 주소 위장 가능성도 따져야 하지만 경계를 강화해야 할 징후다. 인공지능(AI)은 위협의...",
+      "url": "https://www.sidae.com/article/2026110113160358578",
+      "date": "11.1.",
+      "datetime": "11.1. 18:00",
+      "rawDate": "2026-11-01T18:00:00+09:00",
+      "source": "sidae",
+      "sourceGroup": "sidae",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
       "lang": "ko"
     },
     {
@@ -7232,38 +7264,6 @@
       "region": "국내",
       "tag": "정책/제도",
       "tagCls": "tag-green",
-      "lang": "ko"
-    },
-    {
-      "id": "b7d7d3592d85",
-      "title": "소니·업비트 해킹 배후 ‘라자루스’, AI로 공격 고도화",
-      "desc": "북한 연계 해킹 조직 ‘라자루스’가 인공지능(AI)을 활용한 사이버 공격에서도 잇따라 배후로 지목되고... 1일 업계에 따르면 라자루스는 북한 정찰총국 산하의 대표적인 해킹 조직이다. 미국 재무부는 2019년...",
-      "url": "https://www.segye.com/newsView/20261101505878?OutUrl=naver",
-      "date": "11.1.",
-      "datetime": "11.1. 13:22",
-      "rawDate": "2026-11-01T13:22:00+09:00",
-      "source": "segye",
-      "sourceGroup": "segye",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "011c58dc22c3",
-      "title": "“AI 사이버 보안 위협 막을 전문가 발굴”…LGU+, 교육부·티오리한국과...",
-      "desc": "LG유플러스가 인공지능(AI) 시대 사이버 보안 위협을 막을 청소년 인재 육성에 나선다. LG유플러스는 AI 보안 전문성과 네트워크, 인프라를 활용해 미래 보안 인재의 실전 역량을 키운다는 방침이다. LG유플러스는 교육부...",
-      "url": "https://www.munhwa.com/article/11627838?ref=naver",
-      "date": "11.1.",
-      "datetime": "11.1. 13:22",
-      "rawDate": "2026-11-01T13:22:00+09:00",
-      "source": "munhwa",
-      "sourceGroup": "munhwa",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
       "lang": "ko"
     },
     {
