@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-02T03:31:14.409309+09:00",
+  "fetched_at": "2026-11-02T03:33:09.409338+09:00",
   "count": 500,
   "articles": [
     {
@@ -96,6 +96,22 @@
       "region": "국내",
       "tag": "AI 보안",
       "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
+      "id": "34ca70c89907",
+      "title": "바이낸스 해킹 후 4.9조원 순유출…전체 관리 자산의 2.1%",
+      "desc": "북한 해킹조직의 공격으로 약 63억달러(약 8조4000억원) 규모의 가상자산을 탈취당한 세계 최대 가상자산... 역대 최대 규모의 가상자산 해킹 사건 이후 고객들이 대거 자산 인출에 나서면서 거래소에 대한 신뢰 회복이...",
+      "url": "https://www.news1.kr/world/international-economy/6339172",
+      "date": "11.2.",
+      "datetime": "11.2. 03:28",
+      "rawDate": "2026-11-02T03:28:00+09:00",
+      "source": "뉴스1",
+      "sourceGroup": "뉴스1",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
       "lang": "ko"
     },
     {
@@ -7247,22 +7263,6 @@
       "channel": "자체개발",
       "region": "국내",
       "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "503f83a01c8e",
-      "title": "부산김해경전철, 사이버 테러로 인한 복합재난 불시 훈련 최초 실시",
-      "desc": "일대에서 사이버 테러로 인한 무인 자동운전 시스템 마비에 따른 열차 장시간 정차 상황을 가정한 재난대비 상시(불시)훈련을 처음으로 실시했다고 밝혔다. 최근 국내외적으로 증가하는 사이버 위협이 철도 현장의 물리적...",
-      "url": "https://www.newsgn.com/news/articleView.html?idxno=582597",
-      "date": "11.1.",
-      "datetime": "11.1. 13:22",
-      "rawDate": "2026-11-01T13:22:00+09:00",
-      "source": "newsgn",
-      "sourceGroup": "newsgn",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
       "tagCls": "tag-blue",
       "lang": "ko"
     },
