@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-04T02:31:21.613610+09:00",
+  "fetched_at": "2026-11-04T02:48:40.175340+09:00",
   "count": 500,
   "articles": [
     {
@@ -99,6 +99,22 @@
       "lang": "ko"
     },
     {
+      "id": "0fb5b10ab7b6",
+      "title": "[美중간선거] 순조롭게 투표 진행…선거감시단 파견으로 긴장 고조",
+      "desc": "주지사는 7개 카운티에 주방위군 100여명을 선거 감시단으로 투입했다. 민주당 소속 주지사가 있는 노스캐롤라이나주도 주방위군을 선거 모니터링에 배치했다. 콜로라도주에서는 주방위군이 선거 사이버보안 지원에 나선다.",
+      "url": "https://www.nocutnews.co.kr/news/6601724?utm_source=naver&utm_medium=article&utm_campaign=20261104024529",
+      "date": "11.4.",
+      "datetime": "11.4. 02:46",
+      "rawDate": "2026-11-04T02:46:00+09:00",
+      "source": "nocutnews",
+      "sourceGroup": "nocutnews",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko"
+    },
+    {
       "id": "2410a6b78752",
       "title": "외교부, ‘대통령 개인정보 유출’ 개인정보위에 신고",
       "desc": "외교부는 이재명 대통령과 김혜경 여사 등 공군 1호기 탑승자 168명의 개인정보가 유출된 건에 대해 개인정보보호위원회에 신고했다.3일 개인정보위에 따르면 외교부는 이날 오전 10시경 공군 1호기 탑승자들 명단이 담긴 엑셀 파일이 외부 사이트에 게시된 사실에 대해 개인정보 유출을 신고했다.이 파일에는 명단에 오른 이들의 이름과 생년월일, 여권번호 등이 담겼다. 대통령 내외와 위성락 국가안보실장, 당시 김용범 정책실장 등 정부 고위관계자들 다수가 포함됐다.이 명단은 구글의 악성코드 검사 플랫폼인 ‘바이러스 토탈’을 통해 게시됐다. 지난",
@@ -112,6 +128,22 @@
       "region": "국내",
       "tag": "정책/제도",
       "tagCls": "tag-green",
+      "lang": "ko"
+    },
+    {
+      "id": "104c1d91a8d7",
+      "title": "1대1 복구된 리퀴드 비트코인(LBTC)…페더레이션 페그아웃 제한",
+      "desc": "리퀴드 페더레이션(Liquid Federation)은 9월 보안 사고 뒤 깨진 리퀴드 비트코인(LBTC)의 비트코인(BTC) 1대1 담보를 복구했지만, 페더레이션 자체 페그아웃은 여전히 제한돼 있다. 페더레이션은 3일 공식 공지에서...",
+      "url": "https://www.tokenpost.kr/news/blockchain/432138",
+      "date": "11.4.",
+      "datetime": "11.4. 02:32",
+      "rawDate": "2026-11-04T02:32:00+09:00",
+      "source": "tokenpost",
+      "sourceGroup": "tokenpost",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
       "lang": "ko"
     },
     {
@@ -7180,38 +7212,6 @@
       "rawDate": "2026-11-03T18:00:00+09:00",
       "source": "한국경제",
       "sourceGroup": "한국경제",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "4dcd1d17a01c",
-      "title": "수조원 본PF 앞둔 고양 IDC, 마지막 관문은 [현장+]",
-      "desc": "넥사서비스의 자체 인력 목표와 별개로 데이터센터와 관련 업무공간에 연구·기술인력, 정보보안 인력 등이 함께 근무하면서 지역 내 소비와 기업 활동이 늘어날 수 있다는 것이다. 김 회장은 데이터센터의 지역...",
-      "url": "https://www.bloter.net/news/articleView.html?idxno=677598",
-      "date": "11.3.",
-      "datetime": "11.3. 17:56",
-      "rawDate": "2026-11-03T17:56:00+09:00",
-      "source": "bloter",
-      "sourceGroup": "bloter",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "105599af1438",
-      "title": "개인정보 지키는 난임 상담 AI…대구대 연구팀, ICCT 2026 우수논문상",
-      "desc": "DU난임대응센터장을 맡고 있는 구덕본 대구대 교수는 \"난임은 극히 사적인 영역이어서 상담이 절실함에도 주저하는 경우가 많다\"며 \"개인정보 침해 우려 없이 정확하고 따뜻한 정보 제공이 가능하다는 점을 국제...",
-      "url": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4089538",
-      "date": "11.3.",
-      "datetime": "11.3. 17:56",
-      "rawDate": "2026-11-03T17:56:00+09:00",
-      "source": "kyongbuk",
-      "sourceGroup": "kyongbuk",
       "channel": "자체개발",
       "region": "국내",
       "tag": "해킹/침해",
