@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-04T20:31:10.215073+09:00",
+  "fetched_at": "2026-11-04T20:33:10.136299+09:00",
   "count": 500,
   "articles": [
     {
@@ -336,6 +336,22 @@
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "be9391a8458f",
+      "title": "항만보안시설 통합에 자회사 직원 배제… 노조 반발",
+      "desc": "정부가 전국 4대 항만공사와 항만보안시설 자회사 5곳의 통합을 추진하는 가운데 자회사 직원들이 통합... 한국항만보안시설공단노조는 4일 \"4대 항만공사 통합 논의 과정에서는 각 항만공사 직원을 참여시켜 태스크포스...",
+      "url": "http://www.ujeil.com/news/articleView.html?idxno=394767",
+      "date": "11.4.",
+      "datetime": "11.4. 20:30",
+      "rawDate": "2026-11-04T20:30:00+09:00",
+      "source": "ujeil",
+      "sourceGroup": "ujeil",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
       "lang": "ko"
     },
     {
@@ -7180,22 +7196,6 @@
       "rawDate": "2026-11-04T15:39:00+09:00",
       "source": "지디넷코리아",
       "sourceGroup": "지디넷코리아",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko"
-    },
-    {
-      "id": "8d11489c968c",
-      "title": "“잠도 안 자는 AI 공격”…보안에 수백억 써도 증권가 불안",
-      "desc": "증권사와 자산운용사에서 해킹에 따른 정보 유출이 잇따르면서 금융투자업계의 불안이 커지고 있다. 연간... 업권을 넓히면 해킹 피해는 정보 유출에 머물지 않고 있다. 최근 온라인투자연계금융업체 줌펀드에서는 고객...",
-      "url": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202611040122&t=NN",
-      "date": "11.4.",
-      "datetime": "11.4. 15:37",
-      "rawDate": "2026-11-04T15:37:00+09:00",
-      "source": "wowtv",
-      "sourceGroup": "wowtv",
       "channel": "자체개발",
       "region": "국내",
       "tag": "해킹/침해",
