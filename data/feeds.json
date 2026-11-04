@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-05T03:52:35.346580+09:00",
+  "fetched_at": "2026-11-05T04:01:32.970359+09:00",
   "count": 500,
   "articles": [
     {
@@ -124,6 +124,22 @@
       "rawDate": "2026-11-05T03:56:49+09:00",
       "source": "데일리시큐",
       "sourceGroup": "데일리시큐",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko"
+    },
+    {
+      "id": "f9d675fecbff",
+      "title": "프라이버시 캐시, 바이낸스 해킹 연루 자금 16억원 유입 뒤 입금 중단",
+      "desc": "프라이버시 캐시(Privacy Cash)가 바이낸스(Binance) 해킹 연루 자금 약 120만달러(약 16억원)가 풀에 유입된 뒤 입금을 일시 중단했다고 디파이언트(The Defiant)가 4일 보도했다. 프라이버시 캐시 팀은 4일...",
+      "url": "https://www.tokenpost.kr/news/breaking/432817",
+      "date": "11.5.",
+      "datetime": "11.5. 03:52",
+      "rawDate": "2026-11-05T03:52:00+09:00",
+      "source": "tokenpost",
+      "sourceGroup": "tokenpost",
       "channel": "자체개발",
       "region": "국내",
       "tag": "해킹/침해",
@@ -7180,22 +7196,6 @@
       "rawDate": "2026-11-04T16:52:00+09:00",
       "source": "tokenpost",
       "sourceGroup": "tokenpost",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko"
-    },
-    {
-      "id": "cd7ba833816c",
-      "title": "김영희 경기도의회 교육기획위원회 부위원장, 교육정보시스템 운영 효율...",
-      "desc": "자리에서 김 부위원장은 먼저 나이스(NEIS) 등 주요 교육정보시스템의 인프라 구축비와 운영·보안·유지관리 예산이 개별 편성되는 구조를 살피고, 해마다 적지 않은 재원이 투입되는 만큼 세부 사업 간 중복 요소는 없는지...",
-      "url": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/11/04/20261104500282?wlog_tag3=naver",
-      "date": "11.4.",
-      "datetime": "11.4. 16:52",
-      "rawDate": "2026-11-04T16:52:00+09:00",
-      "source": "seoul",
-      "sourceGroup": "seoul",
       "channel": "자체개발",
       "region": "국내",
       "tag": "보안",
