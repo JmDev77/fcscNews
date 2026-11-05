@@ -15,6 +15,10 @@ on:
         description: '정보원 외부 feeds.json 포함 (on/off)'
         required: false
         default: 'on'
+      only_failed:
+        description: '직전 결과의 실패·불안정·의심 매체만 재시험 (on/off)'
+        required: false
+        default: 'off'
 
 jobs:
   crawl-test:
@@ -40,6 +44,7 @@ jobs:
           SAMPLE:     ${{ github.event.inputs.sample }}
           MIN_LEN:    ${{ github.event.inputs.min_len }}
           INCLUDE_JB: ${{ github.event.inputs.include_jb }}
+          ONLY_FAILED: ${{ github.event.inputs.only_failed }}
         run: python scripts/crawl_test.py
 
       - name: 결과 커밋
