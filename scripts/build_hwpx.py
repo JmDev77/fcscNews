@@ -134,7 +134,9 @@ def fit_one_line(p, text, avail, bank):
                     choice = (s, r); break
             if choice: break
     if choice is None:
-        choice = (-MAX_TIGHTEN, RATIO_STEPS[-1])   # 최대로 줄여도 길면 그 상태로 두 줄
+        # 최대로 줄여도 한 줄에 안 들어가는 긴 제목(예: 80자짜리 브리핑 제목)은 줄이지 않고 그냥 두 줄로 둔다
+        # — 꽉 눌러 놓고 결국 두 줄이 되는 게 가장 보기 나쁨
+        return base
     s, r = choice
     run.set('charPrIDRef', bank.with_spacing(cid, s, r))
     return (s, r) if r != 100 else s
