@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-06T02:31:19.276050+09:00",
+  "fetched_at": "2026-11-06T03:01:31.739990+09:00",
   "count": 500,
   "articles": [
     {
@@ -51,6 +51,23 @@
       "tag": "해킹/침해",
       "tagCls": "tag-red",
       "lang": "ko",
+      "crawl": "지원"
+    },
+    {
+      "id": "4bbc6f9c81c6",
+      "title": "AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research",
+      "desc": "An unreleased OpenAI cyber model found and exploited 948 distinct Linux kernel privilege escalation bugs for about $1.2 million.\nThe post AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/ai-agents-got-root-on-linux-via-948-kernel-flaws-in-openai-research/",
+      "date": "11.6.",
+      "datetime": "11.6. 02:32",
+      "rawDate": "2026-11-06T02:32:37+09:00",
+      "source": "SecurityWeek",
+      "sourceGroup": "SecurityWeek",
+      "channel": "자체개발",
+      "region": "해외",
+      "tag": "취약점/CVE",
+      "tagCls": "tag-yellow",
+      "lang": "en",
       "crawl": "지원"
     },
     {
@@ -7649,23 +7666,6 @@
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
-      "lang": "ko",
-      "crawl": "지원"
-    },
-    {
-      "id": "6b4c4630515f",
-      "title": "‘쇼핑백 안 흉기’ 대형병원서 의사 또 피습…‘비상벨’도 못 막았다...",
-      "desc": "현행 의료법 시행규칙에 따라 100병상 이상 병원과 정신병원, 종합병원은 보안 전담인력을 1명 이상... 경기도 부천에 있는 루카스병원 구자현 부원장은 “병원마다 각자 보안요원을 고용하고 있지만 진료실 안에서...",
-      "url": "https://biz.heraldcorp.com/article/10927368?ref=naver",
-      "date": "11.5.",
-      "datetime": "11.5. 16:46",
-      "rawDate": "2026-11-05T16:46:00+09:00",
-      "source": "헤럴드경제",
-      "sourceGroup": "헤럴드경제",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "정책/제도",
-      "tagCls": "tag-green",
       "lang": "ko",
       "crawl": "지원"
     },
