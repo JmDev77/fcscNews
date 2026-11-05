@@ -37,11 +37,33 @@ jobs:
           REQUEST_ID:        ${{ github.event.inputs.request_id }}
         run: python scripts/summarize.py
 
+      # 결과 JSON + template.hwpx → 완성된 뉴스레터 HWPX
+      # (실패해도 결과 JSON은 커밋되도록 continue-on-error — 그 경우 index.html 은 hwpx 경로가 없으니 기존 방식으로 처리)
+      - name: 뉴스레터 HWPX 생성
+        continue-on-error: true
+        env:
+          REQUEST_ID: ${{ github.event.inputs.request_id }}
+        run: |
+          D=$(TZ=Asia/Seoul date +%Y%m%d)
+          python scripts/build_hwpx.py "data/result_${REQUEST_ID}.json" "data/out/newsletter_${D}_${REQUEST_ID}.hwpx"
+
+      # 30일 지난 뉴스레터 파일 정리 (파일명의 날짜 기준)
+      - name: 오래된 HWPX 정리
+        run: |
+          CUT=$(TZ=Asia/Seoul date -d '30 days ago' +%Y%m%d)
+          for f in data/out/newsletter_*.hwpx; do
+            [ -e "$f" ] || continue
+            d=$(basename "$f" | cut -d_ -f2)
+            if [ "$d" \< "$CUT" ]; then git rm -q "$f" 2>/dev/null || rm -f "$f"; fi
+          done
+
       - name: result 커밋
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/result_*.json
+          git add -A data/out 2>/dev/null || true
           git diff --staged --quiet \
             && echo "변경 없음" \
-            || (git commit -m "chore: update result [skip ci]" && git push)
+            || (git commit -m "chore: update result [skip ci]" && \
+                for i in 1 2 3; do git pull --rebase -q && git push && break; sleep 5; done)
