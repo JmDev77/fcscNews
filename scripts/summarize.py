@@ -401,6 +401,13 @@ def format_numbers(text):
     out.append(rep_in(text[pos:]))
     return ''.join(out)
 
+def is_english(text):
+    """본문이 영문 위주인지 (영문자가 한글보다 2배 이상 많으면 영문 기사로 봄)"""
+    t = (text or '')[:3000]
+    latin  = len(re.findall(r'[A-Za-z]', t))
+    hangul = len(re.findall(r'[가-힣]', t))
+    return latin > 200 and latin > hangul * 2
+
 def postprocess_body(text):
     """뉴스레터에 들어가는 최종 본문: 서명 제거 + 숫자 콤마"""
     return format_numbers(strip_byline(text or ''))
@@ -412,6 +419,9 @@ def summarize_with_claude(article, body):
     client = anthropic.Anthropic(api_key=os.environ.get('ANTHROPIC_API_KEY',''))
     today  = datetime.now(KST).strftime('%-m.%-d.')
     lang   = article.get('lang', 'ko')
+    # index.html 이 lang 을 안 넘겨도 본문이 영문 위주면 번역하도록 본문으로도 판단
+    if lang != 'en' and is_english(body):
+        lang = 'en'
 
     prompt = f"""뉴스 기사를 정리해줘. 아래 조건을 반드시 지켜.
 
@@ -471,9 +481,15 @@ URL: {article.get('url','')}
 
         # 안전장치: Claude가 body를 축약/생략했는지 검증
         # 원본 크롤링 본문 대비 결과 body가 비정상적으로 짧으면(60% 미만) 원본으로 대체
+        # ※ 영문→한글 번역은 글자 수가 원문의 35~50%로 줄어드는 게 정상이라 60% 기준을 그대로 쓰면
+        #   멀쩡한 번역을 '축약'으로 오인해 영어 원문으로 되돌려 버렸음(과거 TheHackerNews 기사 본문이 영어로 나간 원인).
+        #   → 번역 기사는 20% 미만일 때만 축약으로 판단하고, 되돌릴 때도 영어 원문 대신 경고만 남긴다.
         result_body = result.get('body', '')
         orig_len = len(body[:8000])
-        if orig_len > 200 and len(result_body) < orig_len * 0.6:
+        if lang == 'en':
+            if orig_len > 200 and len(result_body) < orig_len * 0.2:
+                print(f"  ⚠️ 번역 본문이 너무 짧음 (원문 {orig_len}자 → 번역 {len(result_body)}자) — 확인 필요")
+        elif orig_len > 200 and len(result_body) < orig_len * 0.6:
             print(f"  ⚠️ body 축약 감지 (원본 {orig_len}자 → 결과 {len(result_body)}자) — 원본 크롤링 본문 사용")
             result['body'] = body[:8000]
 
