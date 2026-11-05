@@ -161,14 +161,107 @@ DOMAIN_MEDIA = {
     'threatpost.com':      'ThreatPost',
     'cyberscoop.com':      'CyberScoop',
     'infosecurity-magazine.com': 'InfosecurityMagazine',
+    'cvefeed.io':          'CVEfeed',
+    'cisa.gov':            'CISA',
+    'isc.sans.edu':        'SANS ISC',
+    'msrc.microsoft.com':  'Microsoft MSRC',
+    'news.google.com':     '구글뉴스',
 }
+
+# ── 2026-11-05 추가: 네이버 검색으로 들어오는 국내 매체 한글 이름 ──
+# (목록에 없으면 도메인 앞부분이 출처로 찍혀서 뉴스레터에 'news', 'viva100' 같은 게 나왔음)
+# 확실한 매체만 넣음. 모르는 도메인은 예전처럼 도메인 앞부분으로 표시됨.
+DOMAIN_MEDIA.update({
+    # 종합·경제지
+    'heraldcorp.com': '헤럴드경제', 'asiatoday.co.kr': '아시아투데이', 'newdaily.co.kr': '뉴데일리',
+    'm-i.kr': '매일일보', 'viva100.com': '브릿지경제', 'asiatime.co.kr': '아시아타임즈',
+    'naeil.com': '내일신문', 'munhwa.com': '문화일보', 'shinailbo.co.kr': '신아일보',
+    'hankookilbo.com': '한국일보', 'weekly.hankooki.com': '주간한국', 'sisajournal.com': '시사저널',
+    'ilyo.co.kr': '일요신문', 'khan.co.kr': '경향신문', 'segye.com': '세계일보', 'segyebiz.com': '세계비즈',
+    'fnnews.com': '파이낸셜뉴스', 'dailian.co.kr': '데일리안', 'hansbiz.co.kr': '한스경제',
+    'tf.co.kr': '더팩트', 'ekn.kr': '에너지경제', 'dt.co.kr': '디지털타임스', 'ajunews.com': '아주경제',
+    'g-enews.com': '글로벌이코노믹', 'polinews.co.kr': '폴리뉴스', 'newscj.com': '천지일보',
+    'pressian.com': '프레시안', 'mediapen.com': '미디어펜', 'insight.co.kr': '인사이트',
+    'dnews.co.kr': '대한경제', 'skyedaily.com': '스카이데일리', 'seoul.co.kr': '서울신문',
+    'mydaily.co.kr': '마이데일리', 'nocutnews.co.kr': '노컷뉴스', 'ohmynews.com': '오마이뉴스',
+    'imaeil.com': '매일신문', 'breaknews.com': '브레이크뉴스', 'newsway.co.kr': '뉴스웨이',
+    'enewstoday.co.kr': '이뉴스투데이', 'newsfreezone.co.kr': '뉴스프리존', 'gukjenews.com': '국제뉴스',
+    'megaeconomy.co.kr': '메가경제', 'cstimes.com': '컨슈머타임스', 'safetimes.co.kr': '세이프타임즈',
+    'newspim.com': '뉴스핌', 'etoday.co.kr': '이투데이', 'metroseoul.co.kr': '메트로신문',
+    'kpenews.com': '한국정경신문', 'newsprime.co.kr': '프라임경제', 'thepublic.kr': '더퍼블릭',
+    'newsworks.co.kr': '뉴스웍스', 'thepowernews.co.kr': '더파워뉴스', 'wikitree.co.kr': '위키트리',
+    'sisunnews.co.kr': '시선뉴스', 'kukinews.com': '쿠키뉴스', 'businesspost.co.kr': '비즈니스포스트',
+    'getnews.co.kr': '글로벌경제신문', 'newsquest.co.kr': '뉴스퀘스트', 'ekoreanews.co.kr': '이코리아',
+    'fntoday.co.kr': '파이낸셜투데이', 'newstomato.com': '뉴스토마토', 'econovill.com': '이코노믹리뷰',
+    'financialreview.co.kr': '파이낸셜리뷰', 'seoulfn.com': '서울파이낸스', 'sisaon.co.kr': '시사오늘',
+    'economist.co.kr': '이코노미스트', 'newsian.co.kr': '뉴시안', 'womaneconomy.co.kr': '여성경제신문',
+    'straightnews.co.kr': '스트레이트뉴스', 'opinionnews.co.kr': '오피니언뉴스', 'ilyoseoul.co.kr': '일요서울',
+    'newspost.kr': '뉴스포스트', 'pennmike.com': '펜앤드마이크', 'huffingtonpost.kr': '허프포스트코리아',
+    'iminju.net': '민주신문', 'weeklytoday.com': '위클리오늘', 'dailypop.kr': '데일리팝',
+    'finomy.com': '현대경제신문', 'youthdaily.co.kr': '청년일보', 'smarttoday.co.kr': '스마트투데이',
+    'kpinews.kr': 'KPI뉴스', 'thefairnews.co.kr': '더페어뉴스', 'newsclaim.co.kr': '뉴스클레임',
+    'econonews.co.kr': '이코노뉴스', 'kor.theasian.asia': '아시아엔', 'koreajoongangdaily.com': '코리아중앙데일리',
+    'joongangenews.com': '중앙이코노미뉴스', 'christiantoday.co.kr': '크리스천투데이', 'tongilnews.com': '통일뉴스',
+    'newscham.net': '참세상', 'voakorea.com': 'VOA뉴스', 'yonhapmidas.com': '연합마이더스',
+    # 방송
+    'mtn.co.kr': '머니투데이방송', 'jtbc.co.kr': 'JTBC', 'yonhapnewstv.co.kr': '연합뉴스TV', 'mbn.co.kr': 'MBN',
+    'ichannela.com': '채널A', 'wowtv.co.kr': '한국경제TV', 'sentv.co.kr': '서울경제TV', 'bbsi.co.kr': 'BBS뉴스',
+    'dealsitetv.com': '딜사이트TV', 'ebs.co.kr': 'EBS뉴스', 'tjb.co.kr': 'TJB', 'jibs.co.kr': 'JIBS',
+    'obsnews.co.kr': 'OBS', 'natv.go.kr': '국회방송', 'spotvnews.co.kr': '스포티비뉴스',
+    # IT·보안·과학
+    'tokenpost.kr': '토큰포스트', 'digitaltoday.co.kr': '디지털투데이', 'pinpointnews.co.kr': '핀포인트뉴스',
+    'epnc.co.kr': '테크월드뉴스', 'datanet.co.kr': '데이터넷', 'itdaily.kr': '아이티데일리',
+    'platum.kr': '플래텀', 'byline.network': '바이라인네트워크', 'techm.kr': '테크M',
+    'cnet.co.kr': '씨넷코리아', 'thelec.kr': '디일렉', 'aitimes.kr': '인공지능신문', 'aitimes.com': 'AI타임스',
+    'bloter.net': '블로터', 'betanews.net': '베타뉴스', 'technoa.co.kr': '테크노아', 'hellot.net': '헬로티',
+    'coinreaders.com': '코인리더스', 'kbench.com': '케이벤치', 'ilovepc.co.kr': '디지털포스트',
+    'itbiznews.com': 'IT비즈뉴스', 'venturesquare.net': '벤처스퀘어', 'startuptoday.co.kr': '스타트업투데이',
+    'techholic.co.kr': '테크홀릭', 'enetnews.co.kr': '이넷뉴스', 'industrynews.co.kr': '인더스트리뉴스',
+    'thebigdata.co.kr': '빅데이터뉴스', 'datanews.co.kr': '데이터뉴스', 'cbci.co.kr': 'CBC뉴스',
+    'inven.co.kr': '인벤', 'khgames.co.kr': '경향게임스', 'gamevu.co.kr': '게임뷰', 'nextdaily.co.kr': '넥스트데일리',
+    # 금융·산업·전문지
+    'news.einfomax.co.kr': '연합인포맥스', 'ebn.co.kr': 'EBN', 'thebell.co.kr': '더벨', 'dealsite.co.kr': '딜사이트',
+    'bizwatch.co.kr': '비즈니스워치', 'biztribune.co.kr': '비즈트리뷴', 'kbanker.co.kr': '대한금융신문',
+    'insnews.co.kr': '한국보험신문', 'tfmedia.co.kr': '조세금융신문', 'taxwatch.co.kr': '택스워치',
+    '1conomynews.co.kr': '원코노미뉴스', 'economytalk.kr': '이코노미톡뉴스', 'm-economynews.com': 'M이코노미뉴스',
+    'electimes.com': '전기신문', 'todayenergy.kr': '투데이에너지', 'energy-news.co.kr': '에너지신문',
+    'energydaily.co.kr': '에너지데일리', 'epj.co.kr': '일렉트릭파워', 'housingherald.co.kr': '하우징헤럴드',
+    'job-post.co.kr': '잡포스트', 'lecturernews.com': '한국강사신문', 'worktoday.co.kr': '워크투데이',
+    'lawissue.co.kr': '로이슈', 'lawtalknews.co.kr': '로톡뉴스', 'pressman.kr': '프레스맨',
+    'kyosu.net': '교수신문', 'gosiweek.com': '고시위크', 'ibabynews.com': '베이비뉴스', 'ablenews.co.kr': '에이블뉴스',
+    'eroun.net': '이로운넷', 'newspenguin.com': '뉴스펭귄', 'wikileaks-kr.org': '위키리크스한국',
+    # 의료
+    'medigatenews.com': '메디게이트뉴스', 'doctorsnews.co.kr': '의협신문', 'whosaeng.com': '후생신보',
+    'rapportian.com': '라포르시안', 'bokuennews.com': '보건뉴스', 'kormedi.com': '코메디닷컴',
+    'mdtoday.co.kr': '메디컬투데이', 'dailymedi.com': '데일리메디', 'medicalworldnews.co.kr': '메디컬월드뉴스',
+    # 연예·스포츠·문화
+    'topstarnews.net': '톱스타뉴스', 'sportsseoul.com': '스포츠서울', 'xportsnews.com': '엑스포츠뉴스',
+    'tvreport.co.kr': 'TV리포트', 'mhns.co.kr': '문화뉴스', 'slist.kr': '싱글리스트',
+    # 지역
+    'kbsm.net': '경북신문', 'cctimes.kr': '충청타임즈', 'jnilbo.com': '전남일보', 'mediajeju.com': '미디어제주',
+    'headlinejeju.co.kr': '헤드라인제주', 'kihoilbo.co.kr': '기호일보', 'kwnews.co.kr': '강원일보',
+    'hidomin.com': '경북도민일보', 'kbmaeil.com': '경북매일', 'busan.com': '부산일보', 'joongboo.com': '중부일보',
+    'daejonilbo.com': '대전일보', 'jeonmae.co.kr': '전국매일신문', 'jeollailbo.com': '전라일보', 'jemin.com': '제민일보',
+    'chungnamilbo.co.kr': '충남일보', 'suwonilbo.kr': '수원일보', 'idaegu.co.kr': '대구신문',
+    # 조선 계열 (예전 '포함' 비교로는 전부 '조선일보'로 잘못 찍혔음)
+    'tvchosun.com': 'TV조선', 'sportschosun.com': '스포츠조선', 'it.chosun.com': 'IT조선',
+    'biz.chosun.com': '조선비즈', 'health.chosun.com': '헬스조선', 'digitalchosun.dizzo.com': '디지털조선일보',
+    'ifm.kr': '경인방송',
+    # 정부
+    'korea.kr': '정책브리핑',
+})
+
+def _domain_match(host, domain):
+    """host 가 domain 자체이거나 그 하위 도메인일 때만 일치 (예전 '포함' 비교는 'mt.co.kr' 같은 짧은 도메인이 엉뚱한 곳에 걸릴 수 있었음)"""
+    return host == domain or host.endswith('.' + domain)
 
 def media_from_url(url):
     try:
         host = re.sub(r'^(www|m|n)\.', '', url.split('/')[2].lower())
-        for domain, name in DOMAIN_MEDIA.items():
-            if domain in host:
-                return name
+        # 긴(구체적인) 도메인부터 비교: 'news.einfomax.co.kr' 가 있으면 그게 먼저
+        for domain in sorted(DOMAIN_MEDIA, key=len, reverse=True):
+            if _domain_match(host, domain):
+                return DOMAIN_MEDIA[domain]
         if 'naver.com' in host:
             return '네이버뉴스'
         # 매핑 없으면 도메인 자체를 보기 좋게 표시
@@ -909,6 +1002,26 @@ def main():
     deduped = sorted(keep_shieldus + keep_others,
                      key=lambda x: x.get('rawDate', ''), reverse=True)
     print(f"[개수 제한] 전체 {len(deduped)}건 (쉴더스 {len(keep_shieldus)} + 그외 {len(keep_others)})")
+
+    # 출처가 도메인 조각('news', 'viva100' 등)으로 저장돼 있던 기사는 매체명 목록이 늘어난 만큼 다시 이름 붙임
+    renamed = 0
+    for a in deduped:
+        try:
+            host = re.sub(r'^(www|m|n)\.', '', a.get('url', '').split('/')[2].lower())
+        except Exception:
+            continue
+        fb, nm = host.split('.')[0], media_from_url(a.get('url', ''))
+        if nm == fb:
+            continue
+        src = a.get('source', '')
+        if src == fb:
+            a['source'] = nm; renamed += 1
+        elif src.startswith(fb + ' 외 '):               # 쉴더스 'news 외 3곳'
+            a['source'] = nm + src[len(fb):]; renamed += 1
+        if a.get('sourceGroup') == fb:
+            a['sourceGroup'] = nm
+    if renamed:
+        print(f"[매체명] 도메인으로 표시되던 출처 {renamed}건 이름 갱신")
 
     # 크롤링 지원 여부 표시 (기존에 쌓여 있던 기사도 최신 테스트 결과로 매번 다시 매김)
     for a in deduped:
