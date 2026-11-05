@@ -301,7 +301,109 @@ def crawl(url):
 def clean_body(text):
     text = re.sub(r'[ \t]+', ' ', text)
     text = re.sub(r'\n\s*\n+', '\n', text)
+    text = strip_byline(text)
     return text.strip()[:5000]
+
+# ── 본문 후처리: 기자 서명·이메일·제보 안내 등 본문 외 문구 제거 ─────────────
+#   (Claude 프롬프트가 아니라 코드로 처리 — 매번 똑같이, 숫자·문장을 건드리지 않고 지움)
+_RE_EMAIL   = re.compile(r'[\w.+-]+@[\w-]+(\.[\w-]+)+')
+_REPORTER   = r'(기자|특파원|객원기자|선임기자|전문기자|인턴기자|논설위원|칼럼니스트|통신원)'
+# 첫 문단 앞머리 서명: [보안뉴스 홍길동 기자] / [대한경제=김동섭 기자] / (서울=연합뉴스) 홍길동 기자 =
+_LEAD_BYLINES = [
+    re.compile(r'^\[[^\]]{0,40}' + _REPORTER + r'[^\]]{0,20}\]\s*'),
+    re.compile(r'^\([^)]{0,25}=[^)]{0,25}\)\s*([가-힣]{2,4}\s*)?(' + _REPORTER + r')?\s*=?\s*'),
+    re.compile(r'^[가-힣]{2,4}\s*' + _REPORTER + r'\s*=\s*'),
+]
+# 이 문구로 시작하는 줄부터 끝까지는 본문이 아님(저작권 고지·제보 안내 블록)
+_TAIL_START = re.compile(
+    r'^\s*(<\s*)?(저작권자|copyright|ⓒ|©|\(c\)|무단\s*전재|기사\s*제보|제보\s*하기|▶\s*제보|'
+    r'\[?\s*관련\s*기사|※\s*이\s*기사|이\s*기사는(\s*$|.*(제공|작성|게재|표출|송고))|유료\s*콘텐츠|'
+    r'.*제보를\s*기다립니다|구독\s*하기|'
+    r'▷\s*(카카오톡|전화|이메일|뉴스\s*홈페이지)|☞|「?\s*열린\s*보도\s*원칙)', re.I)
+# 줄 전체가 서명/캡션이면 버림
+_DROP_LINE = [
+    re.compile(r'^[<\[(/]?\s*[가-힣]{2,4}\s*' + _REPORTER + r'\s*[>\])]?$'),                  # 홍길동 기자
+    re.compile(r'^[<\[(/]?\s*([가-힣·\s]{0,20}=)?\s*[가-힣]{2,4}\s*' + _REPORTER + r'.{0,10}@'),  # <홍길동 기자 a@b.com>
+    re.compile(r'^[<\[(]?\s*\S+@\S+\s*[>\])]?$'),                                               # 이메일만
+    re.compile(r'^[\[(]?\s*(사진|그래픽|자료|출처|영상)\s*[=:]\s*[^\])]{0,40}[\])]?$'),         # [사진=연합뉴스]
+    re.compile(r'^[가-힣\s]{2,15}(기자|PD)\s*\(?[\w.+-]+@'),
+    re.compile(r'^\s*#\s*\S'),                                                                  # # 해시태그 줄
+    re.compile(r'^\s*[▶▷☞■◆●]\s*[^\n]{0,20}(제보|홈페이지|이메일|카카오톡|전화|구독|바로가기|관련\s*기사)'),  # ▶뉴스 홈페이지:
+    re.compile(r'^[\[/(]?\s*.{0,50}(칼럼니스트|컬럼리스트|객원\s*칼럼|기고자)\s*\]?$'),           # / 전직 CISO 겸 컬럼리스트]
+]
+
+def strip_byline(text):
+    text = text.replace('\\n', '\n')       # 본문에 글자 그대로 '\n'이 섞여 오는 경우(과거 result에서 발견)
+    lines = [ln.strip() for ln in text.split('\n')]
+    lines = [ln for ln in lines if ln]
+    if not lines:
+        return ''
+    # 1) 앞머리 서명
+    for rx in _LEAD_BYLINES:
+        lines[0] = rx.sub('', lines[0]).strip()
+    # 2) 꼬리 블록 자르기(본문 절반 이후에서만 — 본문 중간 인용을 잘못 자르지 않도록)
+    half = len(lines) // 2
+    for i in range(half, len(lines)):
+        if _TAIL_START.match(lines[i]):
+            lines = lines[:i]
+            break
+    # 3) 서명·이메일·캡션 줄 제거, 줄 끝에 붙은 서명 제거
+    out = []
+    for ln in lines:
+        if any(rx.match(ln) for rx in _DROP_LINE):
+            continue
+        ln = re.sub(r'\s*[<\[(/]\s*[가-힣]{2,4}\s*' + _REPORTER + r'[^>\])]{0,40}[>\])]?\s*$', '', ln)  # 문장 끝 /홍길동 기자
+        ln = re.sub(r'\s*' + _RE_EMAIL.pattern, '', ln)                                                  # 남은 이메일
+        ln = re.sub(r'\s*[가-힣]{2,4}\s*' + _REPORTER + r'\s*$', '', ln) if len(ln) > 30 else ln          # 마지막 문장 뒤 '홍길동 기자'
+        ln = ln.strip()
+        if ln:
+            out.append(ln)
+    # 4) 끝에서부터 남은 짧은 서명성 줄 정리
+    while out and len(out) > 1 and (
+            (len(out[-1]) < 25 and re.search(_REPORTER + r'|@|ⓒ|©', out[-1]))      # 짧은 서명
+            or (len(out[-1]) < 60 and re.search(r'(\.\.\.|…)$', out[-1])             # 잘린 관련기사 제목
+                and not re.search(r'[다요죠음함됨]\s*[.…]*$', out[-1].rstrip('.…')))
+            or (len(out[-1]) <= 10 and not re.search(r'[.!?"”’)다요]$', out[-1]))):   # 매체명만 남은 줄(더퍼블릭)
+        out.pop()
+    return '\n'.join(out)
+
+# ── 숫자 천 단위 콤마: 1000 → 1,000 / 515333 → 515,333 ─────────────────────
+#   건드리지 않는 것: 연도(2026년·2026.11.5), CVE-2024-12345, 전화·사업자번호(010-1234-5678),
+#   버전(10.0.19045), 시각(12:30), 소수 뒤쪽, 0으로 시작(우편번호 06075), 영문 모델명(RTX 4090),
+#   이미 콤마 있는 수, URL·이메일·#번호 안의 숫자
+_UNIT_AFTER_YEARLIKE = re.compile(
+    r'\s?(명|원|개|건|달러|유로|엔|위안|대|곳|회|배|가구|개사|톤|만|억|조|여|여명|여건|여개|'
+    r'km|m|kg|GB|TB|MB|%|건의|명의|개의|달러의)')
+#   앞: 영숫자·_ . , - : / # @ = ? & \ 이 바로 붙어 있으면 제외, '만·억·조' 바로 뒤(47만3000건)도 제외
+#   뒤: 숫자 / ,숫자 / :숫자 / /숫자 / -숫자 / .숫자.숫자(버전) 가 이어지면 제외. 소수(1234.56)는 허용
+_NUM = re.compile(r'(?<![A-Za-z0-9_.,\-:/#@=?&\\만억조])(?<![A-Za-z]\s)(\d{4,})(?!\d|[,:/\-]\d|\.\d+\.\d|[A-Za-z]*@)')
+_SKIP_SPAN = re.compile(r'https?://\S+|www\.\S+|[\w.+-]+@[\w-]+(?:\.[\w-]+)+')
+
+def format_numbers(text):
+    def rep_in(chunk):
+        def rep(m):
+            s = m.group(1)
+            if s.startswith('0'):
+                return s
+            n = int(s)
+            if len(s) == 4 and 1900 <= n <= 2100:
+                # 연도처럼 보이는 4자리는 뒤에 수량 단위가 붙을 때만 (2000명 → 2,000명 / 2026년 → 그대로)
+                if not _UNIT_AFTER_YEARLIKE.match(chunk, m.end()):
+                    return s
+            return f'{n:,}'
+        return _NUM.sub(rep, chunk)
+    # URL·이메일 구간은 그대로 두고 나머지만 변환
+    out, pos = [], 0
+    for m in _SKIP_SPAN.finditer(text):
+        out.append(rep_in(text[pos:m.start()]))
+        out.append(m.group(0))
+        pos = m.end()
+    out.append(rep_in(text[pos:]))
+    return ''.join(out)
+
+def postprocess_body(text):
+    """뉴스레터에 들어가는 최종 본문: 서명 제거 + 숫자 콤마"""
+    return format_numbers(strip_byline(text or ''))
 
 # ── Claude 요약 ───────────────────────────────────────
 DELIM = '@@@FIELD@@@'  # 필드 구분자 (본문에 나올 가능성 거의 없는 패턴)
@@ -442,7 +544,7 @@ def main():
                 'date':     result.get('date')      or article.get('date',''),
                 'summary1': result.get('summary1',''),
                 'summary2': result.get('summary2',''),
-                'body':     result.get('body')      or body,
+                'body':     postprocess_body(result.get('body') or body),
                 'url':      result.get('url')       or article.get('url',''),
                 'tag':      article.get('tag','보안'),
                 'tagCls':   article.get('tagCls','tag-blue'),
@@ -456,7 +558,7 @@ def main():
                 'date':     article.get('date',''),
                 'summary1': '',
                 'summary2': '',
-                'body':     body,
+                'body':     postprocess_body(body),
                 'url':      article.get('url',''),
                 'tag':      article.get('tag','보안'),
                 'tagCls':   article.get('tagCls','tag-blue'),
