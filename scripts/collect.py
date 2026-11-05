@@ -213,6 +213,25 @@ def extract_source_outlets(description_html):
     except Exception:
         return []
 
+# ── 원문 크롤링 지원 여부 (crawl_test.py 결과) ─────────────────────
+# data/crawl_test_result.json 의 support_map(도메인 → 지원/불안정/미지원)을 읽어 기사마다 'crawl' 필드를 붙인다.
+# index.html 은 crawl == '지원' 인 기사만 '크롤링 지원' 탭에 보여주고 뉴스레터 선택을 거기서만 허용.
+# 테스트에 아직 안 나온 새 도메인은 '미측정'.
+CRAWL_RESULT_PATH = Path(__file__).parent.parent / 'data' / 'crawl_test_result.json'
+_crawl_map = None
+def crawl_status(url):
+    global _crawl_map
+    if _crawl_map is None:
+        try:
+            _crawl_map = json.loads(CRAWL_RESULT_PATH.read_text(encoding='utf-8')).get('support_map', {})
+        except Exception:
+            _crawl_map = {}
+    try:
+        host = re.sub(r'^(www|m|n)\.', '', url.split('/')[2].lower())   # crawl_test.host_of 와 같은 규칙
+    except Exception:
+        return '미측정'
+    return _crawl_map.get(host, '미측정')
+
 def make_id(url, title=''):
     return hashlib.md5((url or title).encode()).hexdigest()[:12]
 
@@ -890,6 +909,14 @@ def main():
     deduped = sorted(keep_shieldus + keep_others,
                      key=lambda x: x.get('rawDate', ''), reverse=True)
     print(f"[개수 제한] 전체 {len(deduped)}건 (쉴더스 {len(keep_shieldus)} + 그외 {len(keep_others)})")
+
+    # 크롤링 지원 여부 표시 (기존에 쌓여 있던 기사도 최신 테스트 결과로 매번 다시 매김)
+    for a in deduped:
+        a['crawl'] = crawl_status(a.get('url', ''))
+    cc = {}
+    for a in deduped:
+        cc[a['crawl']] = cc.get(a['crawl'], 0) + 1
+    print(f"[크롤링 지원] {cc}")
 
     # 저장
     FEEDS_PATH.parent.mkdir(exist_ok=True)
