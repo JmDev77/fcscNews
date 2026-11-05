@@ -36,8 +36,71 @@ BODY_SELECTORS = [
     '.news-content',
     '.news_cnt_detail_wrap',
     '.art_txt',
+    # ── 2026-11-05 크롤링 테스트(crawl_test) 힌트로 추가: id가 고유해 다른 사이트에서 오탐 위험 낮은 것 ──
+    '#articleBody',                 # 아주경제·한국금융·테크노아 등 (네이버 구버전 #articeBody 와 별개)
+    '#articlebody',                 # TheHackerNews (id는 대소문자 구분)
+    '#CmAdContent',                 # YTN·로이슈
+    '#textinput',                   # 코인리더스
+    '#CLtag',                       # 브레이크뉴스·뉴스엔
+    '#news_body_area',              # 뉴스프라임·데이터뉴스
+    '#cont_newstext',               # KBS
+    '#article_body',                # 이코노미스트
+    '.entry-content',               # 워드프레스 계열(바이라인네트워크 등)
+    '.article__content',            # TheRecord
+    '.zox-post-body',               # SecurityWeek
     'article',
 ]
+
+# 도메인별 전용 셀렉터 — 클래스명이 흔해서 전체 목록에 넣으면 다른 사이트에서 엉뚱한 곳을 집을 수 있는 것.
+# 도메인(www. 제외)이 끝부분 일치하면 BODY_SELECTORS 보다 먼저 시도한다.
+DOMAIN_SELECTORS = {
+    'newsis.com':            ['article#textBody', 'div.viewer'],
+    'boho.or.kr':            ['div.content_html'],                    # KISA 보안공지
+    'asiatoday.co.kr':       ['#font'],
+    'news.mtn.co.kr':        ['div.fw_400.wb_keep-all'],
+    'seoul.co.kr':           ['#article_content'],
+    'magazine.hankyung.com': ['#magazineView'],
+    'dnews.co.kr':           ['div.text'],
+    'cbci.co.kr':            ['div.article-body-only'],
+    'platum.kr':             ['div.dynamic-entry-content'],
+    'news.tf.co.kr':         ['#content_area'],
+    'voakorea.com':          ['div.wsw'],
+    'sentv.co.kr':           ['#newsView'],
+    'medigatenews.com':      ['div.contarea'],
+    'xportsnews.com':        ['div.news_contents'],
+    'ichannela.com':         ['div.news_artice_area'],
+    'peoplewatch.co.kr':     ['div.article-content'],
+    'dealsite.co.kr':        ['div.rnmc-right'],
+    'wowtv.co.kr':           ['div.section-content'],
+    'mbn.co.kr':             ['#newsViewArea'],
+    'news.ebs.co.kr':        ['div.view_con'],
+    'yonhapnewstv.co.kr':    ['div.article-body-text'],
+    'thepowernews.co.kr':    ['div.detailCont'],
+    'news.sbs.co.kr':        ['div.text_area', 'div.main_text'],
+}
+
+def domain_selectors(url):
+    try:
+        host = re.sub(r'^(www|m)\.', '', url.split('/')[2].lower())
+    except Exception:
+        return []
+    for dom, sels in DOMAIN_SELECTORS.items():
+        if host == dom or host.endswith('.' + dom):
+            return sels
+    return []
+
+# 광고/잡영역으로 지울 class·id 패턴.
+# ※ 예전엔 'ad'를 부분일치로 찾아 header·loading·read·thread 같은 클래스까지 지워서
+#   본문을 감싼 바깥 영역이 통째로 사라지는 문제가 있었음(crawl_test: 기존 셀렉터가 있는데도 추출실패 18개 매체).
+#   → 단어 단위(-, _, 공백 경계)로만 매칭하고, 본문 후보를 품고 있는 요소는 지우지 않는다.
+JUNK_CLASS = re.compile(
+    r'(^|[-_])(ads?|advert\w*|adsbygoogle|banner\w*|related\w*|share\w*|sns|reporter|copyright|'
+    r'chat\w*|widget\w*|cookie\w*|newsletter|comments?|recommend\w*|popular\w*|sidebar)([-_]|$)', re.I)
+JUNK_CAMEL = re.compile(r'^(ads?|banner|adsense)[A-Z0-9_]')   # adArea, adBox, ad300 (대소문자 구분)
+def is_junk_class(c):
+    return bool(c) and bool(JUNK_CLASS.search(c) or JUNK_CAMEL.match(c))
+JUNK_ID = re.compile(
+    r'(^|[-_])(chat\w*|widget\w*|cookie\w*|intercom|drift|zendesk|comments?|sidebar|related\w*)([-_]|$)', re.I)
 
 # ── 크롤링 (다층 방어 로직) ───────────────────────────
 USER_AGENTS = [
@@ -56,13 +119,19 @@ UI_JUNK = re.compile(
     re.I
 )
 
+# 본문 안에 끼어드는 안내 문장 — 문단째 버리면 뒤에 붙은 본문까지 잃으므로 그 문장만 지운다
+NOTICE_RE = re.compile(
+    r'!?AI가 자동 생성한 요약으로 정확하지 않을 수 있어요\.?|'
+    r'브라우저가 video 태그를 지원하지 않습니다\.?(\s*죄송하지만 다른 브라우저를 사용하여 주십시오\.?)?|'
+    r'VOD 시청 안내[^.]*?서비스가 원할하지 않습니다\.?')
+
 # 기자 서명 접두어 패턴
 LOC_PREFIX  = re.compile(r'^[\(\[][^)\]]{1,25}[\)\]]\s*')
 BYLINE_NAME = re.compile(r'^[\uac00-\ud7a3]{2,4}\s*\uae30\uc790\s*=?\s*')
 
 def clean_para(p):
     """문단 정제: 기자서명 접두어 제거, UI 문구면 버림"""
-    p = p.strip()
+    p = NOTICE_RE.sub('', p).strip()
     if not p: return None
     if UI_JUNK.match(p): return None
     if re.search(r'copyright|\uc800\uc791\uad8c|\ubb34\ub2e8\uc804\uc7ac|\u24d2', p, re.I): return None
@@ -145,29 +214,46 @@ def crawl(url):
     try:
         soup = BeautifulSoup(html, 'lxml')
 
+        candidates = []  # (텍스트, 출처설명)
+
         # 1단계: JSON-LD 구조화 데이터 (본문을 명시적으로 제공하는 사이트)
+        #   일부 매체는 JSON-LD에 요약 몇 줄만 넣으므로 300자 미만이면 후보로만 두고 다음 단계도 시도
         jsonld_body = try_jsonld(soup)
         if jsonld_body:
             paras = [clean_para(p) for p in jsonld_body.split('\n')]
             paras = [p for p in paras if p]
             text = '\n'.join(paras)
-            if len(text) > 100:
+            if len(text) >= 300:
                 print(f"  → JSON-LD로 추출 ({len(text)}자)")
                 return clean_body(text)
+            if text:
+                candidates.append((text, "JSON-LD"))
+
+        dom_sels = domain_selectors(url)
+
+        # 본문 후보(전용·알려진 셀렉터)와 그 바깥 껍데기들은 잡음 제거에서 보호
+        #   (페이지 전체를 <form>으로 감싼 사이트, 'header'·'loading' 같은 클래스를 단 바깥 영역 등)
+        protect = set()
+        for sel in dom_sels + [s for s in BODY_SELECTORS if s != 'article']:
+            try:
+                for el in soup.select(sel):
+                    protect.add(id(el))
+                    protect.update(id(a) for a in el.parents)
+            except Exception:
+                pass
+        def zap(t):
+            if id(t) not in protect:
+                t.decompose()
 
         # 잡음 태그 제거 (챗봇/광고/네비게이션/관련기사)
         for tag in ['script','style','nav','header','footer','aside','iframe','figure','figcaption','noscript','form','button']:
-            for t in soup.find_all(tag): t.decompose()
-        for t in soup.find_all(class_=re.compile(r'ad|banner|related|share|sns|reporter|copyright|chat|widget|cookie|newsletter|comment|recommend|popular|sidebar', re.I)):
-            t.decompose()
-        for t in soup.find_all(id=re.compile(r'chat|widget|cookie|intercom|drift|zendesk|comment|sidebar|related', re.I)):
-            t.decompose()
+            for t in soup.find_all(tag): zap(t)
+        for t in soup.find_all(class_=is_junk_class): zap(t)
+        for t in soup.find_all(id=JUNK_ID): zap(t)
 
-        candidates = []  # (텍스트, 출처설명)
-
-        # 2단계: 알려진 셀렉터
-        GENERIC_SELECTORS = {'article', '.article_view', '.article-body', '.article_body'}
-        for sel in BODY_SELECTORS:
+        # 2단계: 도메인 전용 셀렉터 → 알려진 셀렉터
+        GENERIC_SELECTORS = {'article', '.article_view', '.article-body', '.article_body', '.entry-content'}
+        for sel in dom_sels + BODY_SELECTORS:
             el = soup.select_one(sel)
             if not el: continue
             paras = extract_paras(el)
