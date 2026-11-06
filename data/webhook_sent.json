@@ -1,8 +1,4 @@
 {
-  "https://www.boannews.com/news/articleView.html?idxno=146961": {
-    "ts": "2026-11-03T13:31:23.907605+09:00",
-    "title": "[배종찬의 보안 빅데이터] 블록체인 생태계 뒤흔든 북한 라자루스의 그림자"
-  },
   "https://www.financialpost.co.kr/news/articleView.html?idxno=284193": {
     "ts": "2026-11-03T14:31:11.414117+09:00",
     "title": "다크웹 잡아라…S2W, 유럽 최대 사이버보안 전시회 참가"
@@ -78,5 +74,9 @@
   "https://www.darkreading.com/mobile-security/apt29-watering-holes-target-mobile-users": {
     "ts": "2026-11-06T05:01:27.239010+09:00",
     "title": "APT29's Watering Holes Target Thousands of Mobile Users"
+  },
+  "https://www.taxtimes.co.kr/news/article.html?no=277636": {
+    "ts": "2026-11-06T14:01:30.003301+09:00",
+    "title": "국세청, '비정기 세무조사' 사칭 카톡 주의보 발령"
   }
 }
