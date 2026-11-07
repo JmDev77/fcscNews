@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-08T03:01:24.822801+09:00",
+  "fetched_at": "2026-11-08T03:31:14.254944+09:00",
   "count": 500,
   "articles": [
     {
@@ -18,6 +18,23 @@
       "tagCls": "tag-blue",
       "lang": "en",
       "crawl": "불안정"
+    },
+    {
+      "id": "a27d511770b1",
+      "title": "이더리움 EIP-8037·8038 가스 개편, 고정 가스 예산 쓰는 컨트랙트부터...",
+      "desc": "이더리움 재단은 11월 6일(현지시각) 블로그 글에서 보안업체 체인시큐리티(ChainSecurity)가 테스트 중 Glamsterdam 이후 취약해질 수 있는 프로젝트를 찾았다고 밝혔다. EIP-8037과 EIP-8038이 가스(거래·연산 수수료) 부과...",
+      "url": "https://www.wikitree.co.kr/articles/1172743",
+      "date": "11.8.",
+      "datetime": "11.8. 03:10",
+      "rawDate": "2026-11-08T03:10:00+09:00",
+      "source": "위키트리",
+      "sourceGroup": "위키트리",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "ko",
+      "crawl": "지원"
     },
     {
       "id": "494d1fc48bf6",
@@ -8227,23 +8244,6 @@
       "region": "국내",
       "tag": "클라우드",
       "tagCls": "tag-blue",
-      "lang": "ko",
-      "crawl": "지원"
-    },
-    {
-      "id": "d8727e829df3",
-      "title": "연이은 폭탄 협박에 유럽 공항·방송사 혼란…배후 두고 '러시아 의심'",
-      "desc": "최근 발생한 냉장고·혈액은행 해킹 사건 역시 러시아의 소행으로 의심받고 있다. 친러시아 해커그룹으로 알려진 ‘NoName057(16)’과 ‘Z-Pentest Alliance’는 이 공격을 자신들이 했다고 주장하는 텔레그램 게시물을 올렸다가...",
-      "url": "https://www.segye.com/newsView/20261106516111?OutUrl=naver",
-      "date": "11.6.",
-      "datetime": "11.6. 22:26",
-      "rawDate": "2026-11-06T22:26:00+09:00",
-      "source": "세계일보",
-      "sourceGroup": "세계일보",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
       "lang": "ko",
       "crawl": "지원"
     },
