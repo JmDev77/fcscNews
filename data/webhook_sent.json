@@ -42,5 +42,9 @@
   "https://www.taxtimes.co.kr/news/article.html?no=277636": {
     "ts": "2026-11-06T14:01:30.003301+09:00",
     "title": "국세청, '비정기 세무조사' 사칭 카톡 주의보 발령"
+  },
+  "https://www.reddit.com/r/cybersecurity/comments/1xq9okc/hackers_use_nday_exploits_in_zeroclick_attacks_on/": {
+    "ts": "2026-11-08T04:31:14.999792+09:00",
+    "title": "러시아 연계 APT29, 아이폰·안드로이드 크롬 워터링홀 공격 — 알려진 취약점으로 쿠키·인증정보·메시지가 노출될 수 있다"
   }
 }
