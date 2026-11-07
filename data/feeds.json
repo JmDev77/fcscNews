@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-07T23:31:09.971234+09:00",
+  "fetched_at": "2026-11-08T00:01:28.127329+09:00",
   "count": 500,
   "articles": [
     {
@@ -237,6 +237,40 @@
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
+      "lang": "ko",
+      "crawl": "지원"
+    },
+    {
+      "id": "8f98b7902596",
+      "title": "2023년 공식 자료에 등장한 BNB 체인 Red Alarm, 위험 앱 식별",
+      "desc": "BNB 체인은 2025년 3월 보안 안내에서도 Red Alarm을 DappBay의 위험 평가 기능으로 소개했다. 이용자가 탈중앙화 앱의 위험 수준과 스마트컨트랙트의 보안 문제·사기 위험을 살펴볼 수 있다는 설명이다. 2023년 기능...",
+      "url": "https://www.tokenpost.kr/news/blockchain/434532",
+      "date": "11.7.",
+      "datetime": "11.7. 23:52",
+      "rawDate": "2026-11-07T23:52:00+09:00",
+      "source": "토큰포스트",
+      "sourceGroup": "토큰포스트",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko",
+      "crawl": "지원"
+    },
+    {
+      "id": "27653a2a40ef",
+      "title": "질리카, 9년 운영한 독립 L1 접고 이더리움 L2로 전환…“효과 없었다”...",
+      "desc": "최근 발생한 보안 사고도 독립 블록체인을 유지하는 데 큰 비용이 든다는 점을 보여줬다고 설명했다.프로젝트는 X(옛 트위터) 게시글에서 직설적으로 입장을 냈다. “9년 동안 우리는 자체 레이어1을 만들고 운영했다....",
+      "url": "https://www.wikitree.co.kr/articles/1172729",
+      "date": "11.7.",
+      "datetime": "11.7. 23:30",
+      "rawDate": "2026-11-07T23:30:00+09:00",
+      "source": "위키트리",
+      "sourceGroup": "위키트리",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
       "lang": "ko",
       "crawl": "지원"
     },
@@ -8212,40 +8246,6 @@
       "tagCls": "tag-blue",
       "lang": "ko",
       "crawl": "불안정"
-    },
-    {
-      "id": "da8277206516",
-      "title": "코트라, 호주와 AI·핵심광물 협력 확대…미국 통상환경 대응·데이터센...",
-      "desc": "양 기관은 호주의 재생에너지 기반 데이터센터와 한국의 반도체·제조 역량을 연계하고, 데이터센터 장비·사이버보안·산업 AI 분야 협력사업을 발굴하기로 했다. 핵심광물 공급기업과 국내 수요기업 간 연계도...",
-      "url": "https://www.webeconomy.co.kr/news/articleView.html?idxno=2364939",
-      "date": "11.6.",
-      "datetime": "11.6. 21:46",
-      "rawDate": "2026-11-06T21:46:00+09:00",
-      "source": "webeconomy",
-      "sourceGroup": "webeconomy",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko",
-      "crawl": "미측정"
-    },
-    {
-      "id": "0e3eba431a74",
-      "title": "美 'AI 속도조절론' 틈새 파고든 배경훈…'9.4조 베팅'의 노림수",
-      "desc": "이 대통령은 이달 3일 국무회의에서 AI 발전에 따라 해킹 수법이 고도화하면서 기존 보안체계의 한계가 드러나고 있다며 공공과 민간을 아우르는 사이버 보안 차르 설치를 적극 검토하라고 지시했다. 배 부총리는...",
-      "url": "https://www.bloter.net/news/articleView.html?idxno=678023",
-      "date": "11.6.",
-      "datetime": "11.6. 21:42",
-      "rawDate": "2026-11-06T21:42:00+09:00",
-      "source": "블로터",
-      "sourceGroup": "블로터",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko",
-      "crawl": "지원"
     },
     {
       "id": "5a0f5a7e9ab7",
