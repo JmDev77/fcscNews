@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-08T00:54:59.863316+09:00",
+  "fetched_at": "2026-11-08T01:01:23.404733+09:00",
   "count": 500,
   "articles": [
     {
@@ -118,6 +118,40 @@
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
+      "lang": "ko",
+      "crawl": "지원"
+    },
+    {
+      "id": "1e89700c0dd9",
+      "title": "[백악관충격] &quot;환청 들렸다&quot; 도난 차량 속 총기 가득 무장 남성…&quot;트럼...",
+      "desc": "실제로 백악관 보안 검문소에서도 지난 5월 정신건강 병력이 있는 남성이 비밀경호국 요원들에게 총격을 가했다가 사살되는 사건이 있었다. CNN 방송 보도에 따르면, 과니파 치리노스는 총기를 불법 소지하고 차량을...",
+      "url": "https://www.cbci.co.kr/news/articleView.html?idxno=624415",
+      "date": "11.8.",
+      "datetime": "11.8. 01:00",
+      "rawDate": "2026-11-08T01:00:00+09:00",
+      "source": "CBC뉴스",
+      "sourceGroup": "CBC뉴스",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "정책/제도",
+      "tagCls": "tag-green",
+      "lang": "ko",
+      "crawl": "지원"
+    },
+    {
+      "id": "f79fd3f8a085",
+      "title": "[총수家] 젠슨 황 엔비디아 CEO ⑤ ㅣ 세계 AI 시장 흔드는 '황 패밀리'…...",
+      "desc": "시위대는 보안요원에 의해 행사장에서 퇴장했다. 황 CEO의 이번 유럽 방문은 AI 인프라 투자에 대한 일부 투자자들의 회의론이 커지고, 최근 2주간 AI 및 반도체 주가가 하락한 가운데 이뤄졌다. 필라델피아...",
+      "url": "https://www.cbci.co.kr/news/articleView.html?idxno=624461",
+      "date": "11.8.",
+      "datetime": "11.8. 00:58",
+      "rawDate": "2026-11-08T00:58:00+09:00",
+      "source": "CBC뉴스",
+      "sourceGroup": "CBC뉴스",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
       "lang": "ko",
       "crawl": "지원"
     },
@@ -8212,40 +8246,6 @@
       "tagCls": "tag-blue",
       "lang": "ko",
       "crawl": "불안정"
-    },
-    {
-      "id": "c60a0e97c15c",
-      "title": "[로드픽] 젠슨 황도 엮인 미·중 정보전…美 의회, 엔비디아 보안망 추...",
-      "desc": "엔비디아의 보안 체계에 대한 설명을 요구했다고 보도했다. 미 의회가 요구한 것은 공개 청문회 출석이... 엔비디아의 보안 절차를 설명하도록 요구했다고 전했다. ▲뉴욕타임스가 먼저 의혹 제기…WSJ, 후속 보도...",
-      "url": "http://www.newsroad.co.kr/news/articleView.html?idxno=67274",
-      "date": "11.6.",
-      "datetime": "11.6. 22:06",
-      "rawDate": "2026-11-06T22:06:00+09:00",
-      "source": "newsroad",
-      "sourceGroup": "newsroad",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko",
-      "crawl": "지원"
-    },
-    {
-      "id": "cbdd708c9683",
-      "title": "US Agencies Urge Organizations to Harden Refrigeration Controllers",
-      "desc": "The recommendations come amid attacks targeting fridges and freezers in supermarkets and blood banks in Europe.\nThe post US Agencies Urge Organizations to Harden Refrigeration Controllers appeared first on SecurityWeek.",
-      "url": "https://www.securityweek.com/us-agencies-urge-organizations-to-harden-refrigeration-controllers/",
-      "date": "11.6.",
-      "datetime": "11.6. 22:02",
-      "rawDate": "2026-11-06T22:02:26+09:00",
-      "source": "SecurityWeek",
-      "sourceGroup": "SecurityWeek",
-      "channel": "자체개발",
-      "region": "해외",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "en",
-      "crawl": "지원"
     },
     {
       "id": "5a0f5a7e9ab7",
