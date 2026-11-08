@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-08T22:31:05.584875+09:00",
+  "fetched_at": "2026-11-08T23:01:16.002268+09:00",
   "count": 500,
   "articles": [
     {
@@ -86,6 +86,57 @@
       "tagCls": "tag-red",
       "lang": "ko",
       "crawl": "지원"
+    },
+    {
+      "id": "cd8a0c002978",
+      "title": "[특파원리포트] 개인정보 유출이 AI 탓이라고?",
+      "desc": "日 IT기업 GMO 등 잇단 해킹 인공지능을 원인 지목했지만 시스템 취약점 미리 알고서도 사후약방문 같은... 지난해 3월 도쿄에 온 직후 한국 통신사 해킹 사태로 유심을 바꿀 수도 없어 전전긍긍했는데, 이제는 일본에서도...",
+      "url": "https://www.segye.com/newsView/20261108509132?OutUrl=naver",
+      "date": "11.8.",
+      "datetime": "11.8. 22:49",
+      "rawDate": "2026-11-08T22:49:00+09:00",
+      "source": "세계일보",
+      "sourceGroup": "세계일보",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko",
+      "crawl": "지원"
+    },
+    {
+      "id": "804a35c5f1d5",
+      "title": "[WT논평] Israel must investigate election fraud allegations fully(Ⅰ)",
+      "desc": "지난주, 이스라엘의 베냐민 네타냐후 총리가 경찰과 보안기관에 10월27일 치러진 이스라엘 총선의 조사를 요청하면서, 주류 언론은 정확히 그런 기회를 갖게 되었다. MS NOW는...",
+      "url": "https://www.segye.com/newsView/20261108508813?OutUrl=naver",
+      "date": "11.8.",
+      "datetime": "11.8. 22:49",
+      "rawDate": "2026-11-08T22:49:00+09:00",
+      "source": "세계일보",
+      "sourceGroup": "세계일보",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko",
+      "crawl": "지원"
+    },
+    {
+      "id": "e0e5e0cbc6ba",
+      "title": "미래에셋증권도 해킹…고객 3800명·임직원 3.5만명 정보 유출",
+      "desc": "미래에셋증권이 외부 해킹 공격으로 고객 3800여명의 계좌번호와 전·현직 임직원 3만5255명의 개인정보가 유출되는 사고를 겪었다. 생명보험, 자산운용 등 계열사에서 잇따라 사이버 침해 사고가 발생한 가운데 그룹 핵심...",
+      "url": "https://www.insightkorea.co.kr/news/articleView.html?idxno=258396",
+      "date": "11.8.",
+      "datetime": "11.8. 22:44",
+      "rawDate": "2026-11-08T22:44:00+09:00",
+      "source": "insightkorea",
+      "sourceGroup": "insightkorea",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko",
+      "crawl": "미측정"
     },
     {
       "id": "ee65d1b27c62",
@@ -734,23 +785,6 @@
       "crawl": "지원"
     },
     {
-      "id": "6a4adb65431e",
-      "title": "미래에셋證, 연이틀 해킹 공격… 3.9만명 정보 유출",
-      "desc": "금융권 해킹이 확산하는 가운데 국내 최대 증권사인 미래에셋증권에서도 4만명 가까운 고객·임직원 개인정보가 유출됐다. 금융사들이 자체 보안 점검을 강화하고 경계 수준을 최고조로 끌어올렸음에도 해킹 공격이...",
-      "url": "https://www.segye.com/newsView/20261108509245?OutUrl=naver",
-      "date": "11.8.",
-      "datetime": "11.8. 20:22",
-      "rawDate": "2026-11-08T20:22:00+09:00",
-      "source": "세계일보",
-      "sourceGroup": "세계일보",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko",
-      "crawl": "지원"
-    },
-    {
       "id": "4a61f463f34d",
       "title": "테슬라 ‘사이버트럭’ 생산 접는다",
       "desc": "중순 사이버트럭(사진)의 생산을 종료할 것을 예고했다. 올해 1월 테슬라의 고급 모델인 모델S·X의 단종... 머스크는 지난 6~7일(현지시간) X에 “내년 중반쯤 텍사스 기가팩토리의 사이버트럭 생산을 단계적으로...",
@@ -1274,23 +1308,6 @@
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
-      "lang": "ko",
-      "crawl": "지원"
-    },
-    {
-      "id": "e4074ad9e302",
-      "title": "미래에셋증권, 고객·임직원 정보 잇따라 유출",
-      "desc": "또 공식 홈페이지에 직접 접속해 사이버 ID 비밀번호를 변경하고, MAPS 앱에서 최근 주문·체결과 입출금·이체 내역을 확인할 것을 권고했다. 고객은 미래에셋증권 고객센터(1588-6800)를 통해 피해를 신고하거나 문의할 수...",
-      "url": "https://www.koreareport.co.kr/news/articleView.html?idxno=54434",
-      "date": "11.8.",
-      "datetime": "11.8. 18:26",
-      "rawDate": "2026-11-08T18:26:00+09:00",
-      "source": "koreareport",
-      "sourceGroup": "koreareport",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
       "lang": "ko",
       "crawl": "지원"
     },
@@ -7549,23 +7566,6 @@
       "tagCls": "tag-red",
       "lang": "ko",
       "crawl": "지원"
-    },
-    {
-      "id": "d5db10dc1a70",
-      "title": "미래에셋증권도 뚫렸다…3만 9천 명 정보 유출",
-      "desc": "[미래에셋증권 관계자 : 유출 정보 내 고유 식별 정보와 개인 민감 정보 등은 없는 것으로 확인됐습니다.... 지난 3일 기준 금융회사 37곳에서 40건의 침해 사고가 신고됐고, 정보 유출은 47만 3천여 건에 달할 만큼 금융권...",
-      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008835608&plink=ORI&cooper=NAVER",
-      "date": "11.8.",
-      "datetime": "11.8. 07:07",
-      "rawDate": "2026-11-08T07:07:00+09:00",
-      "source": "SBS",
-      "sourceGroup": "SBS",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko",
-      "crawl": "불안정"
     },
     {
       "id": "c38abc75ddfa",
