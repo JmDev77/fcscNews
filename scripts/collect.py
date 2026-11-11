@@ -608,7 +608,7 @@ THREAT_GROUPS = [
     '락빗', 'LockBit',
     '블랙캣', 'BlackCat', 'ALPHV',
     '클롭', 'Clop', 'Cl0p',
-    '알피에이치씨','에베레스트','Everest','다크웹','TraderTraitor','트레이더트레이터','금보원','금융보안원'             # (여유분, 필요시 제거)
+    '알피에이치씨','에베레스트','Everest','다크웹','TraderTraitor','트레이더트레이터'             # (여유분, 필요시 제거)
 ]
 
 # 웹훅 중복 전송 방지용 제목 유사도 (수집용 is_similar와 별개, 안전하게 0.80)
