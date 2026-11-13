@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-14T02:31:15.718780+09:00",
+  "fetched_at": "2026-11-14T03:01:21.492115+09:00",
   "count": 500,
   "articles": [
     {
@@ -122,6 +122,23 @@
       "crawl": "지원"
     },
     {
+      "id": "86ffa15274fc",
+      "title": "AWS, AI 에이전트가 만든 로컬 테스트 도구 공개",
+      "desc": "에뮬레이터에서 테스트를 통과해도 애플리케이션의 보안이나 AWS 전체 기능과의 호환성이 보장되는 것은... 수정한 코드는 빌드와 코딩 기준, 보안, 실제 AWS와의 동작 일치 여부를 검사하는 관문을 통과해야...",
+      "url": "https://www.tokenpost.kr/news/ai/438025",
+      "date": "11.14.",
+      "datetime": "11.14. 03:00",
+      "rawDate": "2026-11-14T03:00:00+09:00",
+      "source": "토큰포스트",
+      "sourceGroup": "토큰포스트",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "ko",
+      "crawl": "지원"
+    },
+    {
       "id": "4284dafec336",
       "title": "씨엠아이텍, ‘태국 시큐테크 2026’서 비접촉 얼굴·홍채 생체인증 솔루션 공개",
       "desc": "생체인증 전문기업 씨엠아이텍(CMITech)이 18-20일 태국 방콕 퀸 시리킷 국립컨벤션센터(QSNCC) 3·4홀에서 열리는 국제 보안 전시회 ‘Secutech Thailand 2026’에 참가해 동남아 물리보안 및 신원인증 시장 공략에 나선다.씨엠아이텍은 상업시설과 산업 현장의 출입통제 및 신원확인에 최적화된 비접촉 생체인증 솔루션과 함께 자사 기술이 적용된 태국 전자여권 프로젝트 등 국가 신분 인증 사업 레퍼런스도 함께 소개한다. 주력 출품작은 △이동 중인 사용자를 멈춤 없이 식별하는 워크스루형 얼굴인식 단말기 ‘NOVAFAC",
@@ -204,6 +221,23 @@
       "tag": "보안",
       "tagCls": "tag-blue",
       "lang": "ko",
+      "crawl": "지원"
+    },
+    {
+      "id": "b5af83d54bc0",
+      "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
+      "desc": "A type confusion flaw in PostgreSQL lets a database user who can create objects run code on the server. Updates released yesterday fix it, along with 51 other security flaws. Full protection from this flaw also requires rebuilding any C-language extensions installed on the server.\n\nThe flaw, tracked as CVE-2026-6460, has a CVSS score of 8.8. Any code run this way has the rights of the operating",
+      "url": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
+      "date": "11.14.",
+      "datetime": "11.14. 01:53",
+      "rawDate": "2026-11-14T01:53:08+09:00",
+      "source": "TheHackerNews",
+      "sourceGroup": "TheHackerNews",
+      "channel": "자체개발",
+      "region": "해외",
+      "tag": "취약점/CVE",
+      "tagCls": "tag-yellow",
+      "lang": "en",
       "crawl": "지원"
     },
     {
@@ -7632,40 +7666,6 @@
       "region": "국내",
       "tag": "보안",
       "tagCls": "tag-blue",
-      "lang": "ko",
-      "crawl": "지원"
-    },
-    {
-      "id": "1dcaa306c969",
-      "title": "우리 지도 데이터 가져간 구글, 보안 조건 모두 충족...정부 \"지속 관리...",
-      "desc": "구글 지도 서비스 소개 이미지 /사진=구글 플레이 우리 지도 데이터를 가져간 구글이 정부가 요구한 보안 조건을 모두 충족한 것으로 확인됐다. 정부는 지속적으로 보안 조건 이행 여부를 관리 감독 할 계획이며 구글은...",
-      "url": "https://www.techm.kr/news/articleView.html?idxno=157328",
-      "date": "11.13.",
-      "datetime": "11.13. 15:22",
-      "rawDate": "2026-11-13T15:22:00+09:00",
-      "source": "테크M",
-      "sourceGroup": "테크M",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko",
-      "crawl": "지원"
-    },
-    {
-      "id": "469aa9750ff3",
-      "title": "[단독] LG전자 광고 손자회사 미국서 특허소송…맞춤형 광고기술 사용금...",
-      "desc": "또 자동 콘텐츠 인식(ACR) 기술로 파악한 TV 광고 시청 기록을 휴대전화의 인터넷 이용 정보와 연결하는 기능이 두 번째 특허를 침해한다고 봤다. 근거로는 알폰소의 서비스 소개 자료와 개인정보처리방침을 제시했다....",
-      "url": "https://ilyo.co.kr/?ac=article_view&entry_id=513602",
-      "date": "11.13.",
-      "datetime": "11.13. 15:22",
-      "rawDate": "2026-11-13T15:22:00+09:00",
-      "source": "일요신문",
-      "sourceGroup": "일요신문",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
       "lang": "ko",
       "crawl": "지원"
     },
