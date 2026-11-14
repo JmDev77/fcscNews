@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-14T19:53:52.264024+09:00",
+  "fetched_at": "2026-11-14T20:01:15.477704+09:00",
   "count": 500,
   "articles": [
     {
@@ -105,6 +105,23 @@
       "crawl": "지원"
     },
     {
+      "id": "eadf158e466b",
+      "title": "지역사랑상품권 플랫폼 '착' 개인정보 유출…3083명 피해",
+      "desc": "이후 공격 대상 서버를 확인해 해당 서비스를 일시 중단했으며 긴급 보안조치를 마친 뒤 서비스를... 위해 보안체계를 강화하고 있다. 고객들에게는 사고 발생 사실과 유출된 개인정보 항목, 피해 예방을 위한 유의사항...",
+      "url": "https://www.kado.net/news/articleView.html?idxno=2084766",
+      "date": "11.14.",
+      "datetime": "11.14. 19:53",
+      "rawDate": "2026-11-14T19:53:00+09:00",
+      "source": "kado",
+      "sourceGroup": "kado",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko",
+      "crawl": "미측정"
+    },
+    {
       "id": "2643a08045ad",
       "title": "MS 서비스 장애 36시간만에 정상화…장애 신고 740만건",
       "desc": "다만 MS는 외부의 악의적인 활동이 확인되지 않아 사이버 공격 가능성은 배제했다. 서비스 장애 피해는 금융과 항공, 의료 등으로 확산했다. 영국 국민보건서비스(NHS)와 런던 경찰청이 영향을 받았으며...",
@@ -120,6 +137,23 @@
       "tagCls": "tag-red",
       "lang": "ko",
       "crawl": "미지원"
+    },
+    {
+      "id": "e81986ba0cf0",
+      "title": "미국 전역 항공기, 4시간 20분 동안 전면 중단 소동",
+      "desc": "또 \"통신 문제의 배후에 테러나 사이버 공격 등 악의적인 행위가 있다는 징후는 아직 발견되지 않았다\"고 밝혔습니다. 마크웨인 멀린 미 국토안보부 장관도 사이버 공격 등의 가능성도 배제하지 않겠지만, 미국에 대한...",
+      "url": "https://www.ytn.co.kr/_ln/0104_202611141950545871",
+      "date": "11.14.",
+      "datetime": "11.14. 19:50",
+      "rawDate": "2026-11-14T19:50:00+09:00",
+      "source": "YTN",
+      "sourceGroup": "YTN",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko",
+      "crawl": "지원"
     },
     {
       "id": "8fd1e622ce45",
@@ -768,23 +802,6 @@
       "crawl": "지원"
     },
     {
-      "id": "be5a63141561",
-      "title": "한국조폐공사 지역사랑상품권 앱 '착(chak)' 해킹 피해",
-      "desc": "한국조폐공사 전경 [한국조폐공사 제공] 한국조폐공사가 운영하는 모바일 지역사랑상품권 플랫폼 '착(chak)'에서 외부의 비인가 접근으로 이용자 3083명의 개인정보가 유출되는 사고가 발생했다. 14일 한국조폐공사에...",
-      "url": "https://www.gukjenews.com/news/articleView.html?idxno=3752073",
-      "date": "11.14.",
-      "datetime": "11.14. 18:36",
-      "rawDate": "2026-11-14T18:36:00+09:00",
-      "source": "국제뉴스",
-      "sourceGroup": "국제뉴스",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko",
-      "crawl": "지원"
-    },
-    {
       "id": "4693d315cde1",
       "title": "‘사장님 비상금’ 34조원 주무르는 ‘노란우산’, 외부 비정상 접근에...",
       "desc": "소기업·소상공인의 든든한 ‘퇴직금 창고’이자 누적 가입자 340만명, 부금액 34조원에 달하는 노란우산공제가 외부의 비정상적인 접근에 노출되면서 가입자들 사이에 개인정보 유출 불안감이 고조됐다. 중소기업중앙회...",
@@ -798,23 +815,6 @@
       "region": "국내",
       "tag": "보안",
       "tagCls": "tag-blue",
-      "lang": "ko",
-      "crawl": "미지원"
-    },
-    {
-      "id": "608181091657",
-      "title": "조폐공사 '착' 개인정보 유출…3083명 정보 조회 확인",
-      "desc": "긴급 보안조치를 시행했다고 14일 밝혔다. 조폐공사는 공격이 의심되는 IP를 특정해 차단하고 해외 IP의 접근을 전면 제한했다. 이어 공격 대상 서버를 확인해 서비스를 우선 중단하고 긴급 보안조치를 거쳐 정상...",
-      "url": "https://www.news1.kr/local/daejeon-chungnam/6354132",
-      "date": "11.14.",
-      "datetime": "11.14. 18:29",
-      "rawDate": "2026-11-14T18:29:00+09:00",
-      "source": "뉴스1",
-      "sourceGroup": "뉴스1",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
       "lang": "ko",
       "crawl": "미지원"
     },
@@ -1448,23 +1448,6 @@
       "crawl": "지원"
     },
     {
-      "id": "623c123b0a85",
-      "title": "미국 전역 항공기 운항 한때 중단…유럽발도 운항 중단",
-      "desc": "공항 관제 통신 시스템에 장애가 생겼다는 건데, 사이버 공격 때문은 아닌 것으로 전해졌습니다. 하지만... 한편, 일각에서 우려했던 사이버 공격은 없었다고 밝혔습니다. 마크웨인 멀린 국토안보부 장관은 브리핑에서...",
-      "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8712912&ref=A",
-      "date": "11.14.",
-      "datetime": "11.14. 17:00",
-      "rawDate": "2026-11-14T17:00:00+09:00",
-      "source": "KBS",
-      "sourceGroup": "KBS",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko",
-      "crawl": "불안정"
-    },
-    {
       "id": "802c1a0d678d",
       "title": "중기부 '모두의 창업' 또 정보유출 …참가자들 &quot;보상책 내놔라&quot;",
       "desc": "14일 중기부 등에 따르면 이번 2차 프로젝트에 참여한 인공지능(AI) 솔루션 공급기업 50곳 가운데 1곳이 해킹을 당하면서 참가자 818명의 개인정보가 유출된 것으로 확인됐다. 유출된 항목은 참가자의 이름과 전화번호...",
@@ -1531,23 +1514,6 @@
       "tagCls": "tag-green",
       "lang": "ko",
       "crawl": "미측정"
-    },
-    {
-      "id": "0aa014da8125",
-      "title": "美 관제 장애로 항공기 이륙 4시간 넘게 중단…공항 혼란",
-      "desc": "마크웨인 멀린 국토안보부 장관은 사이버 공격이나 AI 공격이라는 증거는 없다고 말했다. 이번 장애로 주말을 앞둔 공항에는 혼란이 이어졌다. 로이터통신이 인용한 항공편 추적사이트 플라이트레이더24에 따르면 13일...",
-      "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=883286",
-      "date": "11.14.",
-      "datetime": "11.14. 16:50",
-      "rawDate": "2026-11-14T16:50:00+09:00",
-      "source": "한스경제",
-      "sourceGroup": "한스경제",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko",
-      "crawl": "지원"
     },
     {
       "id": "3b015aeea507",
@@ -1650,6 +1616,23 @@
       "tagCls": "tag-red",
       "lang": "ko",
       "crawl": "지원"
+    },
+    {
+      "id": "9d67a72c0f74",
+      "title": "노란우산 개인정보 유출 가능성…“일부 고객 정보 제3자 조회 의심”",
+      "desc": "중기중앙회는 14일 노란우산 홈페이지에 ‘개인정보 유출 가능성 및 침해사고’ 공지를 올리고 지난 11일 외부 비인가자의 비정상적인 접근이 확인됐다고 밝혔다. 중기중앙회에 따르면 현재 조회 가능성이 있는 개인정보...",
+      "url": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20261114.99099004219",
+      "date": "11.14.",
+      "datetime": "11.14. 16:38",
+      "rawDate": "2026-11-14T16:38:00+09:00",
+      "source": "kookje",
+      "sourceGroup": "kookje",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko",
+      "crawl": "미측정"
     },
     {
       "id": "b65a72f8c3fd",
@@ -2024,6 +2007,23 @@
       "tagCls": "tag-blue",
       "lang": "ko",
       "crawl": "지원"
+    },
+    {
+      "id": "dc0083b60668",
+      "title": "美 관제센터 통신 장애로 전국 공항 이륙 전면 중단…항공편 1만여 편 지...",
+      "desc": "이번 역시 미 국토안보부와 연방수사국(FBI)이 테러나 해킹 징후를 부인한 가운데 소프트웨어 업데이트 과정의 오류가 유력한 원인으로 조사되고 있다. 근본 배경에는 수십 년째 방치된 미국 관제 인프라의 노후화가...",
+      "url": "https://news-s.kr/view.html?id=L261114085350ca9b",
+      "date": "11.14.",
+      "datetime": "11.14. 15:22",
+      "rawDate": "2026-11-14T15:22:00+09:00",
+      "source": "news-s",
+      "sourceGroup": "news-s",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko",
+      "crawl": "미측정"
     },
     {
       "id": "7c2fdde4a160",
@@ -3165,23 +3165,6 @@
       "crawl": "미측정"
     },
     {
-      "id": "f76135e0b833",
-      "title": "미국 항공기 '올 스톱' 4시간 20분 만에 해제...수백만 명 혼란",
-      "desc": "일단 테러나 사이버 공격의 가능성은 희박하다는 발표가 나왔는데요. [기자] 앞서 말씀드린 것처럼 일단 이번... 이런 장애를 일으킨 정확한 원인은 아직 알려지지 않고 있는데요, 다만 테러나 사이버 공격의 가능성은...",
-      "url": "https://www.ytn.co.kr/_ln/0104_202611141152419722",
-      "date": "11.14.",
-      "datetime": "11.14. 11:52",
-      "rawDate": "2026-11-14T11:52:00+09:00",
-      "source": "YTN",
-      "sourceGroup": "YTN",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko",
-      "crawl": "지원"
-    },
-    {
       "id": "ece46084b080",
       "title": "[AI 출근길] 딥마인드 AI, 시그널 암호 4주 만에 수학 검증… 메신저 보...",
       "desc": "구글의 AI 연구 조직 딥마인드가 수학 정리 증명 인공지능(AI)으로 보안 메신저 시그널(Signal)의 핵심 암호... 인간 암호학자가 매달려도 수년이 걸리는 검증은 보안 업계의 오랜 숙제였다. 이번 성과의 핵심은 속도와...",
@@ -3960,23 +3943,6 @@
       "region": "국내",
       "tag": "보안",
       "tagCls": "tag-blue",
-      "lang": "ko",
-      "crawl": "지원"
-    },
-    {
-      "id": "ff455ddaf2a9",
-      "title": "미 전역 항공기 3만대 발 묶였다…관제통신 장애로 이륙 전면 중단",
-      "desc": "◆ “사이버 공격 징후 없어”…소프트웨어 오류 가능성 조사 미 당국은 이번 사태가 테러나 해킹 등 외부 공격이 아닌 내부 시스템 오류일 가능성에 무게를 두고 있다. 숀 더피 교통부 장관은 소셜미디어를 통해...",
-      "url": "https://www.segye.com/newsView/20261114503480?OutUrl=naver",
-      "date": "11.14.",
-      "datetime": "11.14. 10:14",
-      "rawDate": "2026-11-14T10:14:00+09:00",
-      "source": "세계일보",
-      "sourceGroup": "세계일보",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
       "lang": "ko",
       "crawl": "지원"
     },
@@ -8246,6 +8212,40 @@
       "tagCls": "tag-blue",
       "lang": "ko",
       "crawl": "지원"
+    },
+    {
+      "id": "86c526d4fee7",
+      "title": "한국항공보안학회, 16일 국회서 ‘고도화되는 드론 테러 대응’ 토론회 개최",
+      "desc": "전 세계적으로 드론을 악용한 하이브리드 테러 위협이 고도화되는 가운데, 국가중요시설과 공항의 보안 체계를 재점검하고 실효성 있는 방호 대책을 모색하는 정책 토론회가 국회에서 열린다.한국항공보안학회(회장 소대섭)는 16일 서울 여의도 국회의원회관 제6간담회실에서 ‘고도화되는 드론 테러, 국가 항공보안의 패러다임 대전환’을 주제로 토론회를 개최한다고 밝혔다. 더불어민주당 부승찬 의원실, 항공안전기술원과 공동 주최하며 학회 산하 대테러·대드론 전략연구위원회(위원장 김명진 강원대 교수)가 총괄한다.토론회에는 국방부·경찰청·국토교통부 등 관",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=147245",
+      "date": "11.13.",
+      "datetime": "11.13. 22:36",
+      "rawDate": "2026-11-13T22:36:20+09:00",
+      "source": "보안뉴스",
+      "sourceGroup": "보안뉴스",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "정책/제도",
+      "tagCls": "tag-green",
+      "lang": "ko",
+      "crawl": "지원"
+    },
+    {
+      "id": "ceb06d1ac399",
+      "title": "Attackers in Binance Breach Targeted Known Weakness, Missing Controls",
+      "desc": "Blockchain complexities, such as attacker-deployed sweepers, hobble security controls designed to limit the damage of an exchange compromise.",
+      "url": "https://www.darkreading.com/cybersecurity-operations/attackers-binance-breach-targeted-weakness-missing-controls",
+      "date": "11.13.",
+      "datetime": "11.13. 22:00",
+      "rawDate": "2026-11-13T22:00:00+09:00",
+      "source": "DarkReading",
+      "sourceGroup": "DarkReading",
+      "channel": "자체개발",
+      "region": "해외",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "en",
+      "crawl": "불안정"
     },
     {
       "id": "56021ef32680",
