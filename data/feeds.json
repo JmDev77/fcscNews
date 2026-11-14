@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-15T03:31:05.137998+09:00",
+  "fetched_at": "2026-11-15T04:01:10.758973+09:00",
   "count": 500,
   "articles": [
     {
@@ -52,6 +52,23 @@
       "tagCls": "tag-red",
       "lang": "ko",
       "crawl": "지원"
+    },
+    {
+      "id": "1a77a2236976",
+      "title": "토스, 금융보안 AI 해킹방어 대회 대상…6년 연속 우승",
+      "desc": "사진=토스  모바일 금융 서비스 토스를 운영하는 비바리퍼블리카(이하 토스)가 '2026 금융보안 AI 활용 해킹방어 대회'에서 대상을 받았다고 밝혔다. 15일 토스에 따르면 이번 대회는 금융보안원이 주최하고...",
+      "url": "http://www.bizwnews.com/news/articleView.html?idxno=151858",
+      "date": "11.15.",
+      "datetime": "11.15. 03:34",
+      "rawDate": "2026-11-15T03:34:00+09:00",
+      "source": "bizwnews",
+      "sourceGroup": "bizwnews",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko",
+      "crawl": "미측정"
     },
     {
       "id": "deadbadd52a2",
@@ -5137,23 +5154,6 @@
       "crawl": "지원"
     },
     {
-      "id": "90480af11031",
-      "title": "토스, '2026 금융보안 AI 활용 해킹방어 대회' 대상 영예...6년 연속 정상...",
-      "desc": "토스는 '2026 금융보안 AI 활용 해킹방어 대회'에서 대상을 받으며 6년 연속 금융보안 대회 정상에 올랐다고 밝혔다. 금융보안원이 주최하고 금융위원회가 후원하는 이번 대회에는 국내 주요 금융사에서 구성한 10개...",
-      "url": "https://www.asiaa.co.kr/news/articleView.html?idxno=270962",
-      "date": "11.14.",
-      "datetime": "11.14. 10:00",
-      "rawDate": "2026-11-14T10:00:00+09:00",
-      "source": "asiaa",
-      "sourceGroup": "asiaa",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko",
-      "crawl": "미측정"
-    },
-    {
       "id": "f724ef11eadb",
       "title": "구글 '고정밀 지도' 날개 단다…네카오는 &quot;공정경쟁 우려&quot;",
       "desc": "관련 보안처리 확인\" 국토교통부(국토지리정보원)와 과학기술정보통신부·외교부·국방부·국가정보원 등으로 구성된 '기본측량성과 국외반출 협의체'는 지난 2월 구글에 1대 5000 지도 국외반출 건을 허가하며 부과한 보안...",
@@ -7687,23 +7687,6 @@
       "crawl": "지원"
     },
     {
-      "id": "7cffe0a23280",
-      "title": "AI 활용 금융보안 대회서 토스 1위·토스증권 2위…6년 연속 우승",
-      "desc": "지난 12일 여의도 콘래드 서울에서 열린 금융보안원 주최 '금융보안 AI 활용 해킹방어 대회'에서 1위를... 활용 해킹방어 대회’에서 대상을 받았다고 13일 밝혔다. 이번 대회는 기존 ‘금융보안 위협분석 대회(FIESTA)...",
-      "url": "https://www.edaily.co.kr/News/Read?newsId=01331686645645720&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-      "date": "11.14.",
-      "datetime": "11.14. 05:35",
-      "rawDate": "2026-11-14T05:35:00+09:00",
-      "source": "이데일리",
-      "sourceGroup": "이데일리",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko",
-      "crawl": "지원"
-    },
-    {
       "id": "c3b293572fec",
       "title": "[박근종 칼럼] 젠슨 황 퇴진 '블랙스완' 우려, 공급망 다변화와 기술 자...",
       "desc": "현재 미 의회는 국방수권법(NDAA)에 첨단 AI 칩 감독을 강화하는 'AI 오버워치법((AI Overwatch Act)', 위치 추적으로 밀반입을 막는 '반도체 보안법(Chip Security Act)', 그리고 동맹국의 대중국 수출통제를 미국 수준으로...",
@@ -8244,6 +8227,23 @@
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
+      "lang": "ko",
+      "crawl": "지원"
+    },
+    {
+      "id": "f2f0c14cae13",
+      "title": "포티넷 제품군 취약점 98건 공개…방화벽·관리 서버 점검 필요",
+      "desc": "포티넷이 방화벽 운영체제 포티OS와 중앙 관리 솔루션 포티매니저 등 여러 제품의 보안 취약점을 공개했다.영국 국민보건서비스는 11월 11일 권고에서 전체 98건 중 19건이 치명적 등급이라고 밝혔다. 캐나다 사이버보안센터도 12일 영향 제품과 버전별 업데이트 기준을 안내했다. 주요 취약점은 출력 처리 결함 CVE-2026-126170(CVSS 9.8점), 데이터베이스 명령을 조작할 수 있는 SQL 삽입 CVE-2026-126262(9.3점), 정상 인증 절차를 건너뛸 수 있는 인증 우회 CVE-2026-126253(9.3점) 등이다",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209510",
+      "date": "11.14.",
+      "datetime": "11.14. 00:57",
+      "rawDate": "2026-11-14T00:57:28+09:00",
+      "source": "데일리시큐",
+      "sourceGroup": "데일리시큐",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "취약점/CVE",
+      "tagCls": "tag-yellow",
       "lang": "ko",
       "crawl": "지원"
     },
