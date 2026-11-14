@@ -29,7 +29,7 @@ jobs:
         env:
           NAVER_CLIENT_ID:     ${{ secrets.NAVER_CLIENT_ID }}
           NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
-          WEBHOOK_URL:         ${{ secrets.WEBHOOK_URL }}
+          #WEBHOOK_URL:         ${{ secrets.WEBHOOK_URL }}
         run: python scripts/collect.py
 
       - name: feeds.json 커밋
