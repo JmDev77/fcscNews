@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-16T06:00:18.575778+09:00",
+  "fetched_at": "2026-11-16T06:01:09.999272+09:00",
   "count": 500,
   "articles": [
     {
@@ -526,6 +526,23 @@
       "region": "국내",
       "tag": "AI 보안",
       "tagCls": "tag-blue",
+      "lang": "ko",
+      "crawl": "지원"
+    },
+    {
+      "id": "343e8254bbf0",
+      "title": "[출근길 브리핑-11월 16일] 세무사 수석 AI 부정행위 자수·李 개혁 메시...",
+      "desc": "지난 13일 송기호 국가안보실 3차장 주재로 열린 '민·관·군 사이버안보 공동대응 회의'에서 지난 8월 시작한 전수조사 진행 상황을 점검했습니다. 안보실은 기관별 구성도와 실제 운용 자산이 일치하지 않아 새 취약점이...",
+      "url": "https://www.newsworks.co.kr/news/articleView.html?idxno=903132",
+      "date": "11.16.",
+      "datetime": "11.16. 06:00",
+      "rawDate": "2026-11-16T06:00:00+09:00",
+      "source": "뉴스웍스",
+      "sourceGroup": "뉴스웍스",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "취약점/CVE",
+      "tagCls": "tag-yellow",
       "lang": "ko",
       "crawl": "지원"
     },
@@ -8127,23 +8144,6 @@
       "tagCls": "tag-red",
       "lang": "ko",
       "crawl": "지원"
-    },
-    {
-      "id": "af370ee70d7e",
-      "title": "장원영, 사소한 행동까지 검증대에… '럭키비키'와 대조되는 현실",
-      "desc": "앞서 사이버렉카 채널 '탈덕수용소' 관련 소송을 담당한 법무법인과 함께 팬들의 제보와 상시 모니터링을 통해 확보한 자료를 검토하고 있다고도 전했다. 소속사는 \"확인된 위법행위에 대해 민·형사상 가능한 모든 법적...",
-      "url": "https://www.hankookilbo.com/news/article/A2026111318020003402?did=NA",
-      "date": "11.15.",
-      "datetime": "11.15. 12:34",
-      "rawDate": "2026-11-15T12:34:00+09:00",
-      "source": "한국일보",
-      "sourceGroup": "한국일보",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "정책/제도",
-      "tagCls": "tag-green",
-      "lang": "ko",
-      "crawl": "미측정"
     },
     {
       "id": "db2ffe73d73c",
