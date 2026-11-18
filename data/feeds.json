@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-19T02:31:20.988269+09:00",
+  "fetched_at": "2026-11-19T03:01:17.374895+09:00",
   "count": 500,
   "articles": [
     {
@@ -118,6 +118,40 @@
       "region": "국내",
       "tag": "AI 보안",
       "tagCls": "tag-blue",
+      "lang": "ko",
+      "crawl": "지원"
+    },
+    {
+      "id": "9166e7b6c45b",
+      "title": "11월18일 모닝뉴스 헤드라인",
+      "desc": "그런가하면 어제, CNN과 ZOOM, 심지어 가구전문점 아이키아 등 주요기업과 기관 200여곳의 웹사이트 방문자를 겨냥한 사이버 공격이 발생했다. 특히 아이폰 사용자들의 개인정보 유출 우려가 커지고 있다. 트럼프 대통령의...",
+      "url": "https://www.radiokorea.com/news/article.php?uid=510040",
+      "date": "11.19.",
+      "datetime": "11.19. 02:56",
+      "rawDate": "2026-11-19T02:56:00+09:00",
+      "source": "radiokorea",
+      "sourceGroup": "radiokorea",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko",
+      "crawl": "미측정"
+    },
+    {
+      "id": "9c9b7c9c3940",
+      "title": "전남광주교육청, 수능 '국가재난상황 준하는' 대응체계 가동한다",
+      "desc": "김대중 교육감은 18일 전남청사 상황실에서 대책회의를 열고, 수능의 안정적 시행과 수험생 안전 확보를 위해 시험장 시설 및 안전관리, 교통·소음 통제, 문답지 보안, 부정행위 예방 등 전반적인 준비 상황을 철저히...",
+      "url": "http://www.netongs.com/news/articleView.html?idxno=336534",
+      "date": "11.19.",
+      "datetime": "11.19. 02:40",
+      "rawDate": "2026-11-19T02:40:00+09:00",
+      "source": "netongs",
+      "sourceGroup": "netongs",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "정책/제도",
+      "tagCls": "tag-green",
       "lang": "ko",
       "crawl": "지원"
     },
@@ -7617,40 +7651,6 @@
       "tagCls": "tag-blue",
       "lang": "ko",
       "crawl": "미지원"
-    },
-    {
-      "id": "7e97bdb24f06",
-      "title": "AI가 알아서 공격 코드 개발, 구글 \"사람 없는 해킹 첫 확인\"",
-      "desc": "인공지능(AI)이 사람의 지시를 받아 해킹을 돕는 수준을 넘어, 스스로 소프트웨어의 취약점을 찾아내고 공격... 보고서는 해킹 공격자가 AI에 일일이 명령을 내리지 않아도 여러 AI 에이전트가 역할을 나눠 공격을...",
-      "url": "https://www.ekoreanews.co.kr/news/articleView.html?idxno=89276",
-      "date": "11.18.",
-      "datetime": "11.18. 17:06",
-      "rawDate": "2026-11-18T17:06:00+09:00",
-      "source": "이코리아",
-      "sourceGroup": "이코리아",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko",
-      "crawl": "지원"
-    },
-    {
-      "id": "85b5d50d57e8",
-      "title": "[데일리픽] &quot;비트코인 펀더멘털 변화 없어&quot;…오픈AI, GPT-6.2 아스트라·...",
-      "desc": "최근 주말 저유동성 시간대의 급락은 의도적인 매도와 공포 심리 확산, 거래소 해킹 이후 스테이블코인에서 자금이 이탈한 영향으로 분석했다. 반복되는 해킹을 고려해 암호화폐 인프라의 보안과 성숙도 개선도...",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=716404",
-      "date": "11.18.",
-      "datetime": "11.18. 17:06",
-      "rawDate": "2026-11-18T17:06:00+09:00",
-      "source": "디지털투데이",
-      "sourceGroup": "디지털투데이",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko",
-      "crawl": "지원"
     },
     {
       "id": "e32a6d259f7a",
