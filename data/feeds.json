@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-19T18:28:43.715883+09:00",
+  "fetched_at": "2026-11-19T18:31:10.436768+09:00",
   "count": 500,
   "articles": [
     {
@@ -513,6 +513,57 @@
       "crawl": "지원"
     },
     {
+      "id": "6d1ebcec12a9",
+      "title": "SKB, 부산~싱가포르 해저케이블에 양자보안 시험망 구축",
+      "desc": "SK브로드밴드가 부산과 싱가포르를 연결하는 해저케이블에 양자보안 국제 시험망을 구축한다. 국내 양자암호 기술과 양자컴퓨터의 공격에도 견딜 수 있는 암호 기술을 결합해 국제 통신망의 보안성을 검증하고, 국산...",
+      "url": "https://www.fnnews.com/news/202611191828448660",
+      "date": "11.19.",
+      "datetime": "11.19. 18:29",
+      "rawDate": "2026-11-19T18:29:00+09:00",
+      "source": "파이낸셜뉴스",
+      "sourceGroup": "파이낸셜뉴스",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko",
+      "crawl": "지원"
+    },
+    {
+      "id": "2012e7047f00",
+      "title": "원자력환경공단, 공항 X선 검색대 방사선 점검 확대",
+      "desc": "측정 결과는 한국공항보안과 정기적으로 공유, 검색대 주변에서 근무하는 보안검색 종사자의 작업환경 점검과 안전관리 개선에 활용한다. 원자력환경공단과 한국공항보안은 19일 공항 보안검색 현장의 방사선 안전관리...",
+      "url": "https://www.energy-news.co.kr/news/articleView.html?idxno=229925",
+      "date": "11.19.",
+      "datetime": "11.19. 18:28",
+      "rawDate": "2026-11-19T18:28:00+09:00",
+      "source": "에너지신문",
+      "sourceGroup": "에너지신문",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko",
+      "crawl": "미측정"
+    },
+    {
+      "id": "c01cacf3168a",
+      "title": "LG CNS, 배민 부사장 승진…산업 전반으로 AX 역할 확대",
+      "desc": "시스코시스템즈 글로벌 보안 영업 상무를 거쳐 2020년 LG CNS 보안사업담당 상무로 합류했다. 2022년 보안·솔루션사업부장을 맡았으며 2025년 정기 임원인사에서 전무로 승진해 금융·공공사업부장으로 자리를 옮겼다. 배...",
+      "url": "https://zdnet.co.kr/view/?no=20261119173843",
+      "date": "11.19.",
+      "datetime": "11.19. 18:27",
+      "rawDate": "2026-11-19T18:27:00+09:00",
+      "source": "지디넷코리아",
+      "sourceGroup": "지디넷코리아",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko",
+      "crawl": "지원"
+    },
+    {
       "id": "dfa45c64535d",
       "title": "[AI 자산관리] AI에 비번 줬다 털려도 ‘고객 책임’…시티은행 가세",
       "desc": "AI 에이전트의 보안 취약성을 이유로, AI 비서에 은행 로그인 정보를 맡겼다가 해킹이나 오결제 피해를... AI 도구가 해킹을 당하거나 비밀번호가 새어 무단 이체가 일어나도 고객이 승인한 거래로 간주한다는 내용이다....",
@@ -970,23 +1021,6 @@
       "tagCls": "tag-red",
       "lang": "ko",
       "crawl": "미측정"
-    },
-    {
-      "id": "ce1a647472f8",
-      "title": "LG CNS, 임원 14명 인사…배민 부사장 승진",
-      "desc": "LG CNS는 AX 분야에서 상무 5명을 신규 선임하고, 보안 분야에서도 신규 임원을 발탁했다. 실리콘밸리 유망 스타트업과 국내 대기업에서 AI 기술 연구를 이끌어 온 김병학 상무를 영입해 에이전틱AI 연구소장으로...",
-      "url": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202611190150&t=NN",
-      "date": "11.19.",
-      "datetime": "11.19. 18:14",
-      "rawDate": "2026-11-19T18:14:00+09:00",
-      "source": "한국경제TV",
-      "sourceGroup": "한국경제TV",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko",
-      "crawl": "미지원"
     },
     {
       "id": "779fe42155e9",
@@ -2140,23 +2174,6 @@
       "channel": "자체개발",
       "region": "국내",
       "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko",
-      "crawl": "지원"
-    },
-    {
-      "id": "6c35f45e7bdc",
-      "title": "SK브로드밴드, 부산-싱가포르 해저케이블에 양자보안 기술 적용",
-      "desc": "현대경제신문 최예헌 기자 | SK브로드밴드가 한국과 싱가포르를 잇는 국제 해저케이블에 양자보안 기술을 적용한다. 미래 양자컴퓨터의 암호 해독 위협에 대비하고 국산 양자보안 기술의 해외 진출 기반을 마련한다는...",
-      "url": "http://www.finomy.com/news/articleView.html?idxno=267282",
-      "date": "11.19.",
-      "datetime": "11.19. 17:28",
-      "rawDate": "2026-11-19T17:28:00+09:00",
-      "source": "현대경제신문",
-      "sourceGroup": "현대경제신문",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
       "tagCls": "tag-blue",
       "lang": "ko",
       "crawl": "지원"
@@ -3877,23 +3894,6 @@
       "tagCls": "tag-blue",
       "lang": "ko",
       "crawl": "미지원"
-    },
-    {
-      "id": "dcad2f420e0b",
-      "title": "원자력환경공단, 전국 공항 X-ray 146대 방사선 점검..이상무",
-      "desc": "19일 한국원자력환경공단에 따르면 한국공항보안과 공항 보안검색 시설의 방사선 안전관리 강화를 위한 업무협약(MOA)을 체결했다. 이번 협약은 공항 X-ray 검색대의 방사선 안전성을 지속적으로 확인하고, 측정 결과를...",
-      "url": "https://www.hidomin.com/news/articleView.html?idxno=730196",
-      "date": "11.19.",
-      "datetime": "11.19. 16:14",
-      "rawDate": "2026-11-19T16:14:00+09:00",
-      "source": "경북도민일보",
-      "sourceGroup": "경북도민일보",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko",
-      "crawl": "지원"
     },
     {
       "id": "7d2bf709ca56",
