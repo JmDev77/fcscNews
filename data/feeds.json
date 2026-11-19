@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-20T02:31:14.565948+09:00",
+  "fetched_at": "2026-11-20T03:01:19.116163+09:00",
   "count": 500,
   "articles": [
     {
@@ -86,6 +86,40 @@
       "tagCls": "tag-red",
       "lang": "ko",
       "crawl": "지원"
+    },
+    {
+      "id": "385d248bef03",
+      "title": "냉장고 해킹 이어…EU 집행위도 AI 이용한 사이버공격 받아",
+      "desc": "EU 집행위원회 \"지난달 22일 첫 감지…일부 앱 운영 일시 중단\"  최근 프랑스, 벨기에, 네덜란드 등 서유럽 각지의 슈퍼마켓들의 냉장고와 냉동고 온도가 해킹으로 치솟는 사건이 잇따른 데 이어 유럽연합(EU)의 행정부인...",
+      "url": "https://www.tfmedia.co.kr/news/article.html?no=209043",
+      "date": "11.20.",
+      "datetime": "11.20. 02:46",
+      "rawDate": "2026-11-20T02:46:00+09:00",
+      "source": "조세금융신문",
+      "sourceGroup": "조세금융신문",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko",
+      "crawl": "지원"
+    },
+    {
+      "id": "b611279edadf",
+      "title": "김정은은 왜 트럼프의 전화를 받지 않나…북미대화 불발 배경은",
+      "desc": "미 연방수사국(FBI)이 이달 초 세계 최대 가상자산 거래소 바이낸스에서 60억 달러(약 8조 원) 이상이 탈취된 사건의 배후로 북한 연계 해킹조직을 지목하자, 김여정 노동당 총무부장은 이를 \"엄중한 정치적 도발\"이라고...",
+      "url": "https://www.news1.kr/world/usa-canada/6360292",
+      "date": "11.20.",
+      "datetime": "11.20. 02:46",
+      "rawDate": "2026-11-20T02:46:00+09:00",
+      "source": "뉴스1",
+      "sourceGroup": "뉴스1",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko",
+      "crawl": "미지원"
     },
     {
       "id": "b37a981bf60e",
@@ -190,23 +224,6 @@
       "crawl": "지원"
     },
     {
-      "id": "c164d3c7b878",
-      "title": "EU 집행위도 AI 이용한 사이버 공격받아...&quot;일부 앱 일시 중단&quot;",
-      "desc": "최근 프랑스 등 서유럽 각지의 슈퍼마켓 냉장고 해킹 사태에 이어 유럽연합, EU의 행정부인 집행위원회도 사이버 공격의 표적이 됐습니다. 토마 레니에 EU 대변인은 현지 시간 19일 브리핑에서 EU 집행위원회가 지난달...",
-      "url": "https://www.ytn.co.kr/_ln/0104_202611200201326679",
-      "date": "11.20.",
-      "datetime": "11.20. 02:01",
-      "rawDate": "2026-11-20T02:01:00+09:00",
-      "source": "YTN",
-      "sourceGroup": "YTN",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko",
-      "crawl": "지원"
-    },
-    {
       "id": "e97e6da3bb1b",
       "title": "테슬라, ‘무인 모델Y’ 추진…美 소비자 선호도는 하락",
       "desc": "머스크 CEO는 2인승 무인택시 사이버캡으로는 가족이나 여러 명이 함께 이동하는 수요를 모두 충족하기... 테슬라는 지난주 개인용 사이버캡 주문을 받기 시작했지만 해당 차량은 로보택시 서비스 운행 구역 안에서만...",
@@ -221,6 +238,23 @@
       "tag": "보안",
       "tagCls": "tag-blue",
       "lang": "ko",
+      "crawl": "지원"
+    },
+    {
+      "id": "299fae081fb4",
+      "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
+      "desc": "PHP's default file-based session storage can be made to return objects an attacker chose, by cutting off a session write at the right moment. When combined with a second weakness, such as a suitable gadget chain in the app, those objects can allow the attacker to run code on the server.\n\nToday's PHP releases fix the flaw, called phpAfterShell.\n\nThe flaw is tracked as CVE-2026-126714 and rated",
+      "url": "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html",
+      "date": "11.20.",
+      "datetime": "11.20. 01:59",
+      "rawDate": "2026-11-20T01:59:56+09:00",
+      "source": "TheHackerNews",
+      "sourceGroup": "TheHackerNews",
+      "channel": "자체개발",
+      "region": "해외",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "en",
       "crawl": "지원"
     },
     {
@@ -7717,40 +7751,6 @@
       "region": "국내",
       "tag": "AI 보안",
       "tagCls": "tag-blue",
-      "lang": "ko",
-      "crawl": "지원"
-    },
-    {
-      "id": "91a9fe48e700",
-      "title": "&quot;북핵 방어를 넘어서는 다층적 동맹으로 진화해야&quot;",
-      "desc": "한국군은 정보·감시·정찰, 미사일 조기경보와 방어, 정밀타격, 사이버·우주 역량을 강화해야 한다. 미국... 미국의 핵우산에 대한 신뢰를 강화하는 동시에 한국군의 미사일 방어와 정밀타격, 정보·감시·정찰, 사이버...",
-      "url": "https://www.m-joongang.com/news/articleView.html?idxno=403305",
-      "date": "11.19.",
-      "datetime": "11.19. 16:08",
-      "rawDate": "2026-11-19T16:08:00+09:00",
-      "source": "m-joongang",
-      "sourceGroup": "m-joongang",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko",
-      "crawl": "미측정"
-    },
-    {
-      "id": "5975e1356478",
-      "title": "&quot;스마트폰·SNS 지겨워&quot; 요즘 Z세대, 통화·문자만 되는 '덤폰' 찾는다",
-      "desc": "위해 카메라 화질을 일부러 낮춘 것으로 알려졌다. 일본에서는 최근 해킹으로 인한 개인정보 유출 사고가 빈번하게 발생하고 있다. 사이버 보안에 대한 불안감도 덤폰 수요를 끌어올릴 요인으로 작용할 전망이다.",
-      "url": "https://www.insight.co.kr/news/582736",
-      "date": "11.19.",
-      "datetime": "11.19. 16:04",
-      "rawDate": "2026-11-19T16:04:00+09:00",
-      "source": "인사이트",
-      "sourceGroup": "인사이트",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
       "lang": "ko",
       "crawl": "지원"
     },
