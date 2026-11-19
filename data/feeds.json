@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-20T03:39:10.240105+09:00",
+  "fetched_at": "2026-11-20T04:01:25.256773+09:00",
   "count": 500,
   "articles": [
     {
@@ -52,6 +52,23 @@
       "tagCls": "tag-red",
       "lang": "ko",
       "crawl": "지원"
+    },
+    {
+      "id": "785d59c8b73f",
+      "title": "JP모건체이스, 협력업체 해킹 공식 발표…일부 고객 정보 노출 가능성",
+      "desc": "지난 월요일인 16일, 한 해킹 그룹이 체이스 카드 고객의 이메일 주소 등이 담긴 자료를 확보했다고... 로이터는 해킹 그룹이 확보했다고 주장한 자료의 진위를 독립적으로 확인하지 못했다고 전했습니다 체이스는 이번...",
+      "url": "https://www.radiokorea.com/news/article.php?uid=510180",
+      "date": "11.20.",
+      "datetime": "11.20. 03:50",
+      "rawDate": "2026-11-20T03:50:00+09:00",
+      "source": "radiokorea",
+      "sourceGroup": "radiokorea",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko",
+      "crawl": "미측정"
     },
     {
       "id": "cd278f4ff8cc",
@@ -730,23 +747,6 @@
       "region": "국내",
       "tag": "정책/제도",
       "tagCls": "tag-green",
-      "lang": "ko",
-      "crawl": "지원"
-    },
-    {
-      "id": "c34aefeab545",
-      "title": "JP모건 일부 공급업체 공격에 고객 이름·이메일 노출 가능성",
-      "desc": "JP모건체이스(JPMorgan Chase)의 일부 서비스 공급업체가 사이버 공격을 받아 고객 정보가 노출됐을 가능성이 있다고 PANews가 차이롄서(社)를 인용해 보도했다. PANews는 차이롄서를 인용해 JP모건이 공격자가 공급업체가...",
-      "url": "https://www.tokenpost.kr/news/breaking/440931",
-      "date": "11.20.",
-      "datetime": "11.20. 01:00",
-      "rawDate": "2026-11-20T01:00:00+09:00",
-      "source": "토큰포스트",
-      "sourceGroup": "토큰포스트",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
       "lang": "ko",
       "crawl": "지원"
     },
