@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-21T02:01:21.058393+09:00",
+  "fetched_at": "2026-11-21T02:31:11.909621+09:00",
   "count": 500,
   "articles": [
     {
@@ -122,6 +122,23 @@
       "crawl": "지원"
     },
     {
+      "id": "1d6960f91e9b",
+      "title": "USDS 20억달러 넘게 USDC 교환…PSM 20일 잔액 11억달러 웃돌아",
+      "desc": "인카 디지털이 북한 연계로 분류한 지갑 관련 거래는 1억190만달러(약 1356억원), 2025년 바이비트 해킹 관련 거래는 9150만달러(약 1218억원)였다. 인카 디지털의 원문 보고서는 공개되지 않았다. 스카이...",
+      "url": "https://www.tokenpost.kr/news/cryptocurrency/441716",
+      "date": "11.21.",
+      "datetime": "11.21. 02:26",
+      "rawDate": "2026-11-21T02:26:00+09:00",
+      "source": "토큰포스트",
+      "sourceGroup": "토큰포스트",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko",
+      "crawl": "지원"
+    },
+    {
       "id": "6d59616fe438",
       "title": "급여·휴가 시스템 열흘 넘게 차질... EU 집행위원회, AI 해킹 도구 ‘아르텍스’ 공격 인정",
       "desc": "유럽연합(EU) 행정부인 집행위원회가 공개된 AI 해킹 도구를 동원한 사이버 공격을 받아 직원용 인사 시스템이 한동안 차질을 빚은 것으로 알려졌다. 집행위원회는 언론 보도가 나온 뒤인 19일(현지시각) 공격 사실을 공식 확인했다.토마 레니에(Thomas Regnier) 집행위원회 대변인은 이날 기자들에게 첫 징후를 10월 22일 포착했다고 밝혔다. 그는 이번 공격을 ‘AI가 만들어 낸 사이버 공격’이라고 불렀지만, 어떤 도구가 쓰였는지와 공격자 동기는 밝히지 않았다.도구 이름은 정치 매체 폴리티코 보도로 먼저 알려졌다. 보도에 따르",
@@ -136,6 +153,23 @@
       "tag": "해킹/침해",
       "tagCls": "tag-red",
       "lang": "ko",
+      "crawl": "지원"
+    },
+    {
+      "id": "9ab8a41daf1f",
+      "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
+      "desc": "Cybersecurity researchers have disclosed details of a previously unknown Android malware framework called Bazuka that offers large language model (LLM) integration for victim management and control at scale.\n\nDutch mobile security company ThreatFabric said it discovered the threat in late October 2026 during an investigation into an NFC-relay banking Trojan.\n\n\"Bazuka is a full malware framework,",
+      "url": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html",
+      "date": "11.21.",
+      "datetime": "11.21. 01:58",
+      "rawDate": "2026-11-21T01:58:16+09:00",
+      "source": "TheHackerNews",
+      "sourceGroup": "TheHackerNews",
+      "channel": "자체개발",
+      "region": "해외",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "en",
       "crawl": "지원"
     },
     {
@@ -8467,40 +8501,6 @@
       "tagCls": "tag-red",
       "lang": "ko",
       "crawl": "미지원"
-    },
-    {
-      "id": "342d134ea9fc",
-      "title": "KT·LG전자, QSDC 구현 맞손…양자암호 넘어 '정보 직접 전송'",
-      "desc": "당시 양사는 양자직접통신 기반의 보안 네트워크 구축을 목표로 양자 중계기와 네트워크 요소기술 개발... LG전자는 축적해 온 양자직접통신 연구 역량을 바탕으로 시스템의 보안성을 분석·검증했다. 관련 부품을...",
-      "url": "https://www.greened.kr/news/articleView.html?idxno=355132",
-      "date": "11.20.",
-      "datetime": "11.20. 14:11",
-      "rawDate": "2026-11-20T14:11:00+09:00",
-      "source": "greened",
-      "sourceGroup": "greened",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko",
-      "crawl": "미측정"
-    },
-    {
-      "id": "ad1ef25745ca",
-      "title": "&quot;클래리티법 입법 막힌 상황… 비트코인 가격, 의회 아닌 연준이 정할 ...",
-      "desc": "10월 말 세계 최대 거래소 바이낸스에서 사상 최대 규모의 해킹이 일어났다. 거래소가 자체 자금으로 손실을 메워 사건은 빠르게 수습됐지만, 해킹 소식은 원인과 무관하게 시장 전체의 불안을 키운다. 양자컴퓨터가...",
-      "url": "https://www.m-joongang.com/news/articleView.html?idxno=403321",
-      "date": "11.20.",
-      "datetime": "11.20. 14:10",
-      "rawDate": "2026-11-20T14:10:00+09:00",
-      "source": "m-joongang",
-      "sourceGroup": "m-joongang",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko",
-      "crawl": "미측정"
     }
   ]
 }
