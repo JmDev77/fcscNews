@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-21T04:31:24.079083+09:00",
+  "fetched_at": "2026-11-21T05:01:24.090880+09:00",
   "count": 500,
   "articles": [
     {
@@ -35,6 +35,23 @@
       "tagCls": "tag-red",
       "lang": "ko",
       "crawl": "지원"
+    },
+    {
+      "id": "bdc27c6c75c2",
+      "title": "수능 카메라·스마트폰 등 스마트기기 부정행위 잇따라 경찰 입건",
+      "desc": "이에 따라 경기남부경찰청 사이버범죄수사대는 카메라와 무선이어폰을 몰래 소지했다가 적발된 20대 남성 재수생을 위계에 의한 공무집행방해 혐의로 입건해 수사하고 있다고 이날 밝혔다. 이 수험생은 반입이 금지된...",
+      "url": "http://www.babytimes.co.kr/news/articleView.html?idxno=74736",
+      "date": "11.21.",
+      "datetime": "11.21. 04:42",
+      "rawDate": "2026-11-21T04:42:00+09:00",
+      "source": "babytimes",
+      "sourceGroup": "babytimes",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko",
+      "crawl": "미측정"
     },
     {
       "id": "625ede0d8c2c",
@@ -8483,23 +8500,6 @@
       "tag": "보안",
       "tagCls": "tag-blue",
       "lang": "ko",
-      "crawl": "지원"
-    },
-    {
-      "id": "4f259a98db3f",
-      "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
-      "desc": "A newly disclosed unpatched zero-day technique called FastUnlock lets someone with physical access to a locked Windows computer start programs without signing in. Whoever uses it gets only a limited account, not administrator control of the machine.\n\nThe method was posted yesterday by a researcher who uses the handles MSNightmare and Nightmare Eclipse, and the endpoint-security firm ThreatLocker",
-      "url": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
-      "date": "11.20.",
-      "datetime": "11.20. 14:30",
-      "rawDate": "2026-11-20T14:30:01+09:00",
-      "source": "TheHackerNews",
-      "sourceGroup": "TheHackerNews",
-      "channel": "자체개발",
-      "region": "해외",
-      "tag": "취약점/CVE",
-      "tagCls": "tag-yellow",
-      "lang": "en",
       "crawl": "지원"
     }
   ]
