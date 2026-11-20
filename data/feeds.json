@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-21T03:31:20.905314+09:00",
+  "fetched_at": "2026-11-21T04:01:23.850334+09:00",
   "count": 500,
   "articles": [
     {
@@ -52,6 +52,57 @@
       "tagCls": "tag-red",
       "lang": "ko",
       "crawl": "지원"
+    },
+    {
+      "id": "7d3884543ee0",
+      "title": "&quot;불법으로 규정해야 돼&quot; 리버풀 이라올라 감독, 맨유 훈련 영상 불법 드...",
+      "desc": "중요한 빅매치를 앞두고 맨유 측에서 대형 보안 사고가 터졌다. 앞서 맨유의 캐링턴 훈련장 상공에서 다양한... 논란이 커지자 해당 드론 조종자는 사과와 함께 영상을 삭제했으며, 구단 소식통은 매체를 통해 보안 침해가...",
+      "url": "https://www.interfootball.co.kr/news/articleView.html?idxno=698903",
+      "date": "11.21.",
+      "datetime": "11.21. 04:00",
+      "rawDate": "2026-11-21T04:00:00+09:00",
+      "source": "interfootball",
+      "sourceGroup": "interfootball",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko",
+      "crawl": "미측정"
+    },
+    {
+      "id": "c48164ca37fd",
+      "title": "베선트 “미중 정상, AI 군사 결정에 인간 개입 합의”",
+      "desc": "양국 간의 AI 패권 경쟁과는 별개의 문제라고 설명했다. 또 사이버 공격에 악용되는 \"위험한\" 중국의 AI 모델들에 대응하기 위해 미국 AI 연구소들이 기술적 우위를 유지해야 한다고 덧붙였다. [사진 출처 : 로이터=연합뉴스]",
+      "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8718993&ref=A",
+      "date": "11.21.",
+      "datetime": "11.21. 03:38",
+      "rawDate": "2026-11-21T03:38:00+09:00",
+      "source": "KBS",
+      "sourceGroup": "KBS",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko",
+      "crawl": "불안정"
+    },
+    {
+      "id": "ae7f06fd3069",
+      "title": "In Security, Words Matter as Much as Tools, Maybe More",
+      "desc": "From talking cloud security to using AI, cyber leaders are finding that clear, disciplined communication is now a front-line defense capability across the enterprise.",
+      "url": "https://www.darkreading.com/cybersecurity-operations/security-words-matter",
+      "date": "11.21.",
+      "datetime": "11.21. 03:35",
+      "rawDate": "2026-11-21T03:35:40+09:00",
+      "source": "DarkReading",
+      "sourceGroup": "DarkReading",
+      "channel": "자체개발",
+      "region": "해외",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "en",
+      "crawl": "불안정"
     },
     {
       "id": "a314f6d884a8",
@@ -171,23 +222,6 @@
       "tagCls": "tag-red",
       "lang": "ko",
       "crawl": "지원"
-    },
-    {
-      "id": "ed34e0524dd0",
-      "title": "베선트 &quot;미중 정상, AI 군사 결정에 인간 개입 합의&quot;",
-      "desc": "또 사이버 공격에 악용되는 \"위험한\" 중국의 AI 모델들에 대응하기 위해 미국 AI 연구소들이 기술적 우위를 유지해야 한다고 덧붙였다. 이와 함께 베선트 장관은 원유 인도가격 하락을 언급하며, 일부 위원들이...",
-      "url": "https://www.yna.co.kr/view/AKR20261121004500072?input=1195m",
-      "date": "11.21.",
-      "datetime": "11.21. 02:38",
-      "rawDate": "2026-11-21T02:38:00+09:00",
-      "source": "연합뉴스",
-      "sourceGroup": "연합뉴스",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko",
-      "crawl": "불안정"
     },
     {
       "id": "4cddd2f033b1",
@@ -8467,40 +8501,6 @@
       "tagCls": "tag-green",
       "lang": "ko",
       "crawl": "미측정"
-    },
-    {
-      "id": "3b60b46fe195",
-      "title": "스마일샤크, AWS와 AI 보안 세미나 개최…AI 기반 침투 테스트 실습 진행",
-      "desc": "스마일샤크 김수현 어카운트 매니저가 'AI 보안, AI로 더 빠르게' 세미나를 진행하고 있다. (사진=스마일샤크)  AI MSP 스마일샤크(대표 장진환)가 아마존웹서비스(AWS)와 공동으로 AI 보안 세미나를 개최하고 기업의 AI...",
-      "url": "https://www.delighti.co.kr/news/articleView.html?idxno=125322",
-      "date": "11.20.",
-      "datetime": "11.20. 14:22",
-      "rawDate": "2026-11-20T14:22:00+09:00",
-      "source": "delighti",
-      "sourceGroup": "delighti",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko",
-      "crawl": "미측정"
-    },
-    {
-      "id": "63632b8ba02a",
-      "title": "명지대-인테그리티 ISR, 국방우주 인력 양성 합의각서 체결",
-      "desc": "분석·우주사이버보안 교육 ▲전문가 인적 교류·공동연구 등이다. Integrity ISR은 미국 우주군(U.S. Space Force)... 또한 AI 기술을 접목한 위성영상 자동분석과 표적 식별, 다중 우주정보 융합, 우주체계 사이버보안 등...",
-      "url": "https://www.newsis.com/view/NISX20261120_0003876756",
-      "date": "11.20.",
-      "datetime": "11.20. 14:21",
-      "rawDate": "2026-11-20T14:21:00+09:00",
-      "source": "뉴시스",
-      "sourceGroup": "뉴시스",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko",
-      "crawl": "미지원"
     }
   ]
 }
