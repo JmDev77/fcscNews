@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-22T03:31:11.932465+09:00",
+  "fetched_at": "2026-11-22T04:01:08.769614+09:00",
   "count": 500,
   "articles": [
     {
@@ -29,6 +29,23 @@
       "rawDate": "2026-11-22T08:22:04+09:00",
       "source": "데일리시큐",
       "sourceGroup": "데일리시큐",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko",
+      "crawl": "지원"
+    },
+    {
+      "id": "75cac02e3ed7",
+      "title": "CYBER 521만개 발행 보도…업비트·빗썸 입출금 중단",
+      "desc": "크립토브리핑(Crypto Briefing)은 사이버 브리지 공격으로 CYBER 토큰 521만개가 발행됐고 업비트와 빗썸이 입출금을 중단했다고 보도했다.",
+      "url": "https://www.tokenpost.kr/news/breaking/442306",
+      "date": "11.22.",
+      "datetime": "11.22. 03:34",
+      "rawDate": "2026-11-22T03:34:00+09:00",
+      "source": "토큰포스트",
+      "sourceGroup": "토큰포스트",
       "channel": "자체개발",
       "region": "국내",
       "tag": "해킹/침해",
@@ -8484,23 +8501,6 @@
       "tagCls": "tag-green",
       "lang": "ko",
       "crawl": "불안정"
-    },
-    {
-      "id": "2eaebe90d3f2",
-      "title": "전북교육청·전주대 잇단 해킹에 '2차 피해' 우려…경찰 대응 나선다",
-      "desc": "국가정보원 역시 현장에서 방화벽 접속 기록 등을 확보해 해킹 경로를 추적하고 있는 것으로 파악됐다. 전주대학교에서도 학내 온라인 교양교육 서버 해킹으로 인한 18만건 정도의 개인 정보 유출 피해가 발생했다....",
-      "url": "https://www.nocutnews.co.kr/news/6610458?utm_source=naver&utm_medium=article&utm_campaign=20261120185616",
-      "date": "11.20.",
-      "datetime": "11.20. 18:57",
-      "rawDate": "2026-11-20T18:57:00+09:00",
-      "source": "노컷뉴스",
-      "sourceGroup": "노컷뉴스",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko",
-      "crawl": "지원"
     }
   ]
 }
