@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-21T19:31:14.362275+09:00",
+  "fetched_at": "2026-11-21T20:01:21.304125+09:00",
   "count": 500,
   "articles": [
     {
@@ -122,6 +122,40 @@
       "crawl": "지원"
     },
     {
+      "id": "b903b5fe0ade",
+      "title": "“중고폰 사기 전 확인”…IMEI로 분실·도난 조회",
+      "desc": "개인정보 수집·이용에 동의한 뒤 15자리 IMEI와 보안문자를 입력하고 조회 버튼을 누르면 된다. 결과 화면에는 조회 날짜와 IMEI, 조회 결과가 표시된다. KAIT에 따르면 분실·도난 신고된 휴대전화의 IMEI 정보는...",
+      "url": "https://www.vegannews.co.kr/news/article.html?no=408883",
+      "date": "11.21.",
+      "datetime": "11.21. 19:56",
+      "rawDate": "2026-11-21T19:56:00+09:00",
+      "source": "vegannews",
+      "sourceGroup": "vegannews",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "ko",
+      "crawl": "미측정"
+    },
+    {
+      "id": "20da426d91db",
+      "title": "비트코인 장중 5만 5,500달러까지 폭락…2024년 9월 이후 처음",
+      "desc": "크립토포테이토는 바이낸스에서 발생한 역대 최대 달러 기준 해킹 사건을 비롯해 미국 중간선거 결과, 비트코인 현물 상장지수펀드(ETF)의 대규모 자금 유출, 전쟁 관련 불확실성, 앤트로픽의 기업공개(IPO) 등이...",
+      "url": "http://coinreaders.com/272270",
+      "date": "11.21.",
+      "datetime": "11.21. 19:52",
+      "rawDate": "2026-11-21T19:52:00+09:00",
+      "source": "코인리더스",
+      "sourceGroup": "코인리더스",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko",
+      "crawl": "지원"
+    },
+    {
       "id": "b4d2cfe2d002",
       "title": "LIG아큐버 해외 브랜드 ‘Accuver’, 랜섬웨어 조직 에베레스트 해킹 당한 기업 명단에 등장",
       "desc": "국내 이동통신 계측장비 전문기업 LIG아큐버와 연결된 글로벌 브랜드 ‘아큐버(Accuver)’가 랜섬웨어 조직 에베레스트(Everest)의 피해자 명단에 등장했다. 공격자가 공개한 명칭은 ‘Accuver’로, 국내 본사인 LIG아큐버가 직접 공격받았는지, 해외 판매법인이나 별도 사업 시스템이 침해됐는지는 확인되지 않았다.11월 21일 데일리시큐가 공개 랜섬웨어 피해자 추적 자료를 확인한 결과, 에베레스트는 11월 20일 Accuver를 피해 대상으로 게시한 것으로 나타났다. 복수의 위협 인텔리전스 추적 서비스에서 관련 기록이 확인됐",
@@ -137,6 +171,23 @@
       "tagCls": "tag-red",
       "lang": "ko",
       "crawl": "지원"
+    },
+    {
+      "id": "a80e21a98935",
+      "title": "KIMA ‘제5회 포럼’개최…이주민선교 30년 성찰과 전망 모색",
+      "desc": "숭실사이버대학교의 현지인 사역자 교육 프로그램 및 아시안미션(이상준 대표) 사역 소개가 이어진다. 포럼 기간 중 예배와 집회도 함께 열린다. 8일 개회예배는 홍문수 목사(신반포교회 원로)의 설교와 강대흥 KWMA...",
+      "url": "https://www.kmib.co.kr/article/20261121500211",
+      "date": "11.21.",
+      "datetime": "11.21. 19:38",
+      "rawDate": "2026-11-21T19:38:00+09:00",
+      "source": "kmib",
+      "sourceGroup": "kmib",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko",
+      "crawl": "미측정"
     },
     {
       "id": "fefa6f02266d",
@@ -8450,57 +8501,6 @@
       "tagCls": "tag-blue",
       "lang": "ko",
       "crawl": "지원"
-    },
-    {
-      "id": "6621973d35b6",
-      "title": "[보험업계기상도]미래에셋생명 정보유출·교보생명 분기손실 ‘비’",
-      "desc": "미래에셋생명은 해킹 사고의 정보유출 규모가 당초 알려진 6800명에서 1만418명으로 늘어난 사실이 11월 18일 공개돼 ‘비’를 받았다. 11월 5일 기준 집계로 유출 정보에는 주민등록번호와 연락처를 비롯해 퇴직연금...",
-      "url": "https://www.nspna.com/news/?mode=view&newsid=837180",
-      "date": "11.20.",
-      "datetime": "11.20. 17:58",
-      "rawDate": "2026-11-20T17:58:00+09:00",
-      "source": "nspna",
-      "sourceGroup": "nspna",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko",
-      "crawl": "미측정"
-    },
-    {
-      "id": "964d6104d26e",
-      "title": "(미래학회 10주년 학술대회)더 나은 미래 위한 실질적 대전환·개혁 모색",
-      "desc": "민재명 한국열린사이버대학교 객원교수는 \"학회가 출범한 지 10년이 지났지만 여전히 자신이 막내\"라며 세대교체의 필요성을 강조했습니다. 청년들의 목소리가 정책 논의에 충분히 반영되고 있는지 돌아봐야 한다는...",
-      "url": "http://www.newstomato.com/ReadNews.aspx?no=1321295&inflow=N",
-      "date": "11.20.",
-      "datetime": "11.20. 17:58",
-      "rawDate": "2026-11-20T17:58:00+09:00",
-      "source": "뉴스토마토",
-      "sourceGroup": "뉴스토마토",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "정책/제도",
-      "tagCls": "tag-green",
-      "lang": "ko",
-      "crawl": "미지원"
-    },
-    {
-      "id": "e8f732353dde",
-      "title": "청와대, '시험 공정성 회복 TF' 구성…&quot;의심 사례 철저히 조사&quot;",
-      "desc": "이 대통령은 국가안보실 제3차장실로부터 '연결형 기기 사이버보안 강화 방안'을 보고받고서는 \"보안이 국가안보의 핵심\"이라며 하위법령을 통해서라도 보안 강화 및 정비에 속도를 내야 한다고 강조했습니다. 또한...",
-      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008856323&plink=ORI&cooper=NAVER",
-      "date": "11.20.",
-      "datetime": "11.20. 17:57",
-      "rawDate": "2026-11-20T17:57:00+09:00",
-      "source": "SBS",
-      "sourceGroup": "SBS",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "정책/제도",
-      "tagCls": "tag-green",
-      "lang": "ko",
-      "crawl": "불안정"
     }
   ]
 }
