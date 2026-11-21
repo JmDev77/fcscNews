@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-22T02:31:18.625146+09:00",
+  "fetched_at": "2026-11-22T03:01:19.648932+09:00",
   "count": 500,
   "articles": [
     {
@@ -29,6 +29,40 @@
       "rawDate": "2026-11-22T08:22:04+09:00",
       "source": "데일리시큐",
       "sourceGroup": "데일리시큐",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko",
+      "crawl": "지원"
+    },
+    {
+      "id": "2357504e01e4",
+      "title": "라스베이거스 경찰국 테슬라 사이버트럭 목격…그랑프리 앞두고 서킷 인...",
+      "desc": "AFP 라스베이거스 경찰국 소속 테슬라 사이버트럭이 20일(현지시간) 네바다주 라스베이거스에서 목격됐다. 목격 장소는 라스베이거스 그랑프리를 앞둔 라스베이거스 스트립 서킷 인근이다.",
+      "url": "https://www.gukjenews.com/news/articleView.html?idxno=3759243",
+      "date": "11.22.",
+      "datetime": "11.22. 02:58",
+      "rawDate": "2026-11-22T02:58:00+09:00",
+      "source": "국제뉴스",
+      "sourceGroup": "국제뉴스",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko",
+      "crawl": "지원"
+    },
+    {
+      "id": "203468f9552d",
+      "title": "트럼프 &quot;이란 핵보유 막을 수 있는 영구적인 합의 할 것&quot;",
+      "desc": "트럼프 대통령은 미 연방수사국(FBI)의 범죄정보 데이터베이스에 해킹으로 의심되는 사건이 발생한 데 대해 \"방금 보고를 받았고 좋은 일이 아니다. 마음에 들지 않는다\"고 말했습니다. 그러면서 \"하지만 알 수 없었을 일을...",
+      "url": "http://www.yonhapnewstv.co.kr/news/AKR20261122024936e1r",
+      "date": "11.22.",
+      "datetime": "11.22. 02:50",
+      "rawDate": "2026-11-22T02:50:00+09:00",
+      "source": "연합뉴스TV",
+      "sourceGroup": "연합뉴스TV",
       "channel": "자체개발",
       "region": "국내",
       "tag": "해킹/침해",
@@ -69,23 +103,6 @@
       "tagCls": "tag-green",
       "lang": "ko",
       "crawl": "미측정"
-    },
-    {
-      "id": "1710cbd44c5f",
-      "title": "트럼프 &quot;이란 핵보유 막을 수 있는 영구적인 합의 할 것&quot;",
-      "desc": "美FBI 해킹 피해 사건엔 \"좋은 일 아니다\"라면서도 사태 축소 시도 백나리 특파원 = 도널드 트럼프 미국... 트럼프 대통령은 미 연방수사국(FBI)의 범죄정보 데이터베이스에 해킹으로 의심되는 사건이 발생한 데 대해 \"방금...",
-      "url": "https://www.yna.co.kr/view/AKR20261122001000071?input=1195m",
-      "date": "11.22.",
-      "datetime": "11.22. 02:08",
-      "rawDate": "2026-11-22T02:08:00+09:00",
-      "source": "연합뉴스",
-      "sourceGroup": "연합뉴스",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko",
-      "crawl": "불안정"
     },
     {
       "id": "91ae54155160",
@@ -8484,23 +8501,6 @@
       "tagCls": "tag-purple",
       "lang": "ko",
       "crawl": "미지원"
-    },
-    {
-      "id": "7af52d0b93ec",
-      "title": "도이치텔레콤, 미스트랄에 1억 유로 투자…독일 소버린 AI 인프라와 유럽...",
-      "desc": "해외 클라우드와 AI 플랫폼에 대한 의존도를 줄이고 자국의 법률과 보안 요구사항에 맞춰 AI 시스템을... 특히 독일은 자동차와 기계, 화학 등 제조업 기반이 강하고 산업 데이터의 보안과 운영 통제에 대한 요구가...",
-      "url": "https://www.aitimes.kr/news/articleView.html?idxno=42830",
-      "date": "11.20.",
-      "datetime": "11.20. 18:44",
-      "rawDate": "2026-11-20T18:44:00+09:00",
-      "source": "인공지능신문",
-      "sourceGroup": "인공지능신문",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko",
-      "crawl": "지원"
     }
   ]
 }
