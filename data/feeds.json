@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-23T03:31:11.417691+09:00",
+  "fetched_at": "2026-11-23T04:01:14.283286+09:00",
   "count": 500,
   "articles": [
     {
@@ -52,6 +52,23 @@
       "tagCls": "tag-red",
       "lang": "ko",
       "crawl": "지원"
+    },
+    {
+      "id": "61f7b2e17abf",
+      "title": "스루비전그룹 수주 66% 증가…매출 3% 감소",
+      "desc": "회사는 이 잔고를 회계연도 하반기에 납품할 것으로 예상했으며, 여기에는 동남아시아 여러 주요 공항에 보안 장비를 공급하는 계약의 잔여분이 포함된다. 해당 공항 공급 계약은 300만파운드를 넘는 매출을 낼...",
+      "url": "https://www.vegannews.co.kr/news/article.html?no=409643",
+      "date": "11.23.",
+      "datetime": "11.23. 03:32",
+      "rawDate": "2026-11-23T03:32:00+09:00",
+      "source": "vegannews",
+      "sourceGroup": "vegannews",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko",
+      "crawl": "미측정"
     },
     {
       "id": "6761b1c30a3f",
@@ -8484,23 +8501,6 @@
       "tagCls": "tag-green",
       "lang": "ko",
       "crawl": "지원"
-    },
-    {
-      "id": "7dff2a910909",
-      "title": "김기철 한화비전 대표, 베트남 생산거점 현장 경영…품질·공급망 '꼼꼼...",
-      "desc": "외부 위탁생산에 대한 의존도를 낮추고 공급망 안정성과 납기 신뢰성, 제품 추적성, 사이버보안 등을... 베트남 생산시설은 북미와 유럽, 아시아 등 주요 시장에 영상보안 제품을 공급하는 역할을 맡고 있다....",
-      "url": "https://www.theguru.co.kr/news/article.html?no=110038",
-      "date": "11.22.",
-      "datetime": "11.22. 07:32",
-      "rawDate": "2026-11-22T07:32:00+09:00",
-      "source": "theguru",
-      "sourceGroup": "theguru",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko",
-      "crawl": "미측정"
     }
   ]
 }
