@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-23T07:28:18.051579+09:00",
+  "fetched_at": "2026-11-23T07:31:09.392272+09:00",
   "count": 500,
   "articles": [
     {
@@ -18,6 +18,23 @@
       "tagCls": "tag-blue",
       "lang": "en",
       "crawl": "불안정"
+    },
+    {
+      "id": "ad01f4a199dc",
+      "title": "[AI핫이슈] 앤트로픽 IPO 효과 글쎄...급하게 패치하다 IT장애 확산",
+      "desc": "AI 해킹이 확산되는 가운데 주요 테크 기업들과 정부 기관들에서 잇따라 대규모 장애가 발생하면서... ㆍ잇단 IT 시스템 장애 속 AI·해킹 공포 확산...오해와 불편한 진실 ㆍ美 IT시스템 대규모 장애...\"AI로 찾은...",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=717273",
+      "date": "11.23.",
+      "datetime": "11.23. 07:30",
+      "rawDate": "2026-11-23T07:30:00+09:00",
+      "source": "디지털투데이",
+      "sourceGroup": "디지털투데이",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko",
+      "crawl": "지원"
     },
     {
       "id": "898bd6b0f7f5",
@@ -8484,23 +8501,6 @@
       "tagCls": "tag-blue",
       "lang": "ko",
       "crawl": "미지원"
-    },
-    {
-      "id": "30d3ba94d661",
-      "title": "전력망 투자 확대는 계속되는데…포스코DX·LS ELECTRIC 주가 '흔들'",
-      "desc": "스마트홈과 영상·보안·제어 기기를 공급하는 코콤은 전 거래일보다 1.76% 오른 2600원을 기록했다. AI 기반 스마트 주거 및 인프라 제어 솔루션 확대 기대와 저가 매수세가 맞물리며 약세장에서도 상대적으로 견조한...",
-      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=506684",
-      "date": "11.22.",
-      "datetime": "11.22. 10:50",
-      "rawDate": "2026-11-22T10:50:00+09:00",
-      "source": "핀포인트뉴스",
-      "sourceGroup": "핀포인트뉴스",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko",
-      "crawl": "지원"
     }
   ]
 }
