@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-23T02:01:14.966188+09:00",
+  "fetched_at": "2026-11-23T02:05:41.039886+09:00",
   "count": 500,
   "articles": [
     {
@@ -50,6 +50,23 @@
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
+      "lang": "ko",
+      "crawl": "지원"
+    },
+    {
+      "id": "748e059b68b7",
+      "title": "기술 유출 없이 AI를 이용하려면[MT시평/장항배]",
+      "desc": "제공자, 보안 전문가들이 중지를 모아야 할 시점이다. 기술의 민감도와 활용 위험에 따라 합리적인 기준을 마련하고, 기업들이 과도한 불확실성 없이 AI를 활용할 수 있는 정책 환경을 만들어야 한다. 보안의 목적은...",
+      "url": "https://www.mt.co.kr/opinion/2026/11/23/2026111809082422038",
+      "date": "11.23.",
+      "datetime": "11.23. 02:00",
+      "rawDate": "2026-11-23T02:00:00+09:00",
+      "source": "머니투데이",
+      "sourceGroup": "머니투데이",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
       "lang": "ko",
       "crawl": "지원"
     },
@@ -8482,23 +8499,6 @@
       "region": "국내",
       "tag": "해킹/침해",
       "tagCls": "tag-red",
-      "lang": "ko",
-      "crawl": "미지원"
-    },
-    {
-      "id": "c5bba3d42c3a",
-      "title": "[Who Is ?] 김재원 엘리스그룹 대표이사",
-      "desc": "△안랩과 'AI 데이터센터 특화 보안 체계' 구축 협력 엘리스그룹이 2026년 3월12일 보안 전문 기업 안랩(AhnLab)과 손을 맞잡았다. 양사는 'AI 데이터센터 및 차세대 네트워크 보안' 분야 협력을 위한 업무협약을...",
-      "url": "https://www.businesspost.co.kr/BP?command=article_view&num=452085",
-      "date": "11.22.",
-      "datetime": "11.22. 07:00",
-      "rawDate": "2026-11-22T07:00:00+09:00",
-      "source": "비즈니스포스트",
-      "sourceGroup": "비즈니스포스트",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
       "lang": "ko",
       "crawl": "미지원"
     }
