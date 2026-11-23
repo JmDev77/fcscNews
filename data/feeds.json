@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-24T03:31:07.840914+09:00",
+  "fetched_at": "2026-11-24T04:01:28.970043+09:00",
   "count": 500,
   "articles": [
     {
@@ -33,6 +33,40 @@
       "region": "국내",
       "tag": "AI 보안",
       "tagCls": "tag-blue",
+      "lang": "ko",
+      "crawl": "지원"
+    },
+    {
+      "id": "2e36a8fa417d",
+      "title": "지스타 2026에서 AI 결제 보안 기술 소개한 '포터'",
+      "desc": "결제 보안 기술 소개 및 비즈니스 상담을 진행했다. 포터는 지난 19일부터 21일까지 부산 벡스코 인근 어반... 주요 보안 과제를 논의했다. 포터는 전 세계 약 100만 개 가맹점 네트워크 데이터를 기반으로 계정 생성부터...",
+      "url": "https://www.gametoc.co.kr/news/articleView.html?idxno=113350",
+      "date": "11.24.",
+      "datetime": "11.24. 03:56",
+      "rawDate": "2026-11-24T03:56:00+09:00",
+      "source": "gametoc",
+      "sourceGroup": "gametoc",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "ko",
+      "crawl": "미측정"
+    },
+    {
+      "id": "a58dad4a8c37",
+      "title": "&quot;국내 1위 넘어 세계로… KB금융 대전환&quot;",
+      "desc": "최근 잇따른 금융권 정보유출 사고와 관련, 정보보호 책임체계를 명확히 하고 외부 접점의 보안체계를 핵심 시스템과 동일한 기준으로 원점부터 재검토할 것을 주문했다. 이 회장은 \"AI 기반 사이버 공격에 AI로 대응할 수...",
+      "url": "https://www.mt.co.kr/finance/2026/11/24/2026112319491657843",
+      "date": "11.24.",
+      "datetime": "11.24. 03:50",
+      "rawDate": "2026-11-24T03:50:00+09:00",
+      "source": "머니투데이",
+      "sourceGroup": "머니투데이",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
       "lang": "ko",
       "crawl": "지원"
     },
@@ -8467,40 +8501,6 @@
       "tagCls": "tag-red",
       "lang": "ko",
       "crawl": "미지원"
-    },
-    {
-      "id": "e2bbc5b72503",
-      "title": "[의회 브리핑]용인특례시의회 문화복지위, 5개 산하기관 행감서 운영 실...",
-      "desc": "장학재단은 개인정보 및 홈페이지 보안 강화(이제성), 반도체 등 전략산업 연계 장학사업 확대(김길수), 금리 비교를 통한 기금 운용 개선(오수정) 방안을 요구받았다. 프로축구단·평온의숲 투명 경영 및 처우 개선 촉구...",
-      "url": "https://www.nspna.com/news/?mode=view&newsid=837345",
-      "date": "11.23.",
-      "datetime": "11.23. 16:20",
-      "rawDate": "2026-11-23T16:20:00+09:00",
-      "source": "nspna",
-      "sourceGroup": "nspna",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko",
-      "crawl": "미측정"
-    },
-    {
-      "id": "d6c0196ea31e",
-      "title": "美 항공관제 장애 뒤⋯구글클라우드 &quot;단일 장애지점부터 없애야&quot;",
-      "desc": "찰스 카르마칼 구글클라우드 맨디언트 컨설팅 최고기술책임자(CTO)는 \"최근 대형 시스템 장애는 레거시 시스템을 관리하는 보안 담당자의 부담을 보여준다\"며 \"공격자가 운영 시스템을 직접 노리거나 보안팀이 긴급...",
-      "url": "http://www.inews24.com/view/2029383",
-      "date": "11.23.",
-      "datetime": "11.23. 16:19",
-      "rawDate": "2026-11-23T16:19:00+09:00",
-      "source": "아이뉴스24",
-      "sourceGroup": "아이뉴스24",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko",
-      "crawl": "미측정"
     }
   ]
 }
