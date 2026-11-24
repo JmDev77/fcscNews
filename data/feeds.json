@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-25T01:31:19.073259+09:00",
+  "fetched_at": "2026-11-25T02:01:21.770669+09:00",
   "count": 500,
   "articles": [
     {
@@ -18,6 +18,23 @@
       "tagCls": "tag-blue",
       "lang": "en",
       "crawl": "불안정"
+    },
+    {
+      "id": "c3aae1f45a4e",
+      "title": "[이슈] 한전 해킹 뒤 ‘취약점 방치’ 제보 확인해보니…신고 건은 패치, 정부  취약점 신고제에 ‘패치 데드라인’ 도입 시급",
+      "desc": "한국전력공사 개인정보 유출 사고 이후 데일리시큐에 제보가 들어왔다. 지난 6월 정부의 보안 취약점 신고·조치·공개(CVD/VDP) 시범사업에서 한전ON의 고객정보를 탈취할 수 있는 취약점이 발견돼 한전에 통보됐지만, 조치가 이뤄지지 않은 사이 정보가 유출됐다는 내용이었다. 제보자는 당시 한전이 통보받은 취약점 목록과 이번 사고 경위를 대조해 보면 알 수 있을 것이라고 전해 왔다. 데일리시큐가 취재로 확인한 결과, 한전이 시범사업에서 점검을 허용한 대상은 한전ON 웹사이트였고, 당시 접수한 취약점은 모두 패치를 마쳤다는 것. 이번에",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209704",
+      "date": "11.25.",
+      "datetime": "11.25. 10:39",
+      "rawDate": "2026-11-25T10:39:49+09:00",
+      "source": "데일리시큐",
+      "sourceGroup": "데일리시큐",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko",
+      "crawl": "지원"
     },
     {
       "id": "a826af3e8ce7",
@@ -119,6 +136,57 @@
       "tag": "해킹/침해",
       "tagCls": "tag-red",
       "lang": "ko",
+      "crawl": "지원"
+    },
+    {
+      "id": "9bbdb873a8e2",
+      "title": "디지털자산업자, 해킹·전산장애 시 무과실 배상…매매·중개·보관업 인...",
+      "desc": "디지털자산업자가 해킹이나 전산장애로 이용자에게 피해를 입힐 경우 고의·과실 여부와 관계없이... 해킹이나 전산장애로 이용자 피해가 발생하면 사업자는 귀책사유가 없더라도 원칙적으로 배상책임을 부담한다. 다만...",
+      "url": "https://www.cbci.co.kr/news/articleView.html?idxno=630292",
+      "date": "11.25.",
+      "datetime": "11.25. 01:50",
+      "rawDate": "2026-11-25T01:50:00+09:00",
+      "source": "CBC뉴스",
+      "sourceGroup": "CBC뉴스",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko",
+      "crawl": "지원"
+    },
+    {
+      "id": "bfe1c4bfebc7",
+      "title": "특공대·열화상 드론까지 투입…‘사자’ 쫓던 이스탄불의 반전",
+      "desc": "주택가를 배회하는 동물의 모습이 보안카메라에도 찍혔다. 당국은 처음에는 동물의 위치를 파악했다며 생포를 추진했다. 경찰과 군 특공대, 동물보호 전문가 등이 수색에 투입됐고 주민들에게는 집에 머물라는 안내가...",
+      "url": "https://www.joongang.co.kr/article/25481691",
+      "date": "11.25.",
+      "datetime": "11.25. 01:40",
+      "rawDate": "2026-11-25T01:40:00+09:00",
+      "source": "중앙일보",
+      "sourceGroup": "중앙일보",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko",
+      "crawl": "지원"
+    },
+    {
+      "id": "0bcac0ae1178",
+      "title": "VMware Updates Patch Critical ESX, vCenter Vulnerabilities",
+      "desc": "The critical bugs include an authentication bypass in vCenter and flaws that could allow code execution on ESX hosts.\nThe post VMware Updates Patch Critical ESX, vCenter Vulnerabilities appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/vmware-updates-patch-critical-esx-vcenter-vulnerabilities/",
+      "date": "11.25.",
+      "datetime": "11.25. 01:32",
+      "rawDate": "2026-11-25T01:32:56+09:00",
+      "source": "SecurityWeek",
+      "sourceGroup": "SecurityWeek",
+      "channel": "자체개발",
+      "region": "해외",
+      "tag": "클라우드",
+      "tagCls": "tag-blue",
+      "lang": "en",
       "crawl": "지원"
     },
     {
@@ -4593,23 +4661,6 @@
       "crawl": "불안정"
     },
     {
-      "id": "0020bbb6f632",
-      "title": "디지털자산업자, 해킹·전산장애 시 무과실 손해배상 책임",
-      "desc": "적용받고 해킹이나 전산장애 발생시 무과실 손해배상책임을 지게 된다. 사진은 서울 서초구의 빗썸라운지 모습.(사진출처=연합뉴스) 앞으로 디지털자산업자는 금융회사에 준하는 내부통제 의무를 부담하며, 해킹이나...",
-      "url": "https://www.goodnews1.com/news/articleView.html?idxno=466595",
-      "date": "11.24.",
-      "datetime": "11.24. 18:08",
-      "rawDate": "2026-11-24T18:08:00+09:00",
-      "source": "goodnews1",
-      "sourceGroup": "goodnews1",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko",
-      "crawl": "미측정"
-    },
-    {
       "id": "cf299f2c365b",
       "title": "전력거래소, IT 유지관리 협력사와 소통간담회 개최",
       "desc": "특히 최근 금융권 해킹사고와 인공지능(AI)을 악용한 사이버 위협이 이어지는 상황에서 전력거래소와 협력사도 보안 위협에 대비해야 한다고 당부했다. 일상점검과 긴급 작업 과정에서 보안 수칙을 철저히 준수하고, 이상...",
@@ -8450,57 +8501,6 @@
       "tagCls": "tag-red",
       "lang": "ko",
       "crawl": "미지원"
-    },
-    {
-      "id": "73023fed1111",
-      "title": "[현장] 3사 합병 효과 260억 원, 부채 비율은?…진에어 주주들, 경영진에...",
-      "desc": "박현수 진에어 안전보안실장은 “신형기가 늘면 노후기보다 부품 교환과 대규모 정비 수요가 줄어 정비비가 감소하는 점도 고려해야 한다\"고 답했다. 통합사는 인천과 부산에 운항 정비 인력·부품·장비를 각각...",
-      "url": "https://www.ekn.kr/web/view.php?key=20261124023534031",
-      "date": "11.24.",
-      "datetime": "11.24. 15:56",
-      "rawDate": "2026-11-24T15:56:00+09:00",
-      "source": "에너지경제",
-      "sourceGroup": "에너지경제",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko",
-      "crawl": "미지원"
-    },
-    {
-      "id": "fd16f2c86fbc",
-      "title": "&quot;내년은 AI업무 내재화 원년&quot; 윤창현 코스콤 사장 '테크서밋 2026' 개최",
-      "desc": "안전한 AI 활용 환경을 조성하기 위해서는 GPU 전용 구역과 신규 사내 AI 모델 'X-pro'를 갖추고 보안관제에... 검증과 보안 검토를 거친 뒤 해당 부서 업무에 시범 적용할 계획이다. 행사에서는 키노트와 외부 전문가...",
-      "url": "https://www.catchnews.kr/news/articleView.html?idxno=130920",
-      "date": "11.24.",
-      "datetime": "11.24. 15:56",
-      "rawDate": "2026-11-24T15:56:00+09:00",
-      "source": "catchnews",
-      "sourceGroup": "catchnews",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko",
-      "crawl": "미측정"
-    },
-    {
-      "id": "0cdb2ac40992",
-      "title": "스테이블코인 법제화 본격화…은행권 컨소시엄만 허용키로",
-      "desc": "가격에 중대한 영향을 미칠 수 있는 발행·유통량 변경이나 해킹 등 중요정보는 수시 공시 대상이다.... 해킹과 전산장애 등 사고 발생시 이용자에 대해 징벌적 과징금(최대 매출액의 10%)과 무과실 손해배상책임도 질 수...",
-      "url": "https://www.nocutnews.co.kr/news/6611866?utm_source=naver&utm_medium=article&utm_campaign=20261124155403",
-      "date": "11.24.",
-      "datetime": "11.24. 15:55",
-      "rawDate": "2026-11-24T15:55:00+09:00",
-      "source": "노컷뉴스",
-      "sourceGroup": "노컷뉴스",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
-      "lang": "ko",
-      "crawl": "지원"
     }
   ]
 }
