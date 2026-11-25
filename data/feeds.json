@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-25T23:54:52.112320+09:00",
+  "fetched_at": "2026-11-26T00:01:32.989798+09:00",
   "count": 500,
   "articles": [
     {
@@ -615,6 +615,23 @@
       "crawl": "지원"
     },
     {
+      "id": "f75bd5c111dd",
+      "title": "It's a Bot World. We're Just Living in It",
+      "desc": "Bot detection has become a losing game. Security teams need to limit privileged access for humans and their machine counterparts equally.",
+      "url": "https://www.darkreading.com/cyber-risk/bot-world-just-living",
+      "date": "11.26.",
+      "datetime": "11.26. 00:20",
+      "rawDate": "2026-11-26T00:20:27+09:00",
+      "source": "DarkReading",
+      "sourceGroup": "DarkReading",
+      "channel": "자체개발",
+      "region": "해외",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "en",
+      "crawl": "불안정"
+    },
+    {
       "id": "d372f089c1ed",
       "title": "한국 노리는 랜섬웨어 조직 11개→24개…다크웹에 공개된 국내 피해 주장 2.4배 급증",
       "desc": "한국 기업과 기관을 겨냥하는 랜섬웨어 조직이 1년 사이 두 배 이상 늘었다. 올해 10월까지 랜섬웨어 조직의 다크웹 정보유출 사이트에 이름이 공개된 국내 기업과 기관은 43곳으로, 지난해 전체 18곳의 약 2.4배에 달했다. 인공지능(AI)이 취약점 발굴과 악성코드 개발, 공격 대상 탐색에 활용되면서 해킹 조직의 공격 역량이 빠르게 확대되고 있다는 분석이다.포티넷은 24일 그랜드 인터컨티넨탈 서울 파르나스에서 개최한 ‘AI 사이버보안 서밋 2026’에서 자체 수집한 다크웹 위협 인텔리전스를 기반으로 국내외 랜섬웨어 공격 동향과 20",
@@ -651,7 +668,7 @@
     {
       "id": "21b811c73020",
       "title": "Cyber Insurers See New Divide: AI Defense 'Haves' &amp; 'Have Nots'",
-      "desc": "Dark Reading Confidential Episode 23: Cyber insurers share their view of the AI-driven threat landscape and how mounting challenges are putting pressure on both sides of the policy, leaving the current model unsustainable.",
+      "desc": "Dark Reading Confidential Episode 23: Cyber insurers share their view of the AI-driven threat landscape and how mounting challenges are putting pressure on both sides of the policy, making the current model unsustainable.",
       "url": "https://www.darkreading.com/cybersecurity-operations/cyber-insurers-see-new-ai-divide",
       "date": "11.26.",
       "datetime": "11.26. 00:00",
@@ -664,6 +681,40 @@
       "tagCls": "tag-blue",
       "lang": "en",
       "crawl": "불안정"
+    },
+    {
+      "id": "5e89e3548dfd",
+      "title": "[ESG 리더스] 신학기 수협은행장, 바다 지키고 어촌 돕는다...'해양특화...",
+      "desc": "수협은행은 지난 9월 발간한 '2025 지속가능경영보고서'에 금융소비자보호와 탄소중립·기후리스크 관리, 정보보호·사이버보안 강화, 포용금융 확대 등 8개 중대 이슈의 경영전략과 중장기 목표를 담았다. 은행의...",
+      "url": "https://www.greened.kr/news/articleView.html?idxno=355310",
+      "date": "11.26.",
+      "datetime": "11.26. 00:00",
+      "rawDate": "2026-11-26T00:00:00+09:00",
+      "source": "greened",
+      "sourceGroup": "greened",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko",
+      "crawl": "미측정"
+    },
+    {
+      "id": "9e3265073fba",
+      "title": "농진원·KISTI, NTIS 연계해 농식품 기술이전 서비스 고도화",
+      "desc": "보안 관리에도 협력하기로 했다. 농진원은 지난 23일 대전 KISTI 본관 국제회의실에서 '기술이전플랫폼 활용 업무협약'을 체결했다. 이번 협약은 농식품 기술을 이전받으려는 기업의 신청·계약 편의성을 높이고, 보안을...",
+      "url": "https://www.youngnong.co.kr/news/articleView.html?idxno=72170",
+      "date": "11.25.",
+      "datetime": "11.25. 23:54",
+      "rawDate": "2026-11-25T23:54:00+09:00",
+      "source": "youngnong",
+      "sourceGroup": "youngnong",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko",
+      "crawl": "미측정"
     },
     {
       "id": "0ee24d14342e",
@@ -8450,57 +8501,6 @@
       "tagCls": "tag-blue",
       "lang": "ko",
       "crawl": "지원"
-    },
-    {
-      "id": "d9745570a9ed",
-      "title": "[대전시교육청과함께하는 2026 친구사랑 캠페인]㉔대전서중/ 진흙에서도...",
-      "desc": "학생들은 청소년의 SNS 이용 규제를 주제로 토론하며 사이버폭력의 위험성을 인식하는 동시에 나와 다른 의견을 경청하고 존중하는 태도를 익혔다. 이영숙 교장은 \"학생이 중심에 서는 교육은 한 사람 한 사람의 목소리에...",
-      "url": "https://www.ggilbo.com/news/articleView.html?idxno=1195589",
-      "date": "11.25.",
-      "datetime": "11.25. 16:10",
-      "rawDate": "2026-11-25T16:10:00+09:00",
-      "source": "ggilbo",
-      "sourceGroup": "ggilbo",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko",
-      "crawl": "미측정"
-    },
-    {
-      "id": "5b3016859c2f",
-      "title": "세종 스마트시티 국가시범도시, 지정 8년 만에 첫 삽",
-      "desc": "도시 운영의 두뇌 역할은 AI 데이터허브와 사물인터넷(IoT)이 맡고 이를 보호할 사이버보안 체계도 함께 마련한다. 선도지구에서 가장 먼저 공급되는 주거단지는 스마트리빙존의 '세종스마트시티 엘 수자인'이다....",
-      "url": "https://www.wikileaks-kr.org/news/articleView.html?idxno=195262",
-      "date": "11.25.",
-      "datetime": "11.25. 16:08",
-      "rawDate": "2026-11-25T16:08:00+09:00",
-      "source": "위키리크스한국",
-      "sourceGroup": "위키리크스한국",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko",
-      "crawl": "지원"
-    },
-    {
-      "id": "763ea7ea69ab",
-      "title": "광주 광산경찰서, 청소년 범죄 예방 관계기관 회의",
-      "desc": "광산경찰서는 사이버도박·마약 관련 범죄에 연루돼 어려움을 겪는 청소년들이 스스로 신고할 수 있도록 지원 절차도 안내했다. 광산경찰서 관계자는 \"청소년을 위협하는 범죄로부터 이들을 보호하고, 건강하게 성장할...",
-      "url": "https://www.yna.co.kr/view/PYH20261125161800054?input=1196m",
-      "date": "11.25.",
-      "datetime": "11.25. 16:08",
-      "rawDate": "2026-11-25T16:08:00+09:00",
-      "source": "연합뉴스",
-      "sourceGroup": "연합뉴스",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko",
-      "crawl": "불안정"
     }
   ]
 }
