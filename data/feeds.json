@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-26T02:31:13.466587+09:00",
+  "fetched_at": "2026-11-26T03:01:23.243434+09:00",
   "count": 500,
   "articles": [
     {
@@ -103,6 +103,23 @@
       "tagCls": "tag-blue",
       "lang": "ko",
       "crawl": "지원"
+    },
+    {
+      "id": "39707dc9a4bd",
+      "title": "[기획특집 ③] 중국 피지컬 AI 산업 전략이 한국에 던지는 과제…'로봇...",
+      "desc": "따라서 로봇기업과 제조기업이 공동으로 활용할 수 있는 데이터 수집 및 관리체계를 구축하되, 기업의 기술정보와 영업비밀을 보호할 수 있는 보안·접근통제 체계도 함께 마련해야 한다. 또한 실제 환경에서 확보한...",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49782",
+      "date": "11.26.",
+      "datetime": "11.26. 02:46",
+      "rawDate": "2026-11-26T02:46:00+09:00",
+      "source": "irobotnews",
+      "sourceGroup": "irobotnews",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "ko",
+      "crawl": "미측정"
     },
     {
       "id": "0b980985cc5a",
@@ -8484,23 +8501,6 @@
       "tagCls": "tag-blue",
       "lang": "ko",
       "crawl": "미지원"
-    },
-    {
-      "id": "4f3ca2cee546",
-      "title": "단추 스티커에 일회용 앞치마까지…교사 임용시험에 열화상탐지기도 동...",
-      "desc": "보안요원 등은 시험 전날과 당일 복도를 순회하며 탐지되는 와이파이와 블루투스 목록을 비교·점검한다.... 가방과 소지품은 매 교시 시험실 밖 복도에 보관하고 보안요원이 시험 중 전파탐지기 등으로 점검한다....",
-      "url": "https://www.khan.co.kr/article/202611251625001",
-      "date": "11.25.",
-      "datetime": "11.25. 16:25",
-      "rawDate": "2026-11-25T16:25:00+09:00",
-      "source": "경향신문",
-      "sourceGroup": "경향신문",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko",
-      "crawl": "지원"
     }
   ]
 }
