@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-27T02:01:24.654045+09:00",
+  "fetched_at": "2026-11-27T02:31:17.329076+09:00",
   "count": 500,
   "articles": [
     {
@@ -292,6 +292,23 @@
       "crawl": "지원"
     },
     {
+      "id": "e19fb4dd46c7",
+      "title": "바이낸스 해킹 뒤 스테이블코인 공급 107억 달러 감소…테라 붕괴 이후...",
+      "desc": "바이낸스 해킹 이후 시장에서 스테이블코인(달러 등 법정화폐에 가치를 맞춘 코인) 공급이 18일 동안... 보고서는 해킹이 첫 매도세를 촉발했지만 이후 손실에서 차지한 비중은 비교적 작다고 짚었다....",
+      "url": "https://www.wikitree.co.kr/articles/1178169",
+      "date": "11.27.",
+      "datetime": "11.27. 02:10",
+      "rawDate": "2026-11-27T02:10:00+09:00",
+      "source": "위키트리",
+      "sourceGroup": "위키트리",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko",
+      "crawl": "지원"
+    },
+    {
       "id": "474ce86fa326",
       "title": "한국항공보안학회, 항공보안공단 설립과 국가 항공보안 발전 방향 논의",
       "desc": "한국항공보안학회(회장 소대섭)는 26일 코엑스 마곡에서 학계와 산업계, 관계기관 전문가들이 참석한 가운데 ‘2026년 추계학술대회’를 개최했다.이번 학술대회는 정부가 추진 중인 인천국제공항공사와 한국공항공사의 항공보안 기능 및 양대 보안 자회사 통합을 통한 항공보안공단(가칭) 설립과 관련해 제도적 과제를 진단하고 국가 항공보안체계의 발전 방향을 모색하기 위해 마련됐다.기조발표와 주제발표에서는 조직 통합 과정에서의 항공보안 업무 공백 방지를 최우선 과제로 삼고 공단 설립의 법적 근거 마련과 고용승계, 공항운영자와 공단 간 권한 및 책",
@@ -306,6 +323,23 @@
       "tag": "정책/제도",
       "tagCls": "tag-green",
       "lang": "ko",
+      "crawl": "지원"
+    },
+    {
+      "id": "d9310981b373",
+      "title": "FIFA Says It Has Been Victim of a Cyberattack Accessing ‘Personal and Business Information’",
+      "desc": "FIFA didn’t say when the cyberattack took place, or the precise nature of the hacked information.\nThe post FIFA Says It Has Been Victim of a Cyberattack Accessing ‘Personal and Business Information’ appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/fifa-says-it-has-been-victim-of-a-cyberattack-accessing-personal-and-business-information/",
+      "date": "11.27.",
+      "datetime": "11.27. 02:06",
+      "rawDate": "2026-11-27T02:06:55+09:00",
+      "source": "SecurityWeek",
+      "sourceGroup": "SecurityWeek",
+      "channel": "자체개발",
+      "region": "해외",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "en",
       "crawl": "지원"
     },
     {
@@ -341,6 +375,23 @@
       "tagCls": "tag-red",
       "lang": "ko",
       "crawl": "지원"
+    },
+    {
+      "id": "00f34a4687ff",
+      "title": "&quot;中에 AI 컴퓨팅 자원 조금이라도 빌려주면 엔비디아 칩 못 산다&quot;",
+      "desc": "미 의회도 중국의 첨단 AI 반도체 접근을 제한하기 위한 '원격접근보안법'을 추진하고 있다. 엔비디아는 해당 법안이 시행되면 미국 정부의 클라우드 서비스 접근 통제 권한이 확대돼 자사와 고객사 모두 법적 조치의...",
+      "url": "https://www.newsis.com/view/NISX20261127_0003885389",
+      "date": "11.27.",
+      "datetime": "11.27. 02:04",
+      "rawDate": "2026-11-27T02:04:00+09:00",
+      "source": "뉴시스",
+      "sourceGroup": "뉴시스",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "ko",
+      "crawl": "미지원"
     },
     {
       "id": "46df94cedf68",
@@ -8447,57 +8498,6 @@
       "channel": "자체개발",
       "region": "국내",
       "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko",
-      "crawl": "지원"
-    },
-    {
-      "id": "08b396f35ee2",
-      "title": "팅크웨어, 4K 적용 블랙박스 ‘아이나비 QXD3’ 출시",
-      "desc": "‘BASIC’ 플랜은 주차 충격 알림, 영상 확인, 안전운행 데이터 제공 등 필수 기능을 중심으로 구성된 실속형 서비스로, 일상적인 차 관리와 기본적인 보안 기능을 지원한다. ‘PREMIUM’ 플랜은 BASIC의 모든 기능을...",
-      "url": "http://autotimes.co.kr/detail.php?number=690137&thread=27",
-      "date": "11.26.",
-      "datetime": "11.26. 15:56",
-      "rawDate": "2026-11-26T15:56:00+09:00",
-      "source": "autotimes",
-      "sourceGroup": "autotimes",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
-      "tagCls": "tag-blue",
-      "lang": "ko",
-      "crawl": "미측정"
-    },
-    {
-      "id": "6ae8e54506e0",
-      "title": "[기획] 'AI 스마트홈' 기술로 아파트 자동화 한 단계 진화…집 고르는 기...",
-      "desc": "한 업계 관계자는 \"개인정보 관리가 중요한 이슈로 떠오른 만큼 AI 스마트홈 도입 과정에서 보안 문제가 지속적으로 제기될 수 있기에 관련 법과 제도를 명확히 할 필요가 있다\"며 \"AI 시스템이 분양가 상승에 미치는...",
-      "url": "https://www.m-i.kr/news/articleView.html?idxno=2023957",
-      "date": "11.26.",
-      "datetime": "11.26. 15:56",
-      "rawDate": "2026-11-26T15:56:00+09:00",
-      "source": "매일일보",
-      "sourceGroup": "매일일보",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko",
-      "crawl": "지원"
-    },
-    {
-      "id": "7b68be3cb2de",
-      "title": "[포커스] 경동나비엔, 美 캘리포니아 부부 사망 소송 휘말리나",
-      "desc": "소장에 따르면 사고 닷새 뒤 보안관실 조사에서 객실 천장의 연기·일산화탄소 복합 경보기가 전기 배선에서 분리돼 있었던 것으로 확인됐다. 객실에 다른 경보기는 없었다. ■ 과거 리콜·사망 사고도 거론 소장에...",
-      "url": "https://www.startuptoday.co.kr/news/articleView.html?idxno=820219",
-      "date": "11.26.",
-      "datetime": "11.26. 15:56",
-      "rawDate": "2026-11-26T15:56:00+09:00",
-      "source": "스타트업투데이",
-      "sourceGroup": "스타트업투데이",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "보안",
       "tagCls": "tag-blue",
       "lang": "ko",
       "crawl": "지원"
