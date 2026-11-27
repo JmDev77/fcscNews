@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-28T04:01:20.122046+09:00",
+  "fetched_at": "2026-11-28T04:31:17.244698+09:00",
   "count": 500,
   "articles": [
     {
@@ -103,6 +103,23 @@
       "tagCls": "tag-blue",
       "lang": "ko",
       "crawl": "미지원"
+    },
+    {
+      "id": "1ed67a9d4b53",
+      "title": "한 번의 터치로 자동차까지 산다? 미국의 새로운 무인 유통",
+      "desc": "고가의 제품 역시 보안과 반품, 사후 서비스가 뒷받침돼야 하고요.결국 자동화 리테일의 경쟁력은 단순히 사람을 줄이는 데 있는 것이 아니라, 소비자가 원하는 장소에서 원하는 제품을 얼마나 편리하고 안전하게 구입할...",
+      "url": "https://www.voakorea.com/a/all-around-usa-the-innovation-of-automated-retail/8228696.html",
+      "date": "11.28.",
+      "datetime": "11.28. 03:42",
+      "rawDate": "2026-11-28T03:42:00+09:00",
+      "source": "VOA뉴스",
+      "sourceGroup": "VOA뉴스",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko",
+      "crawl": "지원"
     },
     {
       "id": "d11aa50ab887",
@@ -8478,23 +8495,6 @@
       "rawDate": "2026-11-27T14:24:00+09:00",
       "source": "dongponews",
       "sourceGroup": "dongponews",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko",
-      "crawl": "미측정"
-    },
-    {
-      "id": "1fe6f683380a",
-      "title": "서울사이버대, AI 크리에이티브 챌린지 개최…총상금 290만원",
-      "desc": "서울사이버대학교가 생성형 인공지능(AI)을 활용한 콘텐츠 공모전을 통해 학생들의 창작 역량과 실무 능력... 서울사이버대는 빅데이터·AI센터, AI융합대학, AI크리에이터학과 공동 주최로 2026 AI 크리에이티브...",
-      "url": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065590486807429",
-      "date": "11.27.",
-      "datetime": "11.27. 14:24",
-      "rawDate": "2026-11-27T14:24:00+09:00",
-      "source": "메가경제",
-      "sourceGroup": "메가경제",
       "channel": "자체개발",
       "region": "국내",
       "tag": "AI 보안",
