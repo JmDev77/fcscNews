@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-28T02:31:23.510419+09:00",
+  "fetched_at": "2026-11-28T03:01:21.078591+09:00",
   "count": 500,
   "articles": [
     {
@@ -52,6 +52,40 @@
       "tagCls": "tag-red",
       "lang": "ko",
       "crawl": "지원"
+    },
+    {
+      "id": "87a4ee95e0af",
+      "title": "&quot;맥치킨 값도 올랐다&quot;…美 블프 할인에도 지갑 열기 망설인다",
+      "desc": "딜로이트 조사에서도 블랙프라이데이부터 사이버먼데이까지 1인당 예상 지출은 624달러로 지난해와... 올해 사이버위크 기간 전 세계 매출의 21%인 758억달러가 AI의 영향을 받을 것으로 추산했다. 변수는 증시다....",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=01157846645650312&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "date": "11.28.",
+      "datetime": "11.28. 02:57",
+      "rawDate": "2026-11-28T02:57:00+09:00",
+      "source": "이데일리",
+      "sourceGroup": "이데일리",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "ko",
+      "crawl": "지원"
+    },
+    {
+      "id": "a2f161fc5f03",
+      "title": "美보험사 올스테이트 닷새째 전산 장애…연휴 고객 불편 가중",
+      "desc": "美 기업·정부기관 전산 장애·해킹 잇따르는 와중에 또 발생 임수정 특파원 = 미국 주요 기업과 정부기관에서 전산 장애와 해킹 피해가 잇따르는 가운데 대형 보험사 올스테이트에서도 닷새째 전산 장애가 이어지고...",
+      "url": "https://www.yna.co.kr/view/AKR20261128004100072?input=1195m",
+      "date": "11.28.",
+      "datetime": "11.28. 02:56",
+      "rawDate": "2026-11-28T02:56:00+09:00",
+      "source": "연합뉴스",
+      "sourceGroup": "연합뉴스",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "해킹/침해",
+      "tagCls": "tag-red",
+      "lang": "ko",
+      "crawl": "불안정"
     },
     {
       "id": "43052fb10be2",
@@ -8467,40 +8501,6 @@
       "tagCls": "tag-blue",
       "lang": "ko",
       "crawl": "지원"
-    },
-    {
-      "id": "8d6ff34ebc76",
-      "title": "금융에 보안 더해 일상의 안전 지킨다… KB국민은행·에스원 맞손",
-      "desc": "KB국민은행이 보안 전문기업 에스원과 손잡고 금융과 통신, 인공지능(AI) 기반 보안기술을 결합한 생활밀착형 서비스 발굴에 나선다. 기존 금융 서비스의 영역을 일상생활의 편의와 안전으로 확장해 고객과의 접점을...",
-      "url": "https://www.newsmap.co.kr/news/articleView.html?idxno=5927",
-      "date": "11.27.",
-      "datetime": "11.27. 14:16",
-      "rawDate": "2026-11-27T14:16:00+09:00",
-      "source": "newsmap",
-      "sourceGroup": "newsmap",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko",
-      "crawl": "미측정"
-    },
-    {
-      "id": "611a01751396",
-      "title": "&quot;외주비 0원에 AI 챗봇까지 직접 짰다&quot;…학교법인 건국대, 10개 산하기관...",
-      "desc": "아울러 기관별 접근 권한 세분화와 일회용 비밀번호(OTP) 이중 인증을 도입해 보안 안전성까지 확보했다. 이와 관련해 학교법인 건국대학교는 지난 11월 26일 건국대 상허기념도서관 전산실습실과 더클래식500에서 산하기관...",
-      "url": "http://www.dailysmart.co.kr/news/articleView.html?idxno=133265",
-      "date": "11.27.",
-      "datetime": "11.27. 14:16",
-      "rawDate": "2026-11-27T14:16:00+09:00",
-      "source": "dailysmart",
-      "sourceGroup": "dailysmart",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko",
-      "crawl": "미측정"
     }
   ]
 }
