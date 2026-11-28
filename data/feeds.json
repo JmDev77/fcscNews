@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-29T00:31:15.997110+09:00",
+  "fetched_at": "2026-11-29T01:01:18.602354+09:00",
   "count": 500,
   "articles": [
     {
@@ -69,6 +69,23 @@
       "tagCls": "tag-green",
       "lang": "ko",
       "crawl": "지원"
+    },
+    {
+      "id": "e45a3fccd54c",
+      "title": "강미애 세종교육감, 충청권 교육, AI 미래교육의 새 지평을 열다",
+      "desc": "협력 ▲정보보안 및 교육데이터 보호 ▲교원 공동연수 및 교육자료 공유 등 현장에 즉각 적용 가능한 실질적... 이와 함께 교육 현장의 디지털 전환 과정에서 필수적인 '정보보안 및 교육데이터 보호'를 공동 과제로...",
+      "url": "http://www.ccnnews.co.kr/news/articleView.html?idxno=418592",
+      "date": "11.29.",
+      "datetime": "11.29. 00:34",
+      "rawDate": "2026-11-29T00:34:00+09:00",
+      "source": "ccnnews",
+      "sourceGroup": "ccnnews",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "AI 보안",
+      "tagCls": "tag-blue",
+      "lang": "ko",
+      "crawl": "미측정"
     },
     {
       "id": "1ef4454e85cd",
@@ -8484,23 +8501,6 @@
       "tagCls": "tag-blue",
       "lang": "ko",
       "crawl": "지원"
-    },
-    {
-      "id": "1c3a6c5be0ab",
-      "title": "LG유플러스, 현대차·기아 배송로봇에 5G 단독모드 적용 성공...연내 상...",
-      "desc": "양사는 피지컬 AI에 필요한 통신 기술 개발과 네트워크 보안 강화를 위한 협력도 이어갈 예정이다. 김성원... 통신과 보안 서비스를 선보일 것\"이라고 말했다. 한편 LG유플러스는 지난 2022년 9월 LG전자의 '클로이'를...",
-      "url": "http://www.consumernews.co.kr/news/articleView.html?idxno=769320",
-      "date": "11.27.",
-      "datetime": "11.27. 18:20",
-      "rawDate": "2026-11-27T18:20:00+09:00",
-      "source": "consumernews",
-      "sourceGroup": "consumernews",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "AI 보안",
-      "tagCls": "tag-blue",
-      "lang": "ko",
-      "crawl": "미측정"
     }
   ]
 }
