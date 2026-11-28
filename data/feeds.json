@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-28T21:31:09.117533+09:00",
+  "fetched_at": "2026-11-28T22:01:18.486834+09:00",
   "count": 500,
   "articles": [
     {
@@ -154,6 +154,23 @@
       "tagCls": "tag-red",
       "lang": "ko",
       "crawl": "지원"
+    },
+    {
+      "id": "1e9418f562e1",
+      "title": "세종문화회관 대극장 입구 점자촉지도로 시설 찾기",
+      "desc": "세종문화회관에 따르면 버튼은 중앙계단 좌우측, 세종로 주차장 입구, 광화문역 1번·8번 출구 방향, 예술의 정원 입구에 설치돼 있으며, 누르면 보안 담당자가 3분 안에 찾아와 1대1 편의 서비스를 제공한다.",
+      "url": "https://www.vegannews.co.kr/news/article.html?no=412809",
+      "date": "11.28.",
+      "datetime": "11.28. 21:58",
+      "rawDate": "2026-11-28T21:58:00+09:00",
+      "source": "vegannews",
+      "sourceGroup": "vegannews",
+      "channel": "자체개발",
+      "region": "국내",
+      "tag": "보안",
+      "tagCls": "tag-blue",
+      "lang": "ko",
+      "crawl": "미측정"
     },
     {
       "id": "2a36bbaa75a7",
@@ -8482,23 +8499,6 @@
       "region": "국내",
       "tag": "보안",
       "tagCls": "tag-blue",
-      "lang": "ko",
-      "crawl": "지원"
-    },
-    {
-      "id": "9e64c00859c5",
-      "title": "잇단 개인정보 유출에 멍드는 유통업계…보안 투자 실효성 의문",
-      "desc": "17일 해킹 공격으로 컬리 큐레이터 1만여 명의 개인정보가 외부에 노출됐다. 일부 피해자의 경우 주민등록번호와 계좌번호까지 유출됐다. 컬리는 공격자가 시스템 접근에 필요한 인증 정보를 탈취한 뒤 이를 이용해...",
-      "url": "https://www.etoday.co.kr/news/view/2654058",
-      "date": "11.27.",
-      "datetime": "11.27. 18:00",
-      "rawDate": "2026-11-27T18:00:00+09:00",
-      "source": "이투데이",
-      "sourceGroup": "이투데이",
-      "channel": "자체개발",
-      "region": "국내",
-      "tag": "해킹/침해",
-      "tagCls": "tag-red",
       "lang": "ko",
       "crawl": "지원"
     }
